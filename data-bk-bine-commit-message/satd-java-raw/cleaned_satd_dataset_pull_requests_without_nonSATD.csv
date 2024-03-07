@@ -1,0 +1,700 @@
+comment,debt
+relationship dataflow counter metric updat comment refer counter code refer metric updat proto comment instead mention translat accumul metric updat class renam accord also name method confus two argument pass setbooleanaccumul metricupdateproto read signatur suggest accumul somehow boolean set metricupdateproto opposit intend instead renam method translat translatebooleanaccumul metricupdateproto would make clear translat accumul metricupdateproto renam setscalar setmean file well,code/design_debt
+thank contribut zentol ive gone code made inlin comment main concernquest actual represent metric type hierarchi inform think encod string repars receiv side reconstruct inform rather fragil errorpron especi wrt maintain mayb give background decid apart think code contain mani test realli like,code/design_debt
+nit use local variabl possibl,code/design_debt
+tinkerpop3957 improv speed addv,code/design_debt
+support yet type timestampwithlocaltimezon rare use think support version,requirement_debt
+regard question provid common stream use case noneventbas process metric use observ propos get metric api hide listen multithread stream context finit metric elabor pleas mean async get provid pseudocod use metric async threadsaf scenario action observ dataset call differ thread metric retriev say multithread driver process general use case batch process even propos observ api aim hide multithread complex user use datasetobserv singlethread scenario user experi multithread problem use exist listen approach target user extens agre,requirement_debt
+agre may gotten impress bundl also use hadoop bundl lib reason bundl favor intent thought depend converg downstream activ actual prefer ship binari tarbal packag sinc might well way work well user case agre improv get basic smilecat,code/design_debt
+made chang improv log,code/design_debt
+btw need new test case correct set activ session,test_debt
+think way pros con person think use singl endpoint easier user main purpos onlin endpoint provid conveni way run task endpoint simpl possibl use singl endpoint userfriend use separ crud endpoint allow flexibl ask user first regist data use servic second onlin servic allow much larg size data sens send data request everi time bottleneck think could provid way phase featur phase probabl could support anoth two endpoint support suggest regard cleanup think current phase onecal request mention stateless user separ endpoint retriev anomali afterward henc could clean phase anoth two endpoint provid endpoint need cleanup thank suggest,code/design_debt
+mayb also need add null check process,code/design_debt
+arrow7473 cgandiva improv error messag locat function,code/design_debt
+think document test extract exampl code chang actual show chang affect opinion getset path need remov anoth topic troubl getset mop general bad document might might chang break one well break chang term semant real world exampl bad affect idea anoth exampl public foo assert afoo assert afoo assert afoo null assert last three assert fail,test_debt
+yes think earlier code format formatt caus reformat chang,code/design_debt
+let drop comment two reason first part comment describ thing code english ad addit context second part dataflow runner specif exampl even run dataflow runner yet,documentation_debt
+zjffdu confirm flaki test,test_debt
+use log messag format,code/design_debt
+ad ratexclud readm rat remov unneed file lack copyrightsalso hivetest009 fix,code/design_debt
+doesnt look like columnrefer use memori leak,code/design_debt
+littl confus need config isnt metadata written state store would user ever need set rest code care sinc realli familiar look like insan amount code add one singl field state object,code/design_debt
+yes let worri later,code/design_debt
+also add test cleanup,code/design_debt
+overal coverag use address 3106,test_debt
+final made code look good part minor comment also wile maintainsupport code umber custom know would interest use would hook support anyway,code/design_debt
+thank contribut amakaur could add unit test,test_debt
+specif way yarn run thing dont think would use anywher els point becom use code move think test ad better unit test function sinc way code actual run yarn bash,code/design_debt
+doc updat superset site,code/design_debt
+new overload createstream top exist seem like big overkil one version javascala take argument one take minim argument other need retain binari compat rest seem superflu,code/design_debt
+take step back reconsid whether updat current api httpop right thing mayb ought introduc differ style fluid reconsid design caller respons set httpclient httpop provid oper noth special auth op use redefin httpclient reduc method bloat someth like quick sketch implicit builder object geturl posturl puturl deleteurl,code/design_debt
+nonneg int keygroupid consist,code/design_debt
+seem possibl collaps least class hierarchi told there futur plan make subclass printerifac class seem like lot class hierarchi small amount code realli dont think make provis someth might done later becom issu later easi refactor dont prematur abstract,code/design_debt
+call resfun twice,documentation_debt
+instead use separ class instanceof check call mayb expens mayb could wrappedbatchingstaterestorecallback take nonbatch staterestorecallback constructor restoreal alway forloop place need seem two caller sth like,code/design_debt
+hmm youll also need chang taskendreasonfromjson otherwis histori server wont see new inform also ad new properti serial class general use optionfoo see call utilsjsonopt class,code/design_debt
+chang valu without better knowledg,code/design_debt
+nit comment code bother storybook though wont strong object,code/design_debt
+probabl realli dont want convert respons string caus client download entir respons memori convert java string complet negat diskbas buffer seem implement,code/design_debt
+look like doc outdat correct batchsiz control element use batch insert sql insert valuesx1 batch speed load data great sql databas may support control batch size give lever various sql vendor,documentation_debt
+nit indent two space,code/design_debt
+nit clone,code/design_debt
+consid convert follow condit method would assign name condit possibl would make bit easier test,code/design_debt
+fix mima need add line mimaproject definit temporarili exclud new project httpsgithubcomdbtsaisparkblobb9870d6c62d75cd59698bd72751bc4f7854cd2e3projectsparkbuildscalal254 also add todo followup task post20releas remov exclud publish previous artifact mima compar,requirement_debt
+updat alphanumer sort doc test exampl,test_debt
+pretti sure long durat isnt realli necessari dont think hurt make longer case,code/design_debt
+second paramet better complet sentenc,code/design_debt
+impala refer find httpswwwclouderacomdocumentationenterprise510xtopicsimpalashowhtml consist show function make like option,code/design_debt
+mridulm yes awar sparkcontext use reflect instanti two differ class yarn packag connect manual remov one see there still reflect code load yarnclusterschedul seem unnecessari,code/design_debt
+rare case might want chang execut bit master make unnecessari howev much surgeri critic part bugfix releas decid conserv runtim code rather pay price test,code/design_debt
+well definit sketchi call aggreg get concurr hyperloglogcollector isnt thread safe possibl youll get bizarr valu time time like offset hllc process increment one thread read anoth thread think valu,requirement_debt
+think alreadi defin 6317,code/design_debt
+yea right use lot test code somewhat annoy updat,code/design_debt
+tri dont see better way organ code need slight differ logic primit type,code/design_debt
+look littl strang retrospect document say to reduc amount time admin spend author manag polici inherit parent resourc child resourc think practic case cannot access process group access resourc within happen,documentation_debt
+checkstyl fix typo,documentation_debt
+havent actual ad test that least doesnt match intent describ close back describ test want jira,test_debt
+say suffici workaround case work person howev think behavior tsstringpercentencod shouldnt chang workaround log issu api keep current behavior fine land chang,code/design_debt
+instead string formatt use string builder dont count number format argument often take coupl iter get right string builder good especi cli option thought,code/design_debt
+think take consid drop logic sinc add complex might huge perform issu practic let know disagre,code/design_debt
+necessari see discuss httpsissuesapacheorgjirabrowsespark11337 includ import singl block move unus import separ group need keep import order group use empti line separ import group,code/design_debt
+scalar linear algebra relat vector refer sqlalachemi panda variabl name isarray straightforward chang variabl name,code/design_debt
+updat improv readabl httpsgithubcomapachehivepull1780commits37e707705c6cc7c025bbe7fb1b67682062dc84c7 time address hive24646,code/design_debt
+name keep simpl might touch time sinc occur place doesnt save much,code/design_debt
+unmodifi map altern jdk good reason need guava would suggest solv without import even case would use import fulli qualifi classnam,code/design_debt
+note biggest concern messag ref need light human possibl they re memori affect great scale would person prefer refactor need take hit especi need someon want use plugin mean everyon els suffer,code/design_debt
+lgtm merg trunk 0101 thank edoardocomar mimaison hard work patienc patch minor cleanupsimprov client test submit followup,code/design_debt
+space simpler foral,code/design_debt
+venureddy2103 check place place still keep previous place use one event fireev place preevent postev differ code block place larg code block preevent postev,code/design_debt
+requir updat file releas ideal could get list version versionsjson though maven instal might take complet anoth option would build latest version make sure add version tag build version sinc older doc chang,code/design_debt
+indent,code/design_debt
+implement class use class instead type explicit,code/design_debt
+see ad test still havent address question synchron class need,code/design_debt
+even though bind base threadlocalt instanc think implement threadsaf exampl multipl task execut serial thread modifi bind dictionari besid threadsaf doesnt support defin bind thread ad step anoth sampl,requirement_debt
+rewrit tupl construct consum work flow improv read write perform pluggabl storag framework specif use virtual tupl tupl tabl slot instead heap tupl storag executor avoid tupl data copi queri process huor jiny2,code/design_debt
+thank replac propos also left mention metadata segment file row group partit sinc wasnt describ doc yet,documentation_debt
+could add deprec give proper warn,code/design_debt
+use rulesreltrait jdbcconvent relbuilderfactori relbuilderfactori null valu ad statement overload method allow slight avoid duplic code,code/design_debt
+mess mar 2018 512 carlo santana notificationsgithubcom wrote,code/design_debt
+pretti hacki make assumpt thing format event log previous assert enough ignor previous comment chang test,code/design_debt
+fault open jira issu start thought quick chang wordcount part like move top level class document spark runner need copi dhalperi readfrom doesnt work hdfs tfidf part think close run spark runner beamexampl modul 533 spark depend problem test javasparkcontext class found httpsbuildsapacheorgjobbeamprecommitmavenverify1908consol could help take look make call whether want includ tfidf left handl 533,documentation_debt
+minor orgapachenifiminifi need place orgapachenifiminifiutilsstringutilstobool could shorten utilsstringutilstobool,code/design_debt
+look good would expect chang document add support new featur,documentation_debt
+okay think issu pretti tough unfortun hive direct use shade objenesi class howev spark need kryo 221 depend origin objenesi class hive code use httpsgithubcomapachehiveblobbranch013qlsrcjavaorgapachehadoophiveqlexecutilitiesjaval186 cant remov kryo hive use pretti ugli one solut might updat chill spark spark use kryo version hive,code/design_debt
+wonder would make sens insert layer abstractfeatur actual featur like subclass would look someth like lot duplic code subclass goe away thought,code/design_debt
+sinc new interfac method add javadoc pleas,documentation_debt
+realli detect one besid mock need fix doc time,documentation_debt
+think better use orgwso2carbonutilscarbonutilsgetcarbonhom,code/design_debt
+tend agre terminolog use littl confus doesnt seem match general terminolog use term loos howev deal lsh tend come across version sethah mention karlhigley packag other httpsgithubcommarufaytekinlshspark implement input vector hash tabl hash signatur length dimens hash signatur creat concaten result appli hash function agre what effect implement outputdim find bit troubl done implicit part hashdist function without know happen clear new user come common lsh implement outputdim number hash function length hash signatur actual number hash tabl term transform disagre somewhat main use case dimension reduct perhap common exampl use hash signatur lowerdim represent featur model similar way say pca transform havent seen view real use case approxim nearest neighbour search ill give concret exampl transform output let say want export recommend model factor vector al word2vec vector etc realtim score system mani item like use lsh make score feasibl effect realtim version oramplif store hash tabl tabl hash signatur vector similar item given item retriev hash sig queri item use filter candid item set score fact someth work demo project current support orand combo import output full set hash sig transform recommend futur proof api return arrayvector transform mention other need updat doc user guid make realli clear implement think need make clear impli valu mention amplif implement later perhap even link jira renam outputdim someth like numhasht add andamp add paramet hashsignaturelength numhashfunct make much privat possibl avoid stuck implement detail futur releas also dont see randunitvector randcoeffici need public one issu current would output set hash valu actual set signatur length guess leav document output actual believ support orand futur mani thing need chang hashfunct hashdist etc need refactor implement privateprotect think let ensur left api cant chang futur set must yield result current impl avoid behavior chang guess sinc current default make default ad also final understand result perform test would post dont believ weve seen yet,code/design_debt
+perhap renam variabl someth like defaultstoretyp would clarifi reason declar oppos use enum valu necessari,code/design_debt
+yes ill updat there actual problem unit test ive written travi fail sporad,test_debt
+ignite11654 memori leak knnclassificationmodel,code/design_debt
+function favor ssd need comment,documentation_debt
+think sparksessionclos behavior purpos that coher behavior dont shut anyth your done everyth shut what consist maintain state session cant clear think way forward probabl new lifecycl method like clear user burden least provid mean cleanup without chang close figur automat dispos resourc hold chang behavior session close shut context behavior chang yes perhap less surpris anyth peopl like cloudfan gatorsmil hyukjinkwon dongjoonhyun thought feel like refer count go end tear eventu crazi,code/design_debt
+shangxin agre extend schema metadata good idea said serializationdeseri also requir need chang format first schema object parquetmr exist parquetmr runtim serial need convert object structur thrift object structur defin format dont new metatdata field format cannot serializedeseri much bigger topic also like see featur separ encrypt would general approach store metadata schema meanwhil convinc need extens namespac prefix etc dont agre user friend that ive suggest implement helper api user doesnt need deal conf key valu direct ggershinski dont agre cannot meet topic term transpar document discuss conclus meanwhil sure meet would help happi particip anyon think otherwis also think get stuck issu would suggest involv member communiti mayb draw attent dev list bring topic next parquet sync,code/design_debt
+design doc write could fail target replic nonadmin credenti typic replic skip bump docwritefailur counter howev reli post request return 200 respons authent scheme implement whole request fail doc dont enough permiss written replic job end crash ugli except get stuck retri forev order accomod scanario write design doc separ request like write attach fix 2415,code/design_debt
+pointm may worth wrap getxorthrow call actual return legibl error messag sinc generat code print input id,code/design_debt
+nit leftanti,code/design_debt
+would accept reformat code demand appear finish improv peopl might never need look hunspel code,code/design_debt
+add comment commit otherwis peopl would confus,documentation_debt
+super clear youd want use config element read bit code understand add proper exampl type annot,documentation_debt
+fix typo,documentation_debt
+nit line long enough time split,code/design_debt
+think method realli necessari alreadi logic access composit type see visitfieldaccess mayb make method bit generic,code/design_debt
+minor nitmark return type nullabl,code/design_debt
+look good thank fix typo,documentation_debt
+warn seem bit frequent instead checkgesortedorders threadssiz,code/design_debt
+need tri ensur chanc send abort go poll think seem littl simpler move hasabortableerror check maybesendandpolltransactionalrequest longer need chang,code/design_debt
+mmm infra complain use jenkin build updat center also note extrem slow,code/design_debt
+geertjanw xsdsdtds use generat code interpret repli apach legal licens transcend generat code weblog would distribut unlicens code right distribut jbosswildfli would distribut lgpl code asf rule get xsdsdtds runtim would perfect doabl modul would need rework reli code generat buildtim vikasprabhakar dtd file present httpswwwjbossorgj2eedtd file miss explicit licens would assum cover project lgpl licens least reflect xsds saw ask redhat would probabl reveal still leav wrong licens,documentation_debt
+wusheng thx check structur time version look good modifi doc add unit test later,documentation_debt
+pypi use categori better descript version number sync,code/design_debt
+unus default constructor,code/design_debt
+remov lodashthrottl depend sinc lodash add babelpluginlodash help optim bundl output take necessari part lodash instead entir bundl httpsgithubcomlodashbabelpluginlodash replac underscor call lodash applic williast xtinec conglei,code/design_debt
+doc need someth like pipelin consist sequenc stage either estim transform fit transform call stage execut order stage may modifi dataset pass next stage mayb say someth happen stage,documentation_debt
+mean remov addpkcolumn variabl chang statement someth like follow,code/design_debt
+nit stick top line gab orgapach stuff least tri make import order wors,code/design_debt
+possibl revers sqltypefamilybinaryequalsfamili prefer style also elimin need null check,code/design_debt
+fix 5589 seem memori leak pulsarfunctiongo librari implement simpl pulsar function worker write log use pulsarfunctiongologutil send log log topic tri longterm test send request messag consecut input topic check feasibl test face producerqueueisful error logtop option observ indefinit grown memori usag pulsar function worker process clear strentri variabl finish addlogtopichandl function regardless log messag append logger clear caus memori leak strentri grown indefinit moreov function set logtop topic could get accumul huge messag caus producerqueueisful error verifi reproduc step describ issu 5589,code/design_debt
+yeah see doc though set way cdh least mayb instal never need configur file certain way dunno seem bad silent ignor unread file least log mayb warn sound like there one file could reason expect unread special case warn anyth els fail anyth els rather tighten way silent,code/design_debt
+ad test case negat number boundari condit,test_debt
+remov configuiactionsen least deprec,code/design_debt
+sure introduc addit constraint like total size scan byte suggest improv featur later correct elimin howev client wait page oper complet fail return applic addit improv reduc race condit think enforc client side timestamp make race almost imposs expect featur improv overal perform avail sinc page limit memori usag time hold server resourc experi page real cluster posit seen negat impact yet long page size small less 1000,code/design_debt
+default valu number delta commit requir inlin compact hoodiecompactinlinemaxdeltacommit current default everi delta commit merg read tabl inlin compact well automat think default valu littl overkil also make merg read work like copi write compact everi run props increaset valu old default pull request trivial rework code cleanup without test coverag,code/design_debt
+note person discuss found hard grasp code use unit return function resolv promis point read like block code result make sens point ild prefer use futur composit possibl becom appar fact return futur resolv soon ackmessag,code/design_debt
+data parser wrote would duplic code alreadi implement inhous url class wrote go make chang request dont want delay featur either parser remov eventu elimin duplic code also environ variabl general enough data sourc think env parser ad urlstreamhandl place use via inhous url class token plugin special case renam raw could use place,code/design_debt
+may doabl documentedclear think ad timezon got work display side rather got use custom control decor field get convert,documentation_debt
+fell crack let reviv seem like long term solut use wtform rip mvc fab scaffold time get null problem uniqu constraint appli proper affect user direct guess may affect filter function crud list view,code/design_debt
+way test still doesnt catch bug your fix httpsissuesapacheorgjirabrowseflink8286 think need proper endtoend test realli test flinkkerbero integr actual yarn cluster start look onto use docker compos bring hadoop cluster docker kerbero run flink endtoend test,test_debt
+typo unless dont leav hang,documentation_debt
+person think place worth discuss except handl connect disconnect log think log remov,code/design_debt
+problem case process singl element case mean emit quit mani element downstream cost structuralvalu pretti much amort would say could someth calcul per element dont think use refer either unboundedsourc serializ runner free clone directrunn afaik best solut would seem mark initi split via splitrestrict restrict uniqu transfer residu restrict alway one activ either current process nonnul residu restrict could use identifi reader without referenc sourc might problemat implement hashcod andor equal unboundedsourc common practic afraid,code/design_debt
+section titl interoper languag class type correct namespac packag remov duplic tabl caption davebarnes97 joeymcallist dgkimura mmartel echobravopapa pivotalsarg pleas review most namespac chang doc,code/design_debt
+ambud code look good except vesens comment two thing address would better document new configur without document endus idea ad featur externalstormhbasereadmemd docsstormhbasemd code alreadi use jdk api mapgetordefault cant get could provid new branch would also great test caffein jre7 expect work document precondit jre version jre8 expect work benman expect right thank advanc,documentation_debt
+cleanup variabl name think would help lot test confus know copi past would nice clean also test assert one file file one file archiv one file file archiv,code/design_debt
+need explan use user use,documentation_debt
+minor guess first error condit happen way often second get messag say invalid lot less clear say doesnt exist break includ specif error messag either case also might nice print valu filesystem error messag know filesystem infer path,code/design_debt
+method doesnt alway creat new deployrequest name appropri say addormodifydeployrequest getdeployrequestforcontainerid way would error case find exist deployrequest given containerid exampl call streamingcontainermanagerschedulecontainerrestart wouldnt error find exist request true add code detect error caller pass paramet indic new request expect creat,code/design_debt
+fix flaki test porttelnethandlertest,test_debt
+shouldnt remov intend general purpos class log handl compress buffer logic notic replac printwrit elsewher even new name scheme still use class event log simplifi eventlogginglisten bunch,code/design_debt
+rdhabalia mayb name nondurablecursor doesnt fulli convey intend semant new class context way read topic support topicread reus much code possibl regular cursor implement basic cach code logic switch next valid posit plus asyncreadorwait stuff non imped messag delet consid case nondur topic disconnect cursor away data get potenti delet anyway prefer explicit ingrain api thing name cursor away case restart dont see advantag name data get delet cursor skip intend usag nondur cursor topic reader conjunct messag retent make sure data stick around intend amount time,code/design_debt
+well point check simplifi dont think recordhead null true guarante header object sure simplifi second check iter header map string comparison find header key seem rather heavi,code/design_debt
+would suggest chang name prettyjsonis jsonpretti also string valu test method name use unifi name convent benefit new develop code search,code/design_debt
+fix xyz master issu xyz add api check worker readi serv request describ modif youv done chang trivial rework code cleanup without test coverag chang alreadi cover exist test pleas describ test chang ad test verifi follow featur applic document explain featur document yet pleas creat followup issu ad document,documentation_debt
+zeppelin3138 checkstyl zeppelininterpret,code/design_debt
+think creat callback open method pass instanc async call way save lot instanc creation,code/design_debt
+work ask lot column row need could tri chang return insid function return tisal return tis line could becom httpsdocssqlalchemyorgen13ormloadingcolumnshtmlloadonlyandwildcardopt think worth worth,code/design_debt
+yes max input sysmaxint get increas bucket size safe purpos mayb unnecessari dont think one bucket per counter cost mani memori,code/design_debt
+definit fix apiv1applicationsappidlog acl look like protect apirootresourcejava app need someth like withsparkui get acl includ applic like mention list apiv1appl apiv1applicationsappid info believ list intent left open dont realli see reason chang peopl use case perhap make page protect acl configur histori server would expect sparkaclsenablefals sparkhistoryuiaclsenabletru see could confus perhap document better sparkaclsen histori realli protect root app level ui could explicit turn,code/design_debt
+caught scala linter follow java style comment see code document style httpsparkapacheorgcontributinghtml,code/design_debt
+store never null thus dont need chang also check isempti give much still call addal even store empti,code/design_debt
+nifi5790 remov last test caus race condit intermitt,test_debt
+1682 enhanc test coverag part4 dubbocommonsrcmainjavacomalibabadubbocommonstatusstorethreadpoolutil modul dubbocommonsrctestjavacomalibabadubbocommonutilsurlutilstestjava xxxxx,test_debt
+share deriv yesterdayd executiond macro doc,documentation_debt
+hzxa21 thank code review consist happen window platform seen peopl complain similar issu linux flavor consensus issu popular linux flavor classic window problem handl open file ntfs allow renam move delet file handl open file requir close renam much issu linux way linux file system implement way file implement linux allow renam move delet file even open handl way think patch renam file directori alway close file channel applic linux well fundament scenario delet directori sinc topic delet delet segment file cleaner thread believ close log file case log delet close segment case segment file cleanup sinc one read file safe close swap flow clean file renam swap file renam actual log file also believ segment close renam reopen swap overal gist file close renam open back requir applic linux well yes initi implement chang renam file method chang turn ugli abandon pull request done way httpsgithubcommicrosoftkafkapull17fil problem need reopen delet file put check reopen delet file also result chang mani place also felt like cleaner fix solv root problem close segment renam delet also want generic fix rather specif window yes add test case want get initi feedback idea ad test,code/design_debt
+add test around earli publish load sequenc data disk,test_debt
+enter requir otherwis document render correct,documentation_debt
+write new buffer connect closedwrit call connectionwak closedread closedwrit fix crash still work left leak messag buffer server connect close client connect,code/design_debt
+gave tri httpsgithubcomrzo1tomeetreetomee2324v2 quit unsur talk consequ drop fixmetodo question reason didnt open relat new yet mayb look,requirement_debt
+format code consist old function,code/design_debt
+make sens remov assert complet unrel fix also ad comment test,code/design_debt
+feel increas timeout wont cut doesnt sound like real solut unfortun dont understand much schedular job proper say think perform issu need figur deal,code/design_debt
+minor suggest chang commit titl replac threadsleep testhelperverifi fix flaki unit test,test_debt
+may add class conveni may need design inlin origin class,code/design_debt
+seem test decim precis map may issu mention code slip unit test catch,test_debt
+afaict never use remov,code/design_debt
+rethrow runtimeexcept,code/design_debt
+comment code longer need,code/design_debt
+deprec method use,code/design_debt
+remov detail sinc say librari deprec longer want use,code/design_debt
+exist withcolumn ad metadata simpli use exist public withcolumn api exist test case cover,code/design_debt
+think back there question keep limit joshrosen yes that end clear sever way sever place happen easiest ignor except,code/design_debt
+hbase24791 improv hfileoutputformat2 avoid alway call gettablerelativepath method,code/design_debt
+jira httpsissuesapacheorgjirabrowsespark18035 hiveinspector saw convert java map spark arraybasedmapdata spent quit sometim buffer copi httpsgithubcomapachesparkblobmastersqlhivesrcmainscalaorgapachesparksqlhivehiveinspectorsscalal658 reason maptoseq alloc new buffer copi map entri httpsgithubcomscalascalablob211xsrclibraryscalacollectionmaplikescalal323 copi need get rid extract key valu array call trace also earlier code popul key valu array separ iter twice avoid doubl iter map one iter edit code review sever place code found similar thing dedup instanc introduc conveni api perform memori effici number subject depend mani map column access queri averag entri per map one queri tri saw cpu save endtoend queri chang end result produc reli exist test,code/design_debt
+hdfs15731 reduc threadcount unit test reduc memori usag,code/design_debt
+thought bit tricki sinc could dynam base class tostr function trigger first let think see come clean solut,code/design_debt
+seem itd worth factor context includ expans servic jar test,code/design_debt
+still get rid setuprequir might complet solut,code/design_debt
+redund,code/design_debt
+nit redund convers,code/design_debt
+per code standard pleas wrap block cur brace,code/design_debt
+seem littl complic realli necessari your couldnt achiev thing leav origin code chang one line origin exact also allow whitespac around schedul mode mayb good thing,code/design_debt
+null code use index list null code get index tabl implement upcom,requirement_debt
+nit add blank line back,code/design_debt
+taskset index realli need avoid reli order taskset verifi result,code/design_debt
+also mayb complet unnecessari automat attach sourc timestamp dont window oper one thing came mind order keep determinist result failur persist data timestamp attach sourc plan guess question goe hand hand automat sourc level backup even without kafka want bring,code/design_debt
+need space,code/design_debt
+null sortscop remov check insid carbonutilisvalidsortopt,code/design_debt
+current set integr test doesnt test new function ad mere check see noth els broken freez skim mail didnt see anyth master frozen see blocker defect 41000 latest understand anybodi merg requir code lgtms bvt run smoke test broken environ issu talk new releas 490 broken testsfeatur,test_debt
+think explicit want prewarm pool surviv action would benefit use space perform optim guarante wouldnt also plumb control send request path might get execut think warrant devlist discuss,code/design_debt
+npuint64 npint32 consist scala implement,code/design_debt
+mayb add final instead,code/design_debt
+work issu found empti class propos remov use caus confus local test,code/design_debt
+scala code almost java need creat separ tab scala also case javascala share code demo filesystem connector,code/design_debt
+one oper fluent seem inconsist context manipul isnt shouldnt common oper see also quit recent contextmergecopi,code/design_debt
+yea default valu hardcod also agre show precis messag use config better,code/design_debt
+realli good work rpogalz minor comment concern style test case like approach split implement flink687 multipl part make far easier review concern descript flink2106 havent integr outer sort merg join optim api yet guess happen next step mayb updat descript flink2106 accord look good,code/design_debt
+method primit,code/design_debt
+twoinputstreamoper oneinputstreamoper intern class mention use generic oper one input term,code/design_debt
+batch option remov mapstat favor parallel process exist opaqu transact logic handl consist cassandra batch statement troubl theyr worth,code/design_debt
+would chang need touch packag name sourc includ apach chang packag name orgapachetrafodion sourc file layout make consist,code/design_debt
+might easier read use multipl line,code/design_debt
+let put paramet make method bit general,code/design_debt
+seed necessari sinc use approxquantil ad spark remov involv break chang,code/design_debt
+maektwain iter follow process describ httpsgithubcomapachefineractpullrequest smilingimp add well could written clear readm improv smileycat,documentation_debt
+think case unnecessari executorsid reduc might invok addit map task although return singl element minor concern thing takeord introduc rdd api earlier treereduc guess may consid use treereduc place natur takeord sequenc element collect driver reduc sound good fit treereduc partial reduc collect driver overhead sound like tradeoff driver side usual bottleneck case driversid reduc parallel also bound local memori data total okay close doesnt sound good direct,code/design_debt
+super nit order swap import,code/design_debt
+point function export document thread alway use user would need set optionsarrowusethread turn,documentation_debt
+reason doesnt handl error dont think need new inner method also duplic job cleanup code,code/design_debt
+ignite11261 flaki testtestnaivebagginglogregress,test_debt
+relaytest remov redund test case testoplevel4pi,code/design_debt
+bad accord tidyvers style guid believ tri follow httpsstyletidyverseorgfunctionshtmllonglines1 get use whatev style convent decid want make sure agreement,code/design_debt
+also there need stringformat precondit interpol realiz stringformatwa let take chanc get rid,code/design_debt
+fact tabl qualifi name may long addit may need add catalog name databas name distinguish tabl name,code/design_debt
+hmm sure mayb happen jvm write stderr that annoy probabl fine initi worri might get long filenam wouldnt abl extract log window,code/design_debt
+afaik dont style guid java code think put space cast,code/design_debt
+feel like collect redund get name internaltopicconfig perhap,code/design_debt
+nit possibl addit test statement minut second togeth line 743 make sure never mind miss land alreadi branch24,code/design_debt
+rather use mute think would much clearer alia boolean name guaranteeexpirationord similar guaranteemessageord boolean sender,code/design_debt
+also like see test lead space,test_debt
+concern dbtsai comment consum api alreadi cach dataset learn phase without user care introduc effect doubl cach term data size cach rdds caus mani job fail upgrad exceed avail heap rdd cach furthermor make assumpt cach inmemori case parameteris perhap help send messag api cach also done learn fwiw inmemori definit right default choic see email thread dev specif encount bug httpmailarchivesapacheorgmodmboxsparkdev201502mbox3ccah5mzvmbjqost9nr90001z1ruodfsiczrfv9000wqdfqamnlc2zw40mailgmailcom3,code/design_debt
+need think reus utf8str object trivial decis like leav,code/design_debt
+flink21609test remov usag localcollectionoutpuformat simplerecoveryitcasebas,code/design_debt
+still think need better name pendinginsyncreplicaid sinc mislead case mayb could call overrideinsyncreplicaid someth like,code/design_debt
+remov sentenc need anymor,code/design_debt
+actual think safe fix need adjust valu test easiest way allow intern configur problem integr test hard set configur valu runtim compon otherwis,code/design_debt
+think delnotsatisfi safe youd better chang dcheck check,requirement_debt
+min macro use also would use sizeofbuff instead magic number,code/design_debt
+comment necessari,documentation_debt
+spark16008ml remov unnecessari serial logist regress,code/design_debt
+rep onurkaraman removegroup alway guard group lock insid groupcoordin getgroup addgroup sinc group object avail yet make clear comment rep junrao ack,documentation_debt
+nit use multilin string,code/design_debt
+look good still anoth thoughtno bind follow ignor sinc root caus narrow window queuepacket cleanup synchron objectlock also altern way one better sinc outgoingqueu critic queue client talk server synchron outgoingqueu perform futur program extens issu haha also test global inner word follow way new two differ zookeep client creat znode print hashcod outgoingqueu state realli hold differ outgoingqueu hashcod state realli confus believ differ client differ state instanc otherwis one client call closeset state close affect anoth client howev use follow way cannot reason javap see bytecod valu set state public static final realli globalshar multicli synchron enum also threadsaf look demo attach jira word enum heresi,code/design_debt
+simplifi,code/design_debt
+ive renam made confus imagin leveldb there separ suit leveldb kvstore sound better,code/design_debt
+messag look littl bit mislead mistaken,code/design_debt
+sirpkt patch look good one suggest test method name prefix test exampl lastvalue1 testlastvalue1 trivial immedi commit patch fix,code/design_debt
+could add short comment field explain need catalogmanagercalciteschema catalogschemat databasecalciteschema exampl,documentation_debt
+remov useless shortopt,code/design_debt
+quick question avoid catch nullpointerexcept bit odd catch nullpointerexcept could switch ifels guess,code/design_debt
+input first input output next output variabl,documentation_debt
+purpos chang current error thrown runasync method swallow flink didnt handl throwabl akkarpcactor temporari fix case yarnresourcemanag use trycatch wrap runnabl invok runasync method reus fatalerrorhandl handl error add new unit test,code/design_debt
+unnecessari whitespac,code/design_debt
+sborya agre pretti convolut howev prateekm discuss option extens past work samza1212httpsissuesapacheorgjirabrowsesamza1212 explain fulli clear wirein sourc stop caus stop streamprocessor across compon dont believ straightforward pass throwabl could work becom particular tricki bound job job decid stop use taskcoordin approach suggest equival thread needl end pass around statesourc stop across compon api callback altern straightforward solut imo clear defin state model compon persistmanag status streamprocessor way make easier streamprocessor take remedi step discuss howev simpli bugfix scrutin refactoringbehavior api separ threadjira think,code/design_debt
+could add check verifi return iter empti someth along line assertthatiteratorhasnext isfals could also add test rang queri start key equal end key unit test ensur correct behaviour special case nit would renam test shouldreturnemptyiteratorforrangequerywithinvalidkeyrang correct wrong think empti iter invalid key rang point negat start key would even chang rang took bit understand invalid rang comment appli also unit test,code/design_debt
+typo leastindexsleastindex,documentation_debt
+test orgapachecamelquarkuscorecoretesttestlookuprout todo 2nd rout routebuilderconfigur discov use produc annot jee camel cannot discov sure make possibl regular routebuild class discov via jandex index ad record magic would assum produc annot cdije would also work sinc bean inject somewher arc may trigger mayb need jandex magic discov method return routebuilderconfigur annot produc record method whatev need done,test_debt
+hard code good way,code/design_debt
+usergrid415 push chang make duplic properti readabl,code/design_debt
+minor unnecessari space put,code/design_debt
+think make sens reus definit,code/design_debt
+fix exampl document separ,documentation_debt
+could pleas factor logic separ method,code/design_debt
+ad null map testcas remov redund implement remov sqlfunctionsscala problem remov could check,code/design_debt
+code seem fine howev seem like would good least log transid except better track downcorrel issu fact,code/design_debt
+miss someth your use raw type sever place raw type exist migrat compat purpos never use new code imo,code/design_debt
+hivehook shouldnt think must includ someon els commit rebas tidi forc push later today,code/design_debt
+pleas add javadoc,documentation_debt
+well say differ python person may know jvm stack trace mean take away doesnt much except shorten big dump output doesnt realli simplifi much take away import inform perhap someon els make sens isnt make usag debug harder remov unhelp stack trace consol see,code/design_debt
+might abl creat util method abstract class like byte getrowstr row string encod sinc look puthbasecel puthbasejson need logic,code/design_debt
+csourcemodul empti string look well kumasento could instead creat dummi llvm modul thank,code/design_debt
+least add test case new option,test_debt
+jira httpsissuesapacheorgjirabrowsespark17698 extractequijoinkey incorrect use filter predic join condit join canevalu tri see express evalu use output given plan case filter predic aid1 express pass right hand side liter attribut refer thus exprrefer empti set theoret subset set lead canevalu return true aid1 treat join predic lead incorrect result case bucket sort tabl might miss avoid unnecessari shuffl sort see exampl httpsgithubcomapachesparkblobmastersqlcatalystsrcmainscalaorgapachesparksqlcatalystexpressionspredicatesscalal91 shuffl sort tabl scan output need tabl bucket sort column number bucket singl stage job ad new test case scenario spark17698 join predic contain filter claus ran test bucketedreadsuit,code/design_debt
+dear airflow maintain httpsissuesapacheorgjirabrowseairflow1848 dataflow python oper take filenam without extens incorrect document previous doc chang subject limit charact subject end period subject use imper mood add ad bodi wrap charact bodi explain,documentation_debt
+fair ad still perfect least perfect pipelin without bundl failur hope pipelin,code/design_debt
+add test coder exampl add test pyflinkfnexecutiontest,test_debt
+current kafkarecorddesri follow problem miss open method context serial deseri purpos chang fix issu renam kafkarecorddeseri kafkarecorddeserializationschema follow name convent ad method getusercodeclassload sourcereadercontext sourceread implement construct serializationdeserializationcontext ad method valueon open kafkarecorddeserializationschema interfac enabl reus deserializationschema kafkadeserializationschema ad method setvalueonlydeseri kafkasourcebuild class make easi set valueon deseri ad unit test testingdeserializationcontext kafkarecorddeserializationschematest ad test kafkarecorddeserializationschematest verifi chang made kafkarecorddeserializationschema,code/design_debt
+format new line would easier read,code/design_debt
+thank keep work thank think realli take peopl surpris regist camel rout singl camel context bundl point apach karaf like app server bundl isol goe practic document much much clear also lack featur eas use configur camel context end default would peopl depend inject bean etc also renam camelosgiactiv move compon core piec use osgi like osgi blueprint main osgi support camel,documentation_debt
+introduc tablesinkfactorycontextimpl class reduc mani anonym class,code/design_debt
+need explain algorithm thorough around done sequenc specif also unit test focus specif algorithm strong character proper behavior insur full coverag,test_debt
+issu 9725transact fix deletetransactionmark memori leak,code/design_debt
+circl back ask benstopford remov test doc new sinc bit context,documentation_debt
+indent,code/design_debt
+coupl cdninabox servic take much longer build ought long take send build context daemon dont actual need context size reduc servic context necessari build cdn box build cdninabox,code/design_debt
+nit move previous line,code/design_debt
+miss space setup data,code/design_debt
+objmag thank review agre first think put byteamountunit insid byteamount better approach use enum instead static insid byteamount seem nice might trigger larg refactor byteamount decid put byteamountunit outsid byteamount temporarili,code/design_debt
+configur option symmetr lead confus allow overrid possibl code ignor config store whitelist tag joblevel whitelist specifi ad joblevel blacklist tagbas blacklist,code/design_debt
+fix flaki test case workertest mock executorservic worker previous use real thread pool executor task may may run executor end test relat jira issu ran test gradlew test ran unit test connectruntim repeat,test_debt
+assum given version notic licens file chang safe assumpt make dubious whether possibl pull notic file automat would pull everi notic file isnt realli necessari someon would check content pull notic file ensur everyth make pull licens automat ever check releas time releas time depend need check there much check peopl like give quick glanc without actual check depend would prefer work manual check depend occur part develop process time updat depend time smaller subset depend chang review care submitt abl take time review abl give depend full attent licensenotic updat version depend shouldnt need look licensesnotic dont chang within singl version,code/design_debt
+fix httpsgithubcomapachecloudstackissues4481 todo,requirement_debt
+fix indent want remov trycatch also add test,code/design_debt
+use logger would standard see log netbeanshttpbitsnetbeansorgdevjavadocorgopenideutilorgopenideutildocfileslogginghtml document,code/design_debt
+fail test coupl minor comment look good test pass,documentation_debt
+bad format,code/design_debt
+remov unnecessari includeelasticsearch5 profil sinc activ condit usag jdk8 alway true run mvn command flink flinkconnector check reactor includ es5,code/design_debt
+seem like doesnt support special charact column name keep support,requirement_debt
+tldr agre fine note dig around synchron code look synchron block emitintern synchron entitymanagementsupport instanc call getsubscriptioncontext call publish synchron localsubscriptionmanag instanc getsubscriptionsforentitysensor howev think trust entitymanagementsupport localsubscriptionmanag call alien code hold lock therefor safe respect code abstractent abstractgroupimpl look bit scari first get lock valu object either abstractgroupmemb abstractentitychildren kindof understand pattern avoid would nicer instead didnt call alient code hold lock valu that bigger discuss,code/design_debt
+yeah go end get thing say drop one leav right probabl doesnt matter one lazi give optim chanc possibl improv thing actual execut,code/design_debt
+mayb descript name get,code/design_debt
+function seem use,code/design_debt
+that use stateassignmentoperationoperatorsubtaskstatefrom share logic didnt want use stateassignmentoper constructor realli annoy fulfil that valid concern howev write itcas might also overkil wouldnt necessari test everi state backend make sure introduc quirk deserialis,code/design_debt
+nit remov byte,code/design_debt
+anshuman87 thank tri could specif set adapt evalu work occas repeatnumb measureopt big number like 500 accord experi result paper search effici outperform base autotvm transform encod tune case,code/design_debt
+overal feel like make code cleaner wonder use keep config set peopl tweak behaviour airflow without chang behaviour decid delet two config valu add note updatingmd,code/design_debt
+ad back test improv comment,documentation_debt
+use new matrixblockscalarobject newoutputgetdoublevalu instead,code/design_debt
+carbondata3877 reduc read tablestatus overhead insert partit tabl,code/design_debt
+get rid dead code uncom add coverag,code/design_debt
+point duplic iffunctionbuilderappli code one differ line better instanti iffunctionbuilderappli null object input argument empti iffunct,code/design_debt
+doc format,documentation_debt
+part chang variabl devid type listlong instead liststr convers int string convert string long seem unnecessari simpli abl note code includ fix two comment made code,code/design_debt
+aim clean packag name mismatch pass jenkin,code/design_debt
+environ misspel line 348 correct typo,documentation_debt
+yasserzamani think ad condit branch latest commit less loc cover,test_debt
+note chang python compat sinc long remov python add someth similar follow httpsgithubcomapachebeamblob8d854d4ce0365a8e201b388618d7732f000c65b9sdkspythonapachebeamtransformscombinerspyl39,code/design_debt
+might chang type call nullabl nonnul howev simplifi allow return node differ type type match simplifypreservingtyp use,documentation_debt
+ijuma mean ad comment updat ticket descript test java crc32 perform test one use use crc32 perform java,test_debt
+issu rat wouldnt deal jsjsx file way linter like lot file touchup rodent small app havent push pypi yet could becom altern rat also wasnt awar gitignor see took care ratignor,code/design_debt
+dbtsai batch artifici neural network perform improv httpsgithubcomapachesparkpull1290issuecomment70313952,code/design_debt
+origin code ignor newnam intend,code/design_debt
+sound correct subsequ tri tri parallel suppos that pretti good evid parallel unless anyon els speak think sentenc remov,code/design_debt
+michaelandrepearc code cleanup noth would bring valu releas note commit would enough record chang someon creat jira would task improv featur bug valu releas note,code/design_debt
+name transactiongener simplic,code/design_debt
+interfac realli necessari especi publicevolv annot user suppos use understand correct need intern oper moreov need wrappertypeinfo blinkruntim right cant move wrappertypeinfo tablecommon instead class runtim depend factori method need runtim class,code/design_debt
+adress issu comment ad commit squash respect parent commit ad withclu statement action test drop unneed test rewrit cliactiontest scala refactor withactiv helper format nit testutil refactor runcmd remov obsolet helperclass renam ruletest ad comment rewrit cliruletest scala ad new testhelp,code/design_debt
+general would use kleen term use throughout rest doc say sth like loop simpli oneormor addit would also consist use oper pattern doc pattern sequenc compos pattern stick kleen oper loop pattern oneormor pattern,documentation_debt
+less code bad idea creat unnecessari state move tabl two field hex object,code/design_debt
+apovzn person think timestamp accur modifi timestamp sound hacki creat extra complex pleas also notic timestamp index built follow pure depend timestamp outer messag compress messag follow even decompress messag play trick time index follow also affect want make thing right produc abl get necessari topic configur info broker either topicmetadatarequest request produc set timestamp correct avoid server side recompress like said bigger chang unnecessari block chang think current solut reason clean moment produc abl get topic configur broker simpli migrat use sinc everyth pure intern migrat simpl transpar user,code/design_debt
+actual dont need valueof remov,code/design_debt
+nit think line 6870 remov avoid confus look like abandon legaci code thank fix,code/design_debt
+add test case cover complex dag,test_debt
+fix spell src,documentation_debt
+use link fail github job one label detail select rerun job would rerun github base job potenti caus flaki test think good enough,test_debt
+thank review anmolnar pleas take look unit test get chanc address comment also add document separ commit,documentation_debt
+abhiy13 short javadoc pleas,documentation_debt
+letlist everywher put common file,code/design_debt
+answer countdown stuff use figur comput complet pleas add doc,documentation_debt
+behavior get dapplyrepartitiondf col groupbykeyflatmap fine go simpler implement think high level gapplydf col functiongroup api sparkr clear specifi intern implement whatev simpler,code/design_debt
+singl class name variabl name reflect,code/design_debt
+nit one step would store checkpointbrief pendingcheckpoint instead collect that probabl scope,code/design_debt
+per offlin discuss let chang unusedclasspath someth,code/design_debt
+yeahthi seem one place tablenam git confus,code/design_debt
+prefer address non sep1 relat suggest separ aw larg chang bloat import chang,code/design_debt
+nit better node1nodetoolresultdisableautocompact netstatstestassertssuccess rather exec instanc,code/design_debt
+recommend inlin method readabl exist code current way readabl,code/design_debt
+fix one spell mistak,documentation_debt
+executor run local task job run airflow task run achiev pass airflow task run object subprocesscheckcal limit creat new executor necessarili want start new process start local task job fork process instead creat could achiev similar effect process back argument list ugli hack solut refactor code executor pass localtaskjobdeferredrun object contain detail inform particular executor could creat command need facilit develop executor httpscwikiapacheorgconfluencedisplayairflowaip293aawsfargateexecutor aelzeini httpscwikiapacheorgconfluencedisplayairflowaip283aaddasyncexecutoropt dazzacod httpscwikiapacheorgconfluencedisplayairflowaip25theknativeexecutor dimberman httpsgithubcomapacheairflowpull6750 nuclearpinguin also made debugexecutor code simpler nuclearpinguin issu link airflow6334httpsissuesapacheorgjirabrowseairflow6334 read pull request guidelineshttpsgithubcomapacheairflowblobmastercontributingrstpullrequestguidelin inform,code/design_debt
+nit would nice keep express one line wrap checkargu,code/design_debt
+add space undefin,code/design_debt
+nit val tmpisnul ctxfreshnamecoalescetmpisnul consist httpsgithubcomapachesparkpull19901filesdiffa966ee88604a834221e82916ec051d7dr190,code/design_debt
+abhishekagarwal87 knusbaum shouldnt hurt much let appli address broader consider anoth issu one thing like see status backpressur queue show percentag show whether queue meet condit trigger backpressur,code/design_debt
+regard oper whole discuss past constraint most inherit would need address refactor base sure time though wait legaci runner goe away still signific work portabl runner becom adequ replac java pipelin,code/design_debt
+think good test somehow could leak across connect,test_debt
+worth javadoc even though method small behaviour nonobvi wasnt clear look care would increment iter sometim call next time,documentation_debt
+suggest chang make test suit cleaner right case suggest abl clear check catch except know throw would like submit intent never actual reach nullreturn alway caus except thrown codegeneratorcompil abrupt return caller except make compil happi youll definitereturn statement end function useless nullreturn would probabl anyway sinc compil cant tell youll alway throw except unless throw inlin,code/design_debt
+yes would nice could get rid case somehow make option deal possibl pvaluepipelin none throughout code base went back forth whether make arg option simpli ignor error method think decid method common case thus need protect nonevalu throughout code,code/design_debt
+remov comment code,documentation_debt
+that great point moment think consist packag privat advantag keep public allow use class unit test resid packag,code/design_debt
+sync necessari,code/design_debt
+sorri wasnt clear point doesnt fail time fail delay unrel patch merg ignor reenabl later actual ship releas need find way actual fix flaki,test_debt
+keep oldstyl mayb better,code/design_debt
+think good take opportun like general code cleanup vacat week look split two commit get back,code/design_debt
+even wrap column name backtick like abc still handl insid column name special think fragil use special char split name part put name part unresolvedattribut direct,code/design_debt
+see thread daemon systemexit viabl immedi stop daemon thread yeah thread need shut clean somehow shutdown process could shutdown hook,code/design_debt
+nit none seem ungrammat,code/design_debt
+tri make comparison specif sinc know part part cannot negat avoid less comparison instead use partslength,code/design_debt
+reus exist method ozonefsutilsaddtrailingslashifneededkeynam instead,code/design_debt
+yes talk dbtsai want add lock block insid docleanupshuffl given price duplic messag executor sure worth overhead keep track mani lock,code/design_debt
+ideal get token call python method direct call endpoint retest login endpoint would better avoid,code/design_debt
+current 16x branch fail multipl pipelin centoscpu centosgpu pipelin due httpjenkinsmxnetciamazonmlcomblueorganizationsjenkinsmxnetvalidation2fcentoscpudetailv16x51pipelin flaki test unixcpu mkldnn edg pipelin,test_debt
+ts4038 redund isdigitb logformatparseescapestr,code/design_debt
+bad idea two issett method pls consid combin one singl issett method,code/design_debt
+nit capit author pleas sinc titl nit there bit format text like enclos class name backtick think would worth ad note provid say gremlin server support author featur featur tinkerpop requir graph provid part agreement client server graph provid may choos implement method author manner see fit would say similar import callout box probabl ad refer document alert user notion final draw closer final bodi work neat new featur upgrad document perhap user face document updat read bit saw link user document pagethat could suffic think featur right sens user write authorizor think could popular featur mean front face document,documentation_debt
+correct javadoc list written html style like test though care,code/design_debt
+thought metadata constant one place would make simpler use read archiv commit move constant archivedtimelin think that better place,code/design_debt
+readi merg approv kaisun2000 connect leakag customrestclientimpl caus timeout wait connect fix issu consum entiti releas content stream connect,code/design_debt
+method use test current pleas add shutdown method zookeeperserv quorump class,code/design_debt
+use someth like instead otherwis throw uncaught except cpu machin,code/design_debt
+check whether file zipformat must read actual content user specifi dfs url check introduc addit suffix check also hard mani file format actual zip format mayb rewrit doc string detail tell user file format actual support better choic,documentation_debt
+new command heron exampl list heron exampl run cluster exampleid patch provid easier command get heron exampl run,code/design_debt
+correct allow user manipul executorresourcerequest multipl time origin intent class would immut made thing less user friend origin class got creat user allow modifi multipl time could multipl thread someth miss origin rework,code/design_debt
+thank pull request cant chang privat public like make api difficult maintain long run justifi need cant work around user side,code/design_debt
+map support yet thrown unsupport except map,requirement_debt
+dongjoonhyun clear think problem postgresdialect indic cascad enabl default postgr isnt case postgr doc show correct mention previous comment spark doesnt use cascad especi consid method edit bit odd think plan open differ jira ticket add work outsid scope current jira,code/design_debt
+set skipmessagenul effect skiptestexcept sinc version xunit support think comment use null run test could bit explicit think,code/design_debt
+lgtm thank write benchmark think move forward agre columnvector natur data structur decod probabl add logic direct class code mainten point view think explor parquet encod make sens let start benchmark see right perform characterist,code/design_debt
+travisci remov environ variabl build matrix use cach job activ mysql servic servic need activ xvfb servic necessari possibl remov bower cach remov mani complic line travisci give test name instal conda previous instal twice testinginstallrsh testinginstallexternaldependenciessh remov rcach instal conda quit fast delet testinstallrsh longer use ignor test heliumapplicationfactorytestjava get junit test run ide remov exclud travisyml remov deprec warn mavensurefireplugin helium work better absolut path relat path path good idea local test remov jvm languag depend assert improv httpsissuesapacheorgjirabrowsezeppelin5024 travisci httpstravisciorggithubreamerzeppelinbuilds723116251,code/design_debt
+lgtm thank cleanup shafaqsiddiqi scenario compon still fail debug turn due kmean converg merg fix hardcod maximum iter kmean format issu vector part choleski comput chang ran fine,code/design_debt
+sound littl riski process invok even empti partit may caus hang situat command expect input exampl prs test case use cat cat hang okay could add test case empti partit make sure handl case,code/design_debt
+sorri comment old close featur complet implement seem schedulerjob class use complet differ method load dag webserv etc schedul task packag dag sinc consid raw python file,requirement_debt
+typo also ever need set task version afterthefact,documentation_debt
+there cruft ought remov ill make addit chang merg,code/design_debt
+treemap use origin groupbyengin code move goal creat interfac move typespecif code chang function generallytarget perform optim,code/design_debt
+instead concurrenthashmap actual move disk back map cleanup datastructur pain becom extrem larg particular iter algo fortun case need last entri lru scheme disk back map work beauti use mapdb mapoutputtrackerwork work beauti rxin might particular interest sinc look reduc memori footprint spark mateiz mention earlier,code/design_debt
+intent optim reduc one systemnanotim call per tupl execut new commit optim remov simplifi reason much easier understand,code/design_debt
+curios fail sometim travi local discov program level log anoth thing came mind long run need complex way configur retri polici understand number retri fix see issu long run program fail oper normal time point fail fix number retri,code/design_debt
+could also updat doc new api httpsgithubcomapacheincubatorparquetmrblobmasterparquetcascadingmd could serv tutori user use,documentation_debt
+think would clear string match regex add extra complex setproperti,code/design_debt
+btw code thisgetrootgetclustergetmetadataquerysupplierget confus lot pleas explain need fresh new relmetadataqueri instanc couldnt use instanc alreadi exist reloptclustergetmetadataqueri check almost isvalid case reloptrulecal circl even got fresh new instanc add new interfac reloptclustergetmetadataquerysuppli debug refactor,code/design_debt
+instead prevent user creat storagelevel offheap true replic add check storagelevel constructor throw except make one otherwis nobodi understand code ad,code/design_debt
+sinc dont need old index shall remov obsolet index,code/design_debt
+agre matter gunicornnginx support long header carri referr request header much think add upper limit necessari lose queri state mistercrunch think use localstorag save queri state good idea use alreadi exist generat impress key uniqu everi page load impress key store queri state support redo undo like dashboard edit,code/design_debt
+sorri late repli siji notic chang wonder necess expos whole admin client function user mayb discuss avail,code/design_debt
+know inmemoryexternalcatalog hasnt implement interfaceseg partit relat one intent,requirement_debt
+longer refer field name honest sure point make sens keyselector way read point tell use field name discourag nowaday rather remov point whatsoev,code/design_debt
+thank huangzhenqiu overal look good also add case blink planner even though code path look still need test make sure logic work correct,test_debt
+fail due flaki test creat ticket geode7319 propos solut,test_debt
+rherm yes general good practic separ prs deal differ subject clean prs subject lot leftov nexmark would like avoid ten prs remov coupl field,code/design_debt
+unus,code/design_debt
+feel littl raci thread might miss thing ad log check thread suggest follow creat singlethread executor run replay task creat list app info pars log check thread break batch submit batch executor basic instead loglazyreplay youd someth like replayapp seqlazyappinfo dont need lazyappl becom part task submit executor solv anoth sourc content code sinc singlethread executor know there singl thread touch app threadsaf test use guava samethreadexecutor mention instead singlethread executor,code/design_debt
+pull request base httpsgithubcomapacheincubatormxnetpull10804 follow chang reduc ident chang prefer cudnn depthwis convolut mxnet implement still use explicit els endif statement new variabl effectivenumgroup solut backward code path compabl new variabl effectivenumgroup may confus reader standard group convolut,code/design_debt
+implement differ descript would easier call docker instead dockerbuild make command less charact type,code/design_debt
+minor fix typo,documentation_debt
+singleton final instead,code/design_debt
+also purpos sqllisten prevent multipl listen creat time think would better use atomicboolean dont creat anoth strong refer sqllisten might lot intern state could lead memori leak,code/design_debt
+could add test multipl file case probabl think might abl use new filetmpfilecsvsetlastmodifiedxxx control timestamp,test_debt
+useless import,code/design_debt
+reus code file pull common structur helper function,code/design_debt
+upper limit would suggest someth like radiusmaxretri make clear,code/design_debt
+spark11719 remov duplic decisiontreeexampl examplesml,code/design_debt
+daanhoogland would limit 41500 41510 ad also 4141 conflict insert tabl cloudguesto upgrad 4150 notic comcloudupgradedao packag still need hope someon implement,requirement_debt
+also useless,code/design_debt
+worth ad test case also note relat discuss mail list altern suggest pick file given name classpath rather given directori person prefer approach file directori would allow easili increment add thing separ file upgrad version wonder nicer packag name orgapachebrooklyncoremgmtpersistdeserializingclassrenam imagin mani peopl put conf directori dont want creat realli deep nest directori anoth thing could add futur conflict chang renam first file renam second file current result would depend file process could would good predict fine defer,test_debt
+remov entri upon task closur never clean could potenti evergrow map,code/design_debt
+nit second brace match redund,code/design_debt
+fix length byte array make sens interpret byte decim differ either i32 i64 reason could imagin use i32 i64 write decim parquet would ecosystem compat aka panda parquet reader assum decim store use type 2possibl better perform encod could use swage,requirement_debt
+nit space indent,code/design_debt
+lgtm cyrusjackson pleas take care checkstyl,code/design_debt
+mxnet367 updat mkldnn v014 disabl build test exampl,test_debt
+sorta ambival packag name look cratesio asf project packag use foo apach foo arrow shorter sweeter that problem,code/design_debt
+chang propos pull request column jdbcodbc tab session info web hard understand add tool tip start time finish time durat total execut chang need improv understand webui introduc userfac chang patch test manual test,code/design_debt
+think comput higher level produc two differ class lambda captur alloc iter,code/design_debt
+doc improv detail cach memori segment histor,documentation_debt
+nit indent,code/design_debt
+nit includ byte like case,code/design_debt
+classtostr harder read array could read output without googl primit object normal valid string name array like requir know mean googl,code/design_debt
+one short term workaround get pexpytest work chang pex binariestest default nonzip safe extract still failur later think pexlibrari consumpt ill see patch hope come neater solut issu,code/design_debt
+tri function fp32 convolut seem implement appropri data member layout struct convolutionparam optionint type use assumpt layout contain real valu function caus test case fail make function proper implement need anoth keep shape infer quantizedconv alreadi delet todo comment,requirement_debt
+mayb debug noisi,code/design_debt
+fix typo error make context consist streamofword datastreamofword,documentation_debt
+find els readabl happi drop indent,code/design_debt
+pleas keep javadoc precombin method without context prs scenario,documentation_debt
+deserv comment someon doesnt simplifi back old code,documentation_debt
+comment date,documentation_debt
+todo releas document what littl bit obscur,code/design_debt
+rare mark class final especi privat one reason make thing like mock class test complic exampl,code/design_debt
+there httpsgithubcomapachearrowblobmastercppcmakemodulesfindpythonlibsnewcmak one made redund,code/design_debt
+would prefer chang differ mayb allow alloc return empti buffer even close make bugsissu much easier understand get npe,code/design_debt
+local compil packag speed slowbecaus need download much depend jar file maven depositori,code/design_debt
+abhishekagarwal87 didnt spot look guava reloc depend could addit includ reloc stormredi possibl use alreadi reloc packag provid via stormcor would save resourc experienc mavenshadeplugin yet unfortun prefer,code/design_debt
+look 100 local runtim reus code instead duplic,code/design_debt
+propos optimis datetimeutilsrebasejuliantogregorianmicro rebasegregoriantojulianmicro function make faster use precalcul rebas tabl approach allow avoid expens convers via local timestamp exampl americalosangel time zone time point differ prolept gregorian calendar hybrid calendar julian gregorian sinc 15821015 chang time interv 00010101 21000101 differ microsecond prolept hybrid calendar local timestamp time interv local timestampi local timestampi1 microsecond time interv gregorian microsi gregorian microsi1 way rebas input micro follow step look tabl find time interv micro fall take differ calendar time interv add differ input micro result rebas microsecond local timestamp represent detail implement precalcul tabl store json file gregorianjulianrebasemicrosjson juliangregorianrebasemicrosjson resourc folder sqlcatalyst diff switch time point store second exampl json file generat test rebasedatetimesuit generat gregorianjulianrebasemicrosjson generat juliangregorianrebasemicrosjson test disabl default switch time point order old recent timestamp condit check test valid rebas record json file rebasedatetimesuit also size switch diff array check test hash map store switch time point diff microsecond precis avoid convers microsecond second runtim move code relat day microsecond rebas separ object rebasedatetim pollut datetimeutil test relat datetim rebas move rebasedatetimesuit reason place rebas via local timestamp separ method requir zone first paramet assum caller zone alreadi allow void unnecessari retriev default time zone method mark privatesql use rebasedatetimesuit refer implement modifi rebasegregoriantojulianmicro rebasejuliantogregorianmicro method rebasedatetim look rebas tabl first hash map dont contain rebas info given time zone method fall back implement via local timestamp allow support time zone specifi zone offset like 0800 make timestamp rebas faster save timestamp parquet file x38 faster load timestamp parquet file x28 faster load timestamp vector reader x46 faster ad test valid rebas record json file rebasedatetimesuit test valid json file resourc folder gregorianjulianrebasemicrosjson juliangregorianrebasemicrosjson check per time zone record number switch point equal number diff calendar number differ violat assumpt made rebasedatetimerebasemicro swith point order old recent timestamp precondit requir linear search rebasemicro function ad test optim micro rebas gregorian julian rebasedatetimesuit iter timestamp 00010101 21000101 step month check optimis function rebasedatetimerebasegregoriantojulianmicro return result nonoptimis one check perform utc pst cet africadakar americalosangel antarcticavostok asiahongkong europeamsterdam time zone ad test optim micro rebas julian gregorian rebasedatetimesuit similar check test rebas hybrid calendar julian gregorian prolept gregorian calendar rerun datetimerebasebenchmark americalosangel time zone set explicit 28127,code/design_debt
+fileo null check kindof ugli thought make class extend outputstream instead bytearrayoutputstream make wrapper output stream might chang bytearrayoutputstream fileoutputstream think someth like make overrird function basic streamwhatev except write call switch thing anoth benefit switch happen old bytearrayoutputstream garbag collect wherea couldnt,code/design_debt
+bhaisaab dont like maven use cherrypick realli argument backport difficult wors reason one use maven better adher convent maven world keep divers correct becom increas difficult time meet half way abandon first continu prove fwdmerg schedul sever version face issu respect well btw time 411 fix thing,code/design_debt
+comment doesnt seem fit case perhap result refactor somewher along way shall move actual dead case,documentation_debt
+look like your remov max spout pend also configur backpressur patch also touch mechan backpressur let address patch file issu remov todo,requirement_debt
+provid test data say beforeaft appli patch mani duplic found respect imho make api concis possibl,code/design_debt
+automat fix isnt favorit though see necessari brake chang api parquetdataset filter argument perhap though would better throw error fix specif case instead allow wrong nest level case,code/design_debt
+appli websit theme version navig option clojur need handl proper old version use htaccess file redirect user api error page good measur also ad custom 404 error page stack 12413 chang buildallversionsh plus chang copi theme fix concern theme http342018176 test redirect switch old version like 100 api clojur look 404 http342018176error404html sure there probabl fanci regex would collaps clojur rule one line ill let someon els get fanci,documentation_debt
+nit sinc accessor mayb could drop parenthesi,code/design_debt
+tostr unnecessari,code/design_debt
+think better keep intern tradeoff user need touch could document later user realli need,code/design_debt
+nsuke switch consid long like two int high bit low bit combin valu like combin hashcod differ multipl factor doubl get long repres byte treat sinc chang valu also took chanc pick arbitrari constant combin worth though previous hashcod helper function pretti much describ effect java anyway ill rebas squash look jsiroi that good idea unfortun dont time moment,code/design_debt
+get declar constant though doesnt pertain byte array couldnt find good place dont know reus much need,code/design_debt
+test pleas,test_debt
+feel slight odd pass set topic load cant think good way avoid perhap could pass metadatacach logmanag let startup call metadatacachegetalltop might riski though sinc chang startup order kafkaserv mayb look followup besid name seem strang mayb someth like topicstoload,code/design_debt
+use option becom look cleaner,code/design_debt
+realiz reus decim valu realli need use return valu anoth place need return valu add comment,code/design_debt
+instead use pythonvers variabl,code/design_debt
+rddsetdoubl setdoubl may hard java user ask user input rddarraydoubl arraydoubl requir label order easier java user faster comput intersect set oper,code/design_debt
+sxjscienc yeah cut lot code framework redund track tensor dim purpos feed reshap layer excit small increas option complex reshap layer pay larg decreas complex framework code,code/design_debt
+use unwrap librari general bad idea possibl panic pleas use sinc your alreadi return result,code/design_debt
+shutti got make lot sens wonder point would worthwhil unsaf arraycopi char string byte memori segment stream buffer basic bytewis logic serial would increas state size char would two byte might save cpu resourc ever experi someth,requirement_debt
+emkornfield creat new benchmark evalu perform consum direct improv signific jdbcadapterbenchmarksconsumebenchmark avgt 77326747 218829 nsop jdbcadapterbenchmarksconsumebenchmark avgt 79007087 63994 nsop think two reason benchmark jdbc implement base librari wasnul method implement simpl overrid public boolean wasnul throw sqlexcept tri debugcodecallwasnul checkclos return wasnul catch except throw logandconvert seen implement base simpl flag plus simpl check implement rdbs implement heavi exampl follow code give implement mysql jdbc may involv megamorph virtual call public boolean wasnul throw sqlexcept tri return thisthisrowwasnul catch cjexcept var2 throw sqlexceptionsmappingtranslateexceptionvar2 thisgetexceptioninterceptor time wasnul method insignific compar arrow set method,code/design_debt
+poster came across discuss around origin hardcod rpath httpsgithubcomapachearrowpull2489discussionr215664651,code/design_debt
+reason catch throwabl instead specif except,code/design_debt
+coupl quick thought well need get version number align whatev nifi version would commit current would 130snapshot would probabl good idea notion nifileaderelectionapi zookeep rather generic electiontrack leader given thing partit would zookeep base implement processor leverag api code user select whichev type servic exist zookeep obvious initi exampl structur appear alreadi place current name perhap api referenc zookeep thought would good processor leverag doc along show suggest usag,code/design_debt
+think dont need test,test_debt
+hmm avoid boilerpl seem like make code error prone develop forget overrid method trainer potenti support updat get error tri updat model futur wherea keep abstract forc develop think trainer support updat insert notimplementedexcept cautious,code/design_debt
+jit also small otherwis mani function call,code/design_debt
+nit unifi createyarnresourceforresourceprofil yarnalloc,code/design_debt
+drop adaptor class name first read assum set test pertain http1 adaptor also class subclass object,code/design_debt
+union union would better use basicoperationsunion automaton object rather mess around regex string,code/design_debt
+would nice allow stage receiv complet verifi close channel also empti like test,test_debt
+avoid creation new bytebuf modifi doublebytebuf messag newli comput checksum howev messag creation see memoryleak creat simpleleakawarebytebuf advancedleakawarebytebuf base resourceleak level instead doublebytebuf keep check,code/design_debt
+actual somewhat problemat sinc two array might unequ unequ part mask parent bitmap exampl data technic equal even though children differ examin without mask parent bitmap suggest equal method accept inclus bitmap add lot complex emkornfield think,code/design_debt
+share fine children parent make remov redund save lot garbag,code/design_debt
+kafka9068 fix incorrect javadoc storesxxxsessionstor,documentation_debt
+tri break new test method workersinktasktest multipl method actual made harder read,code/design_debt
+9769 test flaki,test_debt
+could put comment promin place like begin class messag format ad timestamp timestamp type attribut use relat inner messag would use document format bit detail outer inner messag exampl timestamp type attribut set inner messag,documentation_debt
+minor test coverag line 221 225 unit test,test_debt
+reduc redund,code/design_debt
+good catch add unit test queue input stream could inputstreamssuitescala,test_debt
+type seem need sourc option also give default valu otherwis mayb make nonopt actual eslint rulehttpsgithubcomyannickcreslintpluginreactblobmasterdocsrulesrequiredefaultpropsmd proptyp world,code/design_debt
+stream state open would clearer,documentation_debt
+raven dont see probabl requir intern dns entri oper alway enter extern dns need see caus pain elsewher code,code/design_debt
+parquetfileformat leak open file case prevent regist task complet lister first initi manual follow test case generat leakag,code/design_debt
+thank much better solut work fine,code/design_debt
+sure make sens ive got chang almost done need clean unit test,test_debt
+would prefer listkeyvaluemap general easier work,code/design_debt
+mean convers could give wrong result addit leaki add test showcas believ need differ chunk unequ,code/design_debt
+actual happi drop though updat document wiki suggest peopl use hub joshrosen rxin would one guy abl put line httpscwikiapacheorgconfluencedisplaysparkusefuldevelopertool process use verifi good drip,documentation_debt
+name need messagetyp name use instead pass separ,code/design_debt
+unnecessari semicolon end line,code/design_debt
+make various chang improv throttl server use config librari add polici endpoint throttl server queri polici particular resourc add expir resourc broker polici reload alway get newest one config librari refactor config librari client make load config effici refactor hadoop config store make less confus,code/design_debt
+let pass map mapglobalrebalancepreferencekey integ clusterconfig much rebalanc,code/design_debt
+nullcount check null minvalu maxvalu use without similar check,code/design_debt
+nitpick blank line comment like,code/design_debt
+remov reportparseexcept alway true alway thrown handl depend config,code/design_debt
+dont think realli need multipl webserv worker process refresh would lead confus state new list old way tell unless way make worker perform,code/design_debt
+cur brace need follow case statement,code/design_debt
+test case kvstore unit test case also need integr test ensur work expect,test_debt
+call effect clone properti alreadi clone insid jdbc dont need,code/design_debt
+okay catch ignor throwabl oom never ignor lead absolut unexpect situat best catch nonfatalex ignor log warn throwabl log warn rethrow,code/design_debt
+lockeddriverst nest class within driver use outsid well complex enough class driverst nest class transit lock facilit function within,code/design_debt
+consist zookeep replac zookeep match offici name,code/design_debt
+see exampl pass codegen fail codegen fix use map3 pass codegen fail codegen right think yet found work implement sinc problem aris say expect null nonnul datatyp add check mean instead pretend expect valu nullabl cant add check case nullabl sure contain null think would better would abl distinguish failur caus bad test test written wrong failur caus bug test think,code/design_debt
+classload wont help still need separ jvm jvm load class trys parent classload first class alreadi wont load need least one separ process dont like tri mani time separ jvm mayb tri like test codec may fail everi time sometim test fail also sure realli need test may get static checker find class initi subclass static initi prevent similar car futur,test_debt
+abl singl run pkinesisasl pyarn phive phivethriftserv even think phive unnecessari think affect packag right phadoop22 unnecessari that default,code/design_debt
+rdblue yea possibl tri adopt suggest make clear tableprovidergett take tabl metadata method signatur becom tableprovid anoth gettabl method need infer schemapartit previous method signatur make consist chang use properti mapstr string also renam loadtabl sinc need touch mani file anyway still keep old method signatur todo chang later much smaller,code/design_debt
+work prepar flink11726 singleinputgatecr could remov unus paramet executionattemptid constructor singleinputg could remov unus paramet taskiometricgroup introduc createsingleinputg reus process creat singleinputg relat test chang trivial rework code cleanup without test coverag,code/design_debt
+tianyouyangi qiuchenjian suggest pleas chang chines english pleas chang titl hotfixdoc fix format sql dmlofcarbondatamd avoid ambigu qiuchenjian origin sql doc actual two statement seper avoid ambigu thank,documentation_debt
+actual want longmaxvalu seem error prone sinc normal thing ttl add current time caus overflow sentinel valu infinit ttl,code/design_debt
+also correct would good includ test case case happen actual oper null valu store enum nullabl result schema correct oper like isnotnul work correct,test_debt
+nit except duplic field caseinsensit mode test titl origin one verbos,code/design_debt
+see comment issu abl reproduc evid declar flaki test unless there data would disabl test inform far prevent lower qualiti bar,test_debt
+2237 administrationauth remov howev remov sidebard caus failur build websit remov administrationauth sidebar also remov codebas page doesnt make sens code chang happen frequent page quick becom outofd addit cleanup thing sidebar,code/design_debt
+itd realli great unit test mani method performtaskassign method alreadi pretti lengthi unit test wherea seem lot permut branch would help confid theyd help regress test ifwhen get back code,test_debt
+nit use api use jsonformatschema,code/design_debt
+thanx vinayakumarb check seem comment isnt come problem check isnt come patch anyway build seem clean,documentation_debt
+get bit confus seem currentworkerassign mutat caus differ,code/design_debt
+whitespacetab line,code/design_debt
+except messag look bit confus say given type support support certain type javautillist javautilmap,code/design_debt
+also think difficult appli new style checker new code clean code originmast style checker suggest merg enforc new style develop develop check style code chang,code/design_debt
+erikdubbelbo make sens pleas add comment code use add unit test verifi function,test_debt
+indent hook,code/design_debt
+test probabl name testzkclientasyncfailuremetr sinc new code ad metric aync function alreadi cover exist test said check whether possibl add metric test exist test mock result would save one addit test file avail code path mani effort involv fine separ test pleas check zkclient monitor test,code/design_debt
+improv implement gpu argwher ad httpsgithubcomapachetvmpull6868 use exclus scan see httpsgithubcomapachetvmpull7303 current implement argwher ineffici use atom updat write locat sinc thread compet singl locat effect make sequenti kernel moreov sinc output indic need lexicograph sort current implement involv sort along axi sinc argwher liter instanc stream compact perfect applic exclus scan argwher simpli consist singl call exclus scan boolean flag array comput write indic compact use write indic copi element nonzero condit high parallel oper thus atom sort gone vast simplifi implement moreov also bring huge speed shown number milli sec pleas review zhiic laurawli mbrookhart tkonolig anijain2305 trevorm,code/design_debt
+cleaner simpli pass metric registri associ compon regist granular group metric zkutilsmetr overload zkjobcoordinatormetr confus compon zkutil also access coordinationservic hth thank,code/design_debt
+need use linkedhashmultimap key uniqu,code/design_debt
+4490 cover case perform endtoend test snapshot found trace still aggreg correct fix problem sure test catch issu unfortun cannot provid better automat coverag contribut guidelin httpsgithubcomapachecamelblobmastercontributingmd,test_debt
+add comment say exclud test case custom test somewher,test_debt
+rethink think better indic threshold also determin number thread parallel set zero negat number,code/design_debt
+fix bug wherebi call registererror follow data set would return null null null null null null null null instead improv javadoc registererror also remov javadoc add anyth method name made code readabl time fix subtl error spock branch bug fix nonbreak chang fix issu styleguid httpswikiapacheorgjmetercodestyleguidelin,code/design_debt
+realli need isnt bulkloadhfilesbyfamili load fals default set loadincrementalhfiles195 perhap move separ method could overridden testloadincrementalhfilesbyfamili avoid duplic whole setupbeforeclass child class,code/design_debt
+want use decor also prevent regress schedul perform method critic optim use queri easili broken context manag allow detect regress regard,code/design_debt
+get rid wingpumkldnn test altogeth still leav flaki wingpu seen build rough code window ami result far wingpu wingpumkldnn build number link 15 httpjenkinsmxnetciamazonmlcomblueorganizationsjenkinsmxnetvalidation2fwindowsgpudetailpr1780815pipelin httpjenkinsmxnetciamazonmlcomblueorganizationsjenkinsmxnetvalidation2fwindowsgpudetailpr1780814pipelin httpjenkinsmxnetciamazonmlcomblueorganizationsjenkinsmxnetvalidation2fwindowsgpudetailpr1780812pipelin httpjenkinsmxnetciamazonmlcomblueorganizationsjenkinsmxnetvalidation2fwindowsgpudetailpr1780813pipelin ofcours test local differ stori tell,test_debt
+unus pleas remov,code/design_debt
+regard name convent bindaddress addressbind think masterbindaddress read natur masteraddressbind support logic group addressrel config configur hierarchi better pars easili incorpor futur chang exampl futur chang could benefit addressbind form could includ work address explicit public advertis address case bind address public reachabl case complic network setup cloud servic infrastructur exampl lean toward serviceaddressaddresstyp name convent rather serviceaddresstypeaddress convent current open discuss name hard think,code/design_debt
+nit also equal,code/design_debt
+suppos instead line 123 boolean usepartitioninfofordatamapprun tableishivepartitiont filter null filterisempti partit null use flag reset line 138 confus,code/design_debt
+that side improv drop major goal comment fix problem datastreamwrit isnt purpos introduc datastreamwriterv2 rather provid symmetr user experi batch stream dataframewriterv2 end user run batch queri catalog tabl writer side wherea stream queri doesnt someth enabl problem describ previous comment simpli problem structur stream let explain end comment might go topic see dataframewriterv2 integr lot benefit fluent logic plan write node etc great datastreamwriterv2 think theyr key part writerv2 support catalog tabl simpli major reason regard problem structur stream kick incomplet state support continu mode structur stream basic concern continu mode rather appli hack workaround architectur limit one care communiti initi discuss earlier comment various prs think complet mode kick well mode address limit case treat one valid mode add much complex oper basic shouldnt support stream queri support complet mode vice versa mode doesnt fit natur use spark doesnt support true updat mode sink spark support updat mode sink content extern storag equival complet mode provid without dump output that miss featur queryabl state probabl simul complet mode via special state oper work updat mode specif microbatch support dsv1 also major headach lot pattern match microbatchexecut support dsv1 even therer workaround appli dsv1 29700 rememb answer discuss thread dsv1 stream data sourc expos public api great news see actionplan get rid someth dsv2 cannot cover function possibl dsv1 priorit address problem,code/design_debt
+understand hardcod expect name convent would chang go continu nnnsnapshot convent name,code/design_debt
+document need updat copi mkldnn array spars ndarray work,documentation_debt
+yvsubhash right problem relat one snapshot xenserv work said howev sometim except happen copi snapshot secondari storag snapshot primari storag clean still investig tri find way solv problem btw thank repli,code/design_debt
+nit need need reduc one space need,code/design_debt
+nit pleas use upper case possibl list archiv,code/design_debt
+possibl hundr place code quot left side insid follow prefer keep make code bit readabl,code/design_debt
+like idea mean webfrontend show valu actual use even config make even nicer would cool show valu come config top show one default use second section add unit test check key configconst convert think easi check via enumer field class use reflect,test_debt
+spark8639 doc fix minor typo document,documentation_debt
+two line look duplic could remov duplic two line via follow,code/design_debt
+look good definit cleaner,code/design_debt
+convert bang ask avoid scari warn block remov,code/design_debt
+also need add user doc along exampl new function,documentation_debt
+havent measur much time increas caus purpos chang make test independ use beforeclass afterclass tag method need static variabl instanti produc systemadmin need static well variabl instanti exact test suit use unit test test suit thus kind allow interfer test make make test develop difficult develop patch interfer must caus problem requir make chang dont exact rememb problem general seem like good practic make unit test independ think,test_debt
+get rid,code/design_debt
+add document gpu perform quantize exampl end user know gpu perform expect slower cpu fix httpsgithubcomapacheincubatormxnetissues10897 unit test ad small chang verifi correct ad new oper night test ad complicatedlongrun one chang distribut kvstore build test ad build configur chang ad new build option nccl userfac api chang api doc string updat new function header file function argument document new exampl readmemd ad explain exampl sourc dataset expect perform test set refer origin paper applic check api doc httpmxnetcidocs3acceleratedualstackamazonawscomprpridbuildidindexhtml chang backward incompat chang must chang made interest edg case note thomasdelteil reminisc mxnetlabelbot prawaitingreview,test_debt
+total nit isnt clearer write issupportedcomparison avoid invert logic everywher,code/design_debt
+want return reus next trigger,code/design_debt
+thank investig heartsavior origin logic look safe think better way,requirement_debt
+slow perform critic code,code/design_debt
+keep four space indent paramet method createprojectionrexprogram,code/design_debt
+clean transport map doc,code/design_debt
+dsclose think better split isol prs issu isol honest commit look good similar fix product other need test,test_debt
+actual look comalibabarocketmqcommonservicethread httpgrepcodecomfilerepo1mavenorgmaven2comalibabarocketmqrocketmqcommon326comalibabarocketmqcommonservicethreadjava look like servicethread lot synchron notifi make impl much harder review without intim understand servicethread regard test general recommend framework unittest friend tool use easymock forc behavior test,code/design_debt
+cast unnecessari sinc sum method alreadi return doubl,code/design_debt
+move better error messag,code/design_debt
+also help get rid sparkrdoc maven profil doc built use psparkr roxygen2 packag avail relat discuss 6567 pwendel srowen let know look better,documentation_debt
+bit concern comment good number test would prefer fix checkin,test_debt
+seem like method longer need,code/design_debt
+think error messag would use includ full path client prop file use,code/design_debt
+well see anyth yet github howev add snippet comment explain need method fine,documentation_debt
+nit space around,code/design_debt
+lgtm bar typo,documentation_debt
+subhankarb also add redi sink fault toler guarante tabl connector document found flinkdocsapisstreamingfaulttolerancemd,documentation_debt
+reason get rid thisdagsgetdagid there refer dag associ dagid clean happen remov dag object wont fetch add comment make clear,documentation_debt
+even though class intern wide use project better avoid break public support test librari,code/design_debt
+nit kinda hard read doubl negat consid,code/design_debt
+ad test builder read clean code bit write sinc topic never null,code/design_debt
+use research also dont think need privat remov lead underscor mayb add comment like dont use jsonload test valid dont want propag json syntax error downstream runner,documentation_debt
+may good updat doc hbasecoprocessorregionserverclass section restrict coprocessor usag cpadoc,documentation_debt
+propos includ imag sourc directori generat sphinx jekyl build imag directori spark31851 add imag use within page built sphinx copi imag imag directori later jekyl build underscor directori ignor default end miss imag main doc sourc directori show imag correct pyspark document unreleas branch manual test via,documentation_debt
+debug println line remov,code/design_debt
+sure also upgrad info 010 mayb need general cleanup part,code/design_debt
+carri old couchreplicatorschedulerjoberl couchreplicatorerl httpsgithubcomapachecouchdbcouchreplicatorcommitb48d7bdc49d107f33d96f08603006a1c9edc322fdiffba1cca81bdc216835256f72cc6a72fa5r374 beyond sure origin technic possibl say couchreplicatorauth plugin link process exit normal end part code wont worker chang reader known process modul perhap chang comment indic instead leav comment code,documentation_debt
+would nice javadoc new method although fair selfexplanatori,documentation_debt
+get doc offer grammat improv also correct describ oper requir complet process given watermark forward downstream general rule mean might except simpli say oper requir without ad caveat chang behaviour behavior doc seem use american spell rather english one sure polici regard,documentation_debt
+faulti remov irrelev codeactuallytestbasepi noth,code/design_debt
+propertymap mark volatil valu ever set construct time answer thread safeti content hashmap protect refer map mark volatil putsget map inherit memori barrier protect associ volatil refer httpstackoverflowcomquestions10357823volatilehashmapvsconcurrenthashmap mayb review concurr issu processor order accept merg request pretti sure even though class most behav correct sinc valu set onschedul onstop safe publish map unlik thread could potenti see stale valu map either class like use concurrenthashmap republish entir fresh map call new hashmap instead clear,requirement_debt
+breez slight chatti dir creat,code/design_debt
+kafka9896 fix flaki standbytaskeosintegrationtest,test_debt
+yes think random chose one depend much data well updat doc best practic also metric show cach hit rate low mayb need rais cach size,documentation_debt
+current transform name set blink planner exampl lookupjoin transform use lookupjoin direct lose lot informatoion introduc relwrit reldisplaynamewriterimpl reus code explainterm generat oper name fix oper name set blink planner chang trivial rework code cleanup without test coverag,code/design_debt
+fix bug structequ return prematur ad test updat requestresponsetest check equal hashcod struct serializationdeseri possibl use objectsequ longhashcod simplifi code remov deprec usag junittestsuit,code/design_debt
+think better explicit declar data instead manipul string way clear input data exampl second thought never mind comment pretti clear way,code/design_debt
+messag get excess noisi high traffic condit someth mechan goe wrong pipe log featur instanc emit warn error messag everi singl log event reader goe pipe buffer fill result thousand log messag emit per second make read log difficult caus disk space issu commit address issu ad throttl version common log messag emit messag set interv second default follow function ad sitethrottledstatus sitethrottlednot sitethrottledwarn sitethrottlederror sitethrottledfat sitethrottledalert sitethrottledemerg bonus implement use generic throttler class may also use applic throttl desir,code/design_debt
+add doc also updat releas note add new featur master httpsdocstrafficserverapacheorgenlatestreleasenoteswhatsnewenhtml remap plugin check correspond symbol remap plugin well featur plan,documentation_debt
+note namespac action would remain test though cleanup run may better use differ name test run,code/design_debt
+lgtm name issu standingqueri etc code,code/design_debt
+okay ill fix checkstyl issu,code/design_debt
+think get rid cant imagin function specif broken alon selectexpr,code/design_debt
+thrift directori make sens test reli sleep test script inher flaki ive remov doubl pclose parent process code well see fix problem 368 result anoth problem appveyor fail due includ error sure happen window,test_debt
+need ifpres,code/design_debt
+optim code style,code/design_debt
+changec remov duplic includ option,code/design_debt
+descript chang cherrypick yahoo repo branch yahoo43 origin commit httpsgithubcomyahoobookkeepercommit42bdc083 releas addentrybytebuf readonlybooki prevent memoryleak,code/design_debt
+would suggest simpli use mximageimread call asnumpi plot shouldnt need depend cv2 way,code/design_debt
+small log improv help debug replic issu,code/design_debt
+incred big deal getsupportedpropertydescriptor call often often valid refresh caus lot arraylist creat prefer way distributeload handl creat one arraylist reus also use atomicboolean know recreat,code/design_debt
+ad quot prevent syntax error weird situat error seen mgt server caus somehow nic miss fix script handl state also report fine also remov interfac variableconst use hardcod second time hardcod easier read 1249 except,code/design_debt
+tajo1736 remov improv unnecessari methodgetmountpath,code/design_debt
+knew code simpler updat use readvalueastre,code/design_debt
+would nice add comment treemap order need,documentation_debt
+extra horizont line,code/design_debt
+test duplic verbos boilerpl central slavetest,test_debt
+believ set compil scope redund,code/design_debt
+nit,code/design_debt
+would want check sparkcontext instanc rais meaning error,code/design_debt
+yes pleas explain chang updat document yes,documentation_debt
+may legaci someon put design collect class youd design fashion focuss logic need interact need suppli generic case youd need generic method removepredicatesimplestr predic collect class realiti appli rule engag anyth field flag method check hasinternalproperti realli move coremessag use would mean still get benefit check stay coremessag would realli clean typedproperti field realli care keep clean,code/design_debt
+parquet318 remov unnecessari object mapper,code/design_debt
+code chang httpsgithubcomapachesparkpull21847 spark write avro file per user provid output schema make robust user friend valid avro schema task launch also support output logic decim type byte default output fix unit test,code/design_debt
+particular test probabl other file could made runneragnost would make much better howev under problem ignor,code/design_debt
+cheng hao thank implement function bet much faster use hiveudf base number comment test case refactor think would easiest tri commit like rlike simpl test case take rest separ,code/design_debt
+particular strong feel lean toward includ noarg constructor two reason consist enrich could chang pattern seem confus contract enricherspoliciesentitiesloc instanti enricherspec etc class must noarg constructor dont expect peopl call constructor direct second point mean probabl includ constructor comment could mayb even chang internalpolicyfactori etc handl call protect constructor would enforc anyway happi ignor,code/design_debt
+oop bad also remov unnecessari sbin tachyon path,code/design_debt
+besid remov seem also probabl unit test valid new behavior name consum group sink,test_debt
+nanosecond much millisecond enough,code/design_debt
+check make sure code alway stay sync howev make great code review like static check unnecessari remov pain check also next commit,code/design_debt
+nit space,code/design_debt
+godfreyh think valid tradeoff futur may except say collectionenviro allow use tableenviron pleas use xxxx instead dataset problem execut logic hardcod environ,code/design_debt
+benstopford fpj look good merg asid comment left useauthor paramet kafkaservic one author implement paramet kind make sens scope kafka test think servic class semipubl interfac want care chang reusabl other write system test anyon want test author implement think current useauthor paramet wouldnt great solut theyd add still anoth option make assumpt implement set authorizerclassnam field kafkaservic direct,code/design_debt
+except broad,code/design_debt
+add test case,test_debt
+rebas 719 xurror percyashu curious pass ran local time fail httpsissuesapacheorgjirabrowsefineract855 everi time may flaki test realli someth break strang yes reason prs pass today 723 725 still fail perhap new restassur version somehow chang time someth caus test failur,test_debt
+variabl name could better perhap,code/design_debt
+add java doc explain backward compat add default valu function instead newli introduc one,documentation_debt
+got reason could harder someon look code figur allow sinc dont realli mention rest server realli one requir secur turn anoth reason benefici check mesosrestserv mesosclusterdispatch framework could technic decoupl mesosrestserv allow anoth way receiv request increas flexibl avoid someon forget put suggest move check closer requir help maintain bit better,code/design_debt
+ran quick benchmark javadoc task master lucene9215 branch gradlew clean compilejava time gradlew javadoc master build success 21s lucene9215 build success 22s check pass effect free doesnt slow javadoc process hard part alreadi done think lot easier deal error direct gradlew javadoc thing like filenam line number realli help plus remov previous python script recurs pars html thing never instant,code/design_debt
+indent,code/design_debt
+unnecessari,code/design_debt
+ignite6774 java doc broken ludecompositionjava40 warn,documentation_debt
+nit add comment lookupkey contain singl column make understand allnul easier,documentation_debt
+less load place review better possibl without lot effort anyway everyth testsutil bad name btw util test test,code/design_debt
+indent multipl four,code/design_debt
+start review want get principl beforehand shade path absolut never use deriv modul name make uniqu reason shade way isol implement detail depend end api surfac bug test rot work pretti hard avoid guava api surfac sinc risk diamond depend conflict high esoter depend includ guava thing connect requir cassandra requir gauva api surfac includ dep situat beam want use guava intern slowli move depend beamvendoredguava200,code/design_debt
+complet finish translat work page page flink tabl api sql main show usag tabl api sql flink optim sql queri differ blink flink planner translat chines chang trivial rework code cleanup without test coverag,code/design_debt
+remov log4j config done java remain log configur use standard log4j jvm properti log4configur accumuloenvsh tarbal ship less log4j config file rather log4j properti file log4j xml still use edit accumuloenvsh move asyncsocketappend start modul due classpath issu remov auditlogxml ad audit log configur log4jservic log4jmonitor properti file accumulo conf directori longer exampl directori configur file ship conf use default accumulo monitor default bind 0000 advertis hostnam look java log forward shorten name log system properti remov monitorloggingit difficult setup log forward use miniaccumuloclust,code/design_debt
+arent shortsbyt intsbyt part code realli confus,code/design_debt
+nit seem bit redund assign size line,code/design_debt
+jira madlib1206 commit add support minibatch base gradient descent mlp input tabl contain matrix independ variabl minibatch automat use solver two minibatch specif optim also introduc batchsiz nepoch batchsiz default min200 buffers buffers equal number origin input row pack singl row matrix nepoch number time batch buffer iter default chang includ depend variabl minibatch solver also matrix initi vector random order process batch within epoch mlp minibatch current doesnt support weight param error thrown delet unus type name mlpstepresult add unit test newli ad function python file coauthoredbi rahul iyer riyerapacheorg coauthoredbi nikhil kak nkakpivotalio close 243,code/design_debt
+btw realli long line convent line longer github review window,code/design_debt
+lucene9069 prevent memori leak perfieldanalyzerwrapp,code/design_debt
+fine fwiw wouldnt even bother defin valu set asid like doubt user code would want refer want document default cost say cost javadoc know dev like make static constant everyth imo sometim wast ceremoni,code/design_debt
+might slight faster take minimum length compar loop check,code/design_debt
+pleas add test system session option chang confirm reset work expect,test_debt
+person would get rid use extensionvalu extensionnam otherwis rondagostino said remov extensionvalu,code/design_debt
+let add comment,documentation_debt
+well previous nonrest test implement client send anyth server return success respons clustersatur set true temporari failur remov test class much work rewrit rest client ive test initi round fail pagesdocu got fix use xcontentbuild pass document json client youll find necessari chang branchhttpsgithubcomsebastiannagelnutchtreenutch2739 also updat descript upgrad depend pluginxml ad exclus depend alreadi provid nutch core chang default properti indexwritersxmltempl indexerelast plugin work outofthebox default set far didnt run test scale make sure abl index million document given set,test_debt
+excludejavaxexclud exlud validationapi well therefor delet avoid includ unnecessari librari decid add excludejavaxactivationexclud excludejavaxannotationapiexclud excludejavaxinjectexclud excludejavaxservletapiexclud excludejavaxjsonexclud excludejavaxwsexclud,code/design_debt
+also could make stat top page wait batch process batch link correspond section name consist pleas renam keep activ batch complet batch,code/design_debt
+worri test run parameter still abl determin case set expect except pertest within test base valu paramet rather inspect name test exampl testconflictrunnableonserviceannotationexpectillegalstateexcept doesnt demonstr read test code direct expect except,code/design_debt
+add comment exampl actual valu,documentation_debt
+think realli need consid option eventu may need clean bit camel bom think long term well end support compon camel support chanc hit issu opinion high,code/design_debt
+lgtm liyafan82 thank contribut suggest add similar flag isset option skip separ jira improv perform,code/design_debt
+typoth,documentation_debt
+typo configuresastoken,documentation_debt
+thank minor commentsnit could pleas renam test start test standard look might add final declar match code style like idea integr test simplewebsocketserv smart surpris found mani place clusterclos wasnt call dont see semant gremlindriverintegratetest test chang seem accomplish fix without break behavior chang driverthat nice mayb miss test gremlin server valid chang perhap alreadi better test way simplewebsocketserv test assum polish commit histori bit merg squash thing one commit,code/design_debt
+typo gobblin config path,documentation_debt
+instead comment line point design document,documentation_debt
+pwendel thank comment repli first whether accumul valu subject chang case failurei think though long period spark run way patch actual resolv old todo dagschedulerscalai think accumul usual use take task complic rddcountrddfiltercount mayb wrong count sum distanc point potenti center kmean see mllib think case health status cluster transpar user final result kmean irrelev whether executor lost etc second good point understand use scenario mind provid detail like implement spark guess solv provid approximatevalu api accumul sparkcontext third actual patch ensur valu accumul stage avail stage becom independ mean job need httpsgithubcomapachesparkpull228filesdiff6a9ff7fb74fd490a50462d45db2d5e11l400 job finish job still need certain stage accumul valu calcul stage count,code/design_debt
+effici way get last item generat need iter everi item generat get last one might make differ case lot event,code/design_debt
+case larg amount data order ensur perform normal write use asynchron rewrit use asyncwaitoper add switch control whether enabl rewrit,code/design_debt
+add quick comment true mean,documentation_debt
+thank updat wsri think previous comment address except httpsgithubcomapacheflinkpull13595discussionr514988635 gaoyunhaii also mention better supplement test cover empti subpartit case,test_debt
+could add code avoid infinit retri loop error also check thread interrupt incas someth els swallow thread interrupt except futur,code/design_debt
+better add valu max journal imag respons msg easi debug,code/design_debt
+fix typo err msg,documentation_debt
+result workstat updat path somewhat slower updat must start 1st copi latest snapshot appli new data copi starvat gone also note metadata codepath general aw lot copi seem convert entir class java least make use 100 java collect would avoid multipl copi go tofrom kafkaapi tojava call,code/design_debt
+hope someon figur couldnt get work confus,code/design_debt
+nit last two arg simpli clariti,code/design_debt
+nit alway better use parameter log perform info default probabl doesnt matter much httpsloggingapacheorglog4j2xperformancehtml,code/design_debt
+ping itd good get sinc itll help debug test flake pretti consist jenkin though may also need follow turn log output test think bunch modul dont even log turn,test_debt
+use anymor,code/design_debt
+carbondata3107 optim errorexcept code better debug,code/design_debt
+throw illegalargumentexcept unsupportedoperatorexcept make sens,code/design_debt
+lenghth typo,documentation_debt
+simplifi,code/design_debt
+default made constant somewher instead defin multipl place,code/design_debt
+nit extra line,code/design_debt
+much thank indepth review scenario worri two worker run task instanc alreadi possibl exampl worker communic get interrupt schedul assign task instanc new worker communic initi worker resum make sens misspok descript though slas still sent differ would sla email would omit task instanc dagrun didnt succeed reason dependsonpast met task couldnt run pool full wont get report email think go includ task dont success status sla miss email even stuck dependsonpast align criteria task caus coredata deliv 9am task caus dag miss sla regardless dependsonpastdepend plus stop treat dependsonpast differ depend like pool full lmk think agre effici go look cach caus perf issu newfound power forc flag could use instead ignoredependsonpast make forc default everi backfil could potenti bit danger user could unintent forc run larg rang alreadi success task backfil violat pool constraint idea let know agre pass bunch differ flag actual todo part code use context paramet instead address flag upstreamfail would prefer leav fix anoth sinc exist hack cope alreadi bit danger larg,code/design_debt
+would add comment state assumpt minor though,documentation_debt
+tend alway work ide support project view visual studio xcode wherein alreadi know work test project henc test suffix bit redund also alreadi test new framework dont use test suffix,test_debt
+improv kerberosdescriptorresourceprovid return http 409 tri creat duplic kerberosdescriptor instead http 500 ugli stack trace clarifi messag incomplet request clean unit test minor cleanup kerberosdescriptorresourceprovid httpsissuesapacheorgjirabrowseambari25025 ad test case unit test test manual,code/design_debt
+n3nash thank ad unus redund import checkstyl correspond codestyl rule miss add futur prs,code/design_debt
+nnvmkera fix kera model convert improv tutori,documentation_debt
+document,documentation_debt
+understand allow point spark direct histori server old jhs new at instead hardcod url reli redirect sinc may exist later open question though code modifi mean user need opt submit app perhap way hook spark histori server side may use think someon tri past shs chang yarnspecif made kinda suboptim,code/design_debt

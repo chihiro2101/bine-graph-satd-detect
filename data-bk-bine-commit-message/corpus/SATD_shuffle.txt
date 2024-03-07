@@ -1,0 +1,705 @@
+jeddict322 onmdbmetadatamodel fix typo
+unus code patch stu hood review jbelli cassandra608
+minor remov redund claus secureaclsen check also includ minor cleanup close 1623 ijumafixzkinconsistentsecuritycheck
+fill miss test coverag druiddatasketch postagg 9730 fill miss test coverag druiddatasketch postagg fixup fixup merg oop oop
+systemds2650 recomput lineag dedup patch add chang compil dedup patch function main program place function call dedupop call correspond function move recomput relat code new class add new test class match recomput result origin output current code doesnt support multipl loop futur commit add optim construct multireturn function equival function call loop
+doc fix doc style plugin faultinject 1322
+yarn6519 fix warn spotbug hadoopyarnserverresourcemanag contribut weiwei yang
+add quantize support gluoncv 15754 enhanc quantize api integr gluoncv solut support gluon ssd enhanc api enhanc exampl script add wildcard match exclud layer support int8 dtype paramet enabl datait api use tri method add unit test quantiz gluon fix lint fix lint fix temporari directori python2 fix lint fix tri import add todo trigger
+tri harder clean tdb lock normal jvm termin jena1136 normal jvm termin make effort tri clean lock file jvm exit note help jvm termin normal
+fix typo mockproduc javadoc 4606
+tobago1524 use standard ajax mechan cleanup remov old ajax stuff tobago
+ad elementhelperlegalkeyvalu paramet give better except messag gremlin user travers use parameterizedstep addv fix tinkerpop1324 ctr
+javadoc correct
+http default remov unneed valu fix featur regexfunct fix function replac config element
+net improv except messag binari misconfigur miss assembl
+add miss spring boot test
+fix format
+bigqueryioreadfromqueri improv make use random generat queri job make sourc split retriabl fix bug handl queri prioriti enum renam backward incompat chang per featur never work there much compat remov vacuous test prioriti set make sens queri vacuous test tabl
+bug 8866 direct network usag trafficsentinel support ad work progress
+fix typo javadoc
+preliminari version naiv bay todo translat python resolv secur issuescod inject
+hbase14256 flush task messag may confus region recov gabor liptak
+minorpython fix typo docstr top topic chang propos pull request fix typo docstr close 16967 rolandopysparkdoctypo
+add asgiven function add javadoc
+improvementcod style fix spell wait wait etc 4118 fix spell fix spell optim code convent add cannot construct process instanc return null add testexportprocessmetadata add testexportprocessmetadata add testimportprocessschedul add masterexecthreadtest add masterexecthreadtest add testsubprocessviewtre add testcomplementwithstartnodelist add testrecursefindsubprocessid add testrecursefindsubprocessid add testrecursefindsubprocessid
+bump replic depend fix default valu replic maxdocumentidlength paramet cleanup error log code couchdb3291
+brooklyn108 use right installdir rebind
+hdds1597 remov hddsserverscm depend ozonecommon 969 hdds1597 remov hddsserverscm depend ozonecommon contribut elek marton checkstyl fix revert import reorder hddsutil add javadoc switch back commonslang2 fix typo fix metric core classpath problem rebas fix
+accumulo4605 remov hardcod command main add usagegroup keywordexecut main class print usag command categor group
+fix typo error messag
+hdfs14336 fix checkstyl namenodemxbean contribut danni becker
+fix java doc messagelisten acknowledg part 5429 javadoc fix messagelisten messag ack respons document
+spark8240sql string function concat close 7486 rxinconcat squash follow commit 5217d6e reynold xin remov hive concat test f5cb7a3 reynold xin concat never nullabl ae4e61f reynold xin remov extra import fddcbbd reynold xin fix npe 22e831c reynold xin ad miss file 57a2352 reynold xin spark8240sql string function concat
+spark2652 pyspark turn default config pyspark add sever default config pyspark relat serial jvm sparkseri orgapachesparkserializerkryoseri sparkserializerobjectstreamreset 100 sparkrddcompress true help reduc memori usag rddpartitionbi close 1568 daviesconf squash follow commit cd316f1 davi liu remov duplic line f71a355 davi liu rebas master add sparkrddcompress true 8f63f45 davi liu merg branch master conf 8bc9f08 davi liu fix unittest c04a83d davi liu default config pyspark
+futur api cleanup
+hack broken test wast hour jenkin time
+fix typo cassandra2873
+hbase10051 rollingrestartsh old valu zookeeperznodeunassig config caus infinit loop
+hbase17014 ad clear mark log messag start shutdown servic hmaster hregionserv thriftserv restserv also chang log level rpcserver respond start log messag debug
+remov duplic websocket client
+nifi3896 make deprecationnotic intuit close 1799 updat develop guid deprec compon
+spark6752 stream revis allow streamingcontext recreat checkpoint exist sparkcontext revis earlier version see 5773 pass activ sparkcontext explicit new set java scala api drawback hard implement python new api introduc even confus sinc introduc getactiveorcr spark7553 furthermor direct way get exist activ sparkcontext creat new sparkcontextgetorcreateconf better use get sparkcontext rather new api explicit pass context remov new version streamingcontextgetorcr took sparkcontext ad abil pick exist sparkcontext streamingcontext tri creat sparkcontext close 6096 tdasspark6752 squash follow commit 53f4b2d tathagata das merg remotetrack branch apachegithubmast spark6752 f024b77 tathagata das remov extra api use sparkcontextgetorcr
+solr6273 reset test hook final block avoid leakag test
+drill4690 initi support cor ad crossoriginfilt webserv base option httpenablecor fix issu relat style restrict header ad run filterchain filter orgeclipsejettyservlet enabl configur jetti version 915 restrict filter path cor default disabl reduc size depend reset maxsiz close 507
+remov old typica librari
+hbase4054 usabl improv htablepool
+merg pull request 10999 beam9345 fix sourc test flaki flinksubmissiontest
+spark4387pyspark refactor python profil code make extens base 3255 fix conflict code style close 3255 close 3901 daviesrefactorpythonprofilecod squash follow commit b4a9306 davi liu fix test 4b79ce8 davi liu add docstr profilercl 2700e47 davi liu use basicprofil default 349e341 davi liu refactor 6a5d4df davi liu refactor fix test 31bf6b6 davi liu fix code style 0864b5d yandu oppach remov unus method 76a6c37 yandu oppach ad profil collector accumul profil per stage 9eefc36 yandu oppach fix doc 9ace076 yandu oppach refactor profil move test around 8739aff yandu oppach code review fix 9bda3ec yandu oppach refactor profil code
+bug 11646 ovm volum download volum fail root data volum return volum name instead full path ingrati mgmt server bad name convent
+polish
+updat importpackag includ spring updat osgi metadata includ spring version rang remov duplic orgspringframeworkosgi packag refer
+gobblin751 make enforc file size match configur make enforc file size match configur dear gobblin maintain pleas accept understand review check step jira issu refer titl exampl gobblinxxx gobblin httpsissuesapacheorgjirabrowsegobblin751 descript screenshot applic better rollout select rollout dataset valid configur copi data file configur differ dataset publish phase test need test extrem good reason commit subject line squash multipl commit address issu addit commit follow guidelin write good git commit messagehttpchrisbeamsiopostsgit commit subject separ bodi blank line subject limit charact subject end period subject use imper mood add ad bodi wrap charact bodi explain make enforc file size match configur differ configbaseddataset fix spell close 2616 yukuai518cuz
+add file chang detect mechan 4475 add file chang detect mechan fix format make file content chang monitor easier add secondari round chang check result updat support multipl file chang monitor
+kafka9685 pt2 avoid unnecessari set creation acl match 8382 8261 went long way solv acl perform issu dont think need creat set find isempti call testauthor cost chang
+flink5345 core migrat various cleanup call concurrencysaf directori delet
+simplifi
+generat keystor use rsa rather dsa also fix typo
+improv schedul log bugfix
+renam rdl distsql 7964 remov useless shardingspherevisitorgett renam rdlvisitor renam rdl distsql renam rdl modul name renam rdl packag name renam rdl class name
+hotfixyarn remov legaci descriptor method
+fix style check config 3257
+2084 simplifi show
+fix leak ocsp url avail follow complet version 19a55a2679dda03f1258e097a82c27c98f00efbc
+trafodion2481 improv ambari section provis guid add small screen cap better illustr ambari integr fix coupl typo projectnam macro thank anuradha review fix bug ambari integr code found exercis step doc
+merg pull request 494 jbonofreamq7394 amq7394 simpl first fix use listenerhasspac recov messag jdbc messag store
+cleanup
+polish camelftp ad miss unit test tri close apach ftp server bamboo happi better handl except thrown ftp consum stop etc
+httpsissuesapacheorgjirabrowseamq6204 fix remov logic virtual destin remov insid advisori broker clean virtual destin map proper ad test verifi also ad new debug log help track futur issu
+phoenix2599 phoenixrecordread handl staleregionboundarycacheexcept
+made calculatorloc extend calculatorw work ideal move multipl interfac stuff exampl fine
+hotfix doc fix typo indexmd close 6193
+minor correct code use test file instead actual output file
+indent
+fix empti except messag java function caus npe 3245 fix empti except messag java function caus npe add addit except messag error null check
+get rid noinspect comment move result express statement assumpt use assumpt call intend need noinspect anymor
+bigtop2798 apex compon duplic slf4j bind close 231
+geode1938 remov except ignor pool cannot connect server
+io project fix remov invalid file 1601
+hbase12090 byte unsaf faster vladimir rodionov
+thrift3453 remov ratexclud ratexclud file within root sourc tree use anymor origin incub phase tool apach rat use httpcreadurapacheorgrat close 719
+tobago1557 consolid tcbutton tclink tccommand undo set style fontweight
+ad miss licens notic file camelcmsm compon
+ambari11886 return 400 respons good error msg user attempt use api scale provis cluster
+fix typo anonym fix github close 1998
+accumulo2224 make zoosess resili face transient dns issu retri host found 2xzk timeout ioexcept rather bail host name problem add util method get max time jvm cach host failur add test said method
+fix typo error document
+improv tutori includ import statement 8670
+merg fix natabl heap leak
+remov unnecessari doctest main method
+fix cleanup task unit test
+clean
+cxf6769 fix typo
+ts637 remov updaterecordscc also cleanup discrep use localmanag defin sort mess honest ought clean better long term
+readmemd format
+ambari10935 version bar move fast top scroll onechiporenko
+camelkubernet pod compon doc fix typo
+effici header commit couchdb767
+hive11946 testnotificationlisten flaki jimmi review sergio
+fix format
+fix typo 934 fix miss word one mani state
+make word consist context fix typo 3865
+ignite8347 memori leak restart ignit node enabl persist threadloc fix 3891
+remov doublenl test valid dfdl721
+fix fix style header sqllab 11980 fix style header flex refactor remov style import chang width contain add tooltip set fix width sidebar fix lint
+ad littl get start document fix develop cvs link
+remov useless brace
+doc repair document format 4336 error format keyword lot doc repair document format 4335
+hdfs2129 simplifi blockread inherit fsinputcheck contribut todd lipcon
+temporari remov karaf maven plugin karafe base karaf
+yarn695 remov mastercontain status unus field applicationreportproto fix bug applicationreportpbimpl contribut zhiji shen
+fix typo document
+convert unnessecari loginfo logdebug also generat static queri set
+remov old licensetxt
+checkstyl
+optim integr framework 5413 display raw sql parametr test print test context assert error occur checkstyl
+artemis350 small improv writabl logic
+fix generic warn
+flink16661 move static job set applicationdispatcherbootstrap support static job id handinhand requir job graph stay fix across consecut execut addit job job execut cluster commit consolid logic context applic mode one place applicationdispatcherbootstrap
+hive6569 hcatalog still refer deprec properti hivemetastoreloc sushanth sowmyan via ashutosh chauhan
+geode8211 fix flaki shutdown test 5209 problem instanc variabl set one thread read anoth volatil
+fix typo doc sure travers
+camelcor optim avoid use regexp pattern pattern regexp anyway reduc memori jdk8
+remov dead code test
+airflow397 document fix typo instati instanti
+camel1144 polish code strategi method iter inner class privat
+tobago1212 use jsr 269 pluggabl annot process api test check overwritten method treenod deprec attribut
+hotfix fix except messag
+camel702 propos fix camel702 gert take look concurr issu camelsaon work progress
+add retrycallsil retryerutil make easi use 2729 add retrycallsil retryerutil make easi use add detail java doc retrycallsil
+fix intellij warn
+ts1823 add line continu remapconfig add line continu remapconfig use backslash end line continu charact handl continu made toklin ad option third char paramet cont continu charact make usabl context outsid remapconfig also exampl config file parser implement intellig check backslash immedi preced newlin handl whitespac backslash newlin convert space next line append exampl definefilt foo actionallow srcip127001 read pars urlrewritebuildt definefilt foo actionallow srcip127001
+merg pull request 1665 shapebluejsb4910vers chang databas upgrad script name consist 4910 releas chang name schema490to491 script schema490to4910 chang name upgrade490to491 class upgrade490to4910 modifi marvin setuppi script use version 4910snapshot rhtyd karuturi pr1665 renam 4904910 upgrad script match four posit version scheme
+typo
+littl bit code cleanup
+fix typo
+nnvm imper invok 3208 fix fix
+trace generat java code fix typo
+fix test syntax cleanup 2569
+apexmalhar2457 remov duplic entri
+big chang ad whole grammar system describ goe tri process dfdl use bnfgrammarlik construct set whole grammar dfdl dsomgrammarmixin work like compil much decis make compil time priorvers front end call mani dfdl properti defin requir requir updat dfdl schema mani unit test test file howev still backend reorgan test pass known fail aabg test ibm test fewer test pass aabg set ibm test pass minor regress due newfront end group refer yet yet implement type element backreferenc new frontend bunch new rich attribut comput schema compon mani arent adequ unit test yet ad remain icu jar need support charset encodingdecod unit test exercis stuff remain learn exercis figur get right notif call back icu need encodedecod error situat dfdl ad unit test unicod xml internation test character behavior scala environ new revis scala come someth depend say xml namespac likelihood one test fail
+resolv minor doc issu 19062 setlowerbound1 stride zero issu httpsgithubcomapacheincubatormxnetissues18942 error occur stride becam zero solv issu lower bound stride1 stride2 set small typo useunifrom chang useuniform add test check lower bound check stride1 stride2 greater zero updat testoperatorpi document error name paramet issu httpsgithubcomapacheincubatormxnetissues19001 data paramet input solv issu httpsgithubcomapacheincubatormxnetissues19000 fix doc threshold paramet issu httpsgithubcomapacheincubatormxnetissues18999 fix doc context ctx paramet issu httpsgithubcomapacheincubatormxnetissues18990 fix indent issu httpsgithubcomapacheincubatormxnetissues18988
+thrift926 cpp fix destructor behavior tfiletransport set close true wake writer thread destructor way writer thread flush data exit woken previous writer thread could end go full timeout cycl exit writer thread could wake notic noth sinc close set immedi back sleep destructor would proceed call flush would wait writer thread wake full time clear forceflush flag flush return destructor would set close could take writer thread anoth full timeout wake process flag also point worker thread would detect close state loop automat close file zero file descriptor destruct attempt close file fix simpli zero point
+thirdey build fix 295 thirdey build fix ad end point thirdey make function end point specif
+reduc excess log caus travi problem fineract800
+ts1146 consist appli 2char indent
+ts4649 minor style improv loggin system make log field name array static make logfield member const remov unus logfilterrevers make various trivial member function const
+renam donothinggraphstrategi defaultgraphstrategi elimin worri write nicer tostr
+rest dsl camelswagg work progress
+remov mapsid combin shufflemaptask separ concern simplifi shuffledepend shuffledrdd interfac mapsid combin perform mappartit call prior shuffl rdd dont anticip much perform impact approach tupl hash twice bucket partit combin hashtabl step perform differ order one extra iter
+checkstyl tweak
+flink7989yarn upload flinkdist jar twice alway add distjar could also insid ship folder lib folder distribut multipl time close 4951
+replac travi build status jenkin
+make schedul resili
+test remov script refer previous remov content 2596
+remov unnecessari log
+test comment explor locat unmanag slow leak around locat one unmanag use entiti
+camel791 ad miss licens
+remov duplic lombok annot pulsarcommmon modul 5993 motiv class pulsarcommon modul mixtur follow lombok annot datahttpsprojectlombokorgfeaturesdata annot includ annot modif remov setter getter equalsandhashcod tostr data annot also present
+hotfixtablecommon fix minor typo objectidentifi
+hotfix fix typo windowedstream close 6825
+ignite349 bugfix integr test result npe properti serial small usabl improv
+beam8992 ignor vet failur 10661
+remov protect test accid left
+yarn9074 consolid docker remov logic containercleanup contribut zhaohui xin
+ad predic helper header method build easier power express predic
+hbase4959 sitexml ad lefthand nav videospr bookxml nit capit fix
+ambari18324 extern skip repo url check ambariproperti instead hardcod ambari java code dili
+amq8012 improv thread safeti subqueueselectorcachebrok return copi set selector need synchron
+geode7312 modifi threadmonitor print stack block thread log thread trace thread that block stuck thread help lot user experi hung oper prior chang need request thread dump server usual possibl obtain server alreadi termin restart chang put relev thread dump server log file much easier folk gather fact
+temporari chang rpc version revert temporarili hudson complain version mismatch
+hotfix cep add saniti check erron prune element
+correct integr test structur 2293 correct integr test structur correct build file
+polish
+pca minor bug doc fix jira madlib948 minor fix ad onlin help pcatrain pcasparsetrain unifi error messag clariti fix bug varianc border case10 fix doc reflect correct mean tablecolumn name fix doc reflect allow rang componentsparam
+add pattern ignor urfunreadpublicorprotectedfield findbug warn
+geode17 clean error messag clean authenticationauthor error messag catch author except later command chain avoid unnecesari pars command result add exceptionhandl control set http header correct catch author except gfsh execut better error report
+fix obselet comment
+code style
+add test verifi fix dfdl471 liter nonent whitespac accept within certain properti dfdl471
+hadoop1868 make default configur respons
+spark21196 split codegen info queri plan sequenc codegen info queri plan long debug consol web page would readabl subtre correspond codegen split sequenc exampl exampl return seqstr string length contain subtre string correspond generat code subtre string generat code chang propos pull request add method codegentoseq split codegen info queri plan sequenc patch test unit test cloudfan gatorsmil pleas review httpsparkapacheorgcontributinghtml open pull request close 18409 gengliangwangcodegen
+fix typo
+minor fix typo javadoc code comment close 2595 vahidhashemianminorfixtypos1702
+log inform sampler caus error
+flink20679test remov unstabl test jobmastertesttestslotrequesttimeoutwhennoslotoff test jobmastertesttestslotrequesttimeoutwhennoslotoff longer need schedul part coveredi defaultschedulertestrestartverticesonslotallocationtimeout ensur vertic restart alloc timeout alloc timeout part cover physicalslotrequestbulkcheckerimpltesttestunfulfillablebulkiscancel ensur physicalslotrequestbulk time configur alloc timeout close 14448
+karaf1951remov workaround karaf1117
+geode3290 remov effectivelydead class filterchain localfilterchain remotefilterchain close 653
+ignor new test that complet accur yet
+ambari5423 remov hard code servic compon map livestatuspi dsen
+fix sonar warn stream leak
+camel10957 log warn respons canno unmarshal composit api add log warn level case except unmarshal respons composit api
+fix checkstyl issu
+ambari24610 log search show user friend compon name queri input 2277
+fix checkstyl issu
+remov unus helixmanag paramet gobblinhelixtaskstatetrack close 2202 happyrayremoveunusedhelix managerparamet
+arrow5184 rust broken link document warn fix broken document link intern extern warn due lack code block close 4172 jblondinmast squash follow commit 319effd9 jami blondin arrow5184 broken link document warn
+spark34585sql remov longer need batchwritehelp chang propos pull request followup spark34456 remov batchwritehelp complet chang need chang remov longer use code introduc userfac chang patch test exist test close 31699 aokolnychyispark34585
+support collector servic instrument 730 collector instrument agent make agentjar output agent folder collector packag tri add metric annot chang instrument way reformat finish agent code wait pengyongsheng metric requir debug new instrument fix detect bug finish instrument fix compil issu
+remov unnecessari file exist check anticompact patch marcus review paulo motta cassandra11660
+drill7583 remov stop status oper outcom oper convert throw except error condist stop status unus patch remov stop status relat kill killincom method kill method replac cancel method handl normal case cancel limit close 1981
+code tidi complet merg old entityproperti activ attribut type chang activ attributemap
+cloudstack9630 cannot use listnic api advertis ad miss detail listnic api respons
+pinot3091 new server side trim function new aggreg group new mcombinegroupbyoper use new implement server side trim function trim new trim function take map groupbi key result list input prevent build sever new map aggreg function improv perform new groupbi reduc garbag collect
+hive14960 improv stabil testnotificationlisten marta kuczora via aihua
+spoi2486 resolv comment workaround maprfilesystemgetschem
+thrift5199 fix infinit loop write close tsocket php client php patch tim heilig close 2134
+test tri improv test stabil squash follow commit possibl fix httpss3amazonawscomarchivetravisciorgjobs110235128logtxt close 1676
+merg pull request 388 steveblackmonstreams5211 streams521 initi implement twitter account activ api
+karaf4660 fix typo wrapper instal output messag fix command use karafservic file instead complet path
+remov unus method cfmerg add test columnfamilytest patch sandeep tata review jbelli
+reformat jmeter convent minor javadoc updat most format code chang
+spark16435yarnminor add warn log initialexecutor less minexecutor chang propos pull request current sparkdynamicallocationinitialexecutor less sparkdynamicallocationminexecutor spark automat pick minexecutor without warn spark throw except configur like propos add warn log paramet configur invalid patch test unit test ad verifi scenario close 14149 jerryshaospark16435
+ad saml sso test
+convert internalinsert use moreeffici rowmut constructor
+updat druid consol doc 0150 7697 updat druid consol doc 0150 sql queri ad link fix typo
+spark19495sql make sqlconf slight extens chang propos pull request pull request make sqlconf slight extens remov visibl limit build function patch test logic chang everyth cover exist unit test close 16835 rxinspark19495
+nifi5390 ad document deletebyqueryelasticsearch close 2865
+merg pull request 302 aledsagefixentitiesstoponshutdown fixessimplifi synchron entitiesinvokestoponshutdown
+fix miss style filterscopeselector modal 11726
+camel1373 camelcas fix npe bug one polish code
+calcite2216 improv extens aggregatereducefunctionsrul fabian huesk close apachecalcite650
+guacamole220 correct typo status status
+ts1475 fix clang warn
+hbase22899 log improv snapshot oper wlarg manifest 547
+systemml1289 perform codegen cellwis compress matric patch make follow perform improv codegen cellwis oper other compress matric spars output matric sparsesaf oper ensur correct explicit sort output spars row done threadloc manner per row partit prealloc spars row order avoid repeat realloc determin number non zero per row partit front note requir segmentalign row partit enforc limit effect degre parallel skipscan exploit find boundari ole valu iter order avoid repeat scan entir iter find row partit start also implicit use codegen oper compress matric exampl scenario preprocess imagenet dataset 12m imag 30x30 pixel per imag simpl sparsesaf cellwis generat oper xy7 compress input patch improv singlenod perform 36s 115s competit given uncompress codegen oper take 163s final patch also includ robust fix generic colgroupoffset iter case iter row partit row index
+remov fake test test empti repositori trigger build continuum
+spark8945sql add add subtract express intervaltyp jira httpsissuesapacheorgjirabrowsespark8945 add add subtract express intervaltyp patch conflict merg resolv committ reynold xin rxindatabrickscom close 7398 viiryaintervaladdsubtract squash follow commit acd1f1 liangchi hsieh merg remotetrack branch upstreammast intervaladdsubtract 5abae28 liangchi hsieh comment 6f5b72e liangchi hsieh merg remotetrack branch upstreammast intervaladdsubtract dbe3906 liangchi hsieh comment 13a2fc5 liangchi hsieh merg remotetrack branch upstreammast intervaladdsubtract 83ec129 liangchi hsieh remov intervalmethod acfe1ab liangchi hsieh fix scala style d3e9d0 liangchi hsieh add add subtract express intervaltyp
+fix function config cleanupsubscript updat bug 3771 fix function config cleanupsubscript updat bug add fix unit test
+accumulo378 remov unnecessari log make proper log setsystemproperti ignor invoc
+improv coverag packag tabl 3201 test case ad tablemeta tablemetadata remov instead assertgetok use assertget instead listsnewarraylist use collectionssingleton remov instead assertgetok use assertget instead listsnewarraylist use collectionssingletonlist
+fix typo comment 13933
+minificpp299 shore http client code minificpp299 resolv issu test take long minificpp306 resolv issu http client code impact larg transfer chang made increas memori usag allow larg transfer succeed close 189
+spark24123sql fix precis issu monthsbetween digit chang propos pull request spark23902 introduc abil retriev digit monthsbetween unfortun current implement caus precis loss case caus also flaki mirror hive implement order avoid precis loss also digit return patch test run 10000000 time flaki close 21196 mgaido91spark24123
+size byte confus
+matrix fix start index extract function jira madlib1006
+cleanup consol output offlineclusterintegrationtest 5536
+skip redund tombston compact patch branimir lambov review marcus cassandra7953
+remov redund hash outshap algoreg key 8122
+cxf3693 securitytokenserviceprovid handl except proper
+fix typo storageconfigenrst
+javadoc typo
+hbase19940 testmetashutdownhandl flakey addendum yet debug
+hbase14089 remov unnecessari draw system entropi recoverablezookeep
+add skip option updateextensiondocpagemojo abl workaround httpsgithubcomquarkusioquarkusissues10217
+error messag fix monoton map
+spark10788mllibml remov duplic bin decis tree decis tree sparkml randomforestscala communic twice much data need unord categor featur here exampl say categori consid split current collect statist subset categori howev could instead collect statist subset lefthand side possibl split also stat entir node comput stat subset righthand side split pseudomath statsbc statsabc statsa patch add parent stat array dtstatsaggreg right child stat need store right child stat comput subtract left child stat parent stat unord categor featur close 9474 sethahspark10788
+simplifi loop dont need
+code cleanup
+ts3452 better debug messag sslerrorssl incorpor chang suggest sudheer peek
+kylin2266 reduc memori usag build global dict
+hotfixdocsconfig remov leftov file
+tabl servic replay txnrequest implement motiv enabl tabl servic pulsar apacheincubatorpulsar1922 notic replay txnrequest miss somehow solut implement replay txnrequest logic command process close 1505 sijiereplaytxnrequest
+temporari test code
+spark9143 sql add planner rule automat insert unsaf safe row format convert two differ intern row format unsaferow old javaobjectbas row format end perform convers two format convers perform oper instead planner respons insert appropri format convers need patch make follow chang add two new physic oper perform row format convers converttounsaf convertfromunsaf add new method sparkplan allow oper express whether output unsaferow whether handl safe unsaf row input implement ensurerowformat rule automat insert convert oper necessari close 7482 joshrosenunsafeconverterplan squash follow commit 7450fa5 josh rosen resolv conflict favor choos unsaferow 5220cce josh rosen add roundtrip convert test 2bb8da8 josh rosen add union unsaf support test bump test coverag 6f79449 josh rosen add even assert execut 08ce199 josh rosen renam convertfromunsaf converttosaf 0e2d548 josh rosen add assert oper input row differ format cabb703 josh rosen add test filter 3b11ce3 josh rosen add miss test file ae2195a josh rosen fix 0fef0f8 josh rosen renam file d5f9005 josh rosen finish write ensurerowformat planner rule b5df19b josh rosen merg remotetrack branch originmast unsafeconverterplan 9ba3038 josh rosen wip
+polish fix test slow server
+spark6575sql convert parquet metastor tabl longer cach metadata httpsissuesapacheorgjirabrowsespark6575 close 5339 yhuaiparquetrelationcach squash follow commit 83d9846 yin huai remov unnecessari chang c0dc7a4 yin huai cach convert parquet relat
+spark7684 sql refactor metastoredatasourcessuit workaround spark7684 state spark7684 current testhivereset execut order specif bug make run specif test suit local pretti frustrat refactor metastoredatasourcessuit reli testhivereset heavili use various withxxx util method sqltestutil ask test case cleanup mess avoid call testhivereset close 6353 lianchengworkaroundspark7684 squash follow commit 26939aa yin huai move initi jsonfilepath beforeal a423d48 cheng lian fix scala style issu dfe45d0 cheng lian refactor metastoredatasourcessuit workaround spark7684 92a116d cheng lian fix minor style issu
+geode4688 refactor addserverlocatorep 220 pass poolfactori refer improv readabl convert c11
+polish
+solr12289 add mdc log inform collect admin request
+tidi bind polici valid bit
+remov unnecessari white space
+format make consist claus
+spark30801sql subqueri aqe main queri chang propos pull request make sure aqe either enabl disabl entir queri includ main queri subqueri current unsupport queri aqe queri contain dpp filter need make sure main queri unsupport none subqueri appli aqe otherwis lead perform regress due miss opportun subqueri reus chang need get rid potenti perf regress aqe turn introduc userfac chang patch test updat dynamicpartitionpruningsuit remov exist workaround withsqlconfsqlconfadaptiveexecutionenabledkey fals ad dynamicpartitionpruningsuiteaeon dynamicpartitionpruningsuiteaeoff enabl test suit aqe option ad check checkpartitionpruningpred verifi subqueri alway sync main queri term whether aqe appli close 27554 maryannxuespark30801
+systemml1357 fix valu type promot scalarscalar oper patch fix various inconsist valu type promot scalarscalar binari oper shown recent saniti test includ testsuit furthermor also includ rework function scalar object forc proper implement subclass comparison index function remov unnecessari redund doublelong execut clone languagedepend string handl remov unnecessari except handl final also includ problemat testcas testsuit referenc current data generat algorithm script
+remov unus type check int32io class
+hdfs8207 improp log messag blockreport interv compar initi delay contribut brahma reddi battula ashish singhi
+avoid unnecessari run unit test case
+fix typocompil error
+trafodion2810 fix typo provis guid
+polish contribut guid
+ad schema valid config detail everi config schema type object name schema suffix topologyworkersschema simpl class string number boolean class suffici schema valu class instanc fieldvalid interfac use fieldvalid declar method valid field method return plainlanguag descript criteria user status compil test noth make use schema yet
+multiedit better handl tag widget place tag widget separ action dialog class indic tag icon better clariti remov requir specifi dummi edit action multirul instead separ tag action appear automat long tag specifi multiedit properti conflict clientwebinfclassesresourcesmessagesproperti uicsscloudstack3css uiindexjsp
+rat simplif
+hotfixjavadoc fix typo watermark javadoc
+fix format iss printabl site
+storm3374 remov unnecessari stacktrac log
+minor clean add comment flink client 2261
+ninjafix javac warn
+reef80 mismatch bug yarncontainermanagerappendbydeleteandcr synchron write evalu log rethrow except write fail instead swallow jira reef80 httpsissuesapacheorgjirabrowsereef80 pull request close
+spark22951sql fix aggreg dropdupl empti data frame chang propos pull request spark sql support global aggreg group aggreg global aggreg alway return singl row initi aggreg state output even zero input row spark implement simpli check number group key treat aggreg global aggreg zero group key howev simpl principl drop ball follow case reason dfdropdupl rough translat someth equival translat implement rule replacededuplicatewithaggreg sparkemptydatafram contain zero column zero row therefor rule replacededuplicatewithaggreg make confus transform rough equival follow one transform confus result aggreg oper contain group key emptydatafram contain column get recogn global aggreg result spark sql alloc singl row fill initi aggreg state use output return wrong result fix issu tweak replacededuplicatewithaggreg append liter group key list result aggreg oper input plan contain zero output column way sparkemptydataframedropdupl translat group aggreg rough depict proper treat group aggreg return correct answer patch test new unit test ad close 20174 liufengdbfixdupl
+netbeans1867 tutori typo last review
+carbondata3720 support alter tabl scenario new insert flow need current rearrang logic base schema ordin alter tabl drop add column withwithout partit schema ordin base arrang may work index outsid project size logic becom complex handl henc dont use schema ordin rerrang implement posit map base rearrang chang propos implement posit map base rearrang introduc user interfac chang new testcas ad close 3634
+fix ware
+artemis2022 enhanc fix checkstyl avoid duplic logic abil filter group instanti simplestr properti key get properti valu via getobjectproprti ensur special map properti amqpmessag would return avoid custom string repres null instead reli java represent null use objectstostr get string valu properti valu use group
+multipl thread safeti
+beam5709 fix flaki test beamfncontrolservicetest see jira issu descript caus flaki attempt fix issu wait suffici long time action reli server shutdown finish
+close 2413
+kafka3318 clean consum log error messag close 1036 hachikujikafka3318
+add kinesi lag metric 9509 add kinesi lag metric fix heh right time test split supervisor report lag lagmilli remov latest offset kinesi supervisor report sinc alway null review stuff
+display meaning inform run e2e test case fail 1012 display meaning inform run e2e test case fail
+solr10420 fix watcher leak distributedqueu
+support date type dictionaryexclud remov java style error ad valid date timestamp ad test case valid timestamp date refactor test case remov code unnecessari file rebas code ad valid tabl creator well
+updat base readm point document site instead wiki updat docsreadmemd describ use jekyl renma thing make consist lowercasewithhyphen convent
+remov comment dead code
+simplifi mlp mulgpu
+fix miss warn
+add basic encrypt token generat simplifi code 3403 add baseencryptsqltokengener add awar packag
+ts2094 elimin xcrun warn configur time xcrun doesnt support showsdkpath option xcode dont care though librari look dont move sdk bundl xcode either safe silenc error spew xcode
+spark31862sql remov except wrap aqe chang propos pull request remov excess except wrap aqe error messag less verbos most consist nonaq execut except stage materi wrap sparkexcept multipl stage failur also stage cancel error includ part except thrown rather error log chang need make aqe error report readabl debugg introduc userfac chang patch test updat exist test close 28668 maryannxuespark31862
+spark27920sqltest add interceptparseexcept test util function chang propos pull request aim add interceptparseexcept test util function analysistest reduc duplic intercept function patch test pass jenkin updat test suit close 24769 dongjoonhyunspark27920
+arrow5784 releaseglib replac cglib run cglibautogensh devrelease02sourcesh cglib sourc archiv generat make dist includ configur script current devrelease02sourcesh build arrow arrow glib includ artifact gtkdoc run make dist slow run cglibautogensh replac cglib close 4749 shiro615releasereplacecglibafterrunningautogen squash follow commit 9a69f8edc yosuk shiro remov unnecessari environ variabl 3a2550fbd yosuk shiro remov omit 02sourcetestrb 501a2dd97 yosuk shiro remov autom4tecach run autogensh 46a4f8995 sutou kouhei use dockercompos e357a88b7 yosuk shiro exclud cglibautom4tecach rat check 70cb4a762 yosuk shiro remov unnecessari diff aa786804d yosuk shiro enabl test testglibconfigur travi e04276e33 yosuk shiro remov librari build 56098ae87 yosuk shiro replac cglib cglib run autogensh
+lin regress conform packag manag ad test chang studenttcdf accept sign integ argument postgresql unsign
+chang cdnname cdndomainnam deliveryserviceinfofordomainlist look like typo tri get deliveri servic domain name mid cach come cdn name
+nifi4436 address miscellan minor issu updat comment compon updat style rpg consist ad icon nest version process group calcul numberst nest version process group
+merg pull request 2506 jujoramosfeaturegeode5523 geode5523 remov defaulthashmap intern class defaulthashmap design intern workaround return default valu whenev valu return mapgetk null start java map interfac ad method getordefault someth similar effici way return default key doesnt exist inspect code dont insert null valu statsmap safe delet old defaulthashmap class replac usag mapgetordefault
+amend hdfs799 remov unnecessari tls check contribut colin patrick mccabe
+ts953 consolid string copyconcat iocorenet
+document sink better
+renam misspel method
+typo
+improv error log replic write failur error happen write document target endpoint log revis error error reason also ad test cover case target validatedocupd function
+local file system base code distributor initi implement
+wip ad code new format optim scan fix testcas fix style fix issu ad read head blocklet fix style refactor code ad read head blocklet optim decod updat code format interfac optim greater less filter fix col group queri refactor format new interfac fix complex queri fix comment
+camel8023 polish java doc
+improv tobitmap pars int perform 2223
+merg pull request 555 lburgazzoligithub553 random http test port
+jena1703 remov unus file
+remov retri logic doesnt work correct result 50x retri doesnt make sens given singl call mutationexecut result 10x retri polici
+add proper close s3pinotf s3client s3pinotfstest 5287 ad teardown method propoer uniniti chang annot beforemethod beforeclass need done temporarili disabl test seem give follow error environ block figur root caus 235948761 main error orgspringframeworkbootdiagnosticsloggingfailureanalysisreport applic fail start descript web server fail start port 1947 alreadi use action identifi stop process that listen port 1947 configur applic listen anoth port
+remov unus logic def class
+fix code style
+lucene6553 simplifi live doc appli
+style label stylingstorybook touchup 10627 color correct hovercursori chang there onclick ad info label break galleri stori lint fix bad class name fade support addit nonbootstrap label style ad new secondaryprimari label galleri fix map key react warn use new secondari label chartlist view lint fix issu
+geode5036 make enablechunkhandlerthread fals default 292 sdded new integr test chunkhandl delet test ad valu chang disablechunkhandlerthread enablechunkhandlerthread
+1x1 convolut acceler 7613 1x1 convolut acceler gemm direct without im2col col2im 1x1 convolutionstride1pad0 1x1 convolut use common modern cnn network googlenetinceptionresnetmobilenet etc cpplint fix linalgimpl 7611 fix linalgimpl fix fix fix set build status success job end 7628 earlier code mark status success initi new show jenkin status success see check mark github open full build status see build havent even start run someth fail variabl chang failur even without merg red mark github indic build fail correct behavior unchang fix build status test 7629 instal requir sh2jush chang regex match capit alphabet clash warn thrown opencv driver entir codebas build mshadowuseclas0 7625 updat readmemd 7630 unit test csv iter doc updat libsvmit 7623 add unit test csv iter fix lint add libsvm mxnetio doc updat libsvm doc gpu access ndarray 7496 gpu access ndarray gpu access api gpu access fix updat capicc updat capicc refactor cudnn algo reg use string 7561 refactor cudnn algo reg use string refactor ctx list fix refactor saveinput updat iomd 7634 fix test 7633 explicit instal openjdk8 handl earlier version ubuntu instal softwarepropertiescommon updat updat command indent correct add script build doc file version 7636 add script build doc file version fix use add versipn script differ version add fashion mnist move mnist 7635 add fashion mnist move mnist refactor add doc dataset 7644 chang apach packag url https 7622 pip instal coreml convert mxnettocoreml 7624 fix coreml convert readm typosgrammaretc coreml convert readm updat talk layer first model provid exampl convert various standard model call issu inceptionv3 fix coreml convert readm typosgrammaretc coreml convert readm updat talk layer first model provid exampl convert various standard model call issu inceptionv3 pip instal convert mxnetcoremlconvert run maco python insid directori pippackag user need run python setuppi bdistwheel twine upload dist upload itll look like httpstestpypipythonorgpypimxnetcoremlconvert also updat readm convert reflect note go packag per tool time pleas leav feedback think better adopt polici tool one singl packag unit test continu pass inform pypi packag document updat maco releas note 1011 test chang name mxnettocoreml version 010 ad licens setuppi updat readm file correct pip packag name parallel window unit test python jenkin 7646 parallel python window test reorder clariti remov asset load insecur ad asset load origin secur 7649 skip fail test temporarili 7648 lower realli high threshold fix test failur 7650 doc updat instal doc generat 7647 fluent 7584 add 1x1 convolut test indent refactor random linalg contrib namespac 7604 refactor namespac contrib linalg random spars registr chang exampl document chang namespac usag exampl fix pylint remov unus import switch name alia linalg random chang stype comparison string int function use intern chang document use right namespac regist op ndarrayoppi symboloppi remov unus import chang name add ndarray symbol modul revert add ndarray symbol modul revert commit 8bc5de77bfdb40ff48dc570e2c6c49ec5d43ea64 add ndarray symbol modul fix gluon fasionmnist dataset 7655 fix gluon fasionmnist dataset parallel python unit test case jenkin 7658 parallel python unit test case parallel python unit test case jenkin parallel python unit test case jenkin chang namespac make log function chang 7627 chang namespac make log function chang help comment chang updat mklml mkl mac support 7587 1x1 convolut acceler gemm direct without im2col col2im 1x1 convolutionstride1pad0 1x1 convolut use common modern cnn network googlenetinceptionresnetmobilenet etc cpplint indent correct add 1x1 convolut test indent 1x1 convolut acceler gemm direct without im2col col2im 1x1 convolutionstride1pad0 1x1 convolut use common modern cnn network googlenetinceptionresnetmobilenet etc cpplint indent correct add 1x1 convolut test indent cpplint indent
+add better view comparingmanag param profil 3919 add better view comparingmanag param profil add document profil comparison view limit wordbreak css paramet tabl remov use underscorej method favor built javascript method doc chang plus minor style chang param key exist profil unfortun need check first add changelog entri add test select profil compar chang visual indic blue shadow
+solr15136 reduc excess log introduc per replica state featur
+unnecessari fulli qualifi name
+remov trail white space
+support isnul mayb includ absent null semant simplifi api usag context handl null differ present null confus
+arrow6658 rustdatafus implement avg express wasnt sure datatyp sumcount pick broadest f64 i64 also may may better implement sumcount either way chang modr need test sql f64 close 5558 alippaiarrow6658 squash follow commit 20cddef76 andi grove fix typo 62372f690 andi grove remov unwrap cc32f2219 andi grove rebas ebc3acbaa adam lippai arrow6658 implement avg express leadauthoredbi adam lippai adamrigosk
+minor fix open file leak log cleaner integr test close 2870 hachikujifixlogcleanertestleak
+cloudstack6859manag server permgen run memori time due class leak
+get rid warn dont break spring2 support
+fix wrong link doc
+camel15865 camelgithub authent usernamepassword remov longer possibl github
+reef1559 remov unus method except chang remov method except class unus use singl place jira reef1559httpsissuesapacheorgjirabrowsereef1559 pull request close 1116
+fix secur issu listnetwork
+fix eolstyl
+hotfixruntim delet unus interfac executionstatuslisten close 7977
+optim longestmatch delimit algorithm longestmatch function call everytim delimit found file type function notic hotspot although like worst case current longestmatch algorithm could entir match list time find locat earliest match remov match start later locat find longest length remain addit use various scala function caus new list alloc caus slower perform modifi algorithm match list keep track first longest match seen addit function code replac iter code perform last replac seq arraybuff guarante constant append constant random access match sequenc also add earli return case one match probabl like case dfdl992
+dep remov redund combaidujprotobuf 3322 exclud jprotobuf jprotobufrpccor add commonsio use
+hotfixmetricsjavadoc fix typo
+ignite12339 remov outdat properti isdistribut vector matrix class 7026
+pinot3101 fix connect leak server restart connect timeout scattergatherimplsinglerequesthandl need cancel outstand futur time get connect otherwis count asyncpoolimpl wrong wait connect releas none grace close server need destroy resourc associ connect point view asyncpoolimpl ad log debug connect issu rb735254 bugpinot3101 gpinotdevreview rkgopalakjfimatumbdemshriva akgopalakatumbd
+hdfs4216 ignor quotaexceededexcept ad symlink
+reduc unus code reus hashmap
+nifi730 ad error messag fail drop flowfil queue
+hdfs7932 speed shutdown datanod roll upgrad contribut kihwal lee
+new aggreg resolv java style warn remov explicit cast rb723078 gpinotdevreview rjfimmshrivaskgopalakvradhakratumbderaringunssubrama amshriva
+made easier use custom aggreg collect discuss thread httpwwwnabblecomaggregationcollectionimplementationtp15891263s22882p15891263html
+remov old configur boringcyborg 10490
+ambari20277 ambari server perform alert get trigger repeat get cluster api call take second mpapirkovskyy
+add miss licens header
+remov debug statement test releas note moemigratedrevid114886024
+delet unus
+updat ratetrack thread safe accur fast remov subsampl rate calcul disruptor subsampl expens calcul
+ad inform scaleup scaledown log
+hdds2635 minorfix typo hddsconfigkey ozonedefault 274
+remov unus code renam packag name
+set javadoc generat quiet get rid superflu inform messag reduc log size
+code style
+camelgoogledr fix switchcas indent see camel14540
+hdds3068 crash startup print error messag log 599
+hotfix harden rocksdbasyncsnapshottesttestcancelfullyasynccheckpoint depend rocksdboptionstimerserviceimpl adapt testcancelfullyasynccheckpoint wrt mani checkpoint stream skip
+fix typo png
+minor updat cxfnonspringjaxrsservlet make simpler overrid method creat applic
+solr6892 improv way updat processor use make simpler
+accumulo1680 ad deleteauth shell command reciproc addauth command ticket leav option two command addauth command alreadi ad ticket also suggest transact addremov command use atom oper done sure necessari involv adjust api secur oper ad complex code zookeep interact
+ts1872 robust compil detect add autoconfarch axcompilervendor robust detect compil deal
+temporari fix reset outputstream java standard consol close output systemerr initi effect stderr close whole applic
+merg pull request 430 hilongjwpatch1 doc correct spell error
+solr789 javadoc randomsortfield readabl
+ts1475 fix clang warn
+hadoop13546 overrid equal hashcod default retri polici avoid connect leakag contribut xiaob zhou
+spark11443 reserv space line trimcodeblocklin function includeexamplerb remov blank line code close 9400 yinxusenspark11443
+camel12083 polish bit karaf featur
+jacoco use httpsanalysisapacheorg remov unus code fix old todo
+minor code cleanup remov redund code 1337
+tomee2277 java refin modul name
+add current buff keep buffer sane pars syntax error add leftshift groovi execut support split command execut wee cleaner code
+accumulo2048 remov unnecessari path manipul walog ad saniti check
+spark13637sql use inform simplifi code expand builder chang propos pull request code expandappli simplifi exist inform groupbyexpr paramet attribut child paramet project append alias group express child output patch test exist test close 11485 cloudfanexpand
+implement availableportisportavail multicast availableport util support find free multicast port sinc featuregeode77 merg develop branch chang set enabl old multicast code availableport implement check respons datagram jgroupsmesseng jgroup transport method receiv packet overridden look datagram respond also renam availableportjgroup availableportmulticast describ kind port that test littl better
+extract newsystemt method unus code cfmetadata patch jbelli
+bug fixesimprov notifi pend receiv method 3337 motiv prevent bug refactor method notifypendingreceivedcallbackhttpsgithubcomapachepulsarblobmasterpulsarclientsrcmainjavaorgapachepulsarclientimplconsumerimpljaval912 modif bugfix interceptor miss event prefetch messag disabl consum receiverqueues bugfix messag null except present previous commit test messag null made checknotnul method leav consum futur without complet result hang futur refactor favour simplic readabl control flow add unit test exploit bug fix result bug fix maintain code
+ad gettableconfig api zkmetadataprovid 1497 provid one singl api fetch tabl config offlin realtim use tableconfig simplifi logic reduc redund check tabl type
+cloudstack6181 specifi valu rootdisks paramet add bytesgb log except messag fix gbgb
+spark9336sql remov extra joinedrow ad improv perform jit inlin joinedrow call howev also improv project output unsaferow tungsten variant oper close 7659 rxinremovejoinedrow squash follow commit 7510447 reynold xin spark9336sql remov extra joinedrow
+tinkerpop2024 make server archetyp use remot travers sinc promot remot travers script would better archetyp use
+improv perform booleanutilstobooleanstr
+camel7731 fix typo
+stream minor close file correct iter finish stream wal recoveri current there chanc close file correct iter finish chang completioniter avoid resourc leakag close 6050 jerryshaoclosefilecorrect squash follow commit 52dfaf5 jerryshao close file correct iter finish
+minor tidi
+remov dead alldoc code
+add log
+arrow7162 cleanup warn cmakemodulessetupcxxflagscmak close 5828 pitrouarrow7162cleanupclangwarn squash follow commit e6cb6cd2a antoin pitrou arrow7162 cleanup warn cmakemodulessetupcxxflagscmak
+avoid repetit log geo info cannot deriv entiti
+fix typeo tri appli patch amq575
+remov duplic configur direct patch eevan cassandra557
+initi checkin api multiplerel support increment replic chang attach need far test hook replic
+nifi6652 fix overflow text variabl dialog close 3982
+chore clean aphrodit 10883
+broker close topic remain fenc forc 8561 motiv day face problem topic remain fenc unavail topic remain unavail unload follow broker log time maintain zookeep server think phenomenon caus shutdown server howev causal relationship clarifi modif workaround close topic remain fenc period time reconnect client instanti new persistenttop topic topic back normal
+httpsissuesapacheorgjirabrowseamq5266 httpsissuesapacheorgjirabrowseamq4485 fix warn log kahadb set batch messag alreadi consum use seq messageid addit singl dest test hammer case
+javadoc
+chore consolid common code import 11936 chore consolid common code import small fix small fix
+remov duplic lombok annot pulsarbrok modul 6130
+minor fix append binaryoth test issu runtim output patch aim fix two test packag repeat creat issu ran github action characterist includ multipl 250s test new output buffer like caus timeout receiv feedback test reduc data size disabl output buffer slight improv perform result comparison togeth chang improv total runtim packag time spent baselin comput
+sql fix express data type match also took chanc improv document various type close 5675 rxindatatypematchingexpr squash follow commit 0f31856 reynold xin one function document 27c1973 reynold xin ad document 336a36d reynold xin sql fix express data type match
+polish
+typo
+hudi1062remov unnecessari maxev check add log kafkaoffsetgen 1779
+kafka7532 cleanup control log shut broker 5831 line print empti use mkstring elimin arraybuff log empti
+make output cidockerinstallubuntumklmlsh less verbos 12422
+accumulo1505 fix warn patch
+fix typo error
+clean cdns account cdn packag
+lucene2037 add support lucenetestcasegetnam backward compat report fail test also remov intercepttestcaseev class ad anonym class simplifi reflect
+remov useless json type 9423
+hadoop15358 sftpconnectionpool connect leakag contribut mikhail pryakhin
+zookeeper3599 clic resuscit oldstyl argument pars zookeeper2122 ad ssl support client clistmt tool introduc muchwelcom gnustyl getoptlong argument pars tri preserv backward compat earlier version httpsgithubcomapachezookeeperpull1131 introduc option posixstyl getopt argument pars consequ larg obsolet ssl updat howev support oldstyl argument avoid break workflowshttpsxkcdcom1172 patch salvag featur preserv getoptlong good legacyon ad new posit argument support as discuss thread httpsgithubcomapachezookeeperpull1131pullrequestreview320870245 close 1131 ztzgzookeeper3599usegetoptincl
+solr9717 refactor export hardcod json output use api
+zeppelin502 python interpret group ad python interpret basic implement py4j exampl java processbuild object use instanti python repl interpret doesnt bring python binari use python specifi pythonpath configut thus still use specif instal python modul scikitlearn matplotlib interpret abl work python without chang python helper function zeppelinshow easili display matplotlib graph svg type featur todo jira issu zeppelin502httpsissuesapacheorgjirabrowsezeppelin502jqlproject203d20zeppelin20and20text202022python22 test interpret screen python section specifi pythonpath python binari want use paragraph use interpret python call help describ interpret functionn instal py4j pip instal py4j want use input form screenshot question licens file need updat yes binlicens py4j break chang older version need document yes close 869 hriviereprinterpreterpython squash follow commit 80b6e75 herv rivier zeppelin502 move bsd py4j licens zeppelindistributionsrcbinlicenselicens a4b82a5 herv rivier zeppelin502improv doc follow ahyoungryu review 3252353 herv rivier zeppelin502 format code respect project convent 54ec4f1 herv rivier zeppelin502improv doc follow ahyoungryu review 6a831bc herv rivier zeppelin502 add bsd py4j licens 11e1b9c herv rivier zeppelin502 minor chang pythonmd e5d0bdb herv rivier zeppelin502 chang pythonpath zeppelinpython c62ac98 herv rivier zeppelin502 improv pythonmd 5008125 herv rivier zeppelin502 improv pythonmd featur yet support technic descript 7d533e1 herv rivier zeppelin502 add test reform code help test write fecaf25 herv rivier zeppelin502 renam pythonpath python default usrbinpython python 02d1320 herv rivier zeppelin502 input form chang simpl input form nativ pyspark syntax 60d2956 herv rivier zeppelin502 indent pep8 convent 9bdb192 herv rivier zeppelin502 add pythonmd navigationhtml 7142aa5 herv rivier zeppelin502 catch except loggererror 1a86ad7 herv rivier zeppelin502 python interpret group
+reorgan test class
+geode4822 fix analyzeserializablesjunittest actualdataserializablesdat stop emit bytecod file longer use expect
+fix flaki comparison loghandlertestpi
+fix lookup topic client lib http servic url 2043 fix lookup topic client lib http servic url fix format fix path use differ topic name test fix format
+bug 11522 new agent manag clean event status agent
+prototyp code support leaf span
+add debug log messag miss callback patch aaron morton jbelli cassandra2081
+ambari17117 fix misnam zookeep connect string log search miklo gerg via oleewer
+format
+checkstyl
+merg remov deprec code
+buildxml srctestorgapachehadoophbasetestbrokentestjava srctestorgapachehadoophbasestatictestenvironmentjava srctestorgapachehadoophbasetestsomethingjava temporari commit see suitesoftest work hudson back build run
+disabl flaki test testconv gluon 11507
+lenet exampl test
+rearrang playbook easili support build local prs
+doc dashboard docker relat clariti 4915 fix 4913 motiv origin document may mislead user think readymad docker imag build one scratch
+camel15036 make easier switch use supervis rout control
+fix audit new bulk import remov warn 523 fix audit new bulk import remov warn fix bunch warn ensur new bulk import request audit remov unneed deprec intern impl code old bulk import remov unnecessari serializ new bulk code map inform use new bulk import test specif test old bulk import behavior remov unus variabl test left comment refer ongo improv client configur code
+nifi272 updat pomxml consist remov name tag includ default properti tag
+spark8619 stream dont recov keytab princip configur within stream checkpoint clientscalahttpsgithubcomapachesparkblobmasteryarnsrcmainscalaorgapachesparkdeployyarnclientscalal786 chang configur would caus problem stream recov logic cant find local keytab filesinc configur chang problem describ jirahttpsissuesapacheorgjirabrowsespark8619 close 7008 saintbacchusspark8619 squash follow commit d50dbdf huangzhaowei delect one blank space 9b8e92c huangzhaowei fix code style add short comment 0d8f800 huangzhaowei dont recov keytab princip configur within stream checkpoint
+remov debug print 2245
+jav163 simplifi trace collector address config
+reorg import
+chang indent
+code tidi archivebuild
+ambari24361 make upgrad progress counter readabl
+hotfixtableplannerblink fix redund line break plan xml copi xmloutput calcit remov redund line cdata section file remov bump calcit 122
+hotfix resolv compil warn akkarpcservic
+accumulo4779 improv perform get prefix config 372 chang improv perform cach config prefix also remov custom method get vfs config get config prefix fast use vfs
+fix typo
+kafka9501 convert activ standbi without close store 8248 gone sever signific transit here latest taskmanag collect task transit refer activestandbi task creator handl close recycl old task creat new one ever hit except close bail close remain task dirti task creator tell task close recycl state success tell recycl processor context state manag transit new type close recycl task normal clean close instead close state manag inform recycl maintain store inform import current store offset unregist changelog changelog reader new task reregist changelog initi skip reregist store still read checkpoint file use written offset store offset alreadi initi pretransit ensur dont end manual compact disabl standbi call state restor listen onrestoreend activ restor store switch standbi
+cxf7579 remov exclud test
+cleanup style
+remov warn ppisurvey relat code
+arrow816 travi script cleanup add toolchain env flatbuff rapidjson close 537 wesmarrow816 squash follow commit 16992b6 wes mckinney disabl travi cach brew instal ccach 4621d2d wes mckinney fix variabl name dc86821 wes mckinney fix integr test travi script 5e2c226 wes mckinney chang file mode ed4be57 wes mckinney travi script cleanup add toolchain env flatbuff rapidjson
+hive9381 hcatalog hardcod maximum append limit 1000 sushanth sowmyan review daniel dai
+camel3458 fix bindi fix length mode throw except field larger allow length ad option clip clip field happen workaround issu
+debug log
+nojira skip build proton exampl test action 871 option enabl proton2170 proton2171 proton version dont implement buildexampl yet ignor print cmake warn
+hotfixruntim fix codestyl zookeeperjobgraphstor close 11996
+bug 7088 show full error messag ad volum fail
+delet debug comment
+camel3551 polish
+89826 systemml engin cleanup instruct generationpars luqreigen use common operand delimit
+swith full inmemori java compil minro cleanup
+spark31934build remov set docker imag tool chang propos pull request remov set docker imag tool chang need imag tool print inform may confus introduc userfac chang less inform display docker imag tool patch test ran docker imag tool local close 28759 holdenkspark31934removeextraniousinfofromthedockerimagetool
+test log
+spark20606ml remov deprec method chang propos pull request remov method deprec patch test exist test close 17867 yanboliangspark20606
+templat resourc page 1041 templat resourc page chang titl page resourc add miss licens header add licens header screatorcocr
+move hardcod depend version properti tag pomxml 1582
+arrow5039 rust datafus reimplement cast support achiev thing remov poc code replac generic code evalu cast express add support cast uint64 arrow comput modul look like miss improv error messag rustdoc add bound check avoid panic column index incorrect close 4054 andygrovearrow5039 squash follow commit fbc606c andi grove test cast float point type plus fix bug map f32 u16 ae4338c andi grove test cast unsign int type 46a016 andi grove test cast sign int type 9ddd055 andi grove check null cast ddc80dd andi grove add unit test cast int64 e2a9e33 andi grove revert last commit 84951ad andi grove revert ad int64 cast support 588459a andi grove code cleanup 28d63c6 andi grove improv error messag rustdoc 542ad26 andi grove reimplement cast support datafus c01763c andi grove add support cast uint64
+nifi7339 fix bug caus write ahead proven repositori rollov event file specifi time code cleanup updat default properti
+merg pull request 11401 ibzibperformanceregion beam9744 add miss region option perf test
+hbase1121 cluster confus root commit better log
+cloudstack8656 network relat except log
+updat feideadevmd 4852 updat feideadevmd use brew instal thrift09 instal thrift 0931 brew edit thrift090 head show thrift09 use thrift 0931 futur submitrunn task submit runnabl task execut return futur repres task futur get method return null upon success complet
+remov dead code
+ad thecrew giraphgraphprovid renam method valuemaptest away old valu model updat changelog
+groovysh refactor duplic code
+chang sparkgremlin test integr test chang cut build time half system dicuss httpslistsapacheorgthreadhtml7a37a3967ad15e8cd30a2bc29e15bf266f44df040f482f94e09b1e8e3cdevtinkerpopapacheorg3 ctr
+ltr test harden use permethod state isol sever test help prevent failur one test allow persist date leak test method well ensur test play nice dtestsit testrerankbas cleanup elimin unnecessari extra solrcor leak
+camelsapnetweav compon work progress
+minor clean
+yarn10207 closewait socket connect leak render corrupt aggreg log jobhistoryserv web contribut siddharth ahuja
+updat doc extens 9218 updat doc avro extens doc updat googl cleanup
+hbase24479 deflak testcompactionteststopstartcompact 1820 poll activ compact count raci tighten assert reliabl
+fix possibl resourc leak checkpoint write thread
+guacamole47 remov xff header code due secur concern
+fix typo
+doc remov unus releas instruct 8100 turn sinc use git archiv there need git clean pretti disrupt
+test graph op skipstal
+unus import
+beam9543 fix code style
+accumulo2994 add explicit prefix iter scope remov unnecessari configur pars read accumulo configur configur entri scope read high unnecessari done warn invalid tabl properti instead use provid iteratorscop explicit pull data need configur reduc process
+fix inconsist within cqlsh help patch michael edg review benjamin lerer cassandra10719
+geode7885 improv redislockservic fix synchron memori leak 4819 geode7885 improv redislockservic fix synchron memori leak redislockservic abl automat free keyslock unlock sinc key also bege referenc region fix synchron iter keyset avoid concurrentmodifiactionexcept
+samza1122 renam executionenviron applicationrunn refactoringcleanup renam executionenviron applicationrunn includ subclass renam packag orgapachesamzaruntim renam standalondapplicationrunn localapplicationrunn close xinyuiscoolsamza1122 squash follow commit cff5206 xinyu liu merg branch samza1122 httpsgithubcomxinyuiscoolsamza samza1122 c341d3d xinyu liu samza1122 renam executionenviron applicationrunn 6a71205 xinyu liu samza1122 renam executionenviron applicationrunn
+make servcenow test configur easier
+add todo comstmtexecutepacket
+spark20262sql assertnotnul throw nullpointerexcept chang propos pull request assertnotnul current throw runtimeexcept throw nullpointerexcept specif patch test close 17573 rxinspark20262
+kylin625 draft impl readi first test
+typo
+minor cleanup base feedback review request
+merg pull request 1246 dneuman64mast remov unus import
+put trace info datat trace enabl 2052 fix issu trace info set datat even trace enabl encount except still put request data tabl clean trace anoth perform
+bigtop1684 make contain executor configur make option contain executor configur work around executor crash startup bannedus set see httpsissuesapacheorgjirabrowseyarn2847 also synchronis yarnnodemanagerlinuxcontainerexecutorgroup set yarnsitexml what actual use filesystem containerexecutorcfg
+ad test case show use name queri jpa along use annot mark consum method pojo develop write method invok consum set flag updat step next state etc also perform minor refactor move reusabl code core modul deal except handl reflect call
+accumulo1552 appli jonathan hsieh patch fix typo
+cloudstack3096 format configgeneratorpi
+fix typo
+fix flaki offlineclusterintegrationtest 1700 multipl server way check guarante server get segment reload caus flaki test fix offlineclusterintegrationtest start one server ad multinodesofflineclusterintegrationtest keep coverag multipl broker multipl server
+fix typo ensur facesconfig includ jar
+1363 checkstyl
+minor upgrad gradl 213 improv 212 213 particular interest perform improv 212 releas bring support compil depend improv build script compil speed even better ide support 213 weve achiev perform improv gradl configur execut phase measur improv build time perform test chang build script necessari start take advantag improv close 1271 ijumagradle213
+remov redund wiki manipul code amend maven build remov refer code depend jar
+better error emit mismatch rule
+simplifi model bit data api
+downgrad unnecessari log messag
+arrow1415 glib support date32 date64 close 997 kouglibsupportdate32anddate64 squash follow commit e3a7ca4f kouhei sutou glib fix typo b88345e1 kouhei sutou glib fix build error maco c1186c37 kouhei sutou glib extract common code 8a337000 kouhei sutou glib support date64 type a1c7b0dd kouhei sutou glib support date32 type
+async servlet delet support cleanup
+workaround dirti schedul runqueu stat 3168
+minor cleanup thank joel clark close couchdb669
+zeppelin377 hang testingstartsparkclustersh 140 address httpsissuesapacheorgjirabrowsezeppelin377 patch chang spark packag download locat apach archiv mirror download 10min also add miss test 151 chang test version 140 141 close 380 leemoonsoofixsparktest squash follow commit 142583a lee moon soo add test 151 b8323e6 lee moon soo use mirror 13x later version spark
+packagesh clean format logic chang made test syntax error ad
+cleanup camelhdfs2 camelhdf compon renam
+remov redund data member baseoper class 1003 remov operatornam data member class replac getoperatornam method call avoid store inform multipl place
+hive flaki test testscant 1817 1824
+disabl two flaki test beam8035 beam9164
+remov unus wicket compon traffic monitor
+made log messag slight less ugli
+spark1397 notifi sparklisten stage fail cancel want post folk comment depend thus includ chang current outstand 305 look second commit httpsgithubcomkayousterhoutspark1commit93f08baf731b9eaf5c9792a5373560526e2bccac see chang relev previous stage fail get cancel sparklisten notifi indirect sparklistenerjobend sometim pass singl stage fail work job cancel job would fail due singl stage failur howev job cancel multipl run stage fail job get cancel right handl correct result stage get stuck run stage window even though they re dead chang sparklistenerstagecomplet event sparklistenerstageend event use event tell sparklisten stage fail addit complet success chang public backward compat two reason first chang sparklisten interfac could altern add new event sparklistenerstagefail keep exist sparklistenerstagecomplet howev less consist listen event task job end result code duplic listen fail complet stage handl similar way note haven t finish updat json code correct handl new event i m wait feedback whether good bad idea henc wip also backward compat chang public visibl jobwaiterjobfail method longer includ stage caus failur think chang definit stay cancel describ failur isn t necessarili caus singl stage close 309 kayousterhoutstagecancel squash follow commit 5533ecd kay ousterhout fix respons mark review 320c7c7 kay ousterhout notifi sparklisten stage fail cancel
+dispatch1824 fix tcp adaptor listen connector shutdown leak
+hdfs12712 9806 code style cleanup
+merg trafodion1745 show info translat error
+refactor handl zeroqueu consum separ subclass 3615 motiv simplifi consumerimpl code factor bunch ifels statement special subclass implement
+improv compat python convert signalsigterm int 9207
+ad better except messag
+javadoc typo
+add abstracttransformingenrich make easi write enrich combin sensor amend type hierarchi enrich updat shellutil
+refactor jcloudsrebindwithyamldsltest remov duplic jcloudsrebindwithexternalconfigtest creat common abstract supertyp
+scb928 simplifi implement swaggerparamcollectionformatjoinparam
+cxf5577 initi workaround edg case involv matrix paramet
+hadoop8686 fix warn nativ code contribut colin patrick mccabe
+tinkerpop1478 fix memori leak proper redirect output gremlingroovyscriptengin bug identifi groovi fix time ago given gremlingroovyscriptengin base class doesnt direct use fix never place ctr
+nifi631 initi implement fetchfil processor review toni kurc tkurcapacheorg
+carbondata701fix memori leak issu new flow dataload close 594
+trafodion2984 remov redund statement
+cxf6475 ad httpautoredirect properti make simpler configur client
+cleanup xbean version
+increas test coverag tostringbuild class 100
+camel6782 polish
+fix test relat index process 10631 fix test relat index process three bug fix index would announc segment server storag locat defin use work broken 9971 fix ad issegmentserv method servertyp updat segmentloaddrophandl alway announc method return true certain batch task type written way assum isreadi would call run guarante particular reli order initi tasklockhelp fix updat abstractbatchindextask ensur isreadi call run task unifiedindexerappenderatorsmanag proper handl complex datasourc introduc datasourceanalysi order fix test chang add new dockercomposecliindexeryml config spin index instead middlemanag introduc useindex environ variabl determin dockercompos start index middlemanag duplic jdk8 test run middlemanag index mode various adjust encourag failfast error docker build script various adjust speed integr test reduc memori usag add anoth macspecif approach determin machin use develop machin updat segmentcount check itcompactiontasktest elimin race condit look segment exist togeth briefli older mark unus javadoc updat abstractbatchindextask ad javadoc determinelockgranularityxxx make clear tasklockhelp initi side effect relat second bug task clarifi isreadi guarante call run alreadi impli explicit zkcoordin clarifi deprec messag datasegmentserverannounc clarifi deprec messag fix stopclust script fix saniti check script fix hashbang line test doc adjust addit test adjust test split back revert chang druidcoordinatorperiodindexingperiod set index capac match bump histor memori bump coordin overlord memori bump broker memori
+implement nextprevi button navigationjava class old presentationcontrol sychronizenavigationphaselisten longer need
+add link explan freebsd jail issu workaround
+simplifi sql metadata storag
+merg branch twodoto httpsgithubcomusergridusergrid usergrid140partialupd askat asanaliev other via yigit sapli other twodoto httpsgithubcomusergridusergrid commit fix wrong test complet percentag valu chop web usergrid141 chop improv usabl fix issu runner status usergrid141 chop improv usabl fix issu runner status dps1010 creat stackjson start script instruct usergrid141 chop improv usabl clean legaci code usergrid141 chop improv usabl runner status form usergrid141 chop improv usabl user key manag usergrid141 chop improv usabl user manag usergrid141 chop improv usabl complet chart usergrid141 chop improv usabl refactor chart layout usergrid141 chop improv usabl refactor modul list window chop fix nonodeavailableexcept embed set startup paus 5000 usergrid141 chop improv usabl iter chart layout chopusergrid138 stop reset oper work usergrid141 chop improv usabl run chart layout usergrid141 chop improv usabl overview chart layout chopusergrid138 start oper work usergrid141 chop improv usabl user list window usergrid141 chop improv usabl modul list window chopusergrid138 chop webapp dao refactor
+simplifi key name handl
+delet deprec code brooklynmementopersist
+tomee183 enhanc log
+beam5600 beam2939 add splittablepardo expans logic runner core updat flink spark samza use remov unnecessari expans within python portabl runner
+fix spell
+ad annot
+delet duplic test class testzkcallbackhandlerleak
+samza1711 reenabl exist standalon integr test chang enabl exist standalon integr test except testzkstreamprocessorsessiontestzkstreamprocessorsess flaki spawn streamprocessor kill one streamprocessor zookeep session expir sleep second proceed valid rebalanc phase take longer sleep time valid fail remov zookeep unavail unit test localapplicationrunnerrac condit zookeep shutdown fail test delet test ad back separ test class increas zookeep server minimum session timeout second 120 second add assert valid kafka topic setup success unit test valid verifi run follow script top patch master branch result close 515 shanthooshturnallintegrationtestson
+simplifi compon configur box fhir googl itest
+spark11078 ensur spill test actual spill 9084 uncov mani test test spill dont actual spill followup patch fix ensur unit test actual catch potenti bug spill size patch inflat refactor externalsortersuit lot duplic code logic close 9124 andrewor14spillingtest
+solr13659 remov unus solrcachehold accident leftov revert plugin work
+hdfs6690 dedupl xattr name memori wang
+minor remov old jekyl config file 1198
+ts4196 memori leak mainthread shutdown close 467
+camel7852 clean karaf featur osgi test
+hdfs13251 avoid use hard code datanod data dir unit testsaddendum contribut ajay kumar
+tidi recent chang
+ambari17365 addhost wizard larg cluster pain slow atkach
+cover cid 1267799 resourc leak cover cid 1241990 resourc leak
+improv mango markdown primarili wrap long line remov trail whitespac readmemd todomd file testreadmemd updat default admin usernam password use devrun
+test lengthkind pattern work howev use featur yet implement string paddingtrim thing ad make work still exercis lengthkind pattern dodg paddingtrim use initatorstermin deal pad rewrot selfcontain tdml test file tresyscontribut delet old one
+ambari11784 perf cluster save configur config group take 40s mpapirkovskyy
+tobago1782 clean demo
+minor renam consist openejb1736 exampl osgi apach karaf
+dispatch966 improv log router engin long bodi dont caus backtrac truncat
+tidi
+fix hard code string stratosinstal setupsh script
+flink9735test potenti leak rocksdbresourc close 6660
+remov extran executioncontext paramet basestepcontext
+merg pull request 3060 apacheprototypefdblayerebtreespeedytest speed ebtre test suit without lose coverag
+option longpol base segment announc via http instead zookeep 3902 option longpol base segment announc via http instead zookeep address review comment make endpoint druidinternalv1 instead druidintern jetti qos filter configur easili need updat segment callback initi call first segment list fetch succeed server address review comment remov size check requir anymor segment server announc peon process annouc segment server histor cach segment load fix checkstyl error
+redund type argument
+camel8753 cameltwitt allow configur http proxi compon level remov use option compon doc
+spark15953wipstream renam continuousqueri streamingqueri renam simplic obvious relat stream exist unit test close 13673 tdasspark15953
+grrr unbeliev bad compil failur typo
+bookkeeper481 fix javadoc warn ivank via siji
+merg pull request 1160 cshaleymast speed kagglendsb2 exampl preprocess
+spotbug make map travers effici 1035 make map travers effici make map travers effici modifi accord review compil fail delet space
+commoncommandsdownloadurla improv clean commoncommandsdownloadurla support passiong multipl url tri one work use simpl download scenario add test
+merg pull request 5598 improv consist hadoop hbase script fix shellcheck issu
+make grpc depend option
+fix log messag
+clear warn modulescontrib
+73744 csv perform improv text serial csv write output writabl densesparseempti serial
+updat exampl blueprint nodej todo applic
+separ dql dml support creat select optim code structur
+cleanup remov unus function 7365
+dont download ratzip alreadi
+improv error messag result use holder simpl front end remov entir aegi test nonexist featur whose test case ignor long time remov mislead comment dynam client unit test
+disabl jmx test broker need test prevent failur speed thing littl
+arrow619 python fix remain typo ldlibrarypath typo ldlibrarypath instal document close 376 bryancutlerpyarrowinstalltypoarrow619 squash follow commit e38b588 bryan cutler fix typo ldlibrarypath
+cli import project info config setuppi fix debug msgs lsdfjk
+hadoop16157 cleanup remov null check instanceof azurenativefilesystemstor
+arrow3882 rust cast kernel type implement cast kernel arrow type limit complet cast structarray support cast listarray nonlist array support cast incompat primit type support tempor boolean close 3797 nevimearrow3882 squash follow commit 67c3ab3 wakahisa merg branch master arrow3882 0f42cd1 nevill dipal replac cast macro generic function 66acfb3 nevill dipal move castkernel kernelscast 9784313 nevill dipal fix doc comment 04c7307 nevill dipal boolean cast document error handl 4a8906b nevill dipal cast binari numer c3b8961 nevill dipal use arrow cast datafus ae9509c nevill dipal arrow3882 cast kernel type
+arrow2918 improv format struct pretti print kszuc close 2327 xhochyarrow2918 squash follow commit 22b9a313 korn uwe arrow2918 improv format struct pretti print
+hdfs3894 qjm testrecoverafterdoublefailur flaki due ipc client cach contribut todd lipcon
+geode2194 fix puls webapp context puls longer redund url like httplocalhostpulsepulsepulsevers close 335
+accumulo1111 fix infinit loop clober stack
+bigtop260 mahout puppet modul need implement
+lucene5189 remov leftov
+ambari12083 instal repo packag need robust handl actualvers instal script kill timeout alejandro
+1689 enhanc test coverag part10 dubboplugin modul 1976
+flink15629runtim remov unus param restartstrategyfactori schedulerngfactoryfactorycreateschedulerngfactori
+lucene7099 improv test exercis searchaft
+hbase7066 hmaster coprocessor except swallow tri catch block revert
+merg branch androidfeature20160607 httpsgithubcomalibabaweex androidfeature20160607listopt androidfeature20160607 httpsgithubcomalibabaweex commit revert android updat buildgrad remov okhttpw conflict androidsdksrcmainjavacomtaobaoweexuiwxrecycleimagemanagerjava
+arrow7478 rust datafus group express ignor unless pair aggreg express addit chang fix miss group express code style chang fix clippi warn close 6115 kylemccarthyarrow7478 squash follow commit 172bfa5c1 kyle mccarthi merg branch master githubcomapachearrow arrow7478 64e4e62 kyle mccarthi fix miss group expr
+hadoop9406 hadoopcli leak depend jdk tool jar tucu
+hbase16414 improv perform rpc encrypt apach common crypto colin
+minor remov unus field correct comment typo
+accumulo315 fix hang tabl merg unnecessari ad util print merg state
+unnecessari entri
+parquet463 add local dcheck macro fix dcheck bug expos also abl remov wnounusedvalu compil flag remov wnounusedvari take place anoth patch work requir close wesmparquet463 squash follow commit da3afb2 wes mckinney fix signedunsign comparison insid dcheck a1ca479 wes mckinney remov wnounusedvalu 0b49cc6 wes mckinney adapt simpl dcheck macro kudu fix dcheck failur
+mark test slow take near minut
+use javaiotmpdir instead hardcod tmp
+code style
+remov unnecessari annot httpsgithubcomapacheincubatorbrooklynpull1030discussionr44859924
+initi workaround jena820 current work correct output line base need add test case research implement block whole file base mode
+fix bad format changelog
+spark4516 avoid alloc netti pooledbytebufalloc unnecessarili turn alloc alloc pool everi transportcli mean number increas number node cluster realli reus one client patch expect great decreas offheap memori alloc appear make alloc proport number core close 3465 aarondavfewerpool squash follow commit 36c49da aaron davidson spark4516 avoid alloc unnecessarili netti pooledbytebufalloc
+minor remov ignor test hang ad new version eo test 5666
+drill1197 client differenti sockethandshakequeri timeout deadlin timer also return detail connect status valid handshak add timeout option queri submitt
+merg pull request 4724 add log around bigqueri job add log around bigqueri job
+avro1923 stop infinit recurs genericdatatostr
+fix typo merg branch4x
+airflow2810 fix typo xcom model timestamp fix typo xcom model timestamp field new test field alreadi repres migrat close 3652 andywilcofixdatetimetypo
+stream streamrecord remak cleanup
+made tinkergraph even smaller effici edg vertexproperti ad strategyvertex optim dkuppitz giraph
+fix make boxplot transform reason add configitemnameformatt remov configlayout
+chang tm2 manag param multilin chang function definit call put param line manag larg number paramet make easier read make diff better fix 2012
+spark34220ml bucketedrandomprojectionlsh transform optim chang propos pull request use gemv instead dot chang need better perform could faster exist impl simplifi model save introduc userfac chang patch test exist testsuit close 31313 zhengruifengrandomprojectopt
+style fix
+unskip skip test
+futon simplifi placehold fallback use jqueri live focus event
+solr12923 harden testsimnodelosttriggertesttrigg
+ad warn messag blvp
+remov new valid modul temporarili use build iter queri engin
+polish javadoc
+use sharddb config instead hardcod valu
+flink20444runtim chain yieldingoperatorfactori new sourc legaci sourc disabl chain incompat thread model new sourc work fine howev would give user massiv perform improv
+lucene3484 fix npe taxonomywrit parent array creation thread safe
+remov code old parser
+cleanup
+hotfixe2 reduc e2ehadoop exclus also work includ confus
+bug 9161 add log
+merg pull request 1287 daanhooglandsecurityrulescleanup securitygrouprulescmd code cleanupwrot test clean duplic code object evalu jenkin pull request process buildsao worthwhil keep imho pr1287 securitygrouprulescmd code cleanup review comment handl deal pmd warn code cleanup secur rule test remov autogener pydev file
+unnecessari
+clean inact iscsi session vms get move due crash 3819
+acidptr tweak test bit robust
+lucene4666 simplifi compressingstoredfieldsformat merg
+groovydoc ad hyperlink method detail return type includ import foo type resolut fix odd font stylesheet
+format
+turn failonwarn ignor unus runner modul exampl
+ignite249 cleanup visoreventscommand class
+temporarili remov test need rebuild plugin structur
+fixtyp leak inner structur type
+minor format fix properti mention section grape close
+beam5324 partial port unpackag modul python 6424 partial port unpackag remov legaci code
+ad unit test base stackoverflow question
+spark15783cor still flaki blacklist test ignor chang propos pull request still flaki blacklistintegrationsuit turn moment avoid break build turn back fix patch test jenkin close 13528 squitoignoreblacklist
+spark6949 sql pyspark support datetimestamp column express enabl autoconvert javagateway could regist convert given type exampl date datetim two bug relat autoconvert see workaround httpsgithubcombartdagpy4jissues160 httpsgithubcombartdagpy4jissues161 rxin joshrosen close 5570 daviespy4jd squash follow commit eb4fa53 davi liu fix test python d17d634 davi liu rollback chang mllib 2e7566d davi liu convert tupl arraylist ceb3779 davi liu updat rddpi 3c373f3 davi liu support date datetim autoconvert cb094ff davi liu enabl auto convert
+remov dead code documentgetfieldsstr cannot return null
+guac676 convers guacamoledisplay wasnt finish transfer other still direct use layer
+error log api
+nifi4839 renam registri group registri better
+spark20980sql renam wholefil multilin csv json chang propos pull request current option name wholefil mislead csv user current repres record per file actual one file could multipl record thus renam propos multilin patch test close 18202 gatorsmilerenamecvsopt
+fix javadoc memori issu travisci 1051 unset javaopt environ may interfer default set certain maven plugin caus build run memori kill travi host clean bad licens header format remov irc notif nobodi lurk irc anymor arent use build current latest accumulo 192 clean matrix build make build arg relationship build script clear use sudo travisci
+cloudstack8401 fix kvms script proper cleanup old network rule router vms dont chain rule def suffix fix name proper remov vms run host tri remov dnat filter emptynon element list destroyebtablesrul check kind action request perform add remov execut base execut command log debug purpos method cleanup bridg may use futur
+cleanup stax depend longer need
+cleanup
+pathfilterstep support modul remov unneed cyclicpathsteptest simplepathsteptest
+camel1834 messag content sent except handler reread
+yarn10536 client distributedshel swallow interrupt except 2554
+remov restangular deliveryservicerequestservic 3611 remov restangular deliveryservicerequestservicej fix servic method throw error handler remov consol statement add miss messag request remov uneccessari autofocus
+remov unnecessari activ autoscal
+hotfix fix lgtmcom alert dead code outofbound error 4388 fix two alert flag lgtmcom apach kafka dead code alert invalidtypeidexcept indirect extend jsonmappingexcept flag condit type test appear type test latter thus make bodi dead opt chang order test pleas let know intend behavior second commit address outofbound alert alert found note colleagu aditya sharad address outdat 2939
+spark34059sqlcor use forforeach rather map make sure execut eager chang propos pull request basic followup httpsgithubcomapachesparkpull14332 call map alon might leav execut due lazi evalu better use foreach make sure execut output unus unit chang need prevent potenti issu execut map introduc userfac chang current code look caus problem patch test found item run intellij inspect doubl check one one fix instanc across codebas ideal close 31110 hyukjinkwonspark34059
+arrow1132 python unabl write panda datafram wmultiindex contain duplic valu parquet close 768 cpcloudarrow1132 squash follow commit 4b42f643 phillip cloud add test parquet roundtrip dup 49684fd1 phillip cloud arrow1132 python unabl write panda datafram wmultiindex contain duplic valu parquet
+hbase16680 reduc garbag bufferchain
+arrow3544 gandiva creat function registri multipl compil unit reduc build time refactor functionregistri separ file function signatur split across differ file viz functionregistrycc functionregistrybinaryfncc functionregistryunaryfncc approach reduc build time setup littl refactor look tensorflow well wes suggest howev tensorflow heavili util tempal base approach quit differ may requir quit bit refactor gandiva close 3051 siddharthdavemast squash follow commit 1d75ac7f6 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang remov individu clasess registri remov unus header file clean code ab93602f3 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix lint error make format 8161eddb5 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang ad note functionregistrycommonh intern use 60954a038 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang replac stringifi arrowstringifi 241b6340c siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang yet anoth refactor macro remov redund comment faeffeef4 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang incorpor review comment suggest ravindra refactor code bit remov unus includ etc 508b7835e siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix make checkformat error b8176dd40 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang incorport review comment remov duplic codemacro move new header file functionregistrycommonh ad separ class hold differ function type initi map popul individuali popul class common map 1788fb32e siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix whitespac issu report make lint 2cdb6df58 siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang refactor functionregistri separ file function signatur split across differ file viz functionregistrycc functionregistrybinaryfncc functionregistryunaryfncc approach reduc build time setup littl refactor
+accumulo2789 ad paramet control number cell within row run stress test possibl configur writer send mutat row contain random amount column updat control via minrowwidth maxrowwidth rowwidthse paramet intern shuffl make random generat number within rang conveni see new randomwithinrang class detail
+hotfix throw origin except thread pool except occur callablerun thread pool throw origin except instead throw new one make hard debug close 2887
+spark5597mllib saveload decis tree emsembl base 4444 jkbradley follow chang node schema updat treeid int nodeid int predict impur doubl isleaf boolean split leftnodeid integ rightnodeid integ infogain doubl refactor implement close 4444 close 4493 mengxrspark5597 squash follow commit 75e3bb6 xiangrui meng fix style 2b0033d xiangrui meng updat tree export schema refactor implement 45873a2 joseph bradley org import 1d4c264 joseph bradley ad saveload tree ensembl dcdbf85 joseph bradley ad saveload decis tree need general ensembl
+server doubl check host capac startmigr 3728 start migrat away host host mainten cloudstack check capac host choos one hundr host platform take second cloudstack choos host startmigr resourc consumpt host might chang normal happen startmigr multipl vms would better doubl check host capac start host includ fix cpucor capac startmigr

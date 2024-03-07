@@ -1,0 +1,2043 @@
+project,sha,text,label,indicator,document_index,subset
+kylin,81dd209a0ac1b9f142de07223879d867b623b725,Optimize in-men cube building,non_debt,-,2,test
+groovy,bd69586ae105e4f6b0b2030c480d419c97c53dc7,"GROOVY-5816 Add an ""encoding"" option for Groovydoc tool and Ant task",non_debt,-,3,test
+ambari,0241bf3e1659dd1bc4ba80c88b3e91866f4820e2,AMBARI-5596. Jobs page: Selection of vertex in table should center vertex in UI (alexantonenko),non_debt,-,4,test
+ambari,218f99d44f5209b93c5150ff81c99f11e7b750b7,AMBARI-24620 Duplicate view of configurations in Add Service wizard,non_debt,-,15,test
+kafka,50cd85538580c9c9833ad957d64d39953c124374,"HOTFIX: Fix lgtm.com alerts (dead code and out-of-bounds error) (#4388)
+This fixes two alerts flagged on lgtm.com for Apache Kafka.
+This dead code alert where InvalidTypeIdException indirectly extends JsonMappingException. The flagged condition with the type test appears after the type test for the latter and thus makes its body dead. I opted to change the order of the tests. Please let me know if this is the intended behavior.
+The second commit addresses this out-of-bounds alert.
+More alerts can be found here. Note that my colleague Aditya Sharad addressed some of those in the now outdated #2939.",code_debt,dead_code,18,test
+couchdb,7daa0d31e268deed9004d86e3f4ba53867d1b9fd,"Improve error logging on replication write failures
+If an error happens when writing a document to the target endpoint,
+log it's ID, revision, error and error reason. Also added a few tests
+to cover the cases where the target has validate_doc_update functions.",code_debt,low_quality_code,20,test
+cassandra,97c6bbe6093de16f3370a511023b861a381da7fe,"Use LOCAL_QUORUM for LWT operations at LOCAL_SERIAL
+patch by Sankalp Kohli; reviewed by jbellis for CASSANDRA-6495",non_debt,-,27,test
+parquet-mr,54777b46da768df3ff88548c6b6b70bd52fba0dd,PARQUET-1556 Use try-with-resource in Apache Avro tests (#639),non_debt,-,28,test
+cloudstack,c9dd19097f3a4982677f5aa5e2497e7526530e35,Docs: Adding documentation and translation chapter in dev guide,non_debt,-,30,test
+trafficserver,6def9ca4b711c19ae6677bdc9bc069a9f682fb93,clang-format,non_debt,-,35,test
+camel,e4dfa840cb229d684a28bf6d7e119b6980bc5a1e,Added some comments on CachedOutputStream,non_debt,-,45,test
+camel,9fefab66c55ce7f5635965fa90dadb139257edd6,CAMEL-7221: Upgrade to Lucene 4.6.1,non_debt,-,54,test
+groovy,e0a011c70a1318f10fb9ba09fe249c168e6b909e,GROOVY-2429: Allow subclasses of XmlParser to customize creation of new Nodes,non_debt,-,60,test
+cassandra,5411e5ff850bd1bbbf8d9f0057ff4136402b2bff,Merge remote-tracking branch 'origin/cassandra-2.0.0' into cassandra-2.0.0,non_debt,-,64,test
+kylin,0b10ab39bc8ef1369b57566639c1cbee2b177aa5,KYLIN-669 add AdminLTE MIT License in LICENSE file,non_debt,-,68,test
+beam,1b2d9ae9f4f540aea84e88c0ed81c7689da10894,[BEAM-7949] Add time-based cache threshold support in the data service of the Python SDK harness.,non_debt,-,72,test
+trafficcontrol,2d8de94e26af0285f58a9bb53aba86373bfced73,"Change render_text to render( text => for sub postupdate
+* traffic_ops/app/lib/UI/Server.pm
+fixes #1238",non_debt,-,79,test
+hive,6afa544b85e78eaadf05e68f7123089b3faa3821,"HIVE-17824 : msck repair table should drop the missing partitions from metastore (Janaki Lahorani, reviewed by Peter Vary, Alexander Kolbasov and Vihang Karajgaonkar)",non_debt,-,81,test
+lucene-solr,e1560a8e8101156a56741a9fd073d91306ba36bb,LUCENE-3484: Fix NPE in TaxonomyWriter: parents array creation was not thread safe.,requirement_debt,non-functional_requirements_not_fully_satisfied,88,test
+thrift,f35a9b9152b66fc47c36ff25240e7704172d18ae,"THRIFT-738. java: TCompactProtocol throws RuntimeException when it can't identify a type identifier
+This patch causes it to throw TProtocolException instead.",non_debt,-,91,test
+activemq-artemis,b346c2d4ff9cff840e4bdacc8573092f1c7c6317,Fixes URISchema setFactory(..),non_debt,-,95,test
+flink,f5e537e2d58a97d6eaa4bbe1303716cac7a5bb60,[FLINK-12607][rest] Expose maxParallelism of jobs and vertices,non_debt,-,103,test
+airflow,bbfc18e7e01fdd3a263ddb0b2b4cce8f2c06f732,[AIRFLOW-6937] Inline _get_simple_dags method in SchedulerJob (#7561),non_debt,-,110,test
+netbeans,a1d379d1a11827118d7b901f8164455daa95ca88,"Adjusting header in libs.osgi/external/osgi-5.0-license.txt, org.osgi.compendium-4.2.0.jar is used now, not osgi.cmpn-4.2.jar.",non_debt,-,117,test
+netbeans,e9019ef69177b0eedf65a4267f4a4f6e4ce72cd8,"[NETBEANS-1696] PHP 7.4 Support Arrow Functions 2.0
+See https://wiki.php.net/rfc/arrow_functions_v2
+- Fix ASTPHP5Parser.cup, ASTPHP5Scanner.flex, and Php5ColoringScanner.flex i.e. parser and lexers
+- Add ArrowFunctionDeclaration as an ASTNode
+- Add ArrowFunctionScope
+- Add code templates for arrow functions
+- Fix PHP74UnhandledError and UnusableTypesUnhandledError
+- Fix GotoDeclaration and MarkOccurrences features
+- Add ASTErrorExpression node to avoid that an ArrowFunctionDeclaration node is handled as an ASTError
+- Add unit tests",non_debt,-,118,test
+pulsar,e82be833c04c9e7325dfe5d86eda4d5dc375f9eb,remove master and slave references from C++ API docs (#1140),non_debt,-,119,test
+camel,f80654f493481535ca297e240ee03468ab0cd2f7,[CAMEL-9659] Add more headers to resulting exchange,non_debt,-,121,test
+myfaces-tobago,5f297dddcf87b78064275562510114f08d1a8644,Added ASF license.,non_debt,-,122,test
+madlib,fe1e717721d6b935398c218591a7e6ff670ea505,"Linear Regression:
+- Return Null if no data has been seen
+- static_cast for rebind() call from constructor",non_debt,-,125,test
+ambari,59d19e5c5112fa43ca668f120e99eaa1c1b20fe5,AMBARI-2547. Security wizard: Successive refreshes at some point results in blank screen. (jaimin),non_debt,-,129,test
+accumulo,3ca3d65962e5229a44d67ef46233467d53a7016c,"ACCUMULO-4779 Improved performance of get by prefix in config (#372)
+This change improves performance by caching config with a prefix.
+Also removed custom method to get VFS config.  Now that getting
+config by prefixes is fast, it can used for VFS.",code_debt,slow_algorithm,130,test
+incubator-weex,d360d978bc93a4b806dca1c6f8f8b87d19012270,re generate site from template,non_debt,-,131,test
+tinkerpop,8ec49c433ae472116853df12247fa903e41f958d,PathFilterStep now support by() modulation. Removed unneeded CyclicPathStepTest and SimplePathStepTest.,code_debt,dead_code,137,test
+camel,d8979f832e988bb9829c3c5d6b48c8c7305565f1,Upgrade Undertow to version 1.4.14.Final,non_debt,-,171,test
+netbeans,57de08bdb3941193208cd91439587b6240afbdd8,Fixed relative position of nbbuild dir,non_debt,-,184,test
+trafficserver,9d41071009133422ad3f61c1ac36fb773f7f94b2,Fix race condition in thread startup.,non_debt,-,185,test
+groovy,fc5cc599ea73b980d508b333d8e027b8ece49951,bump commons-math from 3.6 to 3.6.1,non_debt,-,186,test
+groovy,5b61c85e2eccd6baa10b74498da38568dfc58892,Support for DynamicVariable in trait,non_debt,-,192,test
+cloudstack,d33798f0d9165f0e7d36dec869201b9334666267,"CLOUDSTACK-6089: Implement equals() method for ResourceTagResponse
+so that the java Set can properly determine if a ResourceTagResponse
+is unique. This ensures we don't get duplicate resource tags showing
+up any time a UserVmResponse is crafted (which can be quite often
+due to the way the responses are crafted).",non_debt,-,193,test
+shardingsphere,b59bf4550e6483e7e0141acffaa65807092f5bb0,fix #701: move to cache package,non_debt,-,198,test
+cxf,880377a9727528be3aea212a983ac2eced157e8d,[CXF-5415] Escaping service and operation names when needed,non_debt,-,199,test
+usergrid,d678cdb811b2636237f2c15ce96564f4f2347254,fix to load the correct test apps,non_debt,-,201,test
+trafficserver,5fcd9d74f20f8b9b3aa8dd361fa4d037676b00ef,TS-3452: Better debug messages for SSL_ERROR_SSL: incorporate changes suggested by sudheer to peek.,code_debt,low_quality_code,204,test
+carbondata,b6777fcc32df3ce3616ea02f5566ab5bf4ca6e30,"[CARBONDATA-1717]Remove spark broadcast for gettting hadoop configurations
+This closes #1500",non_debt,-,208,test
+hadoop,20cde552748cc6be1c5ca590755d4e5a67baf187,HADOOP-14371. License error in TestLoadBalancingKMSClientProvider.java. Contributed by hu xiaodong.,non_debt,-,213,test
+camel,99786092122596fa9fd2ecd4344af94c8ec73df3,CAMEL-1663: Fixed bug with using Camel and other annotations in same POJO and RouteBuilder classes.,non_debt,-,215,test
+usergrid,ee79e9a1c2e9d32145cc1e912830b94309e99a96,cleanup,code_debt,low_quality_code,218,test
+ambari,80c221bd407469cdc47de187aa1d65a43be5c3a4,"AMBARI-11886.  return 400 response and good error msg when user attempts
+               to use API to scale a UI provisioned cluster",code_debt,low_quality_code,221,test
+karaf,adc043c8e0a6ff8de5fb7d3d7c4503d92284ff76,Display enhancement in package exports command.,non_debt,-,230,test
+jmeter,d0b7aa42899cad9543067089e12fa2dace0f8708,"CSV strings are quoted, not escaped; clarify this",non_debt,-,231,test
+groovy,7b5e6a01aa743c1dcf780410fe69f77187ccefe0,additional tests for GROOVY-3323 and GROOVY-3555,non_debt,-,238,test
+hadoop,3aac4758b007a56e3d66998d457b2156effca528,HDFS-8803. Move DfsClientConf to hdfs-client. Contributed by Mingliang Liu.,non_debt,-,240,test
+shardingsphere,8070528b5a81d0b0097847de53288ca97860af2e,"for #2084, add intervalUnit_ for mysql g4",non_debt,-,241,test
+echarts,90c27ac8062f54b9b6fff33f1e95d43dc23fd2e2,merge,non_debt,-,250,test
+groovy,3cd35ffaaaf5ae4698a85cb1e0e56aa242daef5a,Tests for GROOVY-1128 (still disabled),non_debt,-,253,test
+camel,27d6124e9be4f5254cb583d471288e7318b0dc51,Regen,non_debt,-,258,test
+incubator-brooklyn,9b157c1fafa9a130a2f0fa5cea81abdc290b549b,distinguish between planId / templateId / entityId (with yaml DslComponent referring to the first of these),non_debt,-,259,test
+camel,164d53833a4c433ee03e8b9fe02bf32bdaeb0629,Move BytesSource and StringSource from converter to api as they are used from several places including util which should not know about converters,architecture_debt,violation_of_modularity,263,test
+kylin,9099bbc3fe681419bb99bb8fe7272f37aa6f2963,KYLIN-1048 fix CPU and memory killer in Cuboid.findById(),non_debt,-,265,test
+camel,62a2eb679b8849fa708b87e627fff36b65dc2ecd,CAMEL-7384 Fixed the NPE of camel-rabbitmq test,non_debt,-,270,test
+flink,437763bbb2bb9b4874ba1784607088bf2917f8d3,[FLINK-15629][runtime] Remove the unused param ‘restartStrategyFactory’ from SchedulerNGFactoryFactory#createSchedulerNGFactory(…),code_debt,dead_code,273,test
+incubator-pinot,337e7681eb26693df236b13dbdc74ab8045fae65,fix test + syntax cleanup (#2569),code_debt,low_quality_code,275,test
+lucene-solr,4b2a94e0c75a62291c74c0b84849cea4db03d1a0,LUCENE-2990: ArrayUtil/CollectionUtil.*Sort() methods now exit early on empty or one-element lists/arrays,non_debt,-,277,test
+hbase,41f31490ffe0f52d4f8bb49b5435a6b36b9470f4,HBASE-5569 Do not collect deleted KVs when they are still in use by a scanner.,non_debt,-,278,test
+myfaces-tobago,0ddc9aa650e4cdac95c5c6d03e308176d733d2a5,how to become root on the vm,non_debt,-,279,test
+accumulo,eb1ba18607e1afd3d15a7ba86f968fe47e53d7b8,ACCUMULO-3927 Commit checkstyle changes,non_debt,-,280,test
+jena,ff4a3a60898cfa318df17371f98965975fb4167d,Clean up as part of intergation into Jena trunk.,non_debt,-,286,test
+cloudstack,304d1cbb55863848a1da2eadb4f801540c9f8370,2.1.x to 2.2.2 DB ugrade - convert account specific vlans to account specific networks,non_debt,-,294,test
+incubator-pinot,8ed6e236e055db07ae09139b0110fcaf30a81a6b,think bootstrap / restore works now,non_debt,-,301,test
+spark,36a3409134687d6a2894cd6a77554b8439cacec1,"[SPARK-24412][SQL] Adding docs about automagical type casting in `isin` and `isInCollection` APIs
+## What changes were proposed in this pull request?
+Update documentation for `isInCollection` API to clealy explain the ""auto-casting"" of elements if their types are different.
+## How was this patch tested?
+No-Op
+Closes #21519 from trvskn/sql-doc-update.",non_debt,-,305,test
+beam,ef4a51d3900d641204551b56bb88def11c05e832,Consider Elasticsearch as one word in camelCase.,non_debt,-,307,test
+jmeter,6aebb3bb8a51fa87edb2819f4dcee3d00bfc100e,temporary test code,test_debt,lack_of_tests,313,test
+ignite,eca5bcfabea9fd123c91c660504bf2b86b7d5681,# sp-22: correct previous optimized classnames,non_debt,-,317,test
+tomee,bd81d4955a18080f511afecbde2031aa4fac9374,added lic header,non_debt,-,319,test
+couchdb,17fd3e388668be4abf091b01f8f49db887bcddb5,"Made the opening of databases asynchronous, so that requests to open databases that are already in the open database cache do not have to wait on the file system.",non_debt,-,322,test
+attic-stratos,8640bfae43b87536bc1055ff9f2b23a3f158fbcb,Adding dependent-scaling.drl test,non_debt,-,328,test
+attic-stratos,7732f135088ff932c83197e0b20f6e40af1e401e,fixing a build issue,non_debt,-,334,test
+spark,bf5699543bf69fc850dbc2676caac97fa27818da,"Merge pull request #462 from mateiz/conf-file-fix
+Remove Typesafe Config usage and conf files to fix nested property names
+With Typesafe Config we had the subtle problem of no longer allowing
+nested property names, which are used for a few of our properties:
+http://apache-spark-developers-list.1001551.n3.nabble.com/Config-properties-broken-in-master-td208.html
+This PR is for branch 0.9 but should be added into master too.",non_debt,-,338,test
+trafficserver,09beedb836004dec7dbf91a6ec0aa2b4ec2bf6a4,TS-1617: Build cacheurl when experimental plugins are enabled,non_debt,-,341,test
+camel,5bfe3dadf233614756fdba8acab9679fea131559,Fix jetty test failure with j7,non_debt,-,360,test
+cassandra,2762f484c90152eb23c641732ecf6f650e937bfc,"Add retry mechanism to OTC for non-droppable_verbs
+patch by jasobrown; reviewed by jbellis for CASSANDRA-5393",non_debt,-,363,test
+attic-apex-core,38581ae47fc273cd304d09a13c030bebb776ea6b,SPOI-2486 #resolve #comment workaround for MapRFileSystem.getScheme(),design_debt,non-optimal_design,364,test
+hadoop,b75f0187c836aea2a95bac08e77f8802d7dbd4bd,"HDFS-3341, HADOOP-8340. SNAPSHOT build versions should compare as less than their eventual release. Contributed by Todd Lipcon.",non_debt,-,368,test
+lucene-solr,af18eeed89c1469c1ec55451133843cd69c20972,"SOLR-5473 one state.json per collection , SOLR-5474 support for one json per collection",non_debt,-,369,test
+activemq,3f7b2d6bb042599a1f4d4a5553df7ccf7c10d1a8,AMQ-6147: update to proton-j 0.12.0 release,non_debt,-,374,test
+tomee,660113bc6e7005f648e91562f5a741d05408955d,Cleanup xbean versions,code_debt,low_quality_code,375,test
+cassandra,3f450107749c637ba133e479e7b6e5cd02e1153f,"Fix ColumnCounter::countAll behaviour for reverse queries
+Patch by Sam Tunnicliffe; reviewed by Jason Brown for CASSANDRA-13222",non_debt,-,377,test
+hive,025e46799b13816ec5c6935cf75f2a6b046bf7dd,"HIVE-9381 : HCatalog hardcodes maximum append limit to 1000 (Sushanth Sowmyan, reviewed by Daniel Dai)",code_debt,low_quality_code,379,test
+trafficserver,2cc34f84a8ab3a584f16e117f1b00567a378d705,AcidPtr: Tweaks tests to be a bit more robust.,test_debt,flaky_test,380,test
+arrow,d792661d00a86320ca43e4c698fa79dd648dea17,"ARROW-9303: [R] Linux static build should always bundle dependencies
+Also adds a cmake minimum version check, per the original user report.
+Closes #7699 from nealrichardson/fix-dependency-source",non_debt,-,385,test
+tvm,37bd8125a10589df95209117e40318bbd29e34fb,[RUNTIME][CRT] support DLTensor whose ndim == 0 (#5344),non_debt,-,391,test
+incubator-pinot,5f41978dc0664dbbfb92edbaa60620280469bc99,"PINOT-1308: Replacing internal data in test.
+RB=490954
+R=kgopalak,xiafu,jfim,dpatel
+A=jfim",non_debt,-,395,test
+jena,90010766f69ade2f0ebf613b4b6a8145303adf76,"Merge pull request #824 from afs/small-items
+JENA-1990, JENA-1991, JENA-1992, JENA-1993: Upgrade and small items",non_debt,-,397,test
+shardingsphere,4b9228365e25bab25e722971fce4b9f82203b0f9,refactor ShardingDataSource  implements AutoCloseable,non_debt,-,399,test
+trafficserver,e503ce048bb5fcab84b251ebcc31efa972d67710,"TS-898: ensure cache span probe closes file descriptors
+Add a new helper class xfd (by analogy to xptr). This ensures that
+the opened file descriptor is always closed in every error path.
+Coverity #1196462",non_debt,-,418,test
+camel,2dda57ef9ac896c0985a3233bbdbcb5841e36bf9,Upgrade Jackson to version 2.8.4,non_debt,-,428,test
+infrastructure-puppet,cbf7fef3cf204edf7a11690f21c7ab210cab85bb,"Merge pull request #408 from apache/christ/win_puppet_add_modules_dir
+Adding in a blank folder with .keep in it to make Windows work.",non_debt,-,432,test
+usergrid,c9ee4275004485cec053d079e88837edc251ad6b,Refactored sharding to be sub package of serialization for clean dependencies.,non_debt,-,434,test
+thrift,2d1fe88db3f02c0a3a8f9cc2ad2f5f7881a0eae3,"THRIFT-4206: Fix decoding of strings in containers with py:dynamic and py:utf8strings
+Client: py
+_read_by_ttype and _write_by_ttype must be using the *element* spec
+and not the container spec when determining the correct read/write
+handler.
+This closes #1273",non_debt,-,454,test
+incubator-pinot,303fb39ea25e0c8ea5ebc1ccc8c1cdf2b60015a1,Shade all jackson packages in thirdeye-hadoop (#1391),non_debt,-,459,test
+myfaces-tobago,a15828bf2a3018c71ef2810f09f52ff1f6ceafba,popup sample,non_debt,-,464,test
+brooklyn-server,1a6fd6a920ba23406d28db1240519767fe9dbd98,"JcloudsLocation waitForSshable uses timeout for connections and sessions
+Rather than only PROP_SSH_TRIES.",non_debt,-,475,test
+ignite,b95c249188aa5eea9737e6af944b1ab4f4d6b5ee,# sprint-25-rc3: added test for queue/future,non_debt,-,476,test
+trafficcontrol,fdf3114df7093c18ec00bec75a7ca92773e7f282,restored from master,non_debt,-,482,test
+hive,3d486ef71f504a5eeeb355aad69b7ce07d71a87e,Merged in with trunk,non_debt,-,489,test
+attic-apex-core,f7a1a1c11371871964452170e16b784d11cae419,SPOI-4604 #resolve #comment provide a search function,non_debt,-,491,test
+camel,2b6493613bd9af0df178aeb8e38ceb9d43d0b09d,Upgrade Libphonenumber and related bundle to version 8.10.8,non_debt,-,494,test
+accumulo,05c165b5f61427b22024f1c78a4295c06a93aad6,ACCUMULO-4778 Fix findbugs failure,non_debt,-,495,test
+camel,c0af48134b95ca8b0fbb33fb2742bf4c9fe5d040,Fixed CS,non_debt,-,497,test
+cloudstack,c8d607eae5db696b20f797a3297ad5eb5c746115,CLOUDSTACK-2650 setting vm ip null in user_ip_address when static nat ip,non_debt,-,499,test
+calcite,0f2d666df3f6d92aa5f23a5428bdd01b08f24842,"[CALCITE-1424] Druid type is called FLOAT, not DOUBLE (Jiarong Wei)
+Close apache/calcite#301",non_debt,-,500,test
+druid,96a387d972ba69ab92f95ebf75bfb03cd9bb5807,"Fixes and tests related to the Indexer process. (#10631)
+* Fixes and tests related to the Indexer process.
+Three bugs fixed:
+1) Indexers would not announce themselves as segment servers if they
+   did not have storage locations defined. This used to work, but was
+   broken in #9971. Fixed this by adding an ""isSegmentServer"" method
+   to ServerType and updating SegmentLoadDropHandler to always announce
+   if this method returns true.
+2) Certain batch task types were written in a way that assumed ""isReady""
+   would be called before ""run"", which is not guaranteed. In particular,
+   they relied on it in order to initialize ""taskLockHelper"". Fixed this
+   by updating AbstractBatchIndexTask to ensure ""isReady"" is called
+   before ""run"" for these tasks.
+3) UnifiedIndexerAppenderatorsManager did not properly handle complex
+   datasources. Introduced DataSourceAnalysis in order to fix this.
+Test changes:
+1) Add a new ""docker-compose.cli-indexer.yml"" config that spins up an
+   Indexer instead of a MiddleManager.
+2) Introduce a ""USE_INDEXER"" environment variable that determines if
+   docker-compose will start up an Indexer or a MiddleManager.
+3) Duplicate all the jdk8 tests and run them in both MiddleManager and
+   Indexer mode.
+4) Various adjustments to encourage fail-fast errors in the Docker
+   build scripts.
+5) Various adjustments to speed up integration tests and reduce memory
+   usage.
+6) Add another Mac-specific approach to determining a machine's own IP.
+   This was useful on my development machine.
+7) Update segment-count check in ITCompactionTaskTest to eliminate a
+   race condition (it was looking for 6 segments, which only exist
+   together briefly, until the older 4 are marked unused).
+Javadoc updates:
+1) AbstractBatchIndexTask: Added javadocs to determineLockGranularityXXX
+   that make it clear when taskLockHelper will be initialized as a side
+   effect. (Related to the second bug above.)
+2) Task: Clarified that ""isReady"" is not guaranteed to be called before
+   ""run"". It was already implied, but now it's explicit.
+3) ZkCoordinator: Clarified deprecation message.
+4) DataSegmentServerAnnouncer: Clarified deprecation message.
+* Fix stop_cluster script.
+* Fix sanity check in script.
+* Fix hashbang lines.
+* Test and doc adjustments.
+* Additional tests, and adjustments for tests.
+* Split ITs back out.
+* Revert change to druid_coordinator_period_indexingPeriod.
+* Set Indexer capacity to match MM.
+* Bump up Historical memory.
+* Bump down coordinator, overlord memory.
+* Bump up Broker memory.",test_debt,expensive_tests,502,test
+brooklyn-server,7594e3d02b2202899492dd7076290bb3f9d4c2db,Update TomcatNodeIntegrationTest to work with new config mechanism for specifying the WAR file,non_debt,-,505,test
+myfaces-tobago,e5991137bb72e0adfc3d8258d09b26cd01a0bf7b,fixing test,non_debt,-,514,test
+activemq-artemis,6bdfe95f665d19b868b8246358941b72419512ab,ARTEMIS-350 small improvement on the writable logic,design_debt,non-optimal_design,521,test
+incubator-brooklyn,d3e0b1f3ed1c3376a21725b856d107cdaac2dcbe,"Merge pull request #607 from aledsage/fix/BrooklynLauncher
+Fix/brooklyn launcher",non_debt,-,522,test
+ignite,8e12513efb24cc6df1da0968560ac932544ee68d,"ignite-4492 Add MBean for StripedExecutor
+This closes #1491.",non_debt,-,524,test
+cxf,01c1f39c02690722fd569efe14c4e0b97fc89aea,"Added the ability to use the STSClient in an intermediary.
+ - There is a new configuration property to disable storing issued tokens per exchange
+ - Caching is enabled for OnBehalfOf or ActAs tokens
+Conflicts:
+	rt/ws/security/src/main/java/org/apache/cxf/ws/security/policy/interceptors/IssuedTokenInterceptorProvider.java",non_debt,-,537,test
+accumulo,833d56acb389c50c5483e23e0242651f13650288,fixes #1900 Moves volume choosers to SPI (#1905),non_debt,-,538,test
+netbeans,09d83f0b2d34e193fbf8f9f309a12217755ccc2a,"Merge pull request #2725 from entlicher/vscodeext_CodelensOutputFixes
+[NETBEANS-5326] LSP codelens output fixes",non_debt,-,549,test
+daffodil,1690b65f038f31b5c421d87605a32330b38b8d70,Merged with Master,non_debt,-,551,test
+ignite,b3dc334722d83a55b7103628b26c5683c7abb077,IGNITE-8691 Removed jar-plugin from ignite-zookeeper module - Fixes #4118.,non_debt,-,558,test
+skywalking,069b99bdbcd0a3364a371a6d79fcb568ee6ae075,"Add file change detection mechanism (#4475)
+* Add file change detection mechanism
+* Fix format.
+* Make file content changed monitor easier.
+* Add secondary round change and check the result.
+* Update to support multiple files change monitoring.",code_debt,low_quality_code,562,test
+systemds,87738c8aafe23842787694718943099e2f3fe182,49765: Upgrading ExecR App with MR 2.0.4,non_debt,-,563,test
+beam,adf659ebfaf3bc27905eb55ebd72032df8c1f55c,"[BEAM-6114] Add isBounded() to BeamRelNode and BeamSqlTable, use for JOIN",non_debt,-,576,test
+avro,14cae5dd0114a28f9a750c718291abba2763fcbd,AVRO-1471. Java: Permit writing generated code in different character encodings.  Contributed by Eugene Mustaphin.,non_debt,-,582,test
+brooklyn-server,ab0cb760feed44ee6b459ffb8b4fdb4abf1c0315,"Merge pull request #3 from cloudsoft/new-constructor
+Added a constructor for convenience from java.",non_debt,-,586,test
+camel,2f63b13ef302aef59e53b37b8585497343f62c06,Use Libphonenumer bundle in camel-cm-sms Karaf feature,non_debt,-,595,test
+karaf,6ac99794597650a82ce548f9713b1c076d5bb0e5,[KARAF-553] - Get place of jetty config with mvn url in sync,non_debt,-,596,test
+ignite,02c7c91c9c846db11fa5b0cfa9ad648461532201,Merge branches 'gg-9164' and 'sprint-28' of https://github.com/ggprivate/ggprivate into gg-9164,non_debt,-,599,test
+hbase,a558d6c57a02219cb429b311bad13199042ad720,HBASE-18141 Regionserver fails to shutdown when abort triggered during RPC call,non_debt,-,603,test
+cloudstack,1d190fd0bb637bde14454fa5d4b4def1b4d0fe6a,utils: add HttpUtils test,non_debt,-,604,test
+hadoop,0f1899ee19ab13d5128801063b0ce17612c0e96f,HDFS-4216. Do not ignore QuotaExceededException when adding symlinks.,code_debt,low_quality_code,613,test
+cloudstack,172bd06202ac536b659c5e44822acc816987da33,"compute: fix create sshkeypair account input (#340)
+Fixes #335",non_debt,-,619,test
+cxf,d8c04fbb97d849a514f19a7bbbfa00c8fbd92b49,[CXF-8191]align dom4j bundle version to 2.1.1,non_debt,-,621,test
+karaf,d9f7fbf733f3f36add6528852bb2d4e7800ad2e1,[KARAF-1951]Remove workaround for KARAF-1117,design_debt,non-optimal_design,622,test
+myfaces-tobago,ca940d36295d63d3b1c93c048f52b6a55d4a6a63,"Moving myfaces-api (optional) from parent POM to the individual POMs, because otherwise it will be used in the example when defining -Djsf=xxx.",non_debt,-,626,test
+lucene-solr,40a1d7e22c46f4a48372579a9fd1c7bf95b21d2d,SOLR-6892: Improve the way update processors are used and make it simpler,code_debt,complex_code,639,test
+myfaces-tobago,e06e4e60de8084933f71875d66478de6c0456147,demo: prepare importConstants,non_debt,-,646,test
+ignite,507042837b43f3847880148d4d679cffd74bb360,# GG-9208 minor,non_debt,-,649,test
+shardingsphere,a3949c41d6cd66a864e8dc7d193f8714a5fbedce,"#1172, fix test case",non_debt,-,658,test
+geode,7ccd296dcf5cb1b9a40301216b3546ce738e235f,GEODE-2788 Document defn of pool attr socket-connect-timeout (#798),non_debt,-,663,test
+hadoop,7ba74befcff2f1836c2d5123d64e92a3c7a8898c,HADOOP-8500. Fix javadoc jars to not contain entire target directory.,non_debt,-,671,test
+flink,3f62d5d78a3f792e3fb984ff88d38190dabad586,[hotfix][table-common] Fix minor typos in ObjectIdentifier,documentation_debt,low_quality_documentation,677,test
+ambari,5ce2024969a77139dd1430b2c1328717c273130d,AMBARI-16649. RegionServer and Nimbus start failed on secure cluster due to Ranger stack changes (gborad via srimanth),non_debt,-,683,test
+camel-website,a8b44bc73849b3be76095b7e5760ba0022af85b2,Update support.md,non_debt,-,688,test
+jena,1092bc95265c6861e6a9f182e56f43df0b847c83,"Clear up for JENA-498 
+Per request creation of an HttpClient is still the default due to lock-up when recycled.",non_debt,-,697,test
+brooklyn-server,3da6ccbb9962527af65f851d3769d991f3490918,"Logging brooklyn-persister thread Jclouds messages in a separate file
+When a server with persistence to an object store enabled manages lots of
+entities the Jclouds log is overwhelmed by messages logged from the
+brooklyn-persister thread (in one case logging at a rate of ~ half a
+million lines every four minutes).
+The appender added in this commit alleviates - a little! - this logging
+overload.
+Anecdotal measurements of the ratio between the persister log and jclouds
+log sizes, with EmptySoftwareProcess entities:
+0 entities: persister log 0.01 times size of jclouds log
+1 entity: 0.36
+5 entities: ~1.13
+10 entities: 1.75
+50 entities: 8.6",non_debt,-,700,test
+myfaces-tobago,f59a1fdbfaecc8ba3ace95f014c37e877f1534f0,"Use tobago-dropdown only for parents of commands, not for ""normal"" links
+TOBAGO-1633: TS refactoring",non_debt,-,705,test
+thrift,8f3bce4153a17dbf6a188bb80f589eadbd0de5e2,"TSocketPool changes
+Summary: 1] Added empty constructor
+         2] Added function to set server list
+         3] Made getServers return by ref
+         4] Made list of servers be a list of pointers
+         The last change is so that someone can pass in the list of servers and rely on TSocketPool to change the failure time directly on the TSocketServer object
+Reviewed By: aditya
+Test Plan: Ran with a test search server
+Revert: OK
+DiffCamp Revision: 9529",non_debt,-,721,test
+cxf,39532b2ea91462edd7a3df5d5001996ad1c6a4ea,[CXF-3498] Starting working on wadltojava tool,non_debt,-,735,test
+attic-apex-core,13d0904bb65dea042c0d350a3c35eaaa4c974702,reorg imports,code_debt,low_quality_code,738,test
+couchdb,d9566c831d002be16f866f0065a905bc23773cf9,"Support auth cookies with : characters
+The parts of a couchdb authentication cookie are separated by
+colons. One of these parts can contain colons and, more rarely, runs
+of colons. The string:tokens function silently drops any empty token,
+thus giving a spurious failure for valid input. The fix changes this
+mechanism to one that losslessly decodes this part.
+COUCHDB-1607",non_debt,-,739,test
+flink,3907a4a3cfbba3ec57f938f31166ceaaa850e7e0,[FLINK-20129][docs] Add raw format link to index.zh.md,non_debt,-,742,test
+camel,0f6912b40981f8bf9aaf7c62016f5315419cab84,Moved class to support,non_debt,-,743,test
+hadoop,ae6cc14611a5898ed637a2e0f9df559f6c29093e,MAPREDUCE-4427. Added an 'unmanaged' mode for AMs so as to ease development of new applications. Contributed by Bikas Saha.,non_debt,-,744,test
+airflow,56a038aae77b50d27137a038f33ea7ed67fffdd6,[AIRFLOW-4084] fix ElasticSearch log download (#5177),non_debt,-,746,test
+attic-stratos,c73c81524a5058e437afa225484b2720d736f1e8,ignoring test output dirs,non_debt,-,748,test
+camel,0c8b7baa56f10d19a23cb12e12ff8a5e0ad43180,Upgrade Spring Cloud Netflix to version 1.3.5.RELEASE,non_debt,-,749,test
+beam,d30c981b21f17520322f9ea121df62153aef13c0,"Remove debug statement from test
+----Release Notes----
+[]
+-------------
+MOE_MIGRATED_REVID=114886024",code_debt,low_quality_code,750,test
+beam,194b976c9bd4f61ae8fc5f13b902c8ee00b2eded,"Merge pull request #7011 from markflyhigh/py-fix-py3-2
+[BEAM-5953] Fix DataflowRunner in Python 3 - type errors",non_debt,-,771,test
+hbase,d60908dcf9c8c0cfb3701d1b9b5f52e8239691df,HADOOP-1868 Make default configuration more responsive,code_debt,low_quality_code,776,test
+jmeter,81b5d8029040f26b6168ca61dfbefeefd0cd2aae,Update list of jars,non_debt,-,793,test
+usergrid,bedf5afb56b8fb858705901b1fd6ce0d6cc5b25c,This closes #159,non_debt,-,798,test
+tajo,f80beaf64d33850ee79e8ae32b33a852f56712f0,"TAJO-1140: Separate TajoClient into fine grained parts.
+Closes #213",non_debt,-,799,test
+trafficcontrol,c929d8933c720f451d459b7b7dbd4a287eb888e5,cleaned up the cdns to account for the cdn package,code_debt,low_quality_code,801,test
+cxf,1bbb368a25d51811ca4854d20c3f66c00d58ef3d,Merge branch 'master' of https://git-wip-us.apache.org/repos/asf/cxf,non_debt,-,803,test
+fineract,c63db1ce40184e3f5c1e2b2babf0bfe167a9fabd,update core DDL + minimum reference data for deploying mifosx platform.,non_debt,-,809,test
+myfaces-tobago,36fe0550742adc8e70c5dbe7b9be03e32358a782,checkstyle,non_debt,-,810,test
+shardingsphere,0d17545f67c3f2775d8e7326746501b20c1d2686,for #103 sharding-jdbc => sharding-jdbc-example.,non_debt,-,811,test
+skywalking,ef92d8e3d39e8db158571880982205c2573ca324,Merge remote-tracking branch 'origin/master',non_debt,-,816,test
+cassandra,5f2ee5284a90ad49604071bd7bb0d98059a87060,Merge branch 'cassandra-3.11' into trunk,non_debt,-,822,test
+hbase,31f16d6aec7d09f0a4102ed7651db9ff0d190cf9,"HBASE-16471 Region Server metrics context will be wrong when machine hostname contain ""master"" word (Pankaj Kumar)",non_debt,-,824,test
+tinkerpop,0eba268b4f0f3ce856098d11dbff453929734cfa,"Merge branch 'TINKERPOP-1044-master'
+Conflicts:
+	gremlin-server/src/main/java/org/apache/tinkerpop/gremlin/server/handler/IteratorHandler.java
+	gremlin-server/src/main/java/org/apache/tinkerpop/gremlin/server/handler/NioGremlinResponseEncoder.java
+	gremlin-server/src/main/java/org/apache/tinkerpop/gremlin/server/handler/WsGremlinResponseEncoder.java",non_debt,-,826,test
+helix,8ceecb9496dcd8b1e3e2e0717e3818719fe154fd,"DDS-2100: apache common.cli GnuParser() doesn't check the number of
+arguments for each option. Added a check for that; otherwise
+ClusterSetup() will throw ArrayOutoffBoundary exception.",non_debt,-,831,test
+geode,b826b4b0077dc159cbcee68775cc197b025d5586,"implementation of AvailablePort.isPortAvailable for multicast
+The AvailablePort utility has not had support for finding a free multicast
+port since feature/GEODE-77 was merged to the develop branch.  This change-
+set enables the old multicast code in AvailablePort and implements the
+check & response for its datagrams in JGroupsMessenger.  The JGroups
+transport method for receiving packets is overridden to look for these
+datagrams and respond to them.
+I also renamed AvailablePort.JGroups to AvailablePort.MULTICAST, which
+describes the kind of port that's being tested a little better.",code_debt,low_quality_code,839,test
+helix,dc75f228522c930cb40db1b0a16a69b3eb77d953,"Add Abnormal States Resolver interface and configuration item. (#1028)
+The Abnormal States Resolver defines a generic interface to find and recover if the partition has any abnormal current states. For example,
+- double masters
+- application data out of sync
+The interface shall be implemented according to the requirement.
+The resolver is applied in the rebalance process according to the corresponding cluster config item. For example,
+""ABNORMAL_STATES_RESOLVER_MAP"" : {
+ ""MASTERSLAVE"" : ""org.apache.helix.api.rebalancer.constraint.MasterSlaveAbnormalStateReslovler""
+}
+The default behavior without any configuration is not doing any recovery work.",non_debt,-,842,test
+lucene-solr,51484e138bfa0b96dac5456828c8d74f5b18944d,LUCENE-9509: Refine lucene/BUILD.md and top-level README (for newdevs) (#1835),non_debt,-,857,test
+infrastructure-puppet,5e2e486141cf7d40fa40283e2db86b868bfbe919,add new logging servers,non_debt,-,862,test
+guacamole-client,a967ffa41c5ffc8c6d5142c51a1419d197bac7a3,GUACAMOLE-670: Merge changes correcting conflicting versions of SLF4J.,non_debt,-,866,test
+hbase,6b9b5dbd998bd84768634960cb79a66b56539eed,HBASE-4054 Usability improvement to HTablePool,design_debt,non-optimal_design,874,test
+fineract,fd2cdefb95338f672f8d70c07e002dff0f605fc8,"Merge pull request #528 from mifoscontributer/mifosx-611
+Add data validations for bulkloanreassignment",non_debt,-,882,test
+airflow,24a7072990fb232a6fe23c9eb3fdb72ba0695c96,"Fix logic for determining DagRun states
+Previously, DagRuns failed if any task failed and succeeded if all
+tasks succeeded or were skipped. However, because of trigger behaviors,
+that’s not right — a task can fail and another task can start up with
+an “on failed” trigger.
+This changes the logic to consider three termination cases:
+1. Failure. If any of the root tasks fail, the dagrun fails. This is
+because there is no possibility of any “on failure” trigger coming off
+a root task.
+2. Success. If ALL of the root nodes succeed or skip, the dagrun
+succeeds. This means there can be upstream failures as long as failure
+triggers are respected.
+3. Deadlock — A dag run is deadlocked when no action is possible.
+This is determined by the presence of unfinished tasks without met
+dependencies. However, care must be taken when depends_on_past=True
+because individual dag runs could *look* like they are deadlocked
+when they are actually just waiting for earlier runs to finish.
+To solve this problem, we evaluate deadlocks in two ways. First,
+across all dagruns simultaneously (to account for situations with
+depends_on_past=True). Second, in each individual dagrun (but only
+if there are no depends_on_past relationship).",non_debt,-,884,test
+tinkerpop,71937b764bafc6e58f8d8f2cbcb9131288678f43,Correct logic in travis build to ensure that deploy is only done when commit/push to master.,non_debt,-,885,test
+ignite,64cad4744f73eb0efbc9e374019fad778553f34f,Merge branch 'ignite-3477-master' of https://github.com/gridgain/apache-ignite into ignite-3477-master,non_debt,-,887,test
+activemq-artemis,0e17666dedb74ae15e41a670a90ec3fbf46faa3f,This closes #1156,non_debt,-,889,test
+accumulo,93f741e7efe761c980eda74b7fb679bd015838f3,ACCUMULO-1595 remove mlock config entry,non_debt,-,892,test
+shardingsphere,4ad4e7c41855a7c9afdb324cf0871a66178a526d,change import for ShardingStatement.java,non_debt,-,895,test
+netbeans,e743eebf76e27fc23fe2ddc9671b7a915645c8b4,"[NETBEANS-781] Adds Maven coordinates for Ant libs
+This is just the first part of a fix for NETBEANS-781.
+In the end we will switch to Ant 1.10.4 which is alpha now.",non_debt,-,899,test
+guacamole-client,5a6623540f1594fa5c49e851e5fd1265bf2105fe,"GUAC-676: Conversion to Guacamole.Display wasn't finished - ""transfer"" and others still directly used layer.",requirement_debt,requirement_partially_implemented,904,test
+usergrid,c18448cd44037cfa3a4e5ab90ebbfe04bdf9596d,"Merge pull request #49 from usergrid/package-rename-only
+Package rename only",non_debt,-,909,test
+hadoop,8d95784bf1a7fcf473fd5a9fed0140521a92a968,HDFS-4557. Fix FSDirectory#delete when INode#cleanSubtree returns 0.  Contributed by Jing Zhao,non_debt,-,921,test
+brooklyn-server,0559ff08919ad09ca2333fd6f6cf3c9ddaab8197,Review comment updates.,non_debt,-,928,test
+brooklyn-server,8df273dacf0e8663be03f8e4f3ca5752bf258ffa,Add app for demonstration of simple JBossClustering (though you'd only know it by checking the log files).  Updated SimpleTomcatApp to work with recent changes.,non_debt,-,929,test
+brooklyn-server,8b6bbbef0e70d14b617b534f02639f12595f4df9,"add an AbstractTransformingEnricher, to make it easy to write enrichers which combine sensors; and amend type hierarchy for other enrichers, and update ShellUtils",design_debt,non-optimal_design,934,test
+camel,dd67c384a45b3f57b32a848235cbb17112916f9c,CAMEL-8116: fix truncation logic,non_debt,-,935,test
+beam,02f3a5e978b421b1336582a1fc10e04d183f3816,[BEAM-6346] Inspect the docker container state,non_debt,-,938,test
+spark,d8830c5039d9c7c5ef03631904c32873ab558e22,"[SPARK-19859][SS] The new watermark should override the old one
+## What changes were proposed in this pull request?
+The new watermark should override the old one. Otherwise, we just pick up the first column which has a watermark, it may be unexpected.
+## How was this patch tested?
+The new test.
+Closes #17199 from zsxwing/SPARK-19859.",non_debt,-,948,test
+cxf,644d60e6794f363bb630ea6b413fcbaebdd32109,Put file that is apparently referenced from some spring configs back,non_debt,-,954,test
+jmeter,f741a79d6c8f59e95784ccbd48889fdd97bb6c24,replace bugzilla by bug,non_debt,-,955,test
+nutch,410b967367c4efb450515d10ba10ff2d9afaae3b,Adjust message,non_debt,-,957,test
+activemq,ba3e913daf379995d5afa0c964835fb2037ae0e5,tidied up detection of stale subscriptions across a network,non_debt,-,963,test
+kafka,75c78e9692a479e2c94dbd08e564f64faedd2071,"KAFKA-5668; fetch across stores in CompositeReadOnlyWindowStore & CompositeReadOnlySessionStore
+Fix range queries in `CompositeReadOnlyWindowStore` and `CompositeReadOnlySessionStore` to fetch across all stores (was previously just looking in the first store)
+Closes #3685 from dguy/kafka-5668",non_debt,-,964,test
+ambari,87fa076ec017636a19ad209349c38708535f64f2,"Revert ""AMBARI-19338 AM sizing for LLAP - min container size changes (dsen)""
+This reverts commit d256e82e628a6ba86acd17a21c2b925a7b3ae9c5.",non_debt,-,966,test
+cassandra,ae5722c2379614e4657088cfef38e7bec521c211,merge from 0.8,non_debt,-,976,test
+flink,08e550c98674738ab883ea84c0350093c9765ab6,"[FLINK-8234][flip6] Cache JobExecutionResult in Dispatcher
+- Introduce new JobExecutionResult used by JobMaster to forward the information in
+  the already existing JobExecutionResult.
+- Always cache a JobExecutionResult. Even in case of job failures. In case of
+  job failures, the serialized exception is stored additionally.
+- Introduce new methods to RestfulGateway to allow retrieval of cached
+  JobExecutionResults
+[FLINK-8234][flip6] Rename JobExecutionResult -> JobResult
+[FLINK-8234][flip6] Update MiniClusterJobDispatcher
+Do not store job failure exception in a separate field because the JobResult
+already contains the exception.
+[FLINK-8234][flip6] Make JobResult Serializable
+[FLINK-8234][flip6] Add Javadoc to JobResult builder
+[FLINK-8234][flip6] Add Javadoc to JobResult#serializedThrowable
+[FLINK-8234][flip6] Wrap JobResults in SoftReferences
+Wrap instances of JobResult stored in JobExecutionResultCache in SoftReferences
+so that the GC can free them according to memory demand.
+[FLINK-8234][flip6] Fix checkstyle violations
+[FLINK-8234][flip6] Add Javadoc to JobResult
+This closes #5184.",non_debt,-,981,test
+couchdb,5571420af8016b8076046ee6396367d33b10df42,"Allow reduce=false parameter in map-only views.
+Patch by Jason Smith.
+Closes COUCHDB-881.",non_debt,-,982,test
+camel,54eb007491087f8ff0739556a8e171a68da8a085,Polished,code_debt,low_quality_code,989,test
+kylin,9b95f0ffb76b9b3993a81ead44ad86314af3b4da,KYLIN-1234 enable ACL check on query,non_debt,-,994,test
+ambari,51b067f910828d55652988bdb9799a032e4f6c9d,AMBARI-15158. Resource Manager fails to start: IOException: /ats/active does not exist. (stoader),non_debt,-,1002,test
+hadoop,d777cb89965daa849f1e67f4d6059e327258cdd3,HADOOP-10563. Remove the dependency of jsp in trunk. Contributed by Haohui Mai.,non_debt,-,1004,test
+karaf,c188c22b151dcd369465c7fef0f5d5f19aaceb6e,added the rest of the amq commands,non_debt,-,1022,test
+tvm,48240ef6e8d8ba1786ca043588799d34c804a48f,"[CODEGEN] use charp for voidp (#753)
+* fx",non_debt,-,1025,test
+lucene-solr,80fe00ba18ac1f834028eb0064115a00bafe1f20,LUCENE-7099: improve test to exercise searchAfter,test_debt,low_coverage,1034,test
+usergrid,92903d87073996cf91f034e6d5f38d1df2709b74,Merge branch 'two-dot-o' of https://github.com/usergrid/usergrid into two-dot-o,non_debt,-,1036,test
+incubator-heron,9ff9889ca64c3d6f29cbdf475b3bf0ca41a64648,"Upgrade pex (#2314)
+* upgrade pex in place",non_debt,-,1054,test
+karaf,42167f08f0e35229f6446ab3942d83914a7cb241,Fix build after adding diagnostic stuff,non_debt,-,1058,test
+ignite,54beab99c12762a53f539f68bf1003ebf9ea3e85,ignite-gg-12138 stop nodes after test + small test refactoring,non_debt,-,1062,test
+skywalking,7b9c6f218fbc248e318156c54fbf2ae53a0fa9eb,Log test error when assert line number after add copyright head.,non_debt,-,1063,test
+cassandra,ab7174849599c62f4bef3cb719c644bae13e9321,"Legacy deserializer can create unexpected boundary range tombstones
+patch by Sylvain Lebresne; reviewed by Branimir Lambov for CASSANDRA-13237",architecture_debt,using_obsolete_technology,1064,test
+streams,949b676897aa87bba92613b694c4808efdea8c56,STREAMS-105 | Code review feedback,non_debt,-,1069,test
+brooklyn-server,ba7b4961fdb1a67798fc5e2e78c005735cf283ca,This closes #662,non_debt,-,1071,test
+kylin,a203e9af7c135a9db43677339054069042189152,commit sample ii cube,non_debt,-,1077,test
+karaf,3065ace3b7196c93293b07afbac6c15ceddba048,[KARAF-4787] Don't use the features-generate-descriptor inside our build,non_debt,-,1079,test
+hadoop,99237607bf73e97b06eeb3455aa1327bfab4d5d2,"YARN-8706.  Allow additional flag in docker inspect call.
+            Contributed by Chandni Singh",non_debt,-,1080,test
+hive,f780eb39eea3f39b906daf7454185398b5d9ce3b,"HIVE-8472: Add ALTER DATABASE SET LOCATION (Mithun Radhakrishnan, reviewed by Alan Gates)",non_debt,-,1082,test
+incubator-pinot,90a8814798e3c125a07f298d3dadd11c86edacf2,[TE] Fix runtime problem of Node.class from org.w3c is not found (#1692),non_debt,-,1087,test
+beam,c32842b2f08f8a2fdac0375097022df8776ed3af,"[BEAM-5600, BEAM-2939] Add SplittableParDo expansion logic to runner's core.
+Update Flink, Spark, and Samza to use it removing the unnecessary expansion within the Python portable runner.",code_debt,dead_code,1091,test
+attic-stratos,529b725a27ed6d50b3975b607c2e3427efee23d4,Fixing startup error,non_debt,-,1097,test
+brooklyn-server,8a7b8acf8f9d458e180b3e6e7c06acf763c3e454,Update example blueprint for Node.JS Todo application,requirement_debt,requirement_partially_implemented,1100,test
+karaf,7f457808303df3fbd3ca08c997722a3a3e12e207,"[KARAF-4660] Fix typo in wrapper install output message
+Fix the `rm` command to use the karaf-service file instead of the complete path",documentation_debt,low_quality_documentation,1107,test
+brooklyn-server,7a7f75925fbca513816bc77685ad82b6915b9322,Location inheritance: test removing values with nulls,non_debt,-,1111,test
+activemq-artemis,048f46bd4f4b24109dd186f585730f6b14d05187,ARTEMIS-1866 Fixing QuorumResultWaitTest,non_debt,-,1112,test
+ignite,beb631fa899a7a0cb624bbe7bdb1e91d9071d569,#GG-8028 - Tests WIP,non_debt,-,1123,test
+lucene-solr,4b75776f5a7962200ae55f0125625890bf7ed1bd,SOLR-13634:move ResponseBuilderTest to same package as ResponseBuilder,non_debt,-,1125,test
+spark,7c5db4515ea369f8303301fa042872b2cb1d652a,"[SPARK-29363][MLLIB] Make o.a.s.regression.Regressor public
+### What changes were proposed in this pull request?
+- Removal of `private[ml]` modifier from `Regressor`.
+- Marking `Regressor` as  `DeveloperApi`.
+### Why are the changes needed?
+Consistency with the rest of ML API as described in [the corresponding JIRA ticket](https://issues.apache.org/jira/browse/SPARK-29363).
+### Does this PR introduce any user-facing change?
+Yes, as described above.
+### How was this patch tested?
+Existing tests.
+Closes #26033 from zero323/SPARK-29363.",non_debt,-,1128,test
+camel,4ba43c39613af9ad9ded6cbcfdb06c30a349ee93,"CAMEL-10004: PollEnrich now supports bridge error handler of the consumer, so the route error handler can react on caught exception during polling.",non_debt,-,1130,test
+lucene-solr,908225d1749a9c0b61d92fbc940c9031cd30e361,LUCENE-7290: Add support for calculating bounds for intersections.,non_debt,-,1139,test
+couchdb,ca66fa917c8e297e1403dc916de96f50130af270,Futon: Simplify placeholder fallback using jQuery live focus events.,code_debt,complex_code,1142,test
+usergrid,204bf04272be75056a05e40b4bf6d3c389f0b134,Merge branch '2.1-release' of https://git-wip-us.apache.org/repos/asf/usergrid into 2.1-release,non_debt,-,1146,test
+jena,7cbd087efc278cad23fc691361d26141d1d51bae,Shuffle journal entry reading around so checks done before attempting to use the data.,non_debt,-,1150,test
+helix,d6b42e555619090d3721096c625ccca16d98cff0,Integrated alerts with rest of CM.  Integration test in progress.,non_debt,-,1151,test
+ambari,c9ced876800a36ba09959370d17a228f31d1018d,AMBARI-21691 Config Group filter does not reflect all the config groups in the list. (atkach),non_debt,-,1162,test
+hadoop,f7c77b395f6f01b4e687b9feb2e77b907d8e943f,HDDS-1458. Create a maven profile to run fault injection tests. Contributed by Eric Yang.,non_debt,-,1167,test
+hadoop,87818ef4e7c1a49dc3b0d6766cceb3499b07b837,HADOOP-11217. (Addendum to allow SSLv2Hello) Disable SSLv3 in KMS. (Robert Kanter via kasha),non_debt,-,1172,test
+shardingsphere,6ee0e2e4417bf1d474e26feb592e5babb49514c9,refactor select statement 11th version,non_debt,-,1176,test
+echarts,3ac3175cfa287b34d51c8840be8fedb125ed2b7d,fix(lines): fix unexpected fill in polyline,non_debt,-,1177,test
+cloudstack,980b227817d288bc2398342a32901b74afe8d532,"recalculate the capacity after overcomit change.
+Conflicts:
+	server/src/com/cloud/capacity/CapacityManager.java
+	server/src/com/cloud/capacity/CapacityManagerImpl.java
+	server/src/com/cloud/resource/ResourceManagerImpl.java
+	server/src/com/cloud/vm/VirtualMachineManagerImpl.java",non_debt,-,1179,test
+calcite,7546ef2d7f041d61fdeaee73266b710dd37c0914,"[CALCITE-2001] JDBC driver should return ""SYSTEM TABLE"" rather than ""SYSTEM_TABLE""",non_debt,-,1182,test
+cassandra,5b9e43c83e9137ad4f68f3c7d19ce853aa5fd994,merge from 2.0,non_debt,-,1190,test
+carbondata,cc59b247aff7a6fd5d164d83dfe01890cfcdb2e1,"Compaction lock should also be acquired during alter operation as alter and compaction on same table should not be allowed concurrently.
+Handling for compaction for restructure case. Handled to completely sort the data again if any restructured block is selected for compaction
+Handled review comments",non_debt,-,1192,test
+geode,f6fb4e36f8a8f13b1a1330f50a4b2f0a2efd590d,GEODE-64: Fix source header,non_debt,-,1202,test
+flink,fcaf6ab26b4960799eef9cd7e6bd72b9647c465f,[streaming] Licensing added to LogUtils,non_debt,-,1205,test
+camel-k,2c12cf0d8bbae1ef83fca4af21e62837c7e2d16d,chore: Fix operator sdk download url in release workflow,non_debt,-,1211,test
+attic-apex-malhar,4e80abbcf8132c4f8c4aeeb228a598ca3520760b,"Merge pull request #752 from RashmiDR/directoryScan2014_pull
+Squashed commit of the following:",non_debt,-,1215,test
+incubator-brooklyn,8cbfd55d46cac2ee12e62b7046cfbaa1c879de0a,Fix classnames in qa start scripts,non_debt,-,1218,test
+jmeter,8e565c657244855006b99b08e8837e1495e2068f,Bug 52552 - Help reference only works in English,non_debt,-,1226,test
+tvm,7e2a9fcfbc683861dee4118b3825908c652058f3,[TEST] Remove script that references previously removed content. (#2596),code_debt,dead_code,1239,test
+hawq,f28a25b6e300fc868e0d31234fe4004742a17e8a,HAWQ-184. Add license header to source files,non_debt,-,1257,test
+groovy,5c83fe519f348aa95367ee2e907a8122adcfa492,"Remove redundant wiki manipulation code, amend Maven 1 build to remove references to the code, and to the dependent jars.",code_debt,complex_code,1260,test
+beam,16e5feff484d7022046fe59e621ab09f5c8799d9,[BEAM-3566] Replace apply_* hooks in DirectRunner with PTransformOverrides,non_debt,-,1263,test
+spark,bce00dac403d3be2be59218b7b93a56c34c68f1a,"[SPARK-6752] [STREAMING] [REVISED] Allow StreamingContext to be recreated from checkpoint and existing SparkContext
+This is a revision of the earlier version (see #5773) that passed the active SparkContext explicitly through a new set of Java and Scala API. The drawbacks are.
+* Hard to implement in python.
+* New API introduced. This is even more confusing since we are introducing getActiveOrCreate in SPARK-7553
+Furthermore, there is now a direct way get an existing active SparkContext or create a new on - SparkContext.getOrCreate(conf). Its better to use this to get the SparkContext rather than have a new API to explicitly pass the context.
+So in this PR I have
+* Removed the new versions of StreamingContext.getOrCreate() which took SparkContext
+* Added the ability to pick up existing SparkContext when the StreamingContext tries to create a SparkContext.
+Closes #6096 from tdas/SPARK-6752 and squashes the following commits:
+53f4b2d [Tathagata Das] Merge remote-tracking branch 'apache-github/master' into SPARK-6752
+f024b77 [Tathagata Das] Removed extra API and used SparkContext.getOrCreate",design_debt,non-optimal_design,1278,test
+jmeter,3f920e2cb15de27b884966b3654818904cd91698,Log more information if a sampler causes an error,code_debt,low_quality_code,1281,test
+airflow,5f403a87597fe10459a12bb8c1368fc8b65f9a7c,Wrong key in DAGs Persistent Volume Claim (#10627),non_debt,-,1283,test
+incubator-brooklyn,2cf8449fd7d260c5da9653f23e538159824a0037,"Merge pull request #551 from aledsage/RubyRep-comment
+RubyRep postgresql failure: add comment about os x setup",non_debt,-,1286,test
+brooklyn-server,8ebec31f542e95af960b6888d6ba69c975e3b1b6,Changed type.getInterfaces() to Reflections.getAllInterfaces(type),non_debt,-,1290,test
+streams,c77a617febaa5e9889ce9a94db6cba263295457c,"STREAMS-552
+STREAMS-552: Disable .debug() by default in org.apache.streams.twitter.api.Twitter (https://issues.apache.org/jira/browse/STREAMS-552)",non_debt,-,1291,test
+trafficserver,919f711d8c4b047140f82615b260238ab416a7fc,"TS-1576: reload splitdns.config at runtime
+  - reload splitdns.config with traffic_line -x
+  - use ConfigInfo rather than similar custom code",non_debt,-,1298,test
+shardingsphere,93e70b2b9bdf34678834f26be0d33280c0a342bf,"fix batch insert bug
+fix batch insert bug",non_debt,-,1304,test
+hadoop,8aaf5e1a14e577a7d8142bc7d49bb94014032afd,"HDFS-14759. HDFS cat logs an info message.
+Contributed by Eric Badger.",non_debt,-,1305,test
+beam,9de685d5e9800e6ff13e624192b1a3c7cfa585cd,Enable failOnWarnings for all projects.,non_debt,-,1306,test
+drill,c568eed28567f65b9e5931f7fea428497d0b5bfd,DRILL-169 Correct JSON serialization/deserialization for Project LOP,non_debt,-,1317,test
+incubator-pinot,c4a566004269bec5157e321c24f26f1d7f3e8721,"Do not put trace info in DataTable when trace is not enabled (#2052)
+Fix the issue where trace info is set in DataTable even when trace is not enabled
+When encountered exception, still put request id into data table
+Will clean up Trace in another PR for performance",code_debt,low_quality_code,1322,test
+drill,855873ef30bae0af402d32ee4cf44a65f97fb1db,"DRILL-4690: initial support for CORS
+Added CrossOriginFilter to WebServer based on option HTTP_ENABLE_CORS
+Fixed issues related to style
+Restricted headers, added run of filterChain
+Filter from org.eclipse.jetty.servlets
+Enabled configuration, jetty version 9.1.5, restrict filtered paths
+CORS by default disabled, reduced size of dependencies (reset maxsize)
+This closes #507",code_debt,low_quality_code,1328,test
+groovy,d6da61fd2514205aca1e1c55f2b977139e50e585,"Documentation: Remove section on MarkupBuilder. The section on MarkupBuilder of ""Working with XML"" is better, so link to it.
+Add link to StreamingMarkupBuilder section of ""Working with XML"".",non_debt,-,1330,test
+samza,578cc19f69c92dfde5bd0b972ce8147b84988153,"SAMZA-1711: Re-enable existing standalone integration tests.
+**Changes:**
+* Enable all existing standalone integration tests except `TestZkStreamProcessorSession`(`TestZkStreamProcessorSession` is flaky. It spawns `x` StreamProcessors and kills one StreamProcessor through zookeeper session expiration. Sleeps for 5 seconds and proceeds to do validation. If the rebalancing phase takes longer the sleep time, validation fails).
+* Remove zookeeper unavailable unit test from LocalApplicationRunner(Race condition in zookeeper shutdown fails other tests). The deleted test will be added back in a separate test class.
+* Increase zookeeper server minimum session timeout from 6 seconds to 120 seconds.
+* Add assertions to validate if kafka topics setup were successful before the unit tests.
+**Validation:**
+Verified by running the following script on top of this patch in master branch.
+**Result:**
+Closes #515 from shanthoosh/turn_all_integration_tests_on",test_debt,low_coverage,1333,test
+groovy,a75b51bd571f20995c6e85d6b8a09756711eb9e1,Minor formatting fix for the properties mentioned in the section on Grape (closes #12),code_debt,low_quality_code,1346,test
+fineract,6653dae41b2a1a94db5bb08c462a52d76a72723a,merging 1.17.1 into develop,non_debt,-,1352,test
+beam,c482c3effb3aa3a3d6669ff051ca6e1b49fa7a32,"Remove the Window.Trigger intermediate Builder class
+----Release Notes----
+Remove the Window.Trigger intermediate Builder class
+[]
+-------------
+MOE_MIGRATED_REVID=98859672",non_debt,-,1364,test
+spark,0bd1d00c2ab75c6133269611d498cac321d9d389,minor cleanup based on feedback in review request,code_debt,low_quality_code,1367,test
+brooklyn-server,ec3ebf35a94b3e83aa70297093737d3fc521f057,Avoid NPE on SoftwareProcessEntity.start(null),non_debt,-,1368,test
+flink,7c10f5d55d4ef4c6ce6cccf1bc82dc0f8d6216bf,Fixed possible resource leak in checkpoint's write thread,design_debt,non-optimal_design,1378,test
+incubator-weex,2f10aeeee1d7c4b344f3a81fc64beafec80af456,"Merge pull request #430 from hilongjw/patch-1
+[doc] correct spelling error",documentation_debt,low_quality_documentation,1379,test
+activemq-artemis,b08541997b636c140bad5db8aced37bc15691bc4,This closes #2413,code_debt,low_quality_code,1380,test
+couchdb,ab78e47d25d81ade0d1caeee251d36d3782ff9b6,"Update db_to_seq table when _replicator db deleted
+If a _replicator db is deleted then recreated the db_to_seq ets
+table needs to be updated, otherwise the sequence will be out of sync
+and replication docs can fail to trigger.
+BugzID: 12759",non_debt,-,1382,test
+flink,c47fb4704ccd123cb71ee9f3379a166f91f1c217,[FLINK-18307][scripts] Rename 'slaves' file to 'workers',non_debt,-,1387,test
+storm,86e5b2c514b0f03fe566d95c1c0f695242d1027f,"STORM-3512 Empty implementation for the MetricStore.  (#3152)
+* STORM-3512 Empty implementation for the MetricStore. Intended to be use in the config to disable monitoring.",non_debt,-,1394,test
+cloudstack,c13af1e85ad0c524e59772b055159e2899ce9a92,"README: Repo has moved (#2235)
+Move from git-wip-us to gitbox",non_debt,-,1396,test
+camel-quarkus,723194186949c13b7a44e464b4c2fd0e20a5f686,"Merge pull request #555 from lburgazzoli/github-553
+Randomize http test port",code_debt,low_quality_code,1399,test
+cloudstack,3c0108ef58867d54b7bdb211b34d8744ef4735e2,Bug 14476: ESC causes UI to freeze,non_debt,-,1402,test
+shardingsphere,3aa401b34481de0c22afde0bf68d52fb81f19cee,change parser rule name from XXX_ to XXX (#7863),non_debt,-,1406,test
+camel,fdea3a25b68b57ddae24776c71f1f67d1f230766,"CAMEL-3458: Fixed Bindy in fixed length mode to throw exception if field is larger than allowed length. Added option clip so you can clip the field when this happens, to workaround this issue.",design_debt,non-optimal_design,1420,test
+spark,08a125761db9ecabdd3c6d80f414c53639bd5ddd,"[SPARK-34585][SQL] Remove no longer needed BatchWriteHelper
+### What changes were proposed in this pull request?
+As a follow-up to SPARK-34456, this PR removes `BatchWriteHelper` completely.
+### Why are the changes needed?
+These changes remove no longer used code.
+### Does this PR introduce _any_ user-facing change?
+No.
+### How was this patch tested?
+Existing tests.
+Closes #31699 from aokolnychyi/spark-34585.",code_debt,dead_code,1427,test
+lucene-solr,6e4756fd48076abcecc94446ce3defeb3f907cc1,"SOLR-13890: Add ""top-level"" DV ""terms"" implementation (#1151)
+{!terms} queries have a docValues-based implementation that uses per-segment DV structures.  This does well with a small to moderate (a few hundred) number of query terms, but doesn't well scale beyond that due to repetitive seeks done on each segment.
+This commit introduces an implementation that uses a ""top-level"" docValues structure, which scales much better to very large {!terms} queries (many hundreds, thousands of terms).",non_debt,-,1428,test
+lucene-solr,b7b85f3e7591c294757566ca89358c7053e400a2,Move bugfix entries to version 8.5.1,non_debt,-,1439,test
+camel,9ad074f4f099ac8ee9aee6eee78dcac803a8ff20,CAMEL-8023 Polished the java doc,documentation_debt,low_quality_documentation,1440,test
+ignite,a815067a0e8e7cfc9f49c57efe2b2eba562e9071,IGNITE-3202: Hadoop: Implemented user name mappers.,non_debt,-,1446,test
+incubator-dolphinscheduler,1894651f5f9fdf15d1f5a256b20f109200e48e24,"Merge pull request #3890 from apache/revert-3870-1.3.3-bug-ui-fix-3835
+Revert ""[1.3.3-release][fix-3835][ui] When the tenantName contains ""<"", the tenant drop-down list is blankadd verify tenant name cannot contain special characters.""",non_debt,-,1447,test
+hbase,a1f28f3ca77d1cd9777d694e246b57d642dfcdb8,HBASE-21277 Prevent to add same table to two sync replication peer's config,non_debt,-,1451,test
+hive,5896c46894b1e5089ecb14715eac2fbbe5e6552b,HIVE-4369 : Many new failures on hadoop 2 (Vikram Dixit via Ashutosh Chauhan),non_debt,-,1459,test
+ambari,f41b8f235a43671764628bc945de2f28748d63b7,AMBARI-10408: NFSGateway fails to start in blueprint installation. (jaimin),non_debt,-,1460,test
+spark,5b62bef8cbf73f910513ef3b1f557aa94b384854,"[SPARK-8918] [MLLIB] [DOC] Add @since tags to mllib.clustering
+This continues the work from #8256. I removed `since` tags from private/protected/local methods/variables (see https://github.com/apache/spark/commit/72fdeb64630470f6f46cf3eed8ffbfe83a7c4659). MechCoder
+Closes #8256
+Closes #8288 from mengxr/SPARK-8918.",non_debt,-,1463,test
+trafficcontrol,40d46a792556259b9c79ddd7f957f37ea8aba730,"Merge pull request #952 from dewrich/issue/938
+Fix for Issue #938 - added back good.csv",non_debt,-,1470,test
+shardingsphere,258db2086dd5bf05aff7afa17d5348111eaaac59,EtcdClientBuilder => EtcdChannelFactory,non_debt,-,1471,test
+trafficserver,8bf151af87931cbcc550a63b1e6bfc6036ee9c87,Added 1005.,non_debt,-,1475,test
+infrastructure-puppet,f3f7c3e249bbe5670999abbf7e260935ef63c87f,sync r954282 and r953866 with git,non_debt,-,1478,test
+myfaces-tobago,14761773f6b854a93d4c277cbf96e68abd8f3215,"update jdk 1.5 enforcement for release
+use normal tomahawk for jsf 1.1 testing",non_debt,-,1479,test
+flink,f32c4753740e0a8033accff0320a81777a03795a,Exclude netty and protobuf dependency from hadoop-commons-2.0.0-alpha,non_debt,-,1500,test
+beam,eddaf92a7628e6094dab422b1091cc543fb68d44,[BEAM-7720] Fix the exception type of InMemoryJobService when job id not found,non_debt,-,1507,test
+beam,a76407eac536bf4948be4306f66e0780539a3417,#! rebased on master,non_debt,-,1510,test
+tomee,621ca4039914acc1d73c686482bffe1efb2674c4,TOMEE-444 looking in tomee.war/lib if tomee/lib doesn't contain the searched lib (used for webapp classloader enrichment),non_debt,-,1516,test
+spark,d285212756168200383bf4df2c951bd80a492a7c,"Fixed AtmoicReference<> Example
+Closes #8076 from lababidi/master and squashes the following commits:
+af4553b [Mahmoud Lababidi] Fixed AtmoicReference<> Example",non_debt,-,1519,test
+cloudstack,fde14bcc326b377b24b7f310793a6e0a4271e95a,"Revert ""CLOUDSTACK-4780: Changes related to checking snapshot on NFS server""
+This reverts commit 33fb241fdf7f363659db918b8f6dd5744f599259.",non_debt,-,1521,test
+lucene-solr,0014d19919b89a96ce6f7e1e304ac2320a6ca5a1,"woops, remove nocommit",non_debt,-,1522,test
+attic-stratos,fa3faef3ca707a6943d4728f1a5135a0aea62a30,adding a new operation to rest api - getPartitionsOfPolicy,non_debt,-,1544,test
+camel,7d781cce7cf84d736ee836672ffc5fa0141786cd,CAMEL-9556: enableHangupSupport should be deprecated so old code can still compile.,non_debt,-,1548,test
+drill,9dfa4a1c5095a238a2764ce68d6cb49ad62f11b1,Disable flapping limit tests: to be fixed as part of DRILL-1866,non_debt,-,1552,test
+incubator-mxnet,ec162771e7f6e2033432c6d6829aba76adf5dbdd,NameManager. AttrScope withScope move from object to class,non_debt,-,1553,test
+ignite,5b4b5a135c76ada0a1682cd0fd5ef4b9009b9e49,Merge remote-tracking branch 'remotes/origin/sprint-22' into sprint-23,non_debt,-,1554,test
+shardingsphere,e5e522f1c50d4d3b00f194a79e32d010041807a5,move YamlOrchestrationConfiguration,non_debt,-,1558,test
+karaf,789dcc99f087965aef0e816e364495c18784bea6,[karaf] update to latest blueprint snapshot,non_debt,-,1560,test
+trafodion,234494ef325411d75ca9b1652ceba3489a7c01fe,fix iptablesFirewallNotEnabled check to be warning instead of error,non_debt,-,1572,test
+incubator-weex,50641f1c98544a3dcfc2ead3c83992cfc1868725,"Merge pull request #2220 from boboning/ios-jsframework-0.19.7
+ios update weexSDK Version to 0.9.5",non_debt,-,1575,test
+beam,7bf73186f50f71c648bc045362a3cfdc1caf43f6,"[BEAM-5709] Fix flaky tests in BeamFnControlServiceTest.
+See the Jira issue for a description of the cause of the flakiness. This attempts to fix the issue by waiting a sufficiently long time for any actions that rely on the server shutdown to finish.",test_debt,flaky_test,1576,test
+attic-apex-malhar,864f01dd8a57acb8dd2456fbae2ae99889c103a7,"Merge pull request #692 from andyperlitch/MLHR-731
+Less now compiled on the fly, CSS files no longer tracked",non_debt,-,1580,test
+ignite,9a61273c4e16d5efa384bd520d9ca4ed4ddf57f0,Merge ignite-gg-11125 into ignite-db-wal,non_debt,-,1581,test
+ignite,e0d84d634eb5e0ab49da610e0ff2dae738578d83,Escape copyright sign in jdk8-backport javadoc,non_debt,-,1583,test
+cloudstack,25580c7cd1a484feba1960612c9a4ae1a179cbff,"CLOUDSTACK-6859:Management Server PermGen run out of memory after some
+time due to class leak.",design_debt,non-optimal_design,1589,test
+reef,b913942ec0e0afee752ade365b42fd7b6e07ea41,re-remove the registered lines,non_debt,-,1592,test
+storm,7bb4f2194b9a05f2321670cf8c1010537a75487c,ensure that ports in Cluster are Integer,non_debt,-,1605,test
+commons-lang,795fe5d869594bde53f8490d75eedef6185b6c37,"Added new vararg methods to insert values into an array at an index.
+This implements LANG-660. This commit also deprecates the add() methods
+that inserted a single value into an array at an index.",non_debt,-,1607,test
+activemq-artemis,d2594a280bce0f09c47da6ef7fb9ccbbc19168eb,"ARTEMIS-1211 - Allow local transactions when no jta in Resource Adapter
+https://issues.apache.org/jira/browse/ARTEMIS-1211",non_debt,-,1609,test
+cloudstack,b70307eb1aad88d0e0e47d7f0055e7071abdc694,"Revert ""Added cloud-qemu-system dependency on packages""
+This reverts commit f8e7b3ff5ff767bfcfd9b8004a4916a9350da953.",non_debt,-,1610,test
+hbase,ed06c534a098c94988ba5b8dc4c9cdb04f1fa18a,HBASE-3234 - use a version of branch-20-append that has 724 reverted in it,non_debt,-,1617,test
+nifi,1dce27ff2cfe20e6ee5dcf103d5bc56975e94c60,NIFI-598,non_debt,-,1619,test
+attic-apex-core,cda729ee848bda922055d7519db76caf141481fd,Moved CONCAT_SEPARATOR and SPLIT_SEPARATOR from StramChild and documented methods.,non_debt,-,1623,test
+camel,f0e4d8c88f9e17cf66441cf820f2cddc69740c3b,connection mode using DrillConnectionMode enum,non_debt,-,1625,test
+hudi,c8d5ea2752f8289b9dec37a149e82c030f657924,[MINOR] clean up and add comments to flink client (#2261),code_debt,low_quality_code,1630,test
+groovy,9d31887afa088bd0c1bad04b5a486c60f5343e53,a little bit of code cleanup,code_debt,low_quality_code,1635,test
+cassandra,317a3ed6271f02b6e942937882ff75a503b93f8a,"Avoid rebuilding SASI indexes containing no values
+Patch by Alex Petrov; reviewed by Corentin Chary for CASSANDRA-12962",non_debt,-,1637,test
+couchdb,4d53ff1866bdaa8be7b98a9b7be5834a225cb899,Fix typo in error id.,documentation_debt,low_quality_documentation,1643,test
+incubator-brooklyn,b068f610fea8de82fb9c9643cc92078d254f05e0,"Merge pull request #445 from aledsage/refactor/jboss7-groovy-to-java
+use new sensor-feed, instead of deprecated SensorAdapters",non_debt,-,1660,test
+hive,b48e23cf5054cdeab2860b1e18309d35e264b764,HIVE-1750 Remove partition filtering conditions when possible,non_debt,-,1664,test
+geode,62e7c54c05a1ee025596d6c36da262e2bd35bb8e,"GEODE-8211: fix flaky shutdown test (#5209)
+The problem was that the instance variable being set by one thread and read by another was not volatile.",test_debt,flaky_test,1672,test
+flink,19ff8db6847be65c60659e5f6e371fb9dacf1160,[hotfix] [metrics] Prevent registration exceptions,non_debt,-,1680,test
+couchdb,f80317483b27fcdacc6a022d228b309ee1781b5e,add patch version if we build from git,non_debt,-,1686,test
+hadoop,3a9cd79e9ddd5a9499e28633ccccdc9eef22b813,HDFS-5120. Add command-line support for manipulating cache pools.,non_debt,-,1693,test
+ambari,3fa380d07873f76652aefd4e2bda2c0548c12804,AMBARI-11922. Adds <build> to each view.xml in contrib (Erik Bergenholtz via rlevas),non_debt,-,1700,test
+camel,f790e5495c11ecaf57396ee7631ed7e44a721997,Camel-Metrics: Fixed CS,non_debt,-,1703,test
+pulsar,d0920fc21803dc74f56600784c074e01cc22d7a1,Remove duplicated lombok annotations in the pulsar-broker module (#6130),code_debt,duplicated_code,1706,test
+fineract,75ba8097618b50ca93885197ebd789aec4dc382c,"from MIFOSX-38, tidy up serialization of deposit accounts.",non_debt,-,1708,test
+spark,b3a07526fe774fd64fe3a2b9a2381eff9a3c49a3,"[SPARK-21718][SQL] Heavy log of type: ""Skipping partition based on stats ...""
+## What changes were proposed in this pull request?
+Reduce 'Skipping partitions' message to debug
+## How was this patch tested?
+Existing tests
+Closes #19010 from srowen/SPARK-21718.",non_debt,-,1709,test
+zeppelin,608aac7a45b5c6dd8f238de797820e8191f4dce9,[hotfix] Fix CI Failure,non_debt,-,1711,test
+kafka,fcc82dce6aff8fee30ce8a5ada3c6167aef1462f,Corrupted request shuts down the broker; patched by Jun Rao; reviewed by Jay Kreps and Neha Narkhede; KAFKA-261,non_debt,-,1713,test
+incubator-pinot,39841ad474ca7c63359b48881c14d431857440d8,THIRDEYE-389 : Use proper umask when creating HDFS directories,non_debt,-,1716,test
+cxf,929f6398183b438bcb363a960d02629ecdd4c355,Fix CXF-2459 set SecurityContext in jms transport for Tibco EMS,non_debt,-,1719,test
+spark,1c5ae3edf2913447d3554e7d48c3c4f117159cfb,"Merge pull request #151 from dennybritz/fix/examples_jar
+Examples ship to to cluster",non_debt,-,1723,test
+airflow,a338f3276835af45765d24a6e6d43ad4ba4d66ba,"[AIRFLOW-2810] Fix typo in Xcom model timestamp
+Fix typo in Xcom model timestamp field
+No new testing - the field is already represented
+in migrations
+Closes #3652 from andywilco/fix_datetime_typo",documentation_debt,low_quality_documentation,1734,test
+druid,3a298681e4711c74fb4342994acde2afe46b88e9,fixed formatting,documentation_debt,low_quality_documentation,1736,test
+cloudstack,c93630f125a2746d7eacbd9938869e7df0a6ab19,"travis: use explicit change directory and use -pl to build rat check (#3472)
+This tries to fix build failures seen in job 1 of Travis. Also fixes a pylint issue.",non_debt,-,1739,test
+jmeter,1f09bbe6418755aab03a376bbfdc41de56c38720,Clarify,non_debt,-,1740,test
+jmeter,245f36bac4f62196b2e16875f33119624a08560e,Remove final on methods as class is final,non_debt,-,1744,test
+couchdb,6b5985fa4e0abc787698cb458050203c01250adc,"Fix bug in reverse folding with startkey_docid
+Fixes an issue where the first k/v was skipped if the startkey_docid
+was included.",non_debt,-,1752,test
+cloudstack,3205cd42b59a4948194c5bd8853b83edec620ba8,"CLOUDSTACK-730: Site-to-site VPN between VPC VR to VR
+Now VPN connection can be created as ""passive"", which would enable the ability
+of remote peer initiate the connection. So it's possible for VPC VR to
+establish the connection to another VPC VR of CloudStack.
+Test case also included.
+The test case would create 2 vpcs and using VPN to connect them.",non_debt,-,1758,test
+infrastructure-puppet,2bf70823ca243687b1c731098aa12e5d53d863ca,OF: simplify loop (don't need v),code_debt,complex_code,1764,test
+iceberg,e2bdf33c947a5982a99dad4736105a4298345544,Add argument validation to HadoopTables#create (#298),non_debt,-,1773,test
+ambari,1ed9d97e7f8b98c65bbef1f7be98cc599e2c2c11,AMBARI-3882. Background operations popup window minimum size should be fixed when narrowing down the browser. (xiwang via yusaku),non_debt,-,1776,test
+hadoop,586348e4cbf197188057d6b843a6701cfffdaff3,YARN-3356. Capacity Scheduler FiCaSchedulerApp should use ResourceUsage to track used-resources-by-label. Contributed by Wangda Tan,non_debt,-,1778,test
+cassandra,de9be79d55ce36a23d9795faa37d792835404982,Merge branch 'cassandra-2.0' into trunk,non_debt,-,1783,test
+spark,eba6a1af4c8ffb21934a59a61a419d625f37cceb,"[SPARK-8945][SQL] Add add and subtract expressions for IntervalType
+JIRA: https://issues.apache.org/jira/browse/SPARK-8945
+Add add and subtract expressions for IntervalType.
+This patch had conflicts when merged, resolved by
+Committer: Reynold Xin <rxin@databricks.com>
+Closes #7398 from viirya/interval_add_subtract and squashes the following commits:
+acd1f1e [Liang-Chi Hsieh] Merge remote-tracking branch 'upstream/master' into interval_add_subtract
+5abae28 [Liang-Chi Hsieh] For comments.
+6f5b72e [Liang-Chi Hsieh] Merge remote-tracking branch 'upstream/master' into interval_add_subtract
+dbe3906 [Liang-Chi Hsieh] For comments.
+13a2fc5 [Liang-Chi Hsieh] Merge remote-tracking branch 'upstream/master' into interval_add_subtract
+83ec129 [Liang-Chi Hsieh] Remove intervalMethod.
+acfe1ab [Liang-Chi Hsieh] Fix scala style.
+d3e9d0e [Liang-Chi Hsieh] Add add and subtract expressions for IntervalType.",code_debt,low_quality_code,1795,test
+cloudstack,ab6bf0b20975e96696e5541e050e97819e003177,fix disk I/O description mistake,non_debt,-,1796,test
+cloudstack,871777b45eedcb2bfdbbc2cad56befb173679033,"bug 12976: The new keyboard framework sends only raw keyboard events, it turned out that it does not work with Xen/KVM hypervisors(only VMware supports standard raw keyboard events), Xen/KVM accept only cooked keyboard events, to maintain cross hypervisor compability, US english keyboard will be handled in the new JsCookedKeyboardMapper class",non_debt,-,1801,test
+lucene-solr,a6e24b20986ea8dfc99ab7ea21e4c48981319a35,"Ref Guide: fix out of order heading levels (were 3s, should be 2s after 1s)",non_debt,-,1803,test
+lucene-solr,9cee714143fff258f2adcd9cb6fce09abdd75ad6,reset useScorer14 in finally in case of test failure,non_debt,-,1806,test
+commons-lang,83558381e3401f07250e209689858d7fbf210ea2,Adding LANG-510,non_debt,-,1813,test
+brooklyn-server,50f51df3f2d0a7f5aa4d54b1d62dda4eb39264f2,"Covert from groovy to java
+- Converts:
+-- brooklyn.policy.loadbalancing.Movable
+-- brooklyn.entity.messaging.Topic
+-- brooklyn.entity.messaging.amqp.AmqpExchange
+-- brooklyn.entity.messaging.amqp.AmqpServer",non_debt,-,1816,test
+bigtop,a4e7d9ec819d171772ebca5d937aa46a94b95905,"BIGTOP-2749: puppet: use jessie package on jessie, not trusty",non_debt,-,1826,test
+incubator-mxnet,8ebb5372c3ad414cde096fb82de8be14cb748b11,add 'needs triage' label to new bug reports (#18696),non_debt,-,1830,test
+flink,973afee77ea6b22a286889b4d46cc750cd11e617,[FLINK-12763][runtime] SlotManager fails unfulfillable slot requests if it is set to do so.,non_debt,-,1831,test
+incubator-weex,4ef830fa9a3bc9b6e5eb02e97cfe5010473dde48,Merge branch 'android-feature-20160607' of https://github.com/alibaba/weex into android-feature-20160607-refresh,non_debt,-,1834,test
+beam,90af332438d52cf8b112e7a55c548988fe8d79af,This closes #62,non_debt,-,1837,test
+cassandra,1e8007b1a0a1baac6282d142fbb54a7d0860e751,"Exclude sstable based on clustering in query by name path
+patch by slebresne; reviewed by iamaleksey for CASSANDRA-10571",non_debt,-,1848,test
+attic-apex-malhar,181ffaaeb38229f1cf3df307c7027844c1c459e7,changed Nonnull to NotNull annotation,non_debt,-,1863,test
+spark,c14ddd97ed662a8429b9b9078bd7c1a5a1dd3d6c,"[SPARK-6515] update OpenHashSet impl
+Though I don't see any bug in the existing code, the update in this PR makes it read better. rxin
+Closes #5176 from mengxr/SPARK-6515 and squashes the following commits:
+134494d [Xiangrui Meng] update OpenHashSet impl",non_debt,-,1864,test
+attic-stratos,4c0241decbb76325aee4ce6335aa1e9842698d9c,Removing unnecessary activator from autoscaler,code_debt,low_quality_code,1878,test
+lucene-solr,8e069c976c422845590ab86018775d2b7b770d44,"new CSV lib, escape option for loader",non_debt,-,1879,test
+spark,ec80c0c2fc63360ee6b5872c24e6c67779ac63f4,"[SPARK-11706][STREAMING] Fix the bug that Streaming Python tests cannot report failures
+This PR just checks the test results and returns 1 if the test fails, so that `run-tests.py` can mark it fail.
+Closes #9669 from zsxwing/streaming-python-tests.",non_debt,-,1888,test
+spark,31ec72b243459e0d1d9c89033328e1d79f3aa76f,Code refactor according to comments,non_debt,-,1902,test
+trafficcontrol,48bf896b3b908afe2a8c994ff9bcd4e9362f60d8,Remove unused wicket components from Traffic Monitor,code_debt,dead_code,1903,test
+apisix,509f055a5a278d852a389f58ecf74fd0b40efa86,"change: installed tinyyaml by luarocks. (#527)
+* change: installed tinyyaml by luarocks.",non_debt,-,1908,test
+skywalking,cf6721d7157823154b9733144f602cfabaea3d5f,Moved hardcoded dependency versions to properties tag in pom.xml (#1582),code_debt,low_quality_code,1911,test
+hadoop,acf5b880d8283f5a96455c89a6b1b548d0d8c0e7,"YARN-6975. Moving logging APIs over to slf4j in hadoop-yarn-server-tests, hadoop-yarn-server-web-proxy and hadoop-yarn-server-router. Contributed by Yeliang Cang.",non_debt,-,1916,test
+jena,960a2ebcef19ffb3424c2aea59be4651d28bc1a0,Untab,non_debt,-,1918,test
+hadoop,1da762c745fa2bbb0a7a6d16bdc58ec9d4eb670d,Move HADOOP-12590 from 2.9.0 to 2.8.0 in CHANGES.txt.,non_debt,-,1920,test
+samza,1956dac94b2c41e3e99a0e47d1f5704882b10bbd,"SAMZA-1122; Rename ExecutionEnvironment to ApplicationRunner
+Some refactoring/cleanup:
+- rename ExecutionEnvironment to ApplicationRunner, including all the subclasses.
+- rename the package to be org.apache.samza.runtime
+- rename the StandalondApplicationRunner to be LocalApplicationRunner
+Closes #76 from xinyuiscool/SAMZA-1122 and squashes the following commits:
+cff5206 [Xinyu Liu] Merge branch 'SAMZA-1122' of https://github.com/xinyuiscool/samza into SAMZA-1122
+c341d3d [Xinyu Liu] SAMZA-1122: Rename ExecutionEnvironment to ApplicationRunner
+6a71205 [Xinyu Liu] SAMZA-1122: Rename ExecutionEnvironment to ApplicationRunner",code_debt,low_quality_code,1927,test
+carbondata,2bdfe1e6688e4a43c289ce30811dcfd35e237083,"[CARBONDATA-3348] Fix the case insensitive validation for duplicate sort column.
+Why is this PR needed?
+Currently the column name with different case(upper and lower)
+is getting considered as different columns for sort properties.
+What changes were proposed in this PR?
+Added the case insensitive validation for duplicate sort column.
+Does this PR introduce any user interface change?
+No
+Is any new testcase added?
+Yes
+This closes #3647",non_debt,-,1933,test
+hadoop,b94b8b30f282563ee2ecdd25761b2345aaf06c9b,YARN-2732. Fixed syntax error in SecureContainer.apt.vm. Contributed by Jian He.,non_debt,-,1939,test
+flink,fc581da73fcb9bbaa443604d36498c9a5dbdf0cd,"[FLINK-19888][hive] Migrate Hive source to FLIP-27 source interface for streaming
+This closes #13963",non_debt,-,1945,test
+griffin,255f147c4484e9077083bc74b0a3af9bd83d4afb,"[GRIFFIN-271] Before 0.6.0 milestone release, We need to check and tr…
+…im current codes against apache griffin dev guide
+trim current java code by dev guide document
+Closes #522 from toyboxman/g271.",non_debt,-,1946,test
+camel,f2f60209c2ebbb6cc645c47a857799179821a3b5,Upgrade GRPC bundle to version 1.26.0,non_debt,-,1947,test
+camel,ea4d1e463e2c0bf445fbedcc91284c7f8e8ad157,Fixed compiler error.,non_debt,-,1950,test
+attic-apex-malhar,fbaa040e72f53b083047213bd678152f595c6cd0,Adding TravisCI #82,non_debt,-,1954,test
+skywalking,2a0b2e81ef5b352b6a7ae0a785f0df02cd552fc1,[Agent-Plugin] Add support to MysqlDataSource,non_debt,-,1956,test
+camel,a3bf745ec9f5c3352a8c58a1e40e8d131c36ff27,Copied the license text from the Apache Flink component.,non_debt,-,1962,test
+attic-apex-core,eacb7a4cf4231cb7a4225c6a2b2f10d61c0a9863,APEXCORE-521 upate parent pom references.,non_debt,-,1971,test
+lucene-solr,e08a758625ebbafd710bfb1ac6f783c297c263fa,ThreadAffinityDocumentsWriterThreadPool.toString,non_debt,-,1972,test
+usergrid,654e19f66f184f270c32733e5cd99b22f0693c42,Fixes paging bug with sub fields,non_debt,-,1974,test
+beam,2649372d6ef10255366e34ee1fcf2f64766b4fd0,Closes #939,non_debt,-,1977,test
+ignite,cf650417b29761dae5dd56f4e655ff7bf13df024,#sprint-24 - config finder,non_debt,-,1986,test
+activemq,479f5e1713282f652f9eb7d9fe5a34edad058c9d,Fix for MySQL DB tables should be INNODB based for proper tx support: https://issues.apache.org/activemq/browse/AMQ-1891,non_debt,-,1988,test
+flink,27c29f7656ded03ec57cdc485e4ec8ff6e3b9bef,"[FLINK-15387][rocksdb][metrics] Expose missing RocksDB properties out via RocksDBNativeMetricOptions
+Expose more RocksDB metrics including block-cache-capacity, block-cache-pinned-usage, block-cache-usage and is-write-stopped
+This closes #10692.",non_debt,-,1990,test
+beam,919dc3c6fe70bb9ff78205f593c35164f6bfc308,"[BEAM-10720] Finish implementing StringMethods (cat, repeat) (#12705)
+* Implement repeat, cat
+* More discerning repeat, fix cat bug
+* Remove str_expr shim
+* fix py3.6
+* lint
+* yapf",non_debt,-,1993,test
+beam,9f27c33ec7e7c61afbca0395f932275b354eb428,This closes #2905,non_debt,-,2001,test
+incubator-pinot,eb5e1578a087553f3017d9e08ddd8c5d0a5b6b5d,"Refactored integration test, made functions in the query generator lowercase
+RB=463389
+R=kgopalak,xiafu,jfim,dpatel
+A=dpatel",non_debt,-,2002,test
+cloudstack,67e3936ae1f1792edc0988b03524673b53d43283,Fixed security issue in listNetworks,requirement_debt,non-functional_requirements_not_fully_satisfied,2004,test
+beam,de9d89c1ea408fcbebad446bdef0b47d538a4657,"[BEAM-2021] Add getElementCoders to UnionCoder
+This closes #2691",non_debt,-,2010,test
+lucene-solr,3dbdb50d9298b6044f99c3f7e51b7c3aed00d54e,formatting: make consistent with other clauses,documentation_debt,low_quality_documentation,2011,test
+guacamole-client,4d5196207bc4bd2381c540a368c8b381e7d8dbce,"GUACAMOLE-220: Correct typo - ""that status of"" should be ""the status of"".",documentation_debt,low_quality_documentation,2013,test
+camel,cdcded94ce31b44e5b5cce73b36da22c36204f44,CAMEL-3756: Add an example which use CXF bean binding and the OSGI HTTP Service (e.g. PAX Web with jetty),non_debt,-,2015,test
+activemq,518f0ce146d554d911e5aeca74cfb5fec4723f63,revert to manual additions to the schema mapping so that previous versions are not dropped from the map: resolve https://issues.apache.org/activemq/browse/AMQ-3005,non_debt,-,2018,test
+tinkerpop,5c735d8fdf7ff4f92f031afb2d30c4361c964750,KdcFixture closing,non_debt,-,2032,test
+incubator-weex,aa61442409905300f2d55c2af2213a7df1c221e8,+ [doc] change gitbook lastest version,non_debt,-,2038,test
+infrastructure-puppet,273157c8dc8dd6fd3fa39692f746c1b01cd8f334,Add stunnel module with abi configuration,non_debt,-,2039,test
+trafficserver,729cb80035d1cf63d909f6e1e734bb1e13cd03c0,fix broken link,non_debt,-,2040,test
+geode,acf0668fdddacc8da9fff6275880fcaafe172cbf,GEODE-3310: Avoid running a test case in distributed transaction.,non_debt,-,2046,test
+echarts,87bc7fb730d0e091d4a64820645271cdb402f328,fix: make boxplot transform more reasonable: add config.itemNameFormatter and remove config.layout.,design_debt,non-optimal_design,2051,test
+camel,4bc86ae7615500be6781fff0b2dc359e5fd80a36,Upgrade Facebook4j and related bundle to version 2.4.3,non_debt,-,2052,test
+groovy,f06b889851399f93395b5636da1c6285bc7b7a65,"groovydoc
+ - added hyperlinks for method detail return types
+ - included import foo.* in type resolution
+ - fixed odd fonts from stylesheet",code_debt,low_quality_code,2055,test
+trafodion,073c81b461dd9a52ffb2b0f36357f0de4ac7f163,Code review fixes.,non_debt,-,2057,test
+hbase,8cffa38ba3bb86323d94488e7a8edf2beecd87f4,HBASE-1954 Transactional scans do not see newest put,non_debt,-,2063,test
+accumulo,f343540ca4b9e4359c43d6f990e486de960b637c,"ACCUMULO-596 enabled support for additional hex characters, started a shell unit test that can't wait to be expanded to test more commands",non_debt,-,2066,test
+cassandra,f6c5e020a7b0a6acd9cc247ac39d58ac7f600afc,"Merge branch 'cassandra-1.2' into cassandra-2.0
+Conflicts:
+	CHANGES.txt",non_debt,-,2071,test
+ambari,8e36662ae1dffe7cb637b3d1edb38278f0111012,"AMBARI-21569.Users randomly getting ""HDFS020 Could not write file"" exceptions while running query from Hive View(Venkata Sairam)",non_debt,-,2079,test
+daffodil,8bf41fee4576f5c0ee817c0c168cb129e3dbeb7b,Convert line endings to unix-style,non_debt,-,2080,test
+brooklyn-server,df5debec58857e1dff10bda3221fcc066f7edd41,"CommonCommands.downloadUrlAs improvements
+- Cleans up CommonCommands.downloadUrlAs to support passiong in
+  multiple URLs (to try each until one works), and for use in more
+  simple download scenarios
+- Adds tests",design_debt,non-optimal_design,2100,test
+tomee,72bbbb018b2f7ddbf86b6ffcbf304f51d7f12103,Wait for RemoteTestServer,non_debt,-,2106,test
+jmeter,702f9c3c603b5c4e13ee6fce21b950e527d484e7,Unused import,build_debt,over-declared_dependencies,2110,test
+couchdb,7ffac4f63407af0b2cc19582a02b89914e856d93,fix temp_view undef.,non_debt,-,2112,test
+orc,e78350dd6b1b0fa35936e3d698686ce5a2c15791,Update the site to prefer https instead of http.,non_debt,-,2116,test
+incubator-mxnet,85a84136222d10dadb252613cf2c01be0845e86f,Moved test for convolution with dilate to test_operator.py,non_debt,-,2120,test
+jmeter,5159205021aefeed21df8ebbf216a8faee57807e,set svn:eol-style to native,non_debt,-,2121,test
+trafficserver,816952c979656a4586af079d259f3e19bd52e128,"docs: add configuration file cross references
+Add a simple 'configfile' extension that adds indexing for configuration
+files. Apply this throughout the configuration files documentation
+and fix various other warts.",non_debt,-,2123,test
+reef,02c0ad592f4f4a5f603c2689880f4859c1794b88,"[REEF-80] ID mismatch bug in YarnContainerManager#appendByDeleteAndCreate
+This synchronizes writing to evaluator log and re-throws an exception if
+the write fails, instead of swallowing it.
+JIRA:
+  [REEF-80] https://issues.apache.org/jira/browse/REEF-80
+Pull Request:
+  Closes #44",code_debt,low_quality_code,2125,test
+calcite,bd52b782e1ff4760c18997b803751b4e4c36c321,Upgrade Optiq,non_debt,-,2128,test
+hadoop,9df1c84be0f86f6c26030ba1b98e9a2b93dc743c,HDDS-563. Support hybrid VirtualHost style URL. Contributed by Bharat Viswanadham.,non_debt,-,2136,test
+cxf,5e5a4ed206f2007c9797be61f03bffe37c0a50aa,[CXF-6686] Updating ClientProxyImpl to do the best effort at mapping BeanParam bean's PathParam values to class-level template vars,non_debt,-,2143,test
+camel,51c55dea27d97894d13f5f98773b23530224e7e4,CAMEL-8663: activating the disabled tests as we have a new cxf,non_debt,-,2146,test
+couchdb,950f27c97d25c551dfc4d8c268a117087c69d7e9,Get the list of allowed languages from the environment,non_debt,-,2149,test
+geode,be5430d92966733fbdfe9d63e60bc7ef0168ea76,GEODE-5656: Upgrades Gradle to 4.10 (#2397),non_debt,-,2151,test
+usergrid,e92c84785115c8744ebc54fddae218eece27e77c,removed new validation module temporarily.  This will be used as we build iterators for the query engine,design_debt,non-optimal_design,2155,test
+carbondata,469c52f5d4c18579e2a6ed4c3bb35691cf01937b,"[HOTFIX] Throw original exception in thread pool
+If there are exception occurs in the Callable.run in the thread pool, it should throw the original exception instead of throw a new one, which makes it hard for debugging.
+This closes #2887",code_debt,low_quality_code,2161,test
+brooklyn-server,1c3d3be2d510cf52272506bbd1a8362b6c80847d,[maven-release-plugin] prepare for next development iteration,non_debt,-,2163,test
+trafodion,5437b4dca8785fa010e03b4792a759ae303223cb,2.0.0 Release Notes,non_debt,-,2167,test
+beam,05542aa92b34f220e33fb78e1bbeb81048368b59,Update streaming connectors blog post's publication date,non_debt,-,2175,test
+storm,fb0f00e482d3782682d9ede77f5990bc7d05a895,Fix links to documentation in Javadoc,non_debt,-,2176,test
+flink,efbdfc098c91a3e75a82d35a251904d8c3dc4bd3,Reworked compiler post pass to be generic for all flat record models.,non_debt,-,2177,test
+drill,0abe27387bb7bbcbabd140f569a54c17cd353df0,"DRILL-1655:  Fix CanNotPlan issue when join Mongodb and other datasource, by ensuring Mongodb plugin return one single instance for each table reference.",non_debt,-,2184,test
+shardingsphere,94e5f5faf83b8fb739df87b7ebdb8956784fa6c5,feature:readme add test command,non_debt,-,2185,test
+tomee,ca3db56d9534555ff7a69a8c474afa1fe8e7ed03,"Made the CalculatorLocal extend the CalculatorWs which does work.  Ideally we should move this multiple interface stuff into its own example, but it's fine here for now.",design_debt,non-optimal_design,2190,test
+hive,2c5a1095b1f39cbfdfbcf472f21b11239ad1b49e,"HIVE-22955 PreUpgradeTool can fail because access to CharsetDecoder is not synchronized (Gergely Hanko, reviewed by Miklos Gergely)",non_debt,-,2192,test
+camel,5c3fa7b6172958c340d9e05c230e8bbc6f4e6a07,Regen,non_debt,-,2205,test
+kylin,46c8af4633051235668cacca01bd96233a75a55f,"Merge remote-tracking branch 'origin/inverted-index' into simplify_deployment
+Conflicts:
+	.gitignore
+	common/src/main/java/org/apache/kylin/common/KylinConfig.java
+	conf/kylin.properties
+	examples/test_case_data/minicluster/b-kylin/kylin.properties
+	examples/test_case_data/minicluster/b-kylin/meta/kylin.properties
+	job/src/test/java/org/apache/kylin/job/ImportHBaseData.java",non_debt,-,2206,test
+shardingsphere,9ddfae7e162a2654d69cc8380820f5f332f686a8,#2384 merge oracle revoke,non_debt,-,2212,test
+flink,a3b9d9717a7c0a09c2b9480588805915bad09761,"[tests] Try to improve CI test stability
+Squashes the following commits:
+  Possible fix for: https://s3.amazonaws.com/archive.travis-ci.org/jobs/110235128/log.txt
+This closes #1676.",test_debt,flaky_test,2219,test
+flink,dac3e72c6777678af8d2dbbbd61aaff1e385981d,"[FLINK-21006] Fix hbase 1.4 tests on Hadoop 3.x
+This closes #14770",non_debt,-,2220,test
+tvm,f34dea41b41b2750f4a09c5444ecc87bce8b0087,[QNN] Use Int16 upcast in Fallback Conv2D. Fix test names. (#4329),non_debt,-,2224,test
+spark,08b201d810c0dc0933d00d78ec2c1d9135e100c3,"Add mapPartitions(), glom(), countByValue() to Python API.",non_debt,-,2225,test
+gobblin,af53a629c99c2b50bfb73696fadb0c07bb850f63,"Merge pull request #1980 from kadaan/Fix_for_#1979
+Change AWS security to credentials providers.",non_debt,-,2229,test
+tomee,89b99fe39644ad56d5db23c1e2f1ba9d3f6b2379,Using real non-pooled multithreaded access to test concurrent code execution on a stateful bean.,non_debt,-,2233,test
+druid,2ae34aea3a433138d71d903c1915d19a2a74df1f,"Merge pull request #2036 from gianm/no-doclint
+Disable javadoc linting.",non_debt,-,2239,test
+shardingsphere,1fe61049b9ee85a98dee0170bad8cb31ddf0f514,Merge branch 'dev' of ssh://github.com/shardingjdbc/sharding-jdbc into dev,non_debt,-,2245,test
+shardingsphere,ecf21995505200906e04ea8f6f5ab8e14d876e30,"Merge pull request #2 from beckhampu/master
+project init",non_debt,-,2246,test
+attic-apex-core,b6496f6585761760b20b656a2ab8ac1c1af63124,corrected launch-app-package command,non_debt,-,2247,test
+accumulo,25c01d19140e000e3e66a64edc41da784671aadd,ACCUMULO-2181 Fixing pom.xml error,non_debt,-,2250,test
+cxf,b3288ed94bd6518780839a6b9716c64575c68073,[CXF-5577] Initial workaround for the edge case involving matrix parameters,design_debt,non-optimal_design,2252,test
+hbase,0ae211eb399e5524196d89af8eac1941c8b61b60,"HBASE-16414 Improve performance for RPC encryption with Apache Common
+Crypto (Colin Ma)",code_debt,slow_algorithm,2261,test
+storm,93a66b8f456d64074d46d014b6e65d42dcb6d311,Merge branch 'storm-1452-profiler-broken-by-default' of github.com:d2r/storm,non_debt,-,2267,test
+shardingsphere-elasticjob,6c90d618787eeeea6c75895c946b8ae99c599555,fix #39,non_debt,-,2268,test
+hadoop,c19fa3d4fe66a1fed273d460af7a42119942fed6,"HADOOP-16605. Fix testcase testSSLChannelModeConfig
+Contributed by Sneha Vijayarajan.",non_debt,-,2269,test
+camel,2e839f0c9a3f4c51d98751c7982d4c765f66ecc5,CAMEL-11070: camel-aws - SQS allow to configure AWS hostname.,non_debt,-,2278,test
+druid,01b35ec81938a6754a88fdeda2cf96eccbf4be75,all tests passed. Ready for merge,non_debt,-,2283,test
+pulsar,fd76151613ff9db4337668e3b770b089981d93a5,"[tests] disabled cassandra connector test and python function test (#2683)
+These 3 tests are having some weird problems. Disabling them to bring integration tests back to normal.
+Will fix them in the subsequent changes
+* pull mysql image
+* add empty constructor",non_debt,-,2284,test
+kylin,0b85f5b7ecd1996aa594ddfbabbfc56a9ed61f96,Merge branch 'inverted-index' of https://github.com/KylinOLAP/Kylin into inverted-index,non_debt,-,2310,test
+beam,a4172ff8c0627c538010f09f1848d452d72b6abf,"Make PTransform.apply Abstract
+Primitive PTransforms should create the appropriate primitive output
+type. Composite PTransforms should override apply.",non_debt,-,2311,test
+drill,e923ac54db6abddcae0d18fc7ed37f4b737b22b2,DRILL-3120: Windows startup throws NPE,non_debt,-,2312,test
+samza,603bd8eac302046d9b876b716b2aea48b36df43c,"docs: update contact and contributor corner
+Also:
+- added a new page for 'Samza Enhancement Proposal' (SEP).
+- removed mailing-list.md and design-documents.md
+- updated the layout page
+Closes #650 from pdu-mn1/docs-contact-contrib",non_debt,-,2328,test
+cassandra,afda9c666ff850199b988549ecf5d422b2538a59,"fix broken test that just now fails, why?
+Patch by eevans",non_debt,-,2332,test
+nifi,1682d62d7f46ba854f77923352a77ff9f6a1b746,JDBC driver can be loaded from external location using URLClassLoader,non_debt,-,2339,test
+echarts,eb9fda9bcd2aadced719589594b9a4c751ec47e4,tweak: use `polyline.style.lineWidth` instead of `lineStyleModel.get('width')`.,non_debt,-,2346,test
+incubator-pinot,6ab8563f5c24f3380fd2e4f7032f37cb6f157a75,"[PINOT-3091] New server side trim function for new aggregation group by
+In the new MCombineGroupByOperator, use new implemented server side trim
+function to do the trim. The new trim function will take a map from
+group-by keys to result list as the input, and this can prevent build
+several new maps for all aggregation functions. This can improve the
+performance of new group-by and reduce garbage collection.",code_debt,slow_algorithm,2352,test
+ambari,04fb8fe35441f667dfeb16f8d2d04eddaaed9b4c,AMBARI-12134. Update poms to target 1.7 and 1.6 JREs. (Jonathan Halterman via yusaku),non_debt,-,2360,test
+camel,baf4ae2a567d9beef09476d63ccb9d556673c9d0,Polished,code_debt,low_quality_code,2380,test
+hadoop,e72e6260da19ccc44d53280e27575cc94bf11300,YARN-5229. Refactor #isApplicationEntity and #getApplicationEvent from HBaseTimelineWriterImpl. (Vrushali C via gtcarrera9),non_debt,-,2384,test
+flink,2a18458dd707fe72a7596e7641b63c08d96ca531,Added support for S3 Reduced Redundancy Storage,non_debt,-,2389,test
+hive,3287a097e31063cc805ca55c2ca7defffe761b6f,"HIVE-20293: Support Replication of ACID table truncate operation (Mahesh Kumar Behera, reviewed by Sankar Hariappan)",non_debt,-,2391,test
+helix,7a1196b43f8e3cbcbdaf05931410a971d64abc91,Fixed alerts tests,non_debt,-,2392,test
+shardingsphere,1fd0d379098ac9155ff62b15226c2a2ca789c594,delete invalid import,build_debt,build_others,2395,test
+cloudstack,ad38060e3a9fd45dda7de4fd10450b116db2283a,Add account-level parameter UI,non_debt,-,2398,test
+activemq-artemis,85f26ce1476b64631d6ed7ec6996a963991883de,This closes #3090,non_debt,-,2403,test
+infrastructure-puppet,ea51a62569afeed60f9ce11cbed8d8b7b93623dd,Add new ldap host in AWS US EAST,non_debt,-,2404,test
+hawq,24d4d967e767fc640ad6ab3c91b2ce26bb96de66,"HAWQ-927. Pass ProjectionInfo data to PXF
+This commit makes the necessary modifications to the HAWQ side of
+the codebase to add a list of indices of projected columns",non_debt,-,2408,test
+shardingsphere,fdfcda3b5190e26cb67911c8e0c997ae927dc099,revert pom,non_debt,-,2414,test
+trafficserver,1a590016ae2dd2e1f868a57eec668cda886c4368,"TS-4099: add Lua bindings for custom metrics
+Implement custom metrics in terms of Lua bindings. We export a
+minimal API that constructs metrics and implicitly registers an
+evaluation function. We periodically evaluate all the evaluation
+functions and update their corresponding metrics.
+Metrics are implicitly registered when they are loaded, so there
+is no need to mention anything in mgmt/RecordsConfig.cc.
+The metrics registration and evaluation syntax looks like this:
+  integer 'proxy.node.http.user_agents_total_documents_served' [[
+      proxy.process.http.incoming_requests
+  ]]",non_debt,-,2426,test
+ambari,558f64d164f02e0148e47e3d1714eb430466f437,AMBARI-12489. Ambari server deadlock while deploying using blueprints.,non_debt,-,2430,test
+beam,9a6a277cea4582f0a64eac97730cb85af5ba352b,Tests for reading windowed side input from resumed SDF call,non_debt,-,2433,test
+groovy,d5fb637e270ebbf3d3e9cfffdb324d7faf4c8253,tweak doco,non_debt,-,2438,test
+camel,c1807658c3ce740dc118b6818bb83fcbd018c62a,CAMEL-5042: Shutting down a thread pool should remove the pool from the internal reference list,non_debt,-,2446,test
+storm,f5205f413ba68d06bd574a5b2bf7a0352203c717,Add storm.home to logback/cluster.xml so workers can find it.,non_debt,-,2449,test
+echarts,bee91da065a4789961f1e893549ac2e7360d1200,refact: only set text props when necessary. rename setTextStyle to createTextStyle.,non_debt,-,2455,test
+spark,9b33dfc408de986f4203bb0ac0c3f5c56effd69d,"[SPARK-22951][SQL] fix aggregation after dropDuplicates on empty data frames
+## What changes were proposed in this pull request?
+Spark SQL supports both global aggregation and grouping aggregation. Global aggregation always return a single row with the initial aggregation state as the output, even there are zero input rows. Spark implements this by simply checking the number of grouping keys and treats an aggregation as a global aggregation if it has zero grouping keys.
+However, this simple principle drops the ball in the following case:
+The reason is that:
+1. `df.dropDuplicates()` is roughly translated into something equivalent to:
+This translation is implemented in the rule `ReplaceDeduplicateWithAggregate`.
+2. `spark.emptyDataFrame` contains zero columns and zero rows.
+Therefore, rule `ReplaceDeduplicateWithAggregate` makes a confusing transformation roughly equivalent to the following one:
+The above transformation is confusing because the resulting aggregate operator contains no grouping keys (because `emptyDataFrame` contains no columns), and gets recognized as a global aggregation. As a result, Spark SQL allocates a single row filled by the initial aggregation state and uses it as the output, and returns a wrong result.
+To fix this issue, this PR tweaks `ReplaceDeduplicateWithAggregate` by appending a literal `1` to the grouping key list of the resulting `Aggregate` operator when the input plan contains zero output columns. In this way, `spark.emptyDataFrame.dropDuplicates()` is now translated into a grouping aggregation, roughly depicted as:
+Which is now properly treated as a grouping aggregation and returns the correct answer.
+## How was this patch tested?
+New unit tests added
+Closes #20174 from liufengdb/fix-duplicate.",design_debt,non-optimal_design,2464,test
+beam,2d49e586ac716bd356e707b02c318bfd2dfef5c2,Add link to type hints design doc,non_debt,-,2476,test
+kylin,f834781701f9c4d52dd3beb77cbc15be43715720,Merge branch 'staging' of https://github.com/KylinOLAP/Kylin into staging,non_debt,-,2479,test
+tomee,6335268591565f22a098e3f811c67aaa262c6d42,absolute path to persistence.xml,non_debt,-,2481,test
+lucene-solr,8b4207e27846acd836b30376bed597d27959bb8b,Merged /lucene/dev/trunk:r1445907-1446753,non_debt,-,2486,test
+cassandra,ad3a4f824e6d0f1484883f78498e3a07592259b3,"Fix replaying pre-2.0 commit logs
+patch by Aleksey Yeschenko; reviewed by Jonathan Ellis for
+CASSANDRA-6714",non_debt,-,2488,test
+thrift,ea7b21d17564bca57b9a69ed7d663b2fa8eb6cd7,"fix TApplicationException not imported in Python gencode
+used unconditionally in the generated code. ""from thrift.Thrift import *"" included it before r1169492 but not since.
+Reviewed By: dreiss",non_debt,-,2491,test
+camel,87b7143495d26c947630e007dcf4a49ca17c4445,Add license header,non_debt,-,2495,test
+usergrid,ecce52d4fcda80cd063cccbb6ea4934c30c36777,Added license headers to files,non_debt,-,2497,test
+storm,c84bfc1c563662b4712785f88870dd31a056671a,[STORM-3675] Check worker process death using /proc/<pid> directory (#3309),non_debt,-,2510,test
+flink,7fba616857a6a71c6a818c008e59af94bc933375,[FLINK-12217][table] OperationTreeBuilder.map() should perform ExpressionResolver.resolve(),non_debt,-,2516,test
+shardingsphere,166245a2636de597ea3dfc0b354bcbcd3edda604,Merge branch 'master' of https://github.com/sharding-sphere/sharding-sphere-doc,non_debt,-,2520,test
+helix,184a50ac173c18e0ea3d40ffb5a0f93d31aa558f,"Fix the scheduling decision for multiple currentStates (#923)
+Fix the scheduling decision for multiple currentStates and prevAssignment
+In this commit, the problem of scheduling and dropping the tasks
+on the slave node has been addressed.
+Multiple tests have been added.",non_debt,-,2521,test
+cloudstack,4953461e579d2446627dba2d267302a65f8e03f3,"bug 8809: listHypervisors api - when zoneId=-1 is specified, only hypervisors availble in all zones are being returned",non_debt,-,2522,test
+cloudstack,0276217c5e1f1b76eb64b1951ffc2d3650580f66,fix Ovm network for bond device,non_debt,-,2524,test
+couchdb,b5c446854b61fc771d393051a67a6649cb50b289,"Enable FDB transaction tracing
+To trace FDB transactions:
+ 1. Enable tracing in erlfdb application environment:
+     `network_options = [{trace_enable, ...}]`
+   OR with an environment variable:
+     `FDB_NETWORK_OPTION_TRACE_ENABLE = """"`
+ 2. Set `[fabric] fdb_trace=true` configuration value
+ 3. Add the `x-couchdb-fdb-trace:true` header to each request that should be
+   traced.
+The transaction name is set to the nonce value, which is already used by
+CouchDB to track API requests.
+Only transactions started from the main request process will be traced. So if a
+process is spawned without inheriting the `erlfdb_trace` process dict key, that
+transaction will not be traced.",non_debt,-,2536,test
+hadoop,12c3e4ef98c594f27c11c3ef3398b6d97a9f2e86,HDFS-13368. Ozone:TestEndPoint tests are failing consistently. Contributed by Shashikant Banerjee.,non_debt,-,2542,test
+madlib,ab87a3cb7ff35131f1aa475f5a6174ba20454aa0,"kmeans_new: handle infinite numbers
+Jira: madlib_729
+Filter out infinite numbers from kmeans' input.",non_debt,-,2544,test
+brooklyn-server,6604f7a9d7deefedce0283e20d883563dc7e366d,"Refactor JcloudsRebindWithYamlDslTest
+Remove duplication from JcloudsRebindWithExternalConfigTest, creating
+common abstract super-type.",code_debt,duplicated_code,2550,test
+brooklyn-server,68d88ebde64ca03a2c808723a6a32df8c2e443c6,"For tests, support RebindManager.hasPending()
+Similar concept to waitForPendingComplete().",non_debt,-,2555,test
+camel,92919f7f8e090d0a1e019a8ae36f1f750751aa3e,Upgrade AWS SDK v2 to version 2.14.17,non_debt,-,2560,test
+reef,ec7bc969f3b3483f1a81a2b17762d4ae4dc6a3c4,"[REEF-1175] Add support for network credential to O.A.R.Client.YarnClient
+This addressed the issue by:
+ * Adding NetworkCredential support to HttpClient which delegates to .NEt
+ * HTTPClient
+ * Add interface IYarnRestClientCredential which allows user to specify
+ * mechanism to access their credential source
+JIRA:
+  [REEF-1175](https://issues.apache.org/jira/browse/REEF-1175)
+Pull Request:
+  Closes #812",non_debt,-,2577,test
+flink,ec82d973d2e2c6f03d147fb87ecb7402da1776fa,[streaming] CoWindow operator rework + stream iteration example added,non_debt,-,2578,test
+hive,8e7c9146e24728cfd071cce7796bf3d7a474b438,HIVE-5008: Reuse MapRedUtils to generate Map/ReduceWork (Gunther Hagleitner),non_debt,-,2590,test
+shardingsphere,b320195242f10ad59b80c2d6767478286d28690f,for #2335 add applicationId check.,non_debt,-,2592,test
+kafka,fdded2da6e0f57431fc19fd1705bbb6373c1c863,"KAFKA-3636; Change default max session timeout to 5 minutes
+Closes #1284 from hachikuji/KAFKA-3636",non_debt,-,2597,test
+groovy,b0ff1997d7a23179805fe882e9f61ce5326aec59,"refactored VMPluginFactory
+- additionally converted line endings to UNIX style",non_debt,-,2601,test
+echarts,7729afcdb0143f573bf80b28e66ee5599e2d5002,Merge remote-tracking branch 'origin/dev',non_debt,-,2602,test
+jmeter,25b65ffef9b4a1b9ba63a1130638085406193ef2,Fixed layout and resizing for HTTP sampler components.,non_debt,-,2607,test
+karaf,f707121e60b4986310b04967140578a628437073,[KARAF-1624] Fix RAT check failures,non_debt,-,2608,test
+netbeans-website,2eb4ab34fc0c5611a5d91f5237f27c3982dd246c,Further tweaks to the PMC list,non_debt,-,2610,test
+groovy,cf277e5bf00f035220aa406f924bf6a3171e14b3,exclude groovy from test classpath,non_debt,-,2615,test
+ignite,5da06080d59dccc66c62bc23e2dc83f103bcf018,# IGNITE-32 Minor change of GUI: message box now will show scrollbar for long text.,non_debt,-,2619,test
+karaf,3ab78ba68b04095f117c43021a26dab26cc22041,[KARAF-1092] Upgrade to Jasypt 1.8,non_debt,-,2627,test
+trafficserver,5437ae74ab3c5f4513ebb023b234f54a795df768,TS-1475: fix clang warning,code_debt,low_quality_code,2628,test
+incubator-dolphinscheduler,3e411d075fffa1efd58484a1a29c54f7bfab9983,"[Improvement][Code style] FIX SPELL WAITTING TO WAITING , etc. (#4118)
+* FIX SPELL
+* FIX SPELL AND  Optimizing code conventions
+* add ut  cannot construct process instance, return null;
+* add ut testExportProcessMetaData
+* add ut testExportProcessMetaData
+* add ut testImportProcessSchedule
+* add ut MasterExecThreadTest
+* add ut MasterExecThreadTest
+* add ut testSubProcessViewTree
+* add ut testComplementWithStartNodeList
+* add ut testRecurseFindSubProcessId
+* add ut testRecurseFindSubProcessId
+* add ut testRecurseFindSubProcessId",code_debt,low_quality_code,2629,test
+jmeter,9a46b13f83494e44d7083a4f7ea2a80388470553,"Added some duplicates, and an invalid input tag",non_debt,-,2632,test
+shardingsphere,17b8af71abf9935eacb1cc58232cd1b10108de2e,add select_order_by_with_multiple_stars.xml for ms,non_debt,-,2643,test
+calcite,0449cc25502744bf8fa90fc8f5c17417d6fd27db,"Fix https://github.com/julianhyde/optiq/issues/145, ""Unexpected upper-casing of keywords when using java lexer"".",non_debt,-,2644,test
+incubator-brooklyn,3cccf00f75def8bbc2e00c3ec16d7a7d5cb539db,"Adds AbstractApplication.DEFAULT_DISPLAY_NAME config
+- Allows a default display name to be specified for an app, which
+  can then be overridden within the yaml at the very top level 
+  overridden, this default will be used.
+- Adds AppYamlTest, to test different scenarios of the app either
+  being wrapped or not wrapped.
+- Also tidies up AbstractApplicationLegacyTest.",non_debt,-,2645,test
+usergrid,d9ab127f38de64d3e39183ba1b11fd152ab629ab,"Merge pull request #95 from apigee/USERGRID-1455
+allow requests in the path /groups/* or /users/* to have more than 10 su...",non_debt,-,2649,test
+commons-lang,1489e60cc82aeed133df2bf82bb1e9c57fdaa8c9,"Switching to usage of menu's dtd to insert commons navigation items, using common-menus entity to reference commons menues in navigation.xml, sorting is done by Maven.",non_debt,-,2650,test
+cxf,6bf377f6afae1172cb5693b32cf4c46bdecde705,[CXF-6238] Adding a new ResponseStatus annotation,non_debt,-,2655,test
+lucene-solr,732b8fb3b9d0e1a215c0f02b99a0c8847ecf7039,LUCENE-7009: Add expectThrows utility to LuceneTestCase,non_debt,-,2656,test
+incubator-dolphinscheduler,a7a928be72f46ddda59cefd1ef8971a3135a93f9,fix,non_debt,-,2658,test
+orc,20da4a1e5d3a6f1d209cf91bbb7aec6a3e73a6ea,"ORC-584: Add missing brackets toJson method
+Fixes #464",non_debt,-,2659,test
+flink,6515807e2cb7ff50aa38b52ed01a627379e3df52,[hotfix][tests] Add NoOpJobFailCall singleton,non_debt,-,2660,test
+storm,277d4e636776c183988953af874016b103168cc3,added rebalance thrift definition,non_debt,-,2668,test
+hadoop,3d2339de38833fc175747719ef4e9fa71bb04d46,HDFS-11983. Ozone: Add documentation for metrics in KSMMetrics to OzoneMetrics.md. Contributed by Yiqun Lin.,non_debt,-,2670,test
+cloudstack,25ef105358b0b68d1d3b0f9aa2e86c6b16c181a2,new UI - localize left menu.,non_debt,-,2672,test
+beam,0e6b3794c069bf30f7402492a3f61958873142cd,This closes #1048,non_debt,-,2687,test
+activemq-artemis,1ce5d1f758d034869d5937c9be4fad9db864950e,NO-JIRA Removing System.out left by mistake,non_debt,-,2692,test
+storm,a8a92476b77dcec1567aaa04fe5b5f64d4601c0c,remove junit plugin,non_debt,-,2698,test
+ambari,175e78472452746141bf2caaa4f03374344b5a59,AMBARI-10935. Version bar moves too fast to top when scrolling down (onechiporenko),design_debt,non-optimal_design,2710,test
+cloudstack,1a8270d9f4842c88e183533448f7220d0fc7d3df,CLOUDSTACK-3825: Fix start/end port not being passed with protocol number,non_debt,-,2713,test
+guacamole-client,8e9aa3673279ddd38e1acedda2bc461a7c053152,GUAC-1170: Move the two main OSK sections to the same line. Abuse section sort order to place arrow keys below others.,non_debt,-,2724,test
+beam,5b0ab2de2100f0044eb2622806e263c2d33d8052,"Merge pull request #12751 from robinyqiu/unnest
+[BEAM-10847] Fix NPE in BeamUnnestRel",non_debt,-,2725,test
+attic-apex-core,83b67612662068570ecda2265fbc1b328d950f8e,Merge branch 'master' of https://bitbucket.org/amolkekre/core.git,non_debt,-,2726,test
+cxf,5ef45a148c6a7f175e35b40406a60e2efe214d31,[CXF-5421] Making the servlet api dependency optional in OAuth poms,non_debt,-,2733,test
+camel,e86aa1e7560673cb0e5f060a80b28a96e7b22541,"CAMEL-7742: Add unit test - BindyFormatUnmarshallTest to test formatting of Numbers (Integer, Double, BigDecimal, Float, Long, ....",non_debt,-,2745,test
+cloudstack,294e41392e35fd5c2a7d1df236c46544b71d6f98,Console proxy is back,non_debt,-,2752,test
+pulsar,26c462625483ef0e0fa3c74bca6e84a3f569115b,"Refactored handling of zero-queue consumer into separate subclass (#3615)
+### Motivation
+Simplified `ConsumerImpl` code by factoring out a bunch of if/else statements into a specialized subclass implementation.",code_debt,complex_code,2753,test
+superset,7ca4192fe6be87c9761e7e59c189d7aec0518fc3,Enabled no-self-use pylint rule in security. Formatter (#11041),non_debt,-,2770,test
+cloudstack,7eb20f8133282bda2a6e3066603bffea8442a6bb,DB upgrade for port forwarding rules,non_debt,-,2774,test
+guacamole-client,a52476de0578c6e989e48de588fce6ca55798aae,Added read timeout.,non_debt,-,2780,test
+camel,5140576a19413bef7f1ad3e9ccb147107cd31f53,Fixed SpringXMLTokenSplitTest,non_debt,-,2781,test
+cloudstack,c0a0aec0f9041a3577d96d69260c7aa33482199d,"Merge pull request #732 from ustcweizhou/revert-volume-snapshot-master
+Guys, can you review it? things need to be discussed:
+* pr/732:
+  CLOUDSTACK-5863: revert volume snapshot for KVM/QCOW2",non_debt,-,2782,test
+thrift,95c628eade2cff60da14c4e3f132e91ff16c5bc2,"THRIFT-3578 Make THeaderTransport detect TCompact framed and unframed
+Client: C++
+Patch: Nobuaki Sukegawa
+This closes #819",non_debt,-,2786,test
+hbase,3abd52bdc6db926d930fd94cfce5bd7ba6fd005f,HBASE-15429 Add split policy for busy regions,non_debt,-,2795,test
+apisix,7edf9d6ed49b35059fb966b54348e14029d0d9ba,fix: correct the template of dns_resolver_valid (#3638),non_debt,-,2803,test
+lucene-solr,a0c82b0f418b13f6027e39ce411fd525e232a316,LUCENE-2862: add TermsEnum.totalTermFreq() and Terms.getSumTotalTermFreq(),non_debt,-,2810,test
+shardingsphere,707155840e209817dff20c3ed28f00787cc8de16,fix prepare insert statement with generated key cannot work.,non_debt,-,2823,test
+hadoop,2b94e51a8f17548e5ef6af8e1e934a94031bb1dc,HADOOP-16114. NetUtils#canonicalizeHost gives different value for same host.,non_debt,-,2830,test
+beam,e43547ca211450a671905f87f42dd928fb7bf88f,Merge branch 'master' into time-output-timestamp,non_debt,-,2834,test
+hadoop,5f57b904f550515693d93a2959e663b0d0260696,YARN-2492. Added node-labels page on RM web UI. Contributed by Wangda Tan,non_debt,-,2841,test
+shardingsphere,a26c80084034bd4b0ea9d70953d15f25702dfe77,"for #2084, simplify show for pg",code_debt,complex_code,2845,test
+spark,9a344098101d23fe2edba34dbfd9dbf191540e43,"Merge pull request #360 from rxin/cogroup-java
+Changed CoGroupRDD's hash map from Scala to Java.",non_debt,-,2853,test
+cxf,56990a6121b5d27b815e83e4ebc61636d7d530d7,[CXF-5379]mark swagger dependency as optional|use relative context path|remove potential concurrent thread issue,non_debt,-,2858,test
+jmeter,87b933f1153e4292f96b77ebee465a786d8f3629,Various minor fixes,non_debt,-,2875,test
+camel,6ae7f243fa529c5382a18b1d1a0e597cd81d8349,CAMEL-15036: Make it easier to switch to use supervising route controller.,design_debt,non-optimal_design,2878,test
+tinkerpop,1a3549f7232ebe65cbba158c1442a567bc2dc695,"TINKERPOP-2024 Make server archetype use remote traversal
+Since we're promoting remote traversals over scripts it would be better for the archetype to use them.",design_debt,non-optimal_design,2880,test
+fineract,285594e125e7a799aaa56d8b11b0f47cf2691b54,support for tracking what user took action on loan and being able to provide that data as part of api.,non_debt,-,2884,test
+arrow,b7befeb7c9e34d86b7341ba4d8710104f42efc0b,"ARROW-1132: [Python] Unable to write pandas DataFrame w/MultiIndex containing duplicate values to parquet
+Closes #768 from cpcloud/ARROW-1132 and squashes the following commits:
+4b42f643 [Phillip Cloud] Add test for parquet roundtripping with dups
+49684fd1 [Phillip Cloud] ARROW-1132: [Python] Unable to write pandas DataFrame w/MultiIndex containing duplicate values to parquet",code_debt,duplicated_code,2905,test
+tomee,c395126732e2414e913718e5fbe737a1a27c88a6,Read persistence context annotation using ASM when embedded in tomcat with invalid persistence context annotation class,non_debt,-,2917,test
+fluo,61a43a7b84db631b8bd8a58e0a802c367f5dda7b,"Fixes #740 - Use Java hashcode helper methods.
+*  Removed hashCode() method from Bytes.
+*  Add hashCode() method to MutableBytes.
+*  Used Java helper methods for hashCode() methods in data classes.
+*  Added test to BytesTest to check for proper hashing.",non_debt,-,2926,test
+incubator-weex,7e0165546aacdfb62e5473a0082fddd69a5dd825,reset Gemfile.lock,non_debt,-,2931,test
+hive,5791cdd89fa00b21aca05490a94d5a9b5109f03e,"HIVE-16485: Enable outputName for RS operator in explain formatted (Pengcheng Xiong, reviewed by Ashutosh Chauhan)",non_debt,-,2937,test
+drill,07a981797dd6094ad0706c7e45d6afc0899a5510,DRILL-2094: Add SqlOrderBy rule for CompoundIdentifierConverter,non_debt,-,2948,test
+jena,f99f2f29e33788b637f6c3fe806ac4ec8f3a0c39,Correct the weighting of S?O.,non_debt,-,2957,test
+commons-lang,554b667e9fb6a3f198cdbc9b497189c1570332c0,Fix null handling behaviour on char[] methods,non_debt,-,2960,test
+flink,8835da996f61222ef7291d73b5160e0405d81b16,"[FLINK-6904] [cep] Support for quantifier range to CEP's pattern API
+This closes #4121",non_debt,-,2976,test
+incubator-pinot,c16258b77c9e8cd5628e1bd1e8e3c44053e0b5c9,"[TE] add transformations, javadoc (#1916)
+* add timeseries transformations DIFFERENCE and OFFSET
+* expand javadoc",non_debt,-,2982,test
+iceberg,d8e3eb5c453ce891a90d84e7ba87c8551db02b7f,Add Javadoc link.,non_debt,-,2986,test
+cassandra,19b96b5da5e65a61338e3c601828039d0eda8bb4,Merge branch 'cassandra-1.2' into trunk,non_debt,-,2987,test
+brooklyn-server,8f6146f961b17498bf9a96fe5063fe8a3b71d242,"support for jclouds to log in with a given user
+Conflicts (minor):
+	core/src/main/java/brooklyn/location/basic/SshMachineLocation.groovy - SSH_PROPS properties
+	core/src/main/java/brooklyn/location/basic/jclouds/JcloudsLocation.groovy - key-setting
+	core/src/main/java/brooklyn/location/basic/jclouds/JcloudsUtil.groovy - reachable",non_debt,-,3001,test
+beam,5d133b6c5ee3e013323f41c42f71211450cf7ce0,"Merge pull request #4959 from shoyer/preserve-stacktrace
+[BEAM-3956] Preserve stacktraces for Python exceptions",non_debt,-,3002,test
+netbeans-website,be0599ab52c0a4aefde71887fde0dfd2d4fb542f,"[NETBEANS-1867] Tutorials: typo: last reviewed on, not in",documentation_debt,low_quality_documentation,3008,test
+tvm,ba7b9dddadac69ec6f0f030e5b9bfb84f04ea18c,"[PASS] Enable StorageRewrite before virtual thread lowering (#880)
+* update
+* fix testcase",non_debt,-,3022,test
+arrow,19d677a15841cdd160acd8a9f8efef21fb3e22fe,"ARROW-10503: [C++] Uriparser will not compile using Intel compiler
+At some point, Intel changed __force_inline to __forceinline. Arrow does not compile without this. Changes the header file to redefine the macro from __force_inline to __forceinline. Source: [here](https://software.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/compiler-options/compiler-option-details/inlining-options/inline-forceinline-qinline-forceinline.html)
+Closes #8600 from jensenrichardson/patch-1",non_debt,-,3026,test
+ignite,f13970678a99adb3280f43d0da01c7e276ed219d,# IGNITE-249 Cleanup VisorEventsCommand class.,code_debt,low_quality_code,3029,test
+incubator-heron,20dae92d04b6b020ff835273973855815c4eadb5,Merge remote-tracking branch 'upstream/master' into lk_website001,non_debt,-,3032,test
+cloudstack,4fd7a836455474ac369f38640b6e34f0268f060d,allow service cloud stop to stop the java process,non_debt,-,3038,test
+gobblin,36746f418df4d26e43420b192b44856a186c5bad,"Merge pull request #573 from zliu41/hv
+Update hive version to 1.0.1",non_debt,-,3039,test
+usergrid,c6e00db30d49addb1df3af4b38ceeae4542df977,"not pulling jquery(ui) from googleapis, it sometimes hangs a bit",non_debt,-,3045,test
+nifi,728bdec0f480e5585809ea7f841eee38b2ddab84,NIFI-7339: Fixed bug that caused Write Ahead Provenance Repository not to rollover event files after specified time. Code cleanup. Updated some default properties.,code_debt,low_quality_code,3055,test
+camel,0a408e8a4355a6af841c274d2c5deab196fbb19c,Fixed spelling,documentation_debt,low_quality_documentation,3056,test
+cassandra,3db30aab98e8ca568b006273b533ae68f448f3ac,"Remove unnecessary file existence check during anticompaction.
+Patch by marcuse; reviewed by Paulo Motta for CASSANDRA-11660",code_debt,low_quality_code,3058,test
+myfaces-tobago,5d0bfdd94a2f5fc0ed8c3689e36e2b781cb9ae91,using the static versions,non_debt,-,3069,test
+hadoop,c7204417d7f75fd9a7eb07bdc19d303ebdaade80,SUBMARINE-107. Reduce the scope of mockito-core in submarine to test. Contributed by kevin su.,non_debt,-,3074,test
+jmeter,359c145addaff1df9c2992823fac8f2373c03f0d,Formatting,code_debt,low_quality_code,3081,test
+activemq-artemis,b6e48eb14c1b4228ca18e2c8fd9088852118ba49,ARTEMIS-1320 allow URL for REST/broker connection,non_debt,-,3092,test
+myfaces-tobago,b85d08455a7e306922735f27f0012259375e64ef,"TOBAGO-312 (Integrate handling of ajax requests into standard lifecycle)
+  util methods: ensureDecoded()",non_debt,-,3094,test
+echarts,1dc916d0fea606f3b6b2029f94e24366c2e52dc7,ts: update roamHelper,non_debt,-,3097,test
+echarts,e7756a09e242f955604759f8ef0e7563b3441529,Update examples,non_debt,-,3098,test
+camel,239f093a109bfef44ed964fdc17d26771e5b8cd2,CAMEL-10930: Move groovy dsl into camel-groovy-dsl,non_debt,-,3104,test
+spark,b7277e03d1038e2a19495c0ef7707e2d77937ccf,"[SPARK-19495][SQL] Make SQLConf slightly more extensible
+## What changes were proposed in this pull request?
+This pull request makes SQLConf slightly more extensible by removing the visibility limitations on the build* functions.
+## How was this patch tested?
+N/A - there are no logic changes and everything should be covered by existing unit tests.
+Closes #16835 from rxin/SPARK-19495.",design_debt,non-optimal_design,3126,test
+netbeans,72367db6f0badd5a0261395e22339288355ca1a9,[NETBEANS-3411] Added support for reading Kotlin based Gradle projects.,non_debt,-,3132,test
+daffodil,3c5882b4e7f1b2e93c0d1218af9ab2e0b7e53776,Merge branch 'newBackEnd' of https://opensource.ncsa.illinois.edu/fisheye/git/dfdl into newBackEnd,non_debt,-,3133,test
+spark,b5162f4426268fdd3acc592e636b8a59c478db9f,"[SPARK-1233] Fix running hadoop 0.23 due to java.lang.NoSuchFieldException: DEFAULT_M...
+...APREDUCE_APPLICATION_CLASSPATH
+Closes #129 from tgravescs/SPARK-1233 and squashes the following commits:
+85ff5a6 [Thomas Graves] Fix running hadoop 0.23 due to java.lang.NoSuchFieldException: DEFAULT_MAPREDUCE_APPLICATION_CLASSPATH",non_debt,-,3134,test
+drill,5fa9ba3f2a9b5c6db25fd468ad9e2d5fa354ee87,Update MapR v5.1.0 artifacts version,non_debt,-,3143,test
+beam,c39881186d4625d935efd9a717d9978cd1252979,Merge remote-tracking branch 'origin/master' into python-sdk,non_debt,-,3146,test
+incubator-mxnet,993be59c8b1a1066daf21a3dbc3c92f8a57ab5cc,simplify model a bit with data IO api,code_debt,complex_code,3148,test
+cloudstack,5652097ef009dd19a1f6e97ce54bf2689616a308,Added backup on fail over scenrio in case of new create disk method,non_debt,-,3150,test
+druid,3c787eb213462968296dafec315ec44115ae3979,"Merge pull request #1174 from himanshug/java-util-update
+updating java-util version to 0.26.15",non_debt,-,3152,test
+cloudstack,6e9ef0d9885988465be8d8b3a23da1d358a18ac9,2.2beta4 to GA db changes,non_debt,-,3157,test
+hadoop,a536eb5c419cb507b4b0aed123be0255c57ef4dd,"HDDS-360. Use RocksDBStore and TableStore for SCM Metadata.
+Contributed by Anu Engineer.",non_debt,-,3162,test
+tinkerpop,7e80bccb4c0195a510bb20be4d5da65629ee2a7f,TINKERPOP-1863 Delaying the setting of requestId till the RequestMessage instantiation time,non_debt,-,3164,test
+spark,b97ddff000b99adca3dd8fe13d01054fd5014fa0,"[SPARK-7684] [SQL] Refactoring MetastoreDataSourcesSuite to workaround SPARK-7684
+As stated in SPARK-7684, currently `TestHive.reset` has some execution order specific bug, which makes running specific test suites locally pretty frustrating. This PR refactors `MetastoreDataSourcesSuite` (which relies on `TestHive.reset` heavily) using various `withXxx` utility methods in `SQLTestUtils` to ask each test case to cleanup their own mess so that we can avoid calling `TestHive.reset`.
+Closes #6353 from liancheng/workaround-spark-7684 and squashes the following commits:
+26939aa [Yin Huai] Move the initialization of jsonFilePath to beforeAll.
+a423d48 [Cheng Lian] Fixes Scala style issue
+dfe45d0 [Cheng Lian] Refactors MetastoreDataSourcesSuite to workaround SPARK-7684
+92a116d [Cheng Lian] Fixes minor styling issues",design_debt,non-optimal_design,3167,test
+kafka,082d9d3b5a9be63740e4f4f033589f9ebb71e7be,trival fix to remove a 0 byte file,non_debt,-,3173,test
+spark,d3a302defc45768492dec9da4c40d78d28997a65,"[SQL] Fixed expression data type matching.
+Also took the chance to improve documentation for various types.
+Closes #5675 from rxin/data-type-matching-expr and squashes the following commits:
+0f31856 [Reynold Xin] One more function documentation.
+27c1973 [Reynold Xin] Added more documentation.
+336a36d [Reynold Xin] [SQL] Fixed expression data type matching.",documentation_debt,low_quality_documentation,3183,test
+tinkerpop,1cd042b61d0dea08d003a7ff9e57f175343c039c,Merge branch 'TINKERPOP-1789' into tp32,non_debt,-,3186,test
+jmeter,3bb5df31f6ebd4b30603e67288f50afbb7e1de84,Slow connection info,non_debt,-,3187,test
+attic-apex-core,a295138d1730e093ab626deae5ad45867820fcd6,account for negative windowId.,non_debt,-,3188,test
+commons-lang,43a338ac6cc64e4936d10fb454dc86a1caaff5a1,Moving the @since 2.5 to the correct repeat method,non_debt,-,3190,test
+skywalking,e819a805ff7b8fa6976673f01320a932107e1af9,"Update powered-by.md (#2369)
+* Update powered-by.md
+Change order",non_debt,-,3196,test
+flink,0fe3fe1fdcc0de2c6f57fb22e906d0d14d9b7823,[FLINK-14490][table-api] Introduce UnresolvedIdentifier,non_debt,-,3201,test
+commons-lang,807e6d6038667562ef5e0b0a74ba1c1bb4dce6a1,Missing ) in javadoc,non_debt,-,3203,test
+usergrid,c692c0f9ab7905b24b123578bee125657f9ff5cf,Style fixes,code_debt,low_quality_code,3208,test
+couchdb,4e84afd10b598d2c9bf7a79a9ca07dacf2cf0b2b,Verbose etap output for single file runs,non_debt,-,3210,test
+accumulo,79b34858dc58bab53f029b78383fe4c9e5b89de0,ACCUMULO-1299 Merge branch '1.5.1-SNAPSHOT',non_debt,-,3214,test
+hadoop,fe2fb24a61a8dd0fc3bbee0b3434a503f4c55ad2,HDFS-5807. TestBalancerWithNodeGroup.testBalancerWithNodeGroup fails intermittently. Contributed by Chen He.,non_debt,-,3215,test
+beam,faece41cea340c4148f2b5717fc6ecd0d1eb50ab,Update Dataflow Worker Version,non_debt,-,3218,test
+incubator-pinot,36ab325ee872309488b748f0da7c69a048eed9fd,missing import (#2151),build_debt,under-declared_dependencies,3224,test
+cassandra,60d7cfa6bb93bc449145ea4580cd41d3a8e74ac8,update EmbeddedCassandraServiceTest client to use framed mode.  patch by jbellis,non_debt,-,3229,test
+attic-apex-core,10660b5942acdf46ef5297d407aaf146e5599d15,SPOI-3084 added code that handles port javadoc and get method javadoc,non_debt,-,3235,test
+airflow,7b66702758d029c36f3a69d426a22f12d43aebbf,Reverting to SequentialExecutor for unitests,non_debt,-,3236,test
+cloudstack,c0936fecbc76e5b825b2bf95f42125511611b8ca,fixed a typo,documentation_debt,low_quality_documentation,3240,test
+attic-apex-malhar,9a5179ab1a2a197ee3216ea7f525cbafe1528e37,Deduper with hdfs sttore,non_debt,-,3244,test
+beam,b6100fd017c43f6a9e10307574ece718a152943b,Install twine in virtual env.,non_debt,-,3252,test
+infrastructure-puppet,4902a3dae4638a0ce19f1c7aff02b703e39a0af5,"next batch is H10,13,14,15,19,21",non_debt,-,3258,test
+airflow,b9fc46ca5ce9f5f3c501b7a1d0b66ca3db343915,Showing paused DAGs in DAGs view,non_debt,-,3259,test
+camel-quarkus,b91b101835e7620b3d17468f853bbf988a15cb06,"Test Azure extension with Azurite
+Fixes #1072",non_debt,-,3265,test
+hadoop,87d1c6794422fc32cac01715ac485519766c72f1,Merge trunk into HA branch,non_debt,-,3272,test
+activemq-artemis,0af13e0d03ace20bf913fb4f5d6956b6437db718,"ARTEMIS-669 Do binding query on sender link attach
+QueueQuery was previously used instead of checking for bindings on a
+particular address name.  This meant sending and receiving only worked
+for those queues that happened to have the same queueName to address.
+This patch replaces this with binding check.
+There's also some minor ProtonTest fixes included.",non_debt,-,3281,test
+spark,a3da468d8b99565a966745e09830eaa768a9c267,Merge remote-tracking branch 'upstream/master' into code-style,non_debt,-,3288,test
+shardingsphere,06b2f6d22ec37c8c0ff227a7a7bbc6b812c08e15,#2384 merge postgresql revoke,non_debt,-,3290,test
+activemq,8c59bc3348e4d213ea3bc8f6e672980f1b216bad,https://issues.apache.org/jira/browse/AMQ-826 - useManifestOnlyJar = false for apache ds tests,non_debt,-,3306,test
+spark,ab9128fb7ec7ca479dc91e7cc7c775e8d071eafa,"[SPARK-6949] [SQL] [PySpark] Support Date/Timestamp in Column expression
+This PR enable auto_convert in JavaGateway, then we could register a converter for a given types, for example, date and datetime.
+There are two bugs related to auto_convert, see [1] and [2], we workaround it in this PR.
+[1]  https://github.com/bartdag/py4j/issues/160
+[2] https://github.com/bartdag/py4j/issues/161
+cc rxin JoshRosen
+Closes #5570 from davies/py4j_date and squashes the following commits:
+eb4fa53 [Davies Liu] fix tests in python 3
+d17d634 [Davies Liu] rollback changes in mllib
+2e7566d [Davies Liu] convert tuple into ArrayList
+ceb3779 [Davies Liu] Update rdd.py
+3c373f3 [Davies Liu] support date and datetime by auto_convert
+cb094ff [Davies Liu] enable auto convert",design_debt,non-optimal_design,3313,test
+myfaces-tobago,ea17a9b1ae6209b27c299f855ab101ba6c422283,example/demo ->tobago-example/tobago-example-demo,non_debt,-,3316,test
+hbase,19d629a0bee5e0ec748b6bef1ae0d413d4eb421e,Temporary change in rpc version -- reverted temporarily because hudson complains about version mismatch,design_debt,non-optimal_design,3331,test
+spark,809821a283059e8d7fc7790b0c13b5f4e254ef1d,"[SPARK-27920][SQL][TEST] Add `interceptParseException` test utility function
+## What changes were proposed in this pull request?
+This PR aims to add `interceptParseException` test utility function to `AnalysisTest` to reduce the duplications of `intercept` functions.
+## How was this patch tested?
+Pass the Jenkins with the updated test suites.
+Closes #24769 from dongjoon-hyun/SPARK-27920.",code_debt,duplicated_code,3338,test
+hbase,cfba8ccbad160b7f5ea0d4304d6331eecabb7002,HBASE-11433 LruBlockCache does not respect its configurable parameters,non_debt,-,3348,test
+beam,7fa071a83ae4da5d213a3e4afdebf1122efa66cf,Implement getTableStatistics,non_debt,-,3355,test
+camel,f1b05572ec6df9aa9bb8d16b0a7ad5f1f398efb1,Regen,non_debt,-,3359,test
+camel,b4259255143059e5e83e92fa9c0a9b4fa87aec82,CAMEL-12379 - Shutdown only AWS clients owned by the context - AWS Kinesis,non_debt,-,3365,test
+shardingsphere,e099e1a7958d741cae2bc4c49ba1d71430ea4442,"Merge pull request #2999 from sunbufu/feature#2981
+Replay for ShardingPreparedStatement when execute.",non_debt,-,3375,test
+hbase,88f8f755c81a5eabab91e954b31cb434a7efd5dd,HBASE-11152 Disable tput in test-patch.sh (Gustavo),non_debt,-,3381,test
+helix,b654c543c8915f73399cdbb189dd332dd19fb261,Delete duplicated test class TestZkCallbackHandlerLeak.,test_debt,expensive_tests,3387,test
+apisix-dashboard,add78adf55a89e7df7d06671a265feec2d5c1228,feat: support mTLS connection to ETCD (#1437),non_debt,-,3393,test
+spark,b93830126cc59a26e2cfb5d7b3c17f9cfbf85988,"[SPARK-13114][SQL] Add a test for tokens more than the fields in schema
+https://issues.apache.org/jira/browse/SPARK-13114
+This PR adds a test for tokens more than the fields in schema.
+Closes #11020 from HyukjinKwon/SPARK-13114.",non_debt,-,3396,test
+ambari,1e51e6b89e7da26ae9ecdf5d7228d20d1dfe61b4,[AMBARI-25002] Allow Stack To Define Custom Rolling Orchestration Logic (#2695),non_debt,-,3408,test
+spark,33cd3a0c12bf487a9060135c6cf2a3efa7943c77,"Remove map-side combining from ShuffleMapTask.
+This separation of concerns simplifies the 
+ShuffleDependency and ShuffledRDD interfaces.
+Map-side combining can be performed in a
+mapPartitions() call prior to shuffling the RDD.
+I don't anticipate this having much of a 
+performance impact: in both approaches, each tuple
+is hashed twice: once in the bucket partitioning
+and once in the combiner's hashtable.  The same
+steps are being performed, but in a different
+order and through one extra Iterator.",code_debt,complex_code,3409,test
+helix,912e7943e3c2a6e70f2427bc3295e52828f37b73,"Change the cluster creation logic (#872)
+* Change the cluster creation logic
+In this commit, minor modifications have been added which:
+1- Update topology information in the Cluster Config
+if cloud is enabled for Azure environment.
+2- Tests have been change accordingly.
+3- The deprecated APIs have been changed in the test to
+follow new APIs.",non_debt,-,3415,test
+shardingsphere,f01d6c4f576708c238335ecadea229ef2e887072,use get parameter(),non_debt,-,3421,test
+thrift,1606659171d9ee8885d5806d6030ec39399b3b08,"THRIFT-1103. py: TZlibTransport for python, a zlib compressed transport
+This patch adds a new TZlibTransport to the Python library and extends the test suite to exercise it.
+Patch: Will Pierce",non_debt,-,3422,test
+cxf,d79b6b1142e07822075b38b0c00e8901a6c462da,Use the prefixes defined in the wsdl,non_debt,-,3429,test
+bigtop,cc5a3b589a185248f6c997fa75a47ca30748d634,BIGTOP-3169. Enable local repo is not working on yum systems (#472),non_debt,-,3436,test
+commons-lang,c7adc7e86f118a92ac4eee5a3c6775eec11af115,LANG-747 NumberUtils does not handle Long Hex numbers,non_debt,-,3437,test
+fineract,24a928e4b4507690b9dbcbe71a2fc932afa25efa,Update dependency org.webjars.npm:swagger-ui-dist to v3.35.0,non_debt,-,3438,test
+ambari,aacda1fa3be825572549a156c14f94bd24d56665,AMBARI-11603. Raw-mode tooltip-message doesn't contain units (Richard Zang via srimanth),non_debt,-,3450,test
+camel,83b170b7550c71cd35e561432ebcfe891e1fabfc,CAMEL-702: A proposed fix for CAMEL-702. Gert will take a look too. Concurrency issue with camel-saon. WORK IN PROGRESS!!,requirement_debt,requirement_partially_implemented,3457,test
+cassandra,4af23348ecd6fc8dbef44ac5ebdb6ae60d599283,"Remove StreamCoordinator.streamExecutor thread pool
+patch by jasobrown; reviewed by Dinesh Joshi for CASANDRA-14402",non_debt,-,3460,test
+druid,fcf5cae81daab972758a97f9b3b9f5ec24831636,Add CPU time to metrics for segment scanning.,non_debt,-,3467,test
+groovy,fb86a5d4a8de9601c8f8d07e4feb19b9c1501671,"Avoid deprecated `compile` and `testCompile` (#1023)
+* Avoid deprecated `compile` and `testCompile`
+* Make groovy-groovysh reply on groovy-templates directly
+* Remove unused dependencies",build_debt,over-declared_dependencies,3469,test
+camel,bf2bbbf111d0418e4ca2b00dc15f6361300aa4e8,Upgrade AWS SKD v2 to version 2.10.81,non_debt,-,3470,test
+ignite,60d157bde27f406bd52b3fe166f7375cf881a19c,ignite-1.5 Fixed benchmark configuration.,non_debt,-,3471,test
+airflow,426a7d891c91b020d6efd1776edc8cd7d5305c0c,"Improved scheduler logging, bugfix",code_debt,low_quality_code,3475,test
+lucene-solr,899b8588566ff5f8f81707c74541ef186f3a90f1,"LUCENE-913: Two consecutive score() calls return different 
+            scores for Boolean Queries.",non_debt,-,3479,test
+lucene-solr,0302eeb254479e762f01f4f3c206dfee22f825b6,SOLR-5499: Log a warning if /get is not registered when using SolrCloud,non_debt,-,3489,test
+couchdb,2c704acc78c4f9f7cf8bb40420be5b8c915d39b9,"set DbPrefix with value allocated with erlfdb_hca
+Previously we are using the DbName to set DbPrefix for clarity. In order
+to support soft-deletion while providing efficient value for DbPrefix
+allocation, we use value allocated with erlfdb_hca for DbPrefix.",non_debt,-,3496,test
+ambari,1646be07045abf0812468fa9f127d7af5b8e6538,AMBARI-9666. Kerberos: Adding a service to a Kerberized cluster requires Kerberos-related tasks occur before INSTALL stage (rlevas),non_debt,-,3499,test
+nutch,b61c0b282c92fd5fd64a86186819d5bdd36cd486,not needed per sujen.,non_debt,-,3508,test
+flink,c87b9433e3225602e56497f782a610668eac8bf9,"[FLINK-10281] [table] Fix string literal escaping throughout Table & SQL API
+This commit fixes the string literal escaping of the Table & SQL API. Proper
+escaping of quotes was not possible in the past for Table API. SQL and SQL Client
+were not standard compliant.
+Due to FLINK-8301 backslashes were considered in SQL literals, however, they
+should only be used in SQL `U&'\1234'` literals. For the Table API, the new
+logic relies on the Java/Scala escaping and uses duplicate quotes for escaping
+the quotes in expression strings. For SQL, we rely on unicode string literals
+with or without the UESCAPE clause. The SQL Client was using backslashes for
+escaping new lines. For the SQL Client, we allow unescaped new lines and
+use ';' for statement finalization; similar to other SQL clients.
+This closes #6671.",non_debt,-,3516,test
+myfaces-tobago,31190752274f26d7e43a3d96dcc18152608c0f94,fix missing js image resources,non_debt,-,3519,test
+carbondata,e3fd98bbf9ee101425fa18fa43d0f32b0fa1825a,[CARBONDATA-797] Data loss for BigInt datatype if data contains long max and min values.This closes #676,non_debt,-,3524,test
+ignite,7a274d38c2c3e49b8408aaaaddbd544a0d5b7dcc,"Merge remote-tracking branch 'remotes/origin/sprint-2' into ignite-432
+Conflicts:
+	modules/core/src/main/java/org/apache/ignite/cache/query/Query.java
+	modules/indexing/src/main/java/org/apache/ignite/internal/processors/query/h2/IgniteH2Indexing.java
+	modules/indexing/src/main/java/org/apache/ignite/internal/processors/query/h2/sql/GridSqlElement.java",non_debt,-,3526,test
+camel,235022e3fc2d50fb24e5c3f9716b06e646db6b1d,Camel-AWS2-SES: Fixed docs intro,non_debt,-,3533,test
+nutch,f046e632e6c0999ed599681e3116712c71d77add,"Merge branch 'sebastian-nagel/nutch:NUTCH-2281', fixes NUTCH-2281, closes #119",non_debt,-,3534,test
+camel,26b2e1cbbb110838fe862c035c2597be1e8db824,CAMEL-7852 clean up the karaf feature osgi test,code_debt,low_quality_code,3544,test
+skywalking,f40eff5d1545bcdbedd9f7d3516a00b26fd695f8,Provide plugin development guide EN version.,non_debt,-,3545,test
+camel,1c7a2d749e5f75545aa9899e9b06cdef4cf1d614,Add unit test with inlined groovt script for people who want to code in xml,non_debt,-,3550,test
+jmeter,66cd6726e30ccc01506cd32c5ad8209204a38f0f,LDAP doc updates,non_debt,-,3551,test
+tinkerpop,dc92a3c009d6914e950d65f161da18274234df63,Added js/.net api docs to the vote thread email template CTR,non_debt,-,3559,test
+activemq,372f69aba9c7f9cf7ea25dbc19865c48c632583c,tightened synchronization around dispatchQueue,non_debt,-,3562,test
+incubator-doris,a0334513673a9a48e6ce62372aa3187d12862328,"modify: (#137)
+1. remove libunwind deps
+2. modify install in build.sh
+3. add SHOW USER stmt to show user privilege",non_debt,-,3564,test
+jena,c81688d6d9300b3073ad0efdb17994c960fb60bf,JENA-685 : Don't try to reorder pattern of 0 or 1 triple patterns,non_debt,-,3566,test
+hive,a6148a587992742e98839552c70e5799e4bba3f1,"Revert ""HIVE-15648: Hive throws compilation error due to powermock.version not being present in root pom (Vaibhav Gumashta reviewed by Thejas Nair)""
+This reverts commit ec82b84f309119121dc55aa84c1b9b70e7a0c334.",non_debt,-,3577,test
+cassandra,680798e032660c068fae19f4e19ad0833b53d25f,"use weak references to track slab regions
+patch by jbellis; reviewed by stuhood for CASSANDRA-3162",non_debt,-,3579,test
+shardingsphere,9d5f1228e4d88c0e440ffccabc7d537867574f86,"for #2722, move DDLStatement.index to CreateIndexStatement & DropIndexStatement",non_debt,-,3583,test
+cloudstack,3cc6efce04153a013d70971cbcfdbb20ab8b7fbb,ApiServlet: use HttpUtils instead of class specific implementation,non_debt,-,3600,test
+camel,d9a474350c2c5fb3d9364cd5028b4e371e387adb,CAMEL-3640: Lucene should type convert to String for headers and not type cast.,non_debt,-,3607,test
+zookeeper,9d52877a46776ab4bd3df919dd303992fddda4c9,ZOOKEEPER-1380. zkperl: _zk_release_watch doesn't remove items properly from the watch list. (Botond Hejj via mahadev),non_debt,-,3611,test
+shardingsphere,76ebcc99c3608e94166d2a73630fdeb26daaa4e1,add catch (final Exception ex),non_debt,-,3612,test
+systemds,eeffef63cd8e2a5563c31f067cfe21e73a08e32d,"[SYSTEMDS-2812] Added conv1d layer to nn library (via conv2d)
+Closes #1174.",non_debt,-,3621,test
+ignite,2b16b57438cd03a60e561da10df869adf893418a,1.5.0-SNAPSHOT,non_debt,-,3625,test
+druid,d150483fd3340eca1352b85d0f198715697a240c,"indexing-service: fix HTML title on overlord console (#6671)
+This follows a similar fix to the body of the page done in #5627.",non_debt,-,3636,test
+jmeter,97d3e43a1ca74f43803ba8d91e6648ecd89d0d3a,Updated to jodd-3.6.6.jar (from 3.6.4),non_debt,-,3649,test
+hive,5bef1b56a0b03988974c599728a40e98a8a08533,HIVE-6569 : HCatalog still has references to deprecated property hive.metastore.local (Sushanth Sowmyan via Ashutosh Chauhan),code_debt,low_quality_code,3659,test
+tomee,e362fde9bd4796ee9a27a21444df301f29efcdff,fixing datasource config for one arquillian test,non_debt,-,3669,test
+spark,8c49cebce572330fc84362662a9e3e8f7625bf5d,"[SPARK-14966] SizeEstimator should ignore classes in the scala.reflect package
+In local profiling, I noticed SizeEstimator spending tons of time estimating the size of objects which contain TypeTag or ClassTag fields. The problem with these tags is that they reference global Scala reflection objects, which, in turn, reference many singletons, such as TestHive. This throws off the accuracy of the size estimation and wastes tons of time traversing a huge object graph.
+As a result, I think that SizeEstimator should ignore any classes in the `scala.reflect` package.
+Closes #12741 from JoshRosen/ignore-scala-reflect-in-size-estimator.",non_debt,-,3672,test
+nifi,fa639e2596cc125af80615066f500cc908d4db6a,"NIFI-2542: - Ensuring transitive referencing components are able to be returned. - Ensuring we can enable/disable services with transitive referencing components. - Ensuring we cannot enable/disable services with unauthorized referencing components.
+NIFI-2543: - Ensuring we have permissions before attempting to reload a controller service.
+This closes #837",non_debt,-,3676,test
+activemq,19bfbb869875592688216d7d6dd1dff8b965fda5,Add \n after the frame terminator \0,non_debt,-,3685,test
+netbeans,414a83802f8fd873cef6a698bcdf32b24c92d7c8,Update graalsdk public packages.,non_debt,-,3686,test
+trafficserver,832542716ae5a291bee2cb68a1e37a572a832351,clarify that global hooks need to be setup to use per-remap rules with  header_rewrite,non_debt,-,3687,test
+pulsar,18d21acd6885db53417cbad6a18a93082da59cb2,"[doc] dashboard docker relative clarity (#4915)
+Fixes #4913 
+### Motivation
+The original document may mislead users into thinking that there is no any ready-made docker image and building one from scratch.",documentation_debt,low_quality_documentation,3693,test
+brooklyn-server,5913655e88fb704d67a55a3aeffcad786b74239a,tidy recent changes,code_debt,low_quality_code,3701,test
+hadoop,931f78718f3a09775bfa1f9a952c069c416d0914,YARN-7962. Race Condition When Stopping DelegationTokenRenewer causes RM crash during failover. (BELUGA BEHR via wangda),non_debt,-,3714,test
+madlib,5a71ff6fa14d3cff2a7e085396d8dbc7a8283ab7,"MLP: Remove source table dependency for predicting regression models
+JIRA: MADLIB-1223
+We were getting the type of the dependent variable from the
+input table to know if it was an array or not. With this commit, we now get
+this information from the model summary table.
+We also had to add a column in the minibatch preprocessor summary table
+called `dependent_vartype` in order to get the dependent type in the mlp
+code for minibatching.
+Closes #255",non_debt,-,3715,test
+camel,5183c6ea90fd603f2f10196eff3dbb11e2c9462e,Improved camel-hystrix,non_debt,-,3723,test
+flink,44538e10dca767124e175496a58d9dc7c8710eec,[FLINK-11463][tests] Support job submissions,non_debt,-,3732,test
+attic-stratos,23c88cdb47edf83c7ee3f7dc37821f0509fc892c,"Removed local copy of the topology event message delegator from autoscaler, updated log4j properties, optimized service component activate method",non_debt,-,3733,test
+camel,4289c04687950d08c304bf569ae3c69bcee09f59,CAMEL-3551: Polished,code_debt,low_quality_code,3736,test
+tomee,6998e215055299ff45e20f24439eaa6f79e21a98,"Pull versions up to parent
+activemq 5.15.0
+commons-logging 1.2
+Remove BeanValidationAppendixInterceptor ref",non_debt,-,3745,test
+spark,bd74301ff87f545e5808e13dd50dea12edd3db92,"[BUILD] Reference fasterxml.jackson.version in sql/core/pom.xml
+Closes #6031 from tedyu/master and squashes the following commits:
+5c2580c [tedyu] Reference fasterxml.jackson.version in sql/core/pom.xml
+ff2a44f [tedyu] Merge branch 'master' of github.com:apache/spark
+28c8394 [tedyu] Upgrade version of jackson-databind in sql/core/pom.xml",non_debt,-,3751,test
+geode,80ffe65afeb84223faa75eebca77ad39e29f7f5a,"GEODE-7915: rc pipeline fixes and improvements (#4853)
+* remove examples.zip test from pipeline as .zip is no longer produced
+* check all source artifacts to ensure they do not contain any binaries
+* check that no unexpected artifacts are present
+* align release retention with ""N-2"" proposal",non_debt,-,3766,test
+cxf,5786df8619807edefc1b463c1820a70efd868cbd,"Fix running on java9, set the import version for javax.annotation",non_debt,-,3770,test
+beam,eb302dd65e25960f32e1d2440af144fb99decd35,Merge #8341: Use a singleton PIPELINE_OPTION_PARAMETER in DoFnSignature.Parameter,non_debt,-,3774,test
+cloudstack,0d9801ec3de6762af516c0ac708c9a3831d7dc88,"package: bump to version v0.3.0 and update dependencies
+Bumping to v0.3.0 to signify that most features/APIs are supported wrt
+technical preview.",non_debt,-,3778,test
+accumulo,6fae53cbec14e4a06a0897e9385f4cb9330362b9,Merge branch '1.8',non_debt,-,3784,test
+incubator-pinot,995ad8331ccde0cc4e5d85dde7f326a61e2ba1e6,"Calcite SQL compiler syntax support for order by expression and set LENIENT SQL conformance (#5005)
+* Make calcite parser support order by expression
+* Set SqlConformanceEnum.LENIENT to CalciteParser",non_debt,-,3788,test
+camel,925c1c8d591cf4e382d0a9e72469ba8e460e9d02,"Revert the change of camel-mail pom.xml, I should not commit any code before I go to bed :(",non_debt,-,3789,test
+hawq,aea5e6046e484a38cdf357cbf04444903527f130,HAWQ-599. Fixed coverity issues.,non_debt,-,3792,test
+beam,4d24f66e66d317ae95a54b396b5718158087364c,"Merge pull request #13908 from ibzib/BEAM-10671-java
+[BEAM-10671] Add environmentOptions to Java.",non_debt,-,3793,test
+couchdb,41d71ab93d663c24e3efcb8f08332fd8439c5dfb,"Bump replicator dependency
+Fix default value for replicator max_document_id_length parameter
+Cleanup error logging code
+COUCHDB-3291",code_debt,low_quality_code,3802,test
+lucene-solr,11f2885a123018e36e1f8e8f5d10340b3b5c2711,LUCENE-3832: Port BasicAutomata.stringUnion from Brics to Lucene.,non_debt,-,3807,test
+fineract,fb1a8909404afa11229da0c63ccc7c7e55a567a0,"FINERACT-344 : Should not allow to add guarantor ,If savings account activation date is gretar than loan application submitted date",non_debt,-,3812,test
+trafficserver,934a252c9813a97fe9c71582369a6c6e0fe21486,Doc: Translate admin/forward-proxy,non_debt,-,3815,test
+cxf,694c6c4eef84a27de4ef1700edd2f0b6bb62927f,Use latest PMD version,non_debt,-,3819,test
+superset,12ce1b20bd3864f81342308bc3adddc8b2e287cf,Fix link formating in README.md (#6097),non_debt,-,3820,test
+usergrid,1c0b0a99c48ad86a964a0dcf4a914d9de3384d92,Test for ascending geo-distance in three of the GeoIT tests.,non_debt,-,3822,test
+cloudstack,1d2a084bbe6668ef6c9a873033e1bbb7ef4289b6,add jna dependenc,non_debt,-,3830,test
+cassandra,a6e749089fe37c3deb2404ceb718854c0307ffb5,exclude thrift-server's 'compile' dependency on junit,non_debt,-,3833,test
+activemq-artemis,b2342b626ec234aa68b9eb94819e18d1c7b7ae9b,This closes #3067,non_debt,-,3839,test
+tinkerpop,63180535052e4f5c1782bee20270c493468aa802,Add test to make Groovy tests compliant with test enforcement of java tests.,non_debt,-,3840,test
+shardingsphere,a25e49f53d6cf4ea715a3186501eb8859006f79d,"Merge pull request #168 from Harper0122/master
+Rewritten Engine",non_debt,-,3848,test
+cloudstack,504ab73ae542287128a8a7001ab9ff72c26ccbbc,Sync on network instead of ipAddressId when do create PF/StaticNat/LB rules,non_debt,-,3857,test
+hive,ccb63a31cb5f9003221341bad592080918627565,Merge from trunk to llap (02/06/2015),non_debt,-,3859,test
+camel,cc7ef1dfaad7a131d828eed22850e3798d36143a,CAMEL-13557: Fixed test to use property binding support as the old has removed the legacy JDK PropertyEditor in CAMEL-13566,non_debt,-,3866,test
+cassandra,1b1e2b9c06d0644799c2ac9e0b318cadffb6463b,Merge branch 'cassandra-2.0' into cassandra-2.1,non_debt,-,3867,test
+usergrid,809ae2b5ac293c1b6d58badb9cb3c96d4443c863,Updated manifest,non_debt,-,3876,test
+couchdb,fbbaaffaac347368aff7bc480071fc6ef7399d59,"Fauxton: Add typeahead support to jump to doc
+Simple type ahead support to check for start of id. It also checks if
+document exists if not return back to _all_docs list",non_debt,-,3878,test
+cassandra,d616dcdd7b9ede69c5e703af7153ed4ce3072204,Merge branch 'cassandra-1.1' into trunk,non_debt,-,3879,test
+bigtop,479ac33fcdf2f8de3895226927084123dad57eb3,BIGTOP-3128: Switch to new gitbox repository,non_debt,-,3887,test
+activemq-artemis,d5242978d55051ddf5b0ef245e48f851f5147f28,for and while loop to foreach conversions,non_debt,-,3896,test
+ambari,72ac920cd1632bcd3a92e55d1fb9830f0d3d2540,AMBARI-12906: Alert notifications are created even if credential fields are left empty (Qin Liu via rzang),non_debt,-,3901,test
+lucene-solr,4287d1bb52185f8ef24028465069884a7f9ae08c,SOLR-2739: more assumptions to ensure file is not writable,non_debt,-,3907,test
+airflow,290330ba60653686cc6f009d89a377f09f26f35a,[AIRFLOW-6552] Move Azure classes to providers.microsoft package (#7158),non_debt,-,3915,test
+nifi,c0de26b8d6ee99212659e1a58f46fb7956636a93,NIFI-4573 Catch exceptions during flow content migration.,non_debt,-,3919,test
+spark,9d03ad910b853c1e0dcb946b05d48ab36a1ac533,"[SPARK-9543][SQL] Add randomized testing for UnsafeKVExternalSorter.
+The detailed approach is documented in UnsafeKVExternalSorterSuite.testKVSorter(), working as follows:
+1. Create input by generating data randomly based on the given key/value schema (which is also randomly drawn from a list of candidate types)
+2. Run UnsafeKVExternalSorter on the generated data
+3. Collect the output from the sorter, and make sure the keys are sorted in ascending order
+4. Sort the input by both key and value, and sort the sorter output also by both key and value. Compare the sorted input and sorted output together to make sure all the key/values match.
+5. Check memory allocation to make sure there is no memory leak.
+There is also a spill flag. When set to true, the sorter will spill probabilistically roughly every 100 records.
+Closes #7873 from rxin/kvsorter-randomized-test and squashes the following commits:
+a08c251 [Reynold Xin] Resource cleanup.
+0488b5c [Reynold Xin] [SPARK-9543][SQL] Add randomized testing for UnsafeKVExternalSorter.",non_debt,-,3937,test
+fineract,debce5655f0ec31c2455a15c7ce2a2cbab9c448b,MIFOSX-282: remove min and max fields from loan table,non_debt,-,3939,test
+incubator-heron,92267f4433057ce0b2654419054002a2273ea97c,Fix style check config (#3257),code_debt,low_quality_code,3947,test
+madlib,8bd4947fefb29a977f1239905472fda41fa76ae0,"Jenkins: Get error message from install-check FAIL
+Closes #124",non_debt,-,3949,test
+ignite,5564a14f7cbf30acb64b457d5bc37780490195c2,"IGNITE-8547 - Use JVM serialization for enum values with OptimizedMarshaller, avoid deadlock. - Fixes #4063",non_debt,-,3952,test
+spark,d16a9443750eebb7a3d7688d4b98a2ac39cc0da7,"[SPARK-8619] [STREAMING] Don't recover keytab and principal configuration within Streaming checkpoint
+[Client.scala](https://github.com/apache/spark/blob/master/yarn/src/main/scala/org/apache/spark/deploy/yarn/Client.scala#L786) will change these configurations, so this would cause the problem that the Streaming recover logic can't find the local keytab file(since configuration was changed)
+Problem described at [Jira](https://issues.apache.org/jira/browse/SPARK-8619)
+Closes #7008 from SaintBacchus/SPARK-8619 and squashes the following commits:
+d50dbdf [huangzhaowei] Delect one blank space
+9b8e92c [huangzhaowei] Fix code style and add a short comment.
+0d8f800 [huangzhaowei] Don't recover keytab and principal configuration within Streaming checkpoint.",code_debt,low_quality_code,3953,test
+echarts,d9c5d2fcc10f60cb86d76d6a8a996e162abcb48b,fix(tree): code rebuild follow the review suggest,non_debt,-,3954,test
+myfaces-tobago,8cd243014bfc7969585ace829fd5d34a0ba7d852,"fixed typo 
+ensure that faces-config is included in jar",documentation_debt,low_quality_documentation,3955,test
+beam,a93c5c0594dcd4519fcf4b842f2fe0b8244a81a3,Allow absolute timers,non_debt,-,3964,test
+camel,edb162b6a5761866704f206670c21a850ba7e010,CAMEL-13663: camel-main-maven-plugin to generte spring-boot tooling metadata to fool Java editors to have code completions for Camel Main application.properties files.,non_debt,-,3969,test
+lucene-solr,c902f6312550cc392cdacdf2a6039283ec2fff0f,unbreak clover/nightly builds until we do this right,non_debt,-,3973,test
+ignite,9af256661cebeb78710d87d273663be39c72a1d8,Merge remote-tracking branch 'origin/sprint-2' into sprint-2,non_debt,-,3975,test
+spark,b0ee7d43730469ad61fdf6b7b75cc1b1efb62c31,"[SPARK-13548][BUILD] Move tags and unsafe modules into common
+## What changes were proposed in this pull request?
+This patch moves tags and unsafe modules into common directory to remove 2 top level non-user-facing directories.
+## How was this patch tested?
+Jenkins should suffice.
+Closes #11426 from rxin/SPARK-13548.",non_debt,-,3978,test
+beam,1133f7b5ae5d10120563e267d7c65f669ccc2bf1,Make sure calling try_claim(0) more than once also trows exception. (#10922),non_debt,-,3984,test
+cloudstack,0496ba7a00a6611e1d3aab2d2ed167d35adf891d,"firewallrules (VR) and metworkacl (VPC) did not as I believe they shgould get combined
+in the underlying java code
+Have split them out again.
+Omce tested this will need some refactorinfg because it is currently PFU",non_debt,-,3988,test
+beam,468e8e7be0376bd26bfdbb5e8ef32d67dd2169fb,Fix Copyright Headers in sdks/java/fn-execution,non_debt,-,3993,test
+cassandra,22f811e3b56e2d968d4724fcf99d11b4e0a7d037,"add support for arbitrary -D options to .ps1 script
+patch by Joshua McKenzie; reviewed by Philip Thompson for CASSANDRA-7435",non_debt,-,3995,test
+couchdb,aa3b738537f1203ab25025a0d3c179f7d74be185,"Add 410 status code to stats_descriptions
+We started to emit that in CouchDB 4.x for temporary views and possibly other
+endpoints.",non_debt,-,4000,test
+flink,a3cf3f1fc69e9ed17433cbc522c7086cead7790e,"[FLINK-12232][hive] Support database related operations in HiveCatalog
+This PR creates HiveCatalog in flink-connector-hive module and implements database related APIs for HiveCatalog.
+This closes #8837",non_debt,-,4002,test
+myfaces-tobago,c6f9cd24c9d9b7bd350dbcc3bbf996640d9957bc,"minor improvements 
+moved jsf12 and jsf20 artifacts to myfaces-1.2 and myfaces-2.0 profile
+update openwebbeans version",non_debt,-,4003,test
+guacamole-client,cc409d0b36ded3c5c0214414bb145959e352aa55,"GUAC-1238: Remove country code from English, as well. If none of the others use it, we really shouldn't either unless multiple dialects of English are added.",non_debt,-,4004,test
+beam,a3325a4a5bc2f5ff5cf5aeee4975dc90400f810f,"Merge pull request #5598: Improve consistency of hadoop and hbase scripts, fix shellcheck issues",code_debt,low_quality_code,4021,test
+camel,1b336a9b622d5a5f1af77b109b2f48ffb98e812a,Polished,code_debt,low_quality_code,4023,test
+camel,3960dccf137c31fd06474ad47dc6bdcd13df30a9,CAMEL-11140: closing Camel context in tck tests,non_debt,-,4028,test
+trafodion,da96e64a88ff9802a0ceb93a761a77480bdf6507,"Drop view QI fix & fix for LP 1384485
+Removed sqlparser.y change - it was not intended to be delivered.
+Drop view QI fix:
+  At drop view time, we need to send a QI message for the view being
+  dropped and remove base tables referenced by the view from cache.
+  Added a structure which describes a base table reference
+    Added code to create a list of base table references by calling
+    getListOfReferencedTables
+      getListOfReferencedTables gets the list for the first layer of
+        referenced objects (getListOfDirectlyReferencedObjects).
+      If the referenced object is a view, it recursively calls
+        getListOfReferencedTables
+      If the referenced object is a table, it gets added to the base
+        table list
+  Set up a QI key during drop view
+  Removed naTable entries for all tables referenced by the view
+  Updated TEST122 with drop view tests
+Fix for LP 1384485:
+  Alter table allows adding a constraint to a _MD_ table
+  Reworded error message 1289
+  Added checks for reserved schema in missing places, mostly
+    constraints",non_debt,-,4033,test
+spark,df9adb5ec994f054b2fa58e492867bbc5a60c234,"[SPARK-15206][SQL] add testcases for distinct aggregate in having clause
+## What changes were proposed in this pull request?
+Add new test cases for including distinct aggregate in having clause in 2.0 branch.
+This is a followup PR for [#12974](https://github.com/apache/spark/pull/12974), which is for 1.6 branch.
+Closes #12984 from xwu0226/SPARK-15206.",non_debt,-,4038,test
+geode,7022135035f5a1804eff38c2a159c0352728373d,"GEODE-1238: ensure EntryEventImpls are released
+-- reviewed all EntryEventImpl creators
+-- created two new subclasses to mark ones that are never off-heap
+-- added annotations and comments on all creators
+-- added missing release calls",non_debt,-,4047,test
+myfaces-tobago,77e01bbca86bf59c1b743b3b98071b1aa13e864c,"TOBAGO-1468: NoSuchMethodException in security module, when using EL 2.0 paranthesis in actions
+- performance optimization",non_debt,-,4048,test
+trafodion,997b86318c4c9ada2a8a6caef10d0b3fbcc92b39,Merge [TRAFODION-2803] PR 1301 Fix a merge conflict,non_debt,-,4049,test
+activemq,ba0ada4db75c42fb04bb52306360000782f86448,fixed a typeo when trying to apply the patch for AMQ-575,code_debt,low_quality_code,4050,test
+activemq,9d4f30c018abb19866b45a626597a05234a9810b,https://issues.apache.org/activemq/browse/AMQ-3017 - fllesystem blob strategy,non_debt,-,4051,test
+brooklyn-server,443a0884e84dc0b8de2454d9b90c42c80779db81,Make class ShellUtils public,non_debt,-,4073,test
+cloudstack,80e4b5ef7c48d083cd8e049d19073725d4d4ea8e,Add a few more missing localization labels,non_debt,-,4079,test
+airflow,1864b7a551227c44462c556c8369d326605ae5ea,"Merge pull request #1075 from airbnb/pig_operator
+Pig hook and operator stub",non_debt,-,4088,test
+storm,0dafa836071578c9c0db125066f151665cc474ad,STORM-3374 remove unnecessary stacktrace from log,code_debt,low_quality_code,4098,test
+netbeans,1850c36ddedd4f2532e6087e386a1bcf0c32df99,"fixed NETBEANS-1792:
+Behavior of BooleanStateAction has changed",non_debt,-,4100,test
+ignite,986e88912434c75ca9ca8d8456883aa0000f317a,Merge branches 'ignite-422' and 'sprint-2' of https://git-wip-us.apache.org/repos/asf/incubator-ignite into ignite-422,non_debt,-,4106,test
+incubator-brooklyn,19901b8ab9819a5aa4e1b384ad6330463135dfdd,"remove link from website downloads page to the snapshots download page
+as @rdowner notes apache policy forbids promoting snapshot downloads",non_debt,-,4108,test
+druid,b7c68ec4495d8426e1b99b85a4ed7104feddcd38,"Merge pull request #1842 from metamx/DRUID-1841
+Do not pass `druid.indexer.runner.javaOpts` to Peon as a property",non_debt,-,4110,test
+hadoop,c8bc7a84758f360849b96c2e19c8c41b7e9dbb65,YARN-5843. Incorrect documentation for timeline service entityType/events REST end points (Bibin A Chundatt via Varun Saxena),non_debt,-,4111,test
+shardingsphere,6a74c0546b2a0cb68f77c491f8fc5f69241cc4ac,update example,non_debt,-,4112,test
+cxf,9d4f600f061f30915ad12458943c7ce0059cb454,Use the endpointPublishURL and other properties to fill in the discovery details,non_debt,-,4118,test
+ignite,e304b48b92fe75027442b7f7cfb46b421d58ae49,.NET: Improve exception messages for binary misconfiguration and missing assemblies,code_debt,low_quality_code,4121,test
+beam,4e3bc5d580c310f7eea46985eb986ab7cc3aea61,"Fix DataflowWorkerLoggingHandlerTest on Windows
+----Release Notes----
+[]
+-------------
+MOE_MIGRATED_REVID=98038658",non_debt,-,4123,test
+attic-apex-core,77aa6a2e339cf0ff16956b062040634e98ba38fe,APEX-156 #resolve #comment using ImportOrder instead of CustomImportOrderModule,non_debt,-,4129,test
+tvm,bc43ed4b4560ea9dd6bf9d25fa5ee880e41922b5,"[BYOC] [ACL] include_non_call_ops = False (#7121)
+ACL codegen now uses AnnotateTarget pass with include_non_call_ops = False
+to prevent promoting non-call ops under the target of its arguments.
+Squeezenet unit test added.",non_debt,-,4135,test
+avro,8cbe31ef59354a9eff47aa82b13fd72650874b89,AVRO-375. Initializing uninizialized encoders fail,non_debt,-,4137,test
+hbase,12f0dce3ae55a6da24b60b8e7660177efcafc708,"HBASE-10051 rolling-restart.sh have old value of ""zookeeper.znode.unassiged"" config causing infinite loop",design_debt,non-optimal_design,4139,test
+jmeter,d15cf0156a1ea7af4ed3ccc91072f274ed0326ec,"Bug 62110 - A broken junit class (due to missing dependency) breaks JMeter menus
+Contributed by UbikLoadPack
+Bugzilla Id: 62110",non_debt,-,4140,test
+shardingsphere,918710fe570031cfd1a0d4f7f84bd79f28c6dc4b,"Adjustment (#257)
+* Correct yaml configuration file
+* Update company list
+* Adjust format of the md file",non_debt,-,4154,test
+tinkerpop,44b3fb62a8454c287d2f8e6b4b9b1b223d6bfee3,Fix bad formatting in changelog.,code_debt,low_quality_code,4168,test
+storm,f183a0c9487d6ca0055df47c18f4cf8ab4abe6e5,fix reflection bug,non_debt,-,4172,test
+storm,08d3a5b160f1a5853faa246c04a15553f458e68b,add STORM-2066 to CHANGELOG,non_debt,-,4178,test
+myfaces-tobago,b78321e40bec2643983c56d67ff174dee75820a1,improved dependabot config,non_debt,-,4180,test
+hudi,24e73816b2b50af518576907379bf9202d6b8dd2,"[MINOR] Code Cleanup, remove redundant code (#1337)",code_debt,dead_code,4182,test
+lucene-solr,eddeca9215fd90f8a6adc62570aa859d60ecc55d,SOLR-5244: Exporting Full Sorted Result Sets,non_debt,-,4183,test
+trafficcontrol,c88aa2acc4c80039d047ee95fa599c4af5ea9630,"assign ""unassigned"" tenants",non_debt,-,4185,test
+hbase,de1f96096a0f34ab8910d5b52da60cb5cf5eecdf,Added jenkinsEnv.sh for jenkins build environment,non_debt,-,4189,test
+carbondata,bd02656abc559040111c636c909541c8441b8132,"[CARBONDATA-2648] Fixed NPE issue with legacy store when CACHE_LEVEL is Blocklet
+Things done as part of this PR:
+Fixed Null pointer exception when store is of <= 1.1 version and DataMap is of type BlockletDataMap.
+Added clearing of SegmentProperties cache holder from executor
+Problem 1:
+Null pointer exception thrown when store is of <= 1.1 version and DataMap is of type BlockletDataMap.
+Analysis:
+In BlcokletDataMap schema is created to consider blockletInfo while adding to unsafe but in case of legacy store we dont weite the blocklet Info. This lead to Null pointer exception while calculating the size of row during adding to unsafe.
+Solution
+For legacy store always call super class methods which is BlockDataMap.
+This closes #2499",non_debt,-,4190,test
+activemq-artemis,89ccee6533634d80fb251d03e44931b22cea9470,This closes #1599,non_debt,-,4193,test
+airflow,92727f751c89cd5fdbf85a7f85e8d30753fab6a2,[AIRFLOW-2508] Handle non string types in Operators templatized fields (#4292),non_debt,-,4200,test
+jena,5ae8d192b209da48cb73967923b2309a3dbf9680,JENA-1703: Remove unused files,code_debt,dead_code,4214,test
+tinkerpop,d0ac365f0710b79ecfa48386fc944faf84ad11d5,"Removed unecessary bits from Apache dependencies in binary NOTICE.
+Given http://www.apache.org/dev/licensing-howto.html#bundle-asf-product",build_debt,over-declared_dependencies,4223,test
+incubator-pinot,f990656ee442973d311157bfca993db6d8218874,"Pinot batch ingestion hadoop (#4987)
+* refactor common utils
+* Adding pinot-batch-ingestion-hadoop module
+* Address comments",non_debt,-,4227,test
+tomee,623267865acac991cd4c939fee6b452b6d809453,"OWB 1.1.6
+TOMEE-571: Update to OWB 1.1.6",non_debt,-,4239,test
+openwhisk,395597e3e9c7b93e005a7c51137e3f90d5c21594,"Do Not Omit Fields from Activation Records
+- Always display fields in an activation record even if their values are empty",non_debt,-,4243,test
+trafodion,d3cc2ecb55d1ee11bba9eb2a426957a103dc8450,"SQL syntax to cancel executing query, phase 1
+This check-in implements the command ""control query cancel qid <qid>"".
+The command will send a cancel message to the MXSSMP cancel broker,
+but since the master executor is not yet sending a query started
+message,
+no query will be canceled, and if the message is successful SQLCODE
+-8026 will be raised. The change also validates the cancel command.
+produces new EXPLAIN and SHOWPLAN output and handles errors, as shown
+in a new regression test.
+Implements: blueprint sql-query-cancel",non_debt,-,4245,test
+nifi,9608fe33fa4a3f39ee6ddca54184ccc85ef1a163,"NIFI-7367: Add tests for FetchAzureDataLakeStorage
+NIFI-7367: Negative test cases for expression language in FetchAzureDataLakeStorage
+FetchAzureDataLakeStorage throws exception when filesystem or filename is blank.
+Fixed logged error messages in all 3 of the Delete, Fetch and Put ADLS processors.
+testFetchDirectory test case marked as ignored.
+This closes #4257.",non_debt,-,4248,test
+cassandra,9c88ad16a69ccc8603c1be9d6253075549fb270f,"Fix validation for IN queries with non-PK cols
+patch by slebresne; reviewed by jbellis for CASSANDRA-4709",non_debt,-,4251,test
+arrow,9ffb9cdd46c498a2f46a8d030613e7c046b6e843,"ARROW-5784: [Release][GLib] Replace c_glib/ after running c_glib/autogen.sh in dev/release/02-source.sh
+c_glib/ source archive is generated by `make dist` because includes configure script.
+The current `dev/release/02-source.sh` build Arrow C++ and Arrow GLib to include the artifacts of GTK-Doc and then run `make dist`.  But it is slow.
+So this PR run only `c_glib/autogen.sh` and then replace c_glib/.
+Closes #4749 from shiro615/release-replace-c-glib-after-running-autogen and squashes the following commits:
+9a69f8edc <Yosuke Shiro> Remove an unnecessary environment variable
+3a2550fbd <Yosuke Shiro> Remove omit from 02-source-test.rb
+501a2dd97 <Yosuke Shiro> Remove autom4te.cache after running autogen.sh
+46a4f8995 <Sutou Kouhei> Use docker-compose
+e357a88b7 <Yosuke Shiro> Exclude c_glib/autom4te.cache/* from RAT check
+70cb4a762 <Yosuke Shiro> Remove an unnecessary diff
+aa786804d <Yosuke Shiro> Enable test test_glib_configure on Travis CI
+e04276e33 <Yosuke Shiro> Remove libraries for C++ build
+56098ae87 <Yosuke Shiro>  Replace c_glib/ by c_glib/ after running autogen.sh",code_debt,low_quality_code,4252,test
+attic-stratos,9140afcf1d248b1541af3e77b5d3e48cb318dfdf,Updating cartridge docker image version,non_debt,-,4255,test
+lucene-solr,cdc38d0811b25cf426b4c333a6fda460c3a3db7b,Renamed mis-spelled method,documentation_debt,low_quality_documentation,4268,test
+tajo,bbb2164d83f29871e8432c8b0394da39fdfd9d73,TAJO-513: Needs clone() method of LogicanNode and its subclasses,non_debt,-,4271,test
+ignite,e4f19215de8d20311e16a6b12d0ef68d711b3462,"IGNITE-7174: Local MLP
+this closes #3246",non_debt,-,4277,test
+jmeter,a9361d9b56218c42ad772d0c61d554f1e7e2ec0e,Fix generics warning,code_debt,low_quality_code,4278,test
+incubator-dolphinscheduler,9655174cdf5ebfb3a63625e2b977fe86530d4325,"spotbugs: make map traversal more efficient (#1035)
+* make map traversal more efficient
+* make map traversal more efficient
+modify according to review
+* compile fail and delete space",code_debt,slow_algorithm,4284,test
+infrastructure-puppet,005c9edb5d6bdc91fdbeb0596bea649d4740163b,OF: Fall back to basic puppet pip installs,non_debt,-,4287,test
+attic-apex-core,6f09df8b61b50e6b8970f06910c009676e195db8,allow for merge,non_debt,-,4288,test
+trafficserver,ba699f81fe5082708264ce099202fc5386b14f7e,"TS-4649: Minor style improvement to the loggin system.
+- Make log field name arrays static.
+- Make LogField members const.
+- Remove unused LogFilter::reverse().
+- Make various other trivial member functions const.",code_debt,dead_code,4291,test
+netbeans,90787ccf1d2ad1669ea001b35c4fc20bfc3f341b,Removing debug output.,non_debt,-,4293,test
+superset,352e8a1afd166cc438a5cddbd86cff4aa7c1150c,Re-enable rule prefer-destructuring (only for objects) (#10867),non_debt,-,4297,test
+incubator-mxnet,8f82cd8f8aa798505c401dc520bf4a2787c50fb3,"[MKLDNN] support using any format in pooling backward (#17900)
+* use any format in pooling backward
+* use data_type()",non_debt,-,4303,test
+trafficserver,3d1017fe1052dda9c1fa1a3e5d08e4db036fdbcc,TS-2951: Remove xfd.,non_debt,-,4307,test
+arrow,722b0a122787bc6e1aef30659d3cbab046a03711,"ARROW-5039: [Rust] [DataFusion] Re-implement CAST support
+This PR achieves a few things:
+- Removes some PoC code and replaces it with generic code for evaluating CAST expressions
+- Adds support for casting from UInt64 in arrow compute module (looks like this was just missed)
+- Improves error messages and rustdocs
+- Adds a bounds check to avoid a panic if a column index is incorrect
+Closes #4054 from andygrove/ARROW-5039 and squashes the following commits:
+fbc606c <Andy Grove> tests for casting from all floating point types, plus fix bug in mapping from f32 to u16
+ae4338c <Andy Grove> tests for casting from all unsigned int types
+46a016e <Andy Grove> tests for casting from all signed int types
+9ddd055 <Andy Grove> check for null after cast
+ddc80dd <Andy Grove> add unit test for casting from int64
+e2a9e33 <Andy Grove> revert last commit
+84951ad <Andy Grove> Revert adding Int64 cast support
+588459a <Andy Grove> Code cleanup
+28d63c6 <Andy Grove> Improve error messages and rustdocs
+542ad26 <Andy Grove> Re-implement CAST support in DataFusion
+c01763c <Andy Grove> Add support for casting from UInt64",code_debt,low_quality_code,4314,test
+trafficcontrol,d6728b08b7d40c432fc142d978ddca63fb59ac81,"if user has no tenant, check if tenancy is on and respond accordingly",non_debt,-,4317,test
+flink,cf4328db168fe5488514efdedb9773ca32ded9f4,[FLINK-19539][jmx] Synchronize accesses to port,non_debt,-,4323,test
+tomee,5e5545429c3f381fe3e965dd75bbd65ce9b20496,Remove fake test again (it's been tested with an empty m2 repository). Will trigger the build on Continuum,test_debt,lack_of_tests,4325,test
+commons-lang,4eb1d6a44fe87d5dd4a41454201d649dab91613c,Merge branch 'EventUtilsTest',non_debt,-,4329,test
+beam,af717820535d3990aec15575b012e1df296fb3cc,Fix SplittableParDoNaiveBounded DoFnInvoker.,non_debt,-,4332,test
+kafka,d546aa292aa8710f4285cef4e89c75b44d24a8b0,"MINOR: update streams.html with KStream API changes
+mjsax guozhangwang
+Closes #1534 from dguy/update-streams-doc",non_debt,-,4333,test
+shardingsphere,5dce7bf23edb584022fc62f1c7fbfbdf928477e8,use ShardingProperties,non_debt,-,4335,test
+activemq-artemis,882da19c8a9a2ad12ca089d45445fe408d850330,"ARTEMIS-2229 Qpid jms consumer cannot receive from multicast queue using FQQN
+If a client sends a message to a multicast address and using a qpid-jms
+client to receive the message from one of the queues using fully
+qualified queue name will fail with following error message:
+Address xxxx is not configured for queue support
+[condition = amqp:illegal-state]
+It should be able to receive the message without any error.",non_debt,-,4337,test
+gobblin,1419a3fceeb5d5994196ff7010f476745da15c3e,"Integrate commit 158d17c1be0455b52d9d09d0f8f9fe5f4e18e716 from gobblin repo:
+Original commit on gobblin:
+https://gitli.corp.linkedin.com/ds-platform/gobblin/commit/158d17c1be0455b52d9d09d0f8f9fe5f4e18e716
+Original RB: 390664
+RB=390955
+R=etl-infra-reviewers,ynli
+A=ynli",non_debt,-,4339,test
+spark,ce49428ef7d640c1734e91ffcddc49dbc8547ba7,"[SPARK-20749][SQL][FOLLOWUP] Support character_length
+## What changes were proposed in this pull request?
+The function `char_length` is shorthand for `character_length` function. Both Hive and Postgresql support `character_length`,  This PR add support for `character_length`.
+Ref:
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-StringFunctions
+https://www.postgresql.org/docs/current/static/functions-string.html
+## How was this patch tested?
+unit tests
+Closes #18330 from wangyum/SPARK-20749-character_length.",non_debt,-,4348,test
+tinkerpop,f1d04d6d481d1da5587937328caaab66457d8f94,added TheCrew to the GiraphGraphProvided. Renamed methods in ValueMapTest away from their old values() model. More updates to CHANGELOG.,code_debt,low_quality_code,4351,test
+camel,22c7edc0c25362be1663cb297e6304a7d7518360,CAMEL-7839 Fixed the issue that Xpath is not namespace aware in choice,non_debt,-,4352,test
+usergrid,f744ee2fbbc323fd18eed5454818d5089a1a3411,"Merge pull request #123 from rodsimpson/USERGRID-133
+USERGRID-133 - Portal - fixed double append bug when hiding details in d...",non_debt,-,4353,test
+nifi,8b54c2604cde4f3516d89a0f48650f7c30e34c3b,"NIFI-4082 - Added EL on GetMongo properties
+NIFI-4082 - Added EL on DB, URI and Collection
+NIFI-4082 - Added UT for EL evaluation (URI, DB, Collection) and fixed ex. message for document validator.
+This closes #1969",non_debt,-,4358,test
+groovy,d4cd2717a14a2ef225865969f0760fffc4055ba5,testing CC: trigger failure,non_debt,-,4365,test
+cloudstack,a900f5a370232640adc8e3b0f3a727403d08b140,define version of dependency plugin in parent pom,non_debt,-,4371,test
+hive,868413a37dae9d572fea810d1131de510ea3d817,"HIVE-11793 : SHOW LOCKS with DbTxnManager ignores filter options (Wei Zheng, reviewed by Eugene Koifman)",non_debt,-,4374,test
+infrastructure-puppet,88797dc58e35b407f91763ef2aa163594a82efe3,Add jenkins service,non_debt,-,4379,test
+shardingsphere,29d0552989154775728079206382e27fbb4f1e32,modify config-spring-boot.cn.md,non_debt,-,4386,test
+incubator-heron,f55dda3d45cc64af9d2740874e3f322e0b62ef62,Commit files masked by 'bazel' in .gitignore (#451),non_debt,-,4388,test
+ambari,8e646eb2da863cca896b515b14e980c9c778ed05,AMBARI-19403 : Hive View 2.0 : add REST endpoint for deleting database (nitirajrathore),non_debt,-,4390,test
+incubator-brooklyn,2b07bed4f2ed5e00b0422161455c2baa91ddea60,Adds (WIP) outline for VanillaWindowsProcess,non_debt,-,4391,test
+shardingsphere-elasticjob,79c401c0fd811f0d4b8589c3cfbcaa56116bd14b,split mesos and api,non_debt,-,4397,test
+systemds,8c2edadbc937ec87b00444f4c1e609af41ee16f7,25269: miscellaneous bug fixes - Fixes to processing value types at run time.,non_debt,-,4399,test
+cxf,61abbdafc1ccec0dce86383c547f4af383afba9a,[CXF-3574] Support additional JMS property types,non_debt,-,4414,test
+infrastructure-puppet,e43e48cde6274b946c4f3846df1c2460ef33c7ae,Merge remote-tracking branch 'origin/coreyg_2015091500' into deployment,non_debt,-,4415,test
+cloudstack,deb5f47627346682c43dbd31ea683485c5bd13da,Domain page - ROOT domain is not allowed to delete.,non_debt,-,4418,test
+hive,ec58e06804f162de2df68c8cfec4fd2fe97f8b97,Merging latest trunk into tez branch. (Gunther Hagleitner),non_debt,-,4421,test
+tinkerpop,2492a3a3ce70062f2e82658f0af446f94149d84f,Added warning message for BLVP.,code_debt,low_quality_code,4422,test
+couchdb,9e56cf334c33d4cdb96acbfca9cc9461e2b658aa,"Remove couch_crypto
+The crypto:{hash,hash_init,hash_update,hash_final} functions exist
+in all the versions of erlang supported by CouchDB.",non_debt,-,4430,test
+camel-k,84985a9be3774504cbc354a40c81b54f70d1596f,new builder engine,non_debt,-,4432,test
+spark,a1d2c3434657f0d901a2f8cfddf62065b5ad4385,"[BUGFIX] Fix for sbt/sbt script SPARK_HOME setting
+In some environments, this command
+    export SPARK_HOME=$(cd ""$(dirname $0)/..""; pwd)
+echoes two paths, one by the ""cd .."", and one by the ""pwd"". Note the resulting
+erroneous -jar paths below:
+    ctn@ubuntu:~/src/spark$ sbt/sbt
+    + EXTRA_ARGS=
+    + '[' '' '!=' '' ']'
+    +++ dirname sbt/sbt
+    ++ cd sbt/..
+    ++ pwd
+    + export 'SPARK_HOME=/home/ctn/src/spark
+    /home/ctn/src/spark'
+    + SPARK_HOME='/home/ctn/src/spark
+    /home/ctn/src/spark'
+    + export SPARK_TESTING=1
+    + SPARK_TESTING=1
+    + java -Xmx1200m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=128m -jar /home/ctn/src/spark /home/ctn/src/spark/sbt/sbt-launch-0.11.3-2.jar
+    Error: Invalid or corrupt jarfile /home/ctn/src/spark
+Committer: ctn <ctn@adatao.com>
+On branch master
+Changes to be committed:
+- Send output of the ""cd .."" part to /dev/null
+	modified:   sbt/sbt",non_debt,-,4434,test
+lucene-solr,910a1c03124d31f940259682340fef402a42c9ae,SOLR-12028: BadApple and AwaitsFix annotations usage,non_debt,-,4437,test
+hbase,70f7608afac5bbfbf2c7dc6a564514bfaf199fc2,HBASE-5997 Fix concerns raised in HBASE-5922 related to HalfStoreFileReader,non_debt,-,4439,test
+lucene-solr,54729a50b67b4cec70bd4879c6876371986b455f,"LUCENE-1007: allow flushing by ram, doc count, or both (whichever comes first) in IndexWriter",non_debt,-,4449,test
+cxf,9b21bb98025890f77864db2d1f8bea9a07ce1f32,"Don't create one big byte[] for the wrapper, use multi streams",non_debt,-,4450,test
+fineract,2c98046961675451c453ae9500adea3ccc2fd1dd,Interest recalculation scheduler job enhancement,non_debt,-,4451,test
+geode-native,ca17a2cf85794982c3c04afaf610b1973c0adaa7,GEODE-4728: Docs - building out the open source repo,non_debt,-,4466,test
+tinkerpop,1fa5d3fd713303ebd9778721460ac187a03e192f,tweak to UnrollJumpStrategy for @dkuppitz.,non_debt,-,4467,test
+cassandra,6c4333e3d47dfe3fad9781e3c36a5c84476af1d3,"Handle host id conflicts properly.
+Patch by brandonwilliams, reviewed by Tyler Hobbs for CASSANDRA-6615",non_debt,-,4470,test
+netbeans,00296260ae40f60c2bc3527976aeb14a68f40cdf,Prevent edges-to-self in topological sort.,non_debt,-,4472,test
+brooklyn-server,c05fc1a521dd784ee9e259ca7ebba5641f3ac1f8,"Fix jclouds getPublicHostnameAws
+- Pass sshConfig in correctly; single key of ""config"" with map
+  seems to be no longer supported.",non_debt,-,4477,test
+ambari,a26f2914e6b11de77bc651272b45c50340947bc3,AMBARI-1270 - Add predicate objects for checking empty resource category,non_debt,-,4478,test
+fineract,73f3df522978333ef37a426d33b23ea31dd3ebbb,"Merge pull request #1582 from mgeiss/MIFOSX-SPM-3
+retrofitted SPM API to ease the usage",non_debt,-,4480,test
+zeppelin,17e3eb9e39868f2e482ee0642329db0475e1ec9a,"[ZEPPELIN-4650]. Allow to keep job running while close interpreter
+### What is this PR for?
+This PR is to allow keeping job running while close interpreter. This is pretty useful for streaming jobs that you would like to keep it running even after the the interpreter is closed. Such as flink/spark streaming job. This PR introduce property `zeppelin.interpreter.close.cancel_job` to control that, each interpreter can configure it in its interpreter properties.
+### What type of PR is it?
+[ Feature ]
+### Todos
+### What is the Jira issue?
+* https://jira.apache.org/jira/browse/ZEPPELIN-4650
+### How should this be tested?
+* CI pass
+### Screenshots (if appropriate)
+### Questions:
+* Does the licenses files need update? No
+* Is there breaking changes for older versions? No
+* Does this needs documentation? No
+Closes #3669 from zjffdu/ZEPPELIN-4650 and squashes the following commits:
+f64e01c18 [Jeff Zhang] [ZEPPELIN-4650]. Allow to keep job running while close interpreter",non_debt,-,4481,test
+calcite,72e952d1a79ee2d7ba05de88cbc2ac11f65cd879,"[CALCITE-2456] VolcanoRuleCall doesn't match unordered child operand when the operand is not the first operand. PruneEmptyRules UNION and MINUS with empty inputs cause infinite cycle. (Zuozhi Wang)
+UNION and MINUS corrected by Vladimir Sitnikov.
+Note: call.getChildRels(RelNode) was used previously to get inputs of UNION/MINUS,
+and it looks like the method is ill-defined (at least, it returns wrong results).
+fixes #784",non_debt,-,4493,test
+groovy,d0b473f544f378693cdaee3b2b4358f46c0ec6c1,"add '**' to DOMCategory and XmlParser
+make children() in DOMCategory behave like XmlParser
+Add depth/breadthFirst to DOMCategory",non_debt,-,4506,test
+jmeter,58722713c8ef72cb9b8caaf6d839ba29b88e8ef8,SVN eol-style,non_debt,-,4514,test
+avro,217a633a4ddcceb6b3e30a4f2ee1fd98130d96ac,AVRO-1332.  Add missing files and fix a bug with defaults.  Contributed by David McIntosh.,non_debt,-,4522,test
+cloudstack,8ce576dde56a6477378f0da36416355277120b8b,"bug 8239: NPE while executing CreateSnapshotCmd
+status 8239: resolved fixed",non_debt,-,4527,test
+cassandra,800c62f3b24c84e9cdded7630b35bffa7d665a6d,Merge branch 'cassandra-2.1' into trunk,non_debt,-,4534,test
+kafka,45c8195fa14c766b200c720f316836dbb84e9d8b,"KAFKA-3025; Added timetamp to Message and use relative offset.
+See KIP-31 and KIP-32 for details.
+A few notes on the patch:
+1. This patch implements KIP-31 and KIP-32. The patch includes features in both KAFKA-3025,  KAFKA-3026 and KAFKA-3036
+2. All unit tests passed.
+3. The unit tests were run with new and old message format.
+4. When message format conversion occurs during consumption, the consumer will not be able to detect the message size too large situation. I did not try to fix this because the situation seems rare and only happen during migration phase.
+Closes #764 from becketqin/KAFKA-3025",non_debt,-,4536,test
+tinkerpop,252b3f0d38f97c3cfdfaf6cb94f8f4fc48cc46fb,Made TinkerGraph even smaller and more efficient for Edge and VertexProperty. Added a StrategyVertex optimization for @dkuppitz and Giraph.,design_debt,non-optimal_design,4537,test
+groovy,4bca3fea67b9ed575725fa850c4f91884747cb61,GROOVY-7967: AstNodeToScriptAdapter should output source using the recommended modifier order (closes #447),non_debt,-,4546,test
+fineract,9d9ccfc76b271c34c21f3cc0b9366391a93677a5,Update Dockerfile to use user-provided MySQL IP,non_debt,-,4550,test
+trafodion,8886fa81d810035a26535f945e9d889b718cd480,fix hive stats not being used by the compiler,non_debt,-,4552,test
+incubator-mxnet,648b7a6586aef704247c808be1f731e27fb6e0c2,"Merge pull request #584 from lukemetz/lm/add_pow
+Added pow.",non_debt,-,4567,test
+arrow,91844d7befe111e8c553591c4787b1f34cee4612,"ARROW-9102: [Packaging] Upload built manylinux docker images
+However the secrets were set on azure pipelines the upload step is [failing](https://dev.azure.com/ursa-labs/crossbow/_build/results?buildId=13104&view=logs&j=0da5d1d9-276d-5173-c4c4-9d4d4ed14fdb&t=d9b15392-e4ce-5e4c-0c8c-b69645229181).
+So the manylinux builds take more than two hours. This is due to azure's secret handling, we need to explicitly export the azure secret variables as environment variables.
+Closes #7404 from kszucs/linux-wheel-docker-upload",non_debt,-,4571,test
+trafficserver,cfa5bc2648b4c302362ff9097354719156795b52,TS-587 Added the -c / CGI option.,non_debt,-,4573,test
+trafodion,610305210ecf99114f45f936eb362b0c036b0356,Copyright headers set #1,non_debt,-,4574,test
+incubator-weex,88f00cd687c455027f03bf5e62a2423790e660cd,"Merge branch 'android-feature-20160607' of https://github.com/alibaba/weex into android-feature-20160607-opt
+* 'android-feature-20160607' of https://github.com/alibaba/weex:
+  + [android] add update finish callback
+  *[android] update main.js
+  + [android] add fetch method",non_debt,-,4577,test
+phoenix,5b9a07db16d033df2a5ed1a00c4783494f38afa6,PHOENIX-4399 Remove explicit abort on RegionServerServices,non_debt,-,4578,test
+karaf,a45eb7b0e0ec94125147044781aa75cd32043503,"Merge pull request #1196 from jbonofre/KARAF-6843
+[KARAF-6843] Upgrade to Felix SCR 2.1.24",non_debt,-,4585,test
+servicecomb-java-chassis,ddb3bec390aa6f870dba26959d2e8bef89785520,delete unnecessary import (#404),build_debt,over-declared_dependencies,4586,test
+commons-lang,d776d2688968a3da89f050235819936fae1436ae,Improve performance of BooleanUtils.toBoolean(String),code_debt,slow_algorithm,4594,test
+daffodil,8d0be0a2711cc15706b76d0bad2e5ed5753b2d8a,"Add more tests to verify fix for DFDL-471 -
+""Literal (non-entity) whitespace should not be acceptable
+within certain properties""
+DFDL-471",test_debt,lack_of_tests,4596,test
+couchdb,d9ebd8bf90c7e51530a268db98f8b73d7407da82,add _system resource for munin plugins,non_debt,-,4600,test
+couchdb,861f20249a4358dd5acbd8a44f5096f0b47bddf2,Fix css files for addon mode,non_debt,-,4613,test
+cassandra,91d220b350f512ef283748dfcbcc304bde2f9db2,"nodetool no longer shows node joining (Also fix nodetool status)
+patch by Vijay; reviewed by driftx for CASSANDRA-6811",non_debt,-,4618,test
+lucene-solr,9ebab12f64797686c0cf9eb253862f42ccd5d77d,LUCENE-5675: more rote factoring,non_debt,-,4625,test
+gobblin,a09d9a39b7882aa37cdb26c417cbdf2d33a8578c,"Merge pull request #1228 from ibuenros/templates-fixed
+Templates use config instead of properties.",non_debt,-,4633,test
+shardingsphere,2438ba2b73b42ec9e52e2c3ee3b1e22d5ff8ce22,"nice
+Co-Authored-By: kezhenxu94 <kezhenxu94@163.com>",non_debt,-,4641,test
+hadoop,90a14f89e178e78cdcb16aec217fab99ad89fbfa,HDFS-2973. Re-enable NO_ACK optimization for block deletion. Contributed by Todd Lipcon.,non_debt,-,4650,test
+bookkeeper,51b93bad7622878b1f2f3246c9880851731e84af,"ISSUE #978: decouple metaformat cmd
+Descriptions of the changes in this PR:
+- introduce new commands - initnewcluster, nukeexistingcluster, whatisinstanceid
+- add testcases initnewcluster and nukeexistingcluster at BookKeeperAdmin level
+Master Issue: #978
+This closes #979 from reddycharan/splitmetaformat, closes #978",architecture_debt,violation_of_modularity,4651,test
+cassandra,ebafaeba3496769e18dc76ca7a7efde450d9e81b,"add CompositeType ref to the CLI doc for create/update column family
+patch by Pavel Yaskevich; reviewed by Brandon Williams for CASSANDRA-3980",non_debt,-,4654,test
+brooklyn-server,4c2e621068da2ad1403f210df5c6a9d450e9640a,This closes #919,non_debt,-,4660,test
+echarts,c0abaf8253038d3596461d248f6489c7f659421b,update changelog,non_debt,-,4665,test
+trafficcontrol,c7612a682ae2d2799781ecb0796670b68b54943a,made the column optional,non_debt,-,4666,test
+tomee,5bf1029ab78eb70640d3875831ef3b1fd46245a4,"Revert ""[maven-release-plugin] prepare for next development iteration""
+This reverts commit 94ff5f013db113108855f86a9078b017c0667fdb.",non_debt,-,4670,test
+jmeter,ef9e708dd6ddb56aa1b509b8235f31c058a035ad,Javadoc typo,documentation_debt,low_quality_documentation,4672,test
+cassandra,478f0bef14fc9cf245307e18e6650b2d0d7b8c63,RVH should use RC.getRow for correctness and maintainability (in particular the path for get_columns_since was missing).  patch by Jun Rao; reviewed by jbellis for #93,non_debt,-,4684,test
+guacamole-client,e5b93feb1e8e2bcecadb7c96e379252ec155c523,GUACAMOLE-870: Replace POSITION with CHARINDEX for SQL Server.,non_debt,-,4688,test
+ambari,3a84d5f4a87b8de68685fdfde242e782c9e1e07f,AMBARI-13872: Rolling Upgrade: Configuration Groups not applied for upgrades across stack versions (jluniya),non_debt,-,4697,test
+shardingsphere,85ae45b4deb085a56843961ab6135874e50f927c,do not decode,non_debt,-,4703,test
+gobblin,8284bb76bac89c0e15186dbf75717e6ca831eab0,"[GOBBLIN-264] Add a SharedResourceFactory for creating shared DataPub…
+Closes #2116 from htran1/shareable_publishers",non_debt,-,4705,test
+incubator-doris,1d9b3aeee7b1ed558c53cea92a6e910182d1ad20,"[Doc] Repair document format (#4336)
+The error format '##keyword' in a lot of docs. This pr is to repair document format. #4335",documentation_debt,low_quality_documentation,4724,test
+storm,4a653079ef2a0b4baf644083118404a3506a5e31,[maven-release-plugin] prepare for next development iteration,non_debt,-,4734,test
+spark,5866bc77d7703939e93c00f22ea32981d4ebdc6c,"[SPARK-30814][SQL] ALTER TABLE ... ADD COLUMN position should be able to reference columns being added
+### What changes were proposed in this pull request?
+In ALTER TABLE, a column in ADD COLUMNS can depend on the position of a column that is just being added. For example, for a table with the following schema:
+, the following should work:
+Currently, the above statement will throw an exception saying that AFTER x cannot be resolved, because x doesn't exist yet. This PR proposes to fix this issue.
+### Why are the changes needed?
+To fix a bug described above.
+### Does this PR introduce any user-facing change?
+Yes, now
+works as expected.
+### How was this patch tested?
+Added new tests
+Closes #27584 from imback82/alter_table_pos_fix.",non_debt,-,4737,test
+couchdb,a71701c91c7f674ff20017332a4ddbb0dbaf1d11,Expose new size values,non_debt,-,4744,test
+camel,a02e849723a42f5e1aed9c51087536ab0748b6e9,Added camel-jaxb docs to gitbook,non_debt,-,4749,test
+beam,69a13ae604bf3618c27f0785050cc69ab54c56e3,This closes https://github.com/apache/beam-site/pull/431,non_debt,-,4754,test
+trafficserver,8d4c25653bb038f70651b8675a5969e522668d43,TS-4340: fix small issue related to match typ e NONE,non_debt,-,4755,test
+hive,7fb8d68c76434b046d5963e5b176bd1e111cb805,"HIVE-11946: TestNotificationListener is flaky (Jimmy, reviewed by Sergio)",test_debt,flaky_test,4759,test
+camel,a95669485d5dc186d3b1350f231a2b454b02e3b7,Camel-Support: Fixed CS,non_debt,-,4761,test
+shardingsphere,8713e3d5d5591239c7d8f927fd96e32b4638cf72,fix package name for apache repo migration.,non_debt,-,4762,test
+tinkerpop,87ca1e35ad233efc9a4b51967373094f0161c44e,TINKERPOP-1698 Gryo 3.0 WIP,non_debt,-,4768,test
+kylin,0b1a201f0945a18f3834bbcc36e695df638e863f,KYLIN-1121 Fix newHBaseConfiguration(url) to fail on bad URL input,non_debt,-,4773,test
+jmeter,ff6df091e41cc7b4fa4369cc70e6dff0f32afcff,"added a default buffer size for the monitor. this is so users who
+want to monitor a large number of servers can reduce the memory
+requirements.
+peter lin",non_debt,-,4775,test
+camel,5ba473631f9365e56e7ef3e7a6e7d18f09192ab9,cleanups for camel-hdfs2 to camel-hdfs component renaming,code_debt,low_quality_code,4776,test
+phoenix,d7a7de3a8d34370967bc672b85f4db0d3954f6fe,PHOENIX-58: Client jars are missing phoenix code,non_debt,-,4778,test
+lucene-solr,9ea3019edb7b4cc5797fc9d2d8e2c3d34b261a08,LUCENE-2864: add FieldInvertState.getMaxTermFrequency,non_debt,-,4782,test
+ignite,37a0505c11136321e91caa6db41e74c6ef89b734,ignite-1304 Changed GridNearOptimisticTxPrepareFuture to do not execute whole prepare process with topology read lock held,non_debt,-,4805,test
+trafodion,3fb1f4c368d0f2ab757ff8cc755ae70a9bb3ed65,Merge [TRAFODION-1745] Show more info on TRANSLATE errors,code_debt,low_quality_code,4806,test
+beam,b0312a1424bcab3b17ae3b89c3abb80705f6ed0c,"Allow tests to share a single Spark context.
+It's not possible to have multiple Spark contexts per JVM (even if not running concurrently),
+and while one solution is to fork a new JVM per test class, it's not always possible or desirable
+to do this - if for example the test suite has a dataflow test per test method, or the test
+suite has many very small tests.
+This JIRA has more background and discussion about the JVM limitation:
+https://issues.apache.org/jira/browse/SPARK-2243
+This change makes it possible to share a SparkContext when running tests that use the
+SparkPipelineRunner by setting the system property 'dataflow.spark.test.reuseSparkContext'
+to 'true'.",non_debt,-,4808,test
+cxf,df4a4d614beabd594dd04d84ea8b98db67bb361c,"CXF-8237 OAuth 2.0 Authorization Server Metadata / OpenID Provider Metadata (#650)
+* CXF-8237 OAuth 2.0 Authorization Server Metadata / OpenID Provider
+Metadata
+* use WELL_KNOWN_PATH in annotation",non_debt,-,4809,test
+camel,56ce80ec20b0045d0526229f880c422397720e1c,CAMEL-12182 - reset connection after acknowledgement timeout,non_debt,-,4821,test
+druid,21fa1ac6d6770849f1ce95484cf653ccaec97dba,fix assembly tar mode on some platforms,non_debt,-,4832,test
+shardingsphere,e018ba0e660204ddc31a37aad35f9358b42a4cc2,"improved coverage for package table (#3201)
+* test case added for TableMetas and TableMetaData
+* 1. remove ok, e.g. instead of assertGetOk, use assertGet
+2. instead of Lists.newArrayList(), use Collections.singleton
+* 1. remove ok, e.g. instead of assertGetOk, use assertGet
+2. instead of Lists.newArrayList(), use Collections.singletonList",test_debt,low_coverage,4837,test
+pulsar,3c9e28172d486bfb4c39db5248e1033d5079c48f,Add non-persistent topic stats separately in brokers-stat (#1235),non_debt,-,4839,test
+camel,6e710a04f12dd93418995d392846928eeca92955,Regen,non_debt,-,4841,test
+attic-apex-core,294978a31972202523765f2ca302f358fa99d1d5,remove dependencies on stram from lib/contrib/demos/poc,non_debt,-,4848,test
+cxf,6019486954e7e48efbd393f5fe1e7dcee3a2253c,Updating javax.annotation-api version to 1.2-b04,non_debt,-,4861,test
+brooklyn-server,678608e28763b8ca150cdfc8c60648b1787b4412,Addressed PR comment,non_debt,-,4865,test
+activemq,be6fac15e2c853ad5b0c3d610dc58e2eed98f449,setter for max duration,non_debt,-,4872,test
+ambari,c17762bdd91fddc0cca87d3aa24e4121c7b5e675,[AMBARI-24610] [Log Search UI] Show user friendly component name in query input (#2277),code_debt,low_quality_code,4883,test
+arrow,dceb0575444a456bd7b4d7a458a20019700cf885,"ARROW-7630: [C++][CI] Check fuzz crash regressions in CI
+Closes #6254 from pitrou/ARROW-7630-ci-fuzz-regressions and squashes the following commits:
+c35155906 <Antoine Pitrou> ARROW-7630:  Check fuzz crash regressions in CI",non_debt,-,4885,test
+systemds,57a3cf4ccee6393b30e1991b2a3d4afcbcfef422,20208: Fix Misc Junit Tests related issues - remove unused imports,build_debt,over-declared_dependencies,4888,test
+camel,018b3e160f37ff5f445eecde7ce26970e6592658,CAMEL-10197: Fix for camel-avro configuration,non_debt,-,4892,test
+cloudstack,da94f298818d0af0f3ed628ace858a1f8604f311,missing indexes,non_debt,-,4900,test
+activemq,e7e317dc7ed00de26ba905c34debaf38184f497b,"Applying patch AMQ-5074: MQTT paths with empty levels are not handled correctly.
+Thanks Dhiraj!",non_debt,-,4908,test
+thrift,64ac65ea7e0763c32d6dca988a2c779f89bece84,"THRIFT-5199: Fix infinite loop writing to closed TSocket in PHP
+Client: php
+Patch: Tim Heilig
+This closes #2134",design_debt,non-optimal_design,4913,test
+kafka,9898d665d1ab201405d66c70e3ea9710d9dcecd7,"MINOR: Use an explicit `Errors` object when possible instead of a numeric error code
+Closes #2475 from vahidhashemian/minor/use_explicit_Errors_type_when_possible",non_debt,-,4917,test
+parquet-mr,0d39e1ce31a0a0d6e94032bcd4f07ef2fae2fd48,add compatibility report,non_debt,-,4920,test
+gobblin,6eb253e7e11fb46121fab3cc90c07c4a0488c2b8,"Remove the unused helixManager parameter from GobblinHelixTaskStateTracker
+Closes #2202 from HappyRay/remove-unused-helix-
+manager-parameter",code_debt,dead_code,4923,test
+carbondata,72cb415a1e1126882c38ecfead01dc6b7bb4cc07,"WIP Added code for new V3 format to optimize scan
+Fixed testcases
+Fixed style
+Fixed issue
+Added read a head blocklet PR to it
+fixed style
+Refactored code
+Added read a head blocklet
+Optimized decoder
+Updated code of V3 format interfaces
+OPtimized greater than and less than filters
+Fixed col group queries
+Refactored V1 format with new interface
+Fixed complex query
+Fixed comments",code_debt,low_quality_code,4925,test
+jena,cadcbfd64eec75e298e881744e6fa86f4663c866,treat subject Node uniformly through PF test in Indexes,non_debt,-,4935,test
+shardingsphere,6cf3686548f6c0a87455fb2a0352d8b8c0fea4fb,orderItemId,non_debt,-,4941,test
+incubator-pagespeed-ngx,0c01c0644e4ffe5a47a716ca6e65dd2afa901238,"Merge pull request #1057 from pagespeed/jmarantz-2-pass-ipro
+suppress errors on new 2-pass and 3-pass ipro tests",non_debt,-,4945,test
+shardingsphere,5bdff0807310b55b572dd49018d4c055fd0abb0f,Merge branch 'dev' of ssh://github.com/shardingjdbc/sharding-jdbc into dev,non_debt,-,4953,test
+netbeans,439d0791fa54615a5b258e6726405670ca04a3b7,"Merge pull request #2083 from jlahoda/avoid-assert-in-scope
+Preventing AssertionError from javac due to use of incorrect scope on…",non_debt,-,4956,test
+cloudstack,586fa7eeaff92966c81b0963fd0f038f972e77a9,Added listVsphereStoragePoliciesCmd,non_debt,-,4959,test
+beam,f2f5129e20e9279994b27c62410cd334456e8348,This closes #115,non_debt,-,4964,test
+ambari,d9c2641d7aefa87b5f31e20a9ea1018eed823586,AMBARI-4523. Host registering failure from primary/agent os checking on centos6 (aonishuk),non_debt,-,4977,test
+shardingsphere,be22d6527b70a81757c0d626b2f1e7124b1eb7b3,delete tearDown(),non_debt,-,4979,test
+jena,463de5f0451c397084bb1af2e9e4d3c17ac67c37,"Add StoreParams arguiments to many methods.
+Separate out StoreParamsConst.",non_debt,-,4988,test
+ambari,cb3d49bb456e3a7ff81c18d1a03635c185273ee0,"AMBARI-15456. Manual Kerberos: JS error on clicking next button of ""Configure Identities page"" on Add Service wizard (alexantonenko)",non_debt,-,4992,test
+cxf,177afff3595c2a248e55457809118e842e1593f4,back protected,non_debt,-,4993,test
+beam,a22f1a05a2d4d4ff643a7cb175542a635a8b8c02,"[BEAM-2556] Add client-side throttling.
+This closes #3507",non_debt,-,4994,test
+incubator-pinot,0a7bca717b87d3a9c28cf9a45c19573999afca77,added server resources,non_debt,-,4999,test

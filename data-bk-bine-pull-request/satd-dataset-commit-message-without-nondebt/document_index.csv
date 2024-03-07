@@ -1,0 +1,706 @@
+text,label,document_index
+fix variabl close,code/design_debt,0
+tidi polici valid bit,code/design_debt,2
+improv error log replic write failur error write document log revis error error reason also ad test cover case function,code/design_debt,4
+remov old,documentation_debt,5
+set javadoc generat get rid inform messag reduc log size,code/design_debt,6
+remov legaci method,code/design_debt,7
+remov test,code/design_debt,8
+fix typo,documentation_debt,9
+fix typo error messag,documentation_debt,11
+dont download alreadi,code/design_debt,12
+ad miss licens,documentation_debt,14
+improv perform get prefix config chang improv perform cach config prefix also remov method get config get config prefix use,code/design_debt,17
+effici header commit,code/design_debt,19
+http client code resolv issu test take long resolv issu http client code larg chang made increas memori usag allow larg close,code/design_debt,20
+argument pars ad support client tool introduc argument pars tri backward compat earlier version introduc option argument pars larg updat howev support argument avoid break patch featur good ad new posit argument support thread close,code/design_debt,21
+bug direct network usag support ad work progress,requirement_debt,23
+string function concat close squash follow commit reynold xin remov concat test reynold xin concat reynold xin remov extra import reynold xin fix npe reynold xin ad miss file reynold xin string function concat,code/design_debt,24
+hotfix resolv compil warn,code/design_debt,25
+add miss test,test_debt,26
+add better view param profil add better view param profil add document profil comparison view limit paramet tabl remov use method method doc chang minor style chang param key exist profil need check first add changelog entri add test profil chang,code/design_debt,27
+merg branch commit revert updat remov conflict,code/design_debt,28
+better debug messag chang suggest,code/design_debt,29
+elimin warn configur time doesnt support option dont look dont move safe error,code/design_debt,31
+return respons good error user use api cluster,code/design_debt,33
+remov duplic configur direct patch,code/design_debt,34
+make output less,code/design_debt,35
+ad fix,code/design_debt,36
+minor remov ignor test hang ad new version test,test_debt,38
+remov old,code/design_debt,39
+fix test syntax cleanup,code/design_debt,41
+convert activ without close store sever collect task refer task handl close recycl old task creat new one except close close remain task task task close recycl state success recycl context state manag new type close recycl task normal clean close instead close state manag inform recycl maintain store inform import current store offset changelog changelog new task changelog initi skip store still read checkpoint file use offset store offset alreadi initi ensur dont end disabl call state listen activ store switch,code/design_debt,42
+make close updat develop guid deprec compon,code/design_debt,43
+add metric add metric fix right time test split report remov offset report sinc alway null review stuff,test_debt,44
+test class,code/design_debt,45
+remov except wrap aqe chang propos pull request remov except wrap aqe error messag less consist execut except stage wrap multipl stage failur also stage cancel error includ part except rather error log chang need make aqe error report readabl introduc userfac chang patch test updat exist test close,code/design_debt,46
+temporari test code,test_debt,47
+specifi valu paramet add log except messag fix,code/design_debt,48
+optim algorithm function call found file type function notic like case current algorithm could entir match list time find locat match remov match start locat find length remain addit use various scala function caus new list alloc caus perform modifi algorithm match list keep first match addit function code replac iter code perform replac guarante append random access match sequenc also add return case one match like case,code/design_debt,49
+remov properti matrix class,code/design_debt,50
+resolv comment workaround,code/design_debt,51
+updat doc extens updat doc extens doc updat cleanup,documentation_debt,52
+cleanup version,code/design_debt,53
+hardcod append limit review,code/design_debt,54
+remov depend remov depend contribut checkstyl fix revert import add javadoc switch back fix typo fix metric core problem rebas fix,documentation_debt,56
+debug log,code/design_debt,57
+except tri catch block revert,code/design_debt,58
+multipl thread,requirement_debt,59
+merg pull request add log around job add log around job,code/design_debt,60
+remov class close,code/design_debt,61
+remov retri logic doesnt work correct result retri doesnt make given singl call result retri polici,code/design_debt,63
+add pattern ignor warn,code/design_debt,64
+unus import,code/design_debt,65
+notifi sparklisten stage fail cancel comment depend thus includ chang current look second commit see chang previous stage fail get cancel sparklisten notifi pass singl stage fail work job cancel job would fail due singl stage failur howev job cancel multipl run stage fail job get cancel right handl correct result stage get run stage window even dead chang event event use event sparklisten stage fail addit complet success chang backward compat two reason first chang sparklisten interfac could add new event keep exist howev less consist listen event task job end result code duplic listen fail complet stage handl way note finish updat json code correct handl new event wait feedback whether good bad also backward compat chang method longer includ stage caus failur think chang cancel describ failur caus singl stage close squash follow commit fix respons mark review notifi sparklisten stage fail cancel,code/design_debt,66
+small improv logic,code/design_debt,69
+ad miss licens notic file compon,documentation_debt,70
+ad paramet better except messag user travers use fix,code/design_debt,71
+test,test_debt,72
+add file chang detect add file chang detect fix format make file chang easier add chang check result updat support multipl file chang,code/design_debt,73
+simplifi trace collector address config,code/design_debt,74
+get rid comment move result express statement use call need anymor,documentation_debt,75
+javadoc,documentation_debt,76
+ignor ad,code/design_debt,78
+workaround,code/design_debt,79
+updat thread safe remov,requirement_debt,81
+skip url check instead hardcod ambari java code,code/design_debt,82
+improv way updat use make,code/design_debt,83
+remov also cleanup use clean better long,code/design_debt,85
+add support backward compat report fail test also remov class ad class simplifi reflect,code/design_debt,86
+disabl flaki test gluon,test_debt,87
+fix minor typo,documentation_debt,88
+remov longer possibl github,code/design_debt,90
+consist appli indent,code/design_debt,91
+fix new bulk import remov warn fix new bulk import remov warn fix warn ensur new bulk import request remov deprec intern code old bulk import remov unnecessari new bulk code map inform use new bulk import test specif test old bulk import behavior remov unus variabl test comment refer improv client configur code,code/design_debt,92
+import,code/design_debt,93
+chang look like typo tri get servic name cach name,documentation_debt,94
+remov debug statement test releas note,code/design_debt,95
+fix redund line break plan remov redund line section file remov bump,code/design_debt,96
+use annot process api test check method deprec attribut,code/design_debt,97
+fix destructor behavior set close true wake writer thread destructor way writer thread flush data previous writer thread could end full timeout writer thread could wake notic sinc close set back destructor would call flush would wait writer thread wake full time clear flag flush return destructor would set close could take writer thread anoth full timeout wake process flag also point thread would detect close state loop automat close file zero file close file fix zero point,code/design_debt,98
+make default configur respons,code/design_debt,99
+delet debug comment,documentation_debt,100
+ad paramet control number within row run test possibl configur writer row contain random column updat control via paramet intern make random generat number within see new class detail,code/design_debt,101
+method unus code patch jbelli,code/design_debt,102
+make test configur easier,code/design_debt,103
+clean packag,code/design_debt,104
+polish ad miss unit test tri close apach server better handl except consum stop etc,test_debt,105
+fix valu type oper patch fix various valu type binari oper saniti test includ also includ function object proper implement subclass comparison index function remov unnecessari redund execut string handl remov unnecessari except handl also includ current data generat algorithm script,code/design_debt,106
+implement util support find port sinc merg develop branch chang set enabl old code implement check respons method look also renam describ port that test littl better,code/design_debt,110
+convert use,code/design_debt,111
+cleanup,code/design_debt,112
+fix code style,code/design_debt,113
+ad header method build easier express,code/design_debt,114
+chang indent,code/design_debt,115
+cleanup depend longer need,code/design_debt,117
+usabl improv,code/design_debt,118
+indent,code/design_debt,119
+cleanup remov null check,code/design_debt,120
+matrix fix start index function jira,code/design_debt,121
+version todo translat python resolv secur,requirement_debt,122
+convers finish other still direct use layer,requirement_debt,123
+fix typo javadoc,documentation_debt,124
+fix typo,documentation_debt,125
+fix typo document,documentation_debt,126
+space line function remov line code close,code/design_debt,127
+stream cleanup,code/design_debt,130
+add make write combin type updat,code/design_debt,131
+add support enhanc api integr support gluon enhanc api enhanc exampl script add match exclud layer support paramet enabl api use tri method add unit test gluon fix lint fix lint fix temporari fix lint fix tri import add todo,requirement_debt,132
+remov dead code,code/design_debt,133
+compon work progress,requirement_debt,134
+ad test,test_debt,135
+rust cast type implement cast arrow type limit complet cast support cast array support cast type support boolean close squash follow commit merg branch master nevill dipal replac cast macro generic function nevill dipal move nevill dipal fix doc comment nevill dipal boolean cast document error handl nevill dipal cast binari nevill dipal use arrow cast datafus nevill dipal cast type,requirement_debt,136
+polish,code/design_debt,137
+miss test coverag miss test coverag merg,test_debt,138
+mark test slow take,test_debt,139
+patch add chang compil patch function main place function call call function move relat code new class add new test class match result origin output current code doesnt support multipl loop futur commit add optim function function call loop,requirement_debt,140
+support includ null simplifi api usag context handl null differ null confus,code/design_debt,144
+move static job set support static job requir job fix across execut addit job job execut cluster commit consolid logic context applic mode one place,code/design_debt,145
+separ support creat optim code structur,code/design_debt,146
+broken test jenkin time,test_debt,147
+simplifi,code/design_debt,148
+hotfix doc fix typo close,documentation_debt,149
+polish fix test slow server,test_debt,150
+merg pull request fix sourc test flaki,test_debt,151
+avoid alloc turn alloc alloc pool number increas number node cluster one client patch memori alloc make alloc number core close squash follow commit avoid alloc,code/design_debt,152
+ad document close,documentation_debt,153
+typo,documentation_debt,154
+cleanup use common,code/design_debt,155
+fix miss warn,code/design_debt,156
+merg pull request chang upgrad script name consist releas chang name script chang name class modifi setuppi script use version renam upgrad script match posit version,code/design_debt,159
+updat exampl todo applic,requirement_debt,160
+use instead hardcod,code/design_debt,161
+fix typo instal output messag fix command use file instead complet path,documentation_debt,162
+broker close topic remain motiv problem topic remain topic remain follow broker log time maintain zookeep server think caus shutdown server howev clarifi workaround close topic remain time client instanti new topic topic back normal,code/design_debt,163
+remov unus code renam packag name,code/design_debt,164
+simplifi use event,code/design_debt,165
+temporari fix reset java standard consol close output initi close whole applic,code/design_debt,166
+ad error messag fail,code/design_debt,167
+reduc memori usag build global,code/design_debt,168
+print error messag log,code/design_debt,169
+pyspark turn default config pyspark add sever default config pyspark relat serial jvm true help reduc memori usag close squash follow commit davi liu remov duplic line davi liu rebas master add true davi liu merg branch master davi liu fix davi liu default config pyspark,code/design_debt,170
+minor fix typo javadoc code comment close,documentation_debt,173
+correct integr test structur correct integr test structur correct build file,code/design_debt,174
+typo,documentation_debt,175
+ambari server perform alert get repeat get cluster api call take second,code/design_debt,177
+better error rule,code/design_debt,178
+test remov script refer previous remov,code/design_debt,179
+unnecessari name,code/design_debt,181
+convert parquet tabl longer cach close squash follow commit remov unnecessari chang cach convert parquet relat,code/design_debt,184
+fix code style,code/design_debt,186
+stream revis allow checkpoint exist sparkcontext revis earlier version see pass activ sparkcontext explicit new set java scala api hard implement python new api introduc even confus sinc introduc direct way get exist activ sparkcontext creat new better use get sparkcontext rather new api explicit pass context remov new version sparkcontext ad exist sparkcontext tri creat sparkcontext close squash follow commit merg remotetrack branch remov extra api use,code/design_debt,187
+fix warn,code/design_debt,188
+log inform caus error,code/design_debt,189
+improv ambari section guid add small better ambari integr fix typo macro review fix bug ambari integr code found exercis step doc,documentation_debt,190
+code tidi complet merg old activ attribut type chang activ,code/design_debt,191
+fix warn code contribut,code/design_debt,193
+put trace info trace enabl fix issu trace info set even trace enabl except still put request data tabl clean trace anoth perform,code/design_debt,194
+delet unus,code/design_debt,195
+initi support ad base option fix issu relat style header ad run filter enabl configur version filter path default disabl reduc size depend reset close,code/design_debt,196
+fix typo,documentation_debt,197
+exist integr test chang enabl exist integr test except flaki kill one zookeep second valid phase take longer time valid fail remov zookeep unit test zookeep shutdown fail test delet test ad back separ test class increas zookeep server timeout second second add assert valid topic success unit test valid verifi run follow script patch master branch result close,test_debt,198
+skip test,test_debt,199
+fix fix style header fix style header refactor remov style import chang contain add set fix fix lint,code/design_debt,200
+handl,code/design_debt,201
+use remov unus code fix old todo,requirement_debt,202
+minor format fix properti section close,code/design_debt,203
+cleanup warn close squash follow commit cleanup warn,code/design_debt,207
+memori leak restart node enabl fix,code/design_debt,208
+merg pull request doc correct spell error,documentation_debt,210
+close,code/design_debt,211
+add current keep pars syntax error add execut support split command execut code,code/design_debt,214
+add proper close ad method chang annot need done temporarili disabl test follow error environ block root caus main error applic fail start descript web server fail start port alreadi use action stop process that listen port configur applic listen anoth port,test_debt,215
+make issu retri host found timeout rather host name problem add util method get time jvm cach host failur add test method,code/design_debt,216
+use right,code/design_debt,217
+merg pull request random http test port,code/design_debt,218
+zeppelin502 python interpret group ad python interpret implement py4j exampl java object use instanti python interpret doesnt python binari use python specifi pythonpath thus still use specif instal python modul interpret abl work python without chang python function display type featur todo jira issu test interpret python section specifi pythonpath python binari use use interpret python call help describ interpret instal py4j pip instal py4j use input form licens file need updat py4j break chang version need document close squash follow commit herv rivier zeppelin502 move py4j licens herv rivier doc follow review herv rivier zeppelin502 format code project convent herv rivier doc follow review herv rivier zeppelin502 add py4j licens herv rivier zeppelin502 minor chang pythonmd herv rivier zeppelin502 chang pythonpath herv rivier zeppelin502 improv pythonmd herv rivier zeppelin502 improv pythonmd featur yet support descript herv rivier zeppelin502 add test code help test write herv rivier zeppelin502 renam pythonpath python default python herv rivier zeppelin502 input form chang simpl input form pyspark syntax herv rivier zeppelin502 indent convent herv rivier zeppelin502 add pythonmd herv rivier zeppelin502 catch except herv rivier zeppelin502 python interpret group,code/design_debt,219
+fix fix length mode throw except field allow length ad option field workaround issu,code/design_debt,220
+remov longer need chang propos pull request remov complet chang need chang remov longer use code introduc userfac chang patch test exist test close,code/design_debt,222
+polish java doc,documentation_debt,223
+add log inform collect request,code/design_debt,224
+code style,code/design_debt,228
+fix indent see,code/design_debt,229
+implement express sure also may may better implement way chang need test sql close squash follow commit andi grove fix typo andi grove remov andi grove rebas implement express,documentation_debt,230
+improv error messag result use simpl end remov entir test featur test case ignor long time remov comment client unit test,documentation_debt,231
+remov paramet,code/design_debt,232
+refactor pass refer improv readabl convert,code/design_debt,233
+clean,code/design_debt,234
+work progress,requirement_debt,235
+speed shutdown upgrad contribut,code/design_debt,237
+fix leak,code/design_debt,238
+network relat except log,code/design_debt,239
+renam elimin write,code/design_debt,241
+fix issu chang propos pull request introduc current implement caus case caus also flaki implement order avoid also return patch test run time flaki close,test_debt,242
+fix flaki test see jira issu descript caus flaki fix issu wait long time action reli server shutdown finish,test_debt,243
+server run memori time due class leak,code/design_debt,245
+connect leak aggreg log web contribut siddharth,code/design_debt,246
+ignor new test that complet yet,test_debt,247
+potenti leak close,code/design_debt,251
+minor clean add comment client,code/design_debt,252
+hotfix fix except messag,code/design_debt,253
+jar alway add could also insid multipl time close,code/design_debt,254
+littl bit code cleanup,code/design_debt,255
+polish contribut guid,documentation_debt,256
+fix typo error,documentation_debt,257
+,test_debt,258
+consolid docker remov logic contribut xin,code/design_debt,259
+fix flaki shutdown test problem instanc variabl set one thread read anoth,test_debt,260
+fix warn patch,code/design_debt,261
+fix,code/design_debt,263
+remov duplic annot modul,code/design_debt,264
+fix typo,documentation_debt,265
+http default remov valu fix featur fix function replac config element,code/design_debt,266
+fix typo model timestamp fix typo model timestamp field new test field alreadi repres close,documentation_debt,267
+fix format,documentation_debt,268
+ad littl get start document fix develop link,documentation_debt,269
+fix clang warn,code/design_debt,270
+fix zookeep connect string log via,code/design_debt,271
+stop infinit,code/design_debt,273
+get rid warn dont break support,code/design_debt,274
+simplifi loop dont need,code/design_debt,275
+cleanup consol output,code/design_debt,277
+add add subtract express jira add add subtract express patch conflict merg resolv reynold xin close squash follow commit liangchi hsieh merg remotetrack branch liangchi hsieh comment liangchi hsieh merg remotetrack branch liangchi hsieh comment liangchi hsieh merg remotetrack branch liangchi hsieh remov liangchi hsieh fix scala style liangchi hsieh add add subtract express,code/design_debt,278
+fix stop file longer use,code/design_debt,279
+consolid string,code/design_debt,282
+fix close,code/design_debt,283
+improv via,code/design_debt,285
+remov unnecessari check contribut,code/design_debt,286
+make enforc file size match configur make enforc file size match configur maintain pleas review check step jira issu refer exampl descript applic better dataset valid configur data file configur differ dataset phase test need test extrem good reason commit subject line squash multipl commit address issu addit commit follow write good commit commit subject separ bodi line subject limit charact subject end subject use add ad bodi wrap charact bodi make enforc file size match configur differ fix spell close,documentation_debt,287
+code tidi,code/design_debt,288
+remov unnecessari activ,code/design_debt,289
+error messag fix map,code/design_debt,290
+simplifi doc appli,code/design_debt,291
+fix typo,documentation_debt,293
+samza1122 renam executionenviron applicationrunn renam executionenviron applicationrunn includ subclass renam packag renam close squash follow commit liu merg branch samza1122 samza1122 liu samza1122 renam executionenviron applicationrunn liu samza1122 renam executionenviron applicationrunn,code/design_debt,295
+remov test valid,test_debt,296
+updat consol doc updat consol doc sql queri ad link fix typo,documentation_debt,298
+add debug log messag miss patch jbelli,code/design_debt,299
+fix typo,documentation_debt,300
+convent minor javadoc updat format code chang,code/design_debt,301
+remov except ignor pool cannot connect server,code/design_debt,302
+remov space,code/design_debt,303
+fix secur issu,requirement_debt,305
+format make consist,documentation_debt,306
+correct typo status status,documentation_debt,307
+fix typo,documentation_debt,308
+appli hsieh patch fix typo,documentation_debt,309
+minor updat make method creat applic,code/design_debt,310
+fix make transform reason add remov,code/design_debt,311
+ad method detail return type includ import type fix,code/design_debt,312
+javadoc readabl,documentation_debt,313
+java modul name,code/design_debt,315
+rearrang support build local,code/design_debt,316
+support collector servic instrument collector instrument agent make output agent collector packag tri add metric annot chang instrument way finish agent code wait metric requir debug new instrument fix detect bug finish instrument fix compil issu,code/design_debt,317
+sql add rule automat insert unsaf safe row format convert two differ intern row format unsaferow old row format end perform convers two format convers perform oper instead respons insert format convers need patch make follow chang add two new oper perform row format convers add new method allow oper express whether output unsaferow whether handl safe unsaf row input implement rule automat insert convert oper close squash follow commit josh rosen resolv conflict unsaferow josh rosen add convert test josh rosen add unsaf support test bump test coverag josh rosen add even assert execut josh rosen renam josh rosen add assert oper input row differ format josh rosen add test filter josh rosen add miss test file josh rosen fix josh rosen renam file josh rosen finish write rule josh rosen merg remotetrack branch josh rosen,code/design_debt,319
+merg pull request initi implement activ api,code/design_debt,320
+add link issu workaround,code/design_debt,321
+minor fix file leak log integr test close,code/design_debt,322
+bug synchron write evalu log except write fail instead jira pull request close,code/design_debt,323
+local file system base code initi implement,code/design_debt,324
+reset test block avoid leakag test,code/design_debt,325
+cannot use api ad miss detail api respons,code/design_debt,326
+delet deprec code,code/design_debt,327
+code support,code/design_debt,329
+remov new valid modul temporarili use build iter queri,code/design_debt,330
+hotfix throw origin except thread pool except thread pool throw origin except instead throw new one make hard debug close,code/design_debt,331
+renam rdl remov renam renam rdl renam rdl modul name renam rdl packag name renam rdl class name,code/design_debt,332
+workaround schedul stat,code/design_debt,333
+made work move multipl interfac stuff exampl,code/design_debt,334
+merg pull request simpl first fix use recov messag messag store,code/design_debt,335
+minor tidi,code/design_debt,336
+improv extens close,requirement_debt,337
+polish,code/design_debt,339
+test tri improv test squash follow commit possibl fix close,test_debt,341
+enhanc fix checkstyl avoid duplic logic filter group instanti properti key get properti valu via ensur map properti would return avoid string repres null instead reli java null use get string valu properti valu use group,code/design_debt,342
+improv perform apach common,code/design_debt,344
+cluster confus root commit better log,code/design_debt,346
+refactor hardcod json output use api,code/design_debt,347
+code style,code/design_debt,348
+code cleanup,code/design_debt,349
+test comment locat slow leak around locat one use,code/design_debt,350
+compon doc fix typo,documentation_debt,351
+fix typo fix github close,documentation_debt,352
+remov file within root sourc tree use anymor origin phase tool apach use close,code/design_debt,353
+remov hardcod command main add main class print usag command group,code/design_debt,354
+new server side trim function new aggreg group new use new implement server side trim function trim new trim function take map key result list input prevent build sever new map aggreg function improv perform new reduc collect,code/design_debt,355
+document better,documentation_debt,357
+project fix remov file,code/design_debt,358
+fix warn log set messag alreadi consum use addit singl test case,code/design_debt,359
+document fix typo instanti,documentation_debt,360
+polish,code/design_debt,361
+handl except proper,code/design_debt,362
+ad schema valid config detail config schema type object name schema simpl class string number boolean class schema valu class instanc interfac use method valid field method return descript user status compil test make use schema yet,test_debt,363
+typo,documentation_debt,364
+remov duplic annot modul motiv class modul follow annot annot includ annot remov data annot also,code/design_debt,366
+fix typo javadoc,documentation_debt,367
+javadoc correct,documentation_debt,368
+fix aggreg empti data chang propos pull request spark sql support global aggreg group aggreg global aggreg alway return singl row initi aggreg state output even zero input row spark implement check number group key aggreg global aggreg zero group key howev simpl follow case reason translat someth translat implement rule contain zero column zero row rule make confus transform follow one transform confus result aggreg oper contain group key contain column get global aggreg result spark sql alloc singl row initi aggreg state use output return wrong result fix issu append group key list result aggreg oper input plan contain zero output column way translat group aggreg proper group aggreg return correct patch test new unit test ad close,code/design_debt,369
+format,code/design_debt,370
+leak depend tool jar,code/design_debt,371
+fix typo,documentation_debt,372
+bug volum download volum fail root data volum return volum name instead full path server bad name convent,code/design_debt,374
+remov remov fix servic method throw error remov consol statement add miss messag request remov,code/design_debt,375
+fix remov logic remov insid broker clean map proper ad test verifi also ad new debug log help futur issu,code/design_debt,377
+fix typo javadoc,documentation_debt,378
+fix typo topic chang propos pull request fix typo close,documentation_debt,380
+avoid log info cannot,code/design_debt,381
+improv pars int perform,code/design_debt,382
+fix,code/design_debt,383
+fix clang warn,code/design_debt,384
+style fix spell wait wait etc fix spell fix spell optim code convent add cannot process instanc return null add add add add add add add add add add,code/design_debt,385
+add function add javadoc,documentation_debt,386
+leak structur type,code/design_debt,388
+consolid set style,code/design_debt,389
+remov exclud test,code/design_debt,390
+renam csv json chang propos pull request current option name csv user current repres per file actual one file could multipl thus renam propos patch test close,code/design_debt,391
+remov unnecessari log make proper log ignor,code/design_debt,392
+simplifi contribut,code/design_debt,393
+version move,code/design_debt,394
+fix npe bug one polish code,code/design_debt,396
+use config instead hardcod valu,code/design_debt,397
+address minor issu updat comment compon updat style consist ad version process group version process group,code/design_debt,399
+clean,code/design_debt,401
+remov redund exclud add use,code/design_debt,403
+make schedul,code/design_debt,404
+remov unus method except chang remov method except class unus use singl place jira pull request close,code/design_debt,405
+display inform run test case fail display inform run test case fail,code/design_debt,406
+reduc unus code,code/design_debt,407
+cleanup control log broker line print empti use elimin log empti,code/design_debt,408
+better handl tag place tag separ action class tag better clariti remov requir specifi action instead separ tag action automat long tag specifi properti conflict,code/design_debt,409
+add make use add make use add detail java doc,code/design_debt,410
+bad compil failur typo,documentation_debt,411
+core various cleanup call delet,requirement_debt,412
+initi api support replic chang need test replic,test_debt,413
+ad better except messag,code/design_debt,414
+remov test test longer need schedul part ensur restart alloc timeout alloc timeout part cover ensur time configur alloc timeout close,test_debt,415
+simplifi show,code/design_debt,416
+unus code patch review jbelli,code/design_debt,417
+remov unnecessari log,code/design_debt,418
+tabl servic implement motiv enabl tabl servic notic miss implement logic command process close,requirement_debt,420
+yet debug,test_debt,421
+make easier switch use control,code/design_debt,422
+make server use travers sinc travers script would better use,code/design_debt,424
+fix warn stream leak,code/design_debt,425
+hang address patch chang spark packag download locat apach download also add miss test chang test version close squash follow commit add test use version spark,test_debt,429
+glib support close squash follow commit kouhei sutou glib fix typo kouhei sutou glib fix build error kouhei sutou glib common code kouhei sutou glib support type kouhei sutou glib support type,documentation_debt,430
+add miss licens header,documentation_debt,433
+clean consum log error messag close,code/design_debt,434
+log improv oper,code/design_debt,435
+ignor failur,code/design_debt,436
+hotfix fix typo close,documentation_debt,438
+typo review,documentation_debt,439
+remov duplic client,code/design_debt,440
+futur api cleanup,code/design_debt,442
+log messag initi contribut,code/design_debt,443
+cleanup class,code/design_debt,444
+fix hang tabl merg unnecessari ad util print merg state,code/design_debt,445
+remov stop status oper oper convert throw except error stop status unus patch remov stop status relat kill method kill method replac cancel method handl normal case cancel limit close,code/design_debt,446
+1x1 convolut acceler 1x1 convolut acceler direct without 1x1 1x1 convolut use common network etc cpplint fix fix fix fix fix set build status success job end earlier code mark status success initi new show jenkin status success see check mark github full build status see build even start run someth fail variabl chang failur even without merg mark github build fail correct behavior fix build status test instal requir chang match warn entir build updat unit test csv iter doc updat add unit test csv iter fix lint add doc updat doc gpu access ndarray gpu access ndarray gpu access api gpu access fix updat updat refactor use string refactor use string refactor list fix refactor updat fix test explicit instal handl earlier version instal updat updat command indent correct add script build doc file version add script build doc file version fix use add script differ version add mnist move mnist add mnist move mnist refactor add doc dataset chang apach packag url pip instal coreml convert fix coreml convert readm coreml convert readm updat layer first model provid exampl convert various standard model call issu fix coreml convert readm coreml convert readm updat layer first model provid exampl convert various standard model call issu pip instal convert run python insid user need run python setuppi look like also updat readm convert reflect note packag per tool time pleas leav feedback think better polici tool one singl packag unit test continu pass inform packag document updat releas note test chang name version ad licens setuppi updat readm file correct pip packag name parallel window unit test python jenkin parallel python window test clariti remov ad origin secur skip fail test temporarili fix test failur doc updat instal doc generat add 1x1 convolut test indent refactor random namespac refactor namespac random spars chang exampl document chang namespac usag exampl fix remov unus import switch name random chang comparison string int function use intern chang document use right namespac remov unus import chang name add ndarray modul revert add ndarray modul revert commit add ndarray modul fix gluon dataset fix gluon dataset parallel python unit test case jenkin parallel python unit test case parallel python unit test case jenkin parallel python unit test case jenkin chang namespac make log function chang chang namespac make log function chang help comment chang updat support 1x1 convolut acceler direct without 1x1 1x1 convolut use common network etc cpplint indent correct add 1x1 convolut test indent 1x1 convolut acceler direct without 1x1 1x1 convolut use common network etc cpplint indent correct add 1x1 convolut test indent cpplint indent,documentation_debt,447
+remov unnecessari file exist check patch review,code/design_debt,450
+remov status unus field fix bug contribut,code/design_debt,451
+fix typo,documentation_debt,453
+bug show full error messag ad volum fail,code/design_debt,454
+remov file,code/design_debt,455
+fix typo doc sure travers,documentation_debt,456
+format,code/design_debt,457
+fix typo comment,documentation_debt,459
+full java compil cleanup,code/design_debt,460
+use inform simplifi code chang propos pull request code simplifi exist inform paramet attribut child paramet project append group express child output patch test exist test close,code/design_debt,461
+fix typo guid,documentation_debt,462
+remov debug print,code/design_debt,463
+make slight extens chang propos pull request pull request make slight extens remov limit build function patch test logic chang cover exist unit test close,code/design_debt,466
+spark7684 sql refactor workaround spark7684 state spark7684 current execut order specif bug make run specif test suit local pretti refactor reli use various util method test case cleanup avoid call close squash follow commit move initi fix scala style issu refactor workaround spark7684 fix minor style issu,code/design_debt,469
+sql fix express data type match also improv document various type close squash follow commit reynold xin one function document reynold xin ad document reynold xin sql fix express data type match,documentation_debt,471
+remov unnecessari system,code/design_debt,472
+add warn log less chang propos pull request current less spark automat without warn spark throw except configur like propos add warn log paramet configur patch test unit test ad verifi scenario close,code/design_debt,473
+checkstyl,code/design_debt,474
+style fix,code/design_debt,475
+cover resourc leak cover resourc leak,code/design_debt,476
+fix typo,documentation_debt,477
+travi script cleanup add close squash follow commit wes mckinney disabl travi cach instal wes mckinney fix variabl name wes mckinney fix integr test travi script wes mckinney chang file mode wes mckinney travi script cleanup add,code/design_debt,478
+merg branch other via other commit fix wrong test complet valu chop web usergrid141 chop improv usabl fix issu runner status usergrid141 chop improv usabl fix issu runner status creat start script usergrid141 chop improv usabl clean legaci code usergrid141 chop improv usabl runner status form usergrid141 chop improv usabl user key manag usergrid141 chop improv usabl user manag usergrid141 chop improv usabl complet chart usergrid141 chop improv usabl refactor chart layout usergrid141 chop improv usabl refactor modul list window chop fix set usergrid141 chop improv usabl iter chart layout stop reset oper work usergrid141 chop improv usabl run chart layout usergrid141 chop improv usabl chart layout start oper work usergrid141 chop improv usabl user list window usergrid141 chop improv usabl modul list window chop refactor,code/design_debt,479
+flush task messag may confus recov,code/design_debt,481
+bug new agent manag clean event status agent,code/design_debt,482
+reduc log caus travi problem,code/design_debt,483
+resolv minor doc issu zero issu error zero issu set small typo chang add test check check zero updat document error name paramet issu data paramet input issu fix doc paramet issu fix doc context paramet issu fix indent issu,documentation_debt,484
+compon duplic close,code/design_debt,485
+refactor python profil code make extens base fix conflict code style close close squash follow commit davi liu fix test davi liu add davi liu use default davi liu refactor davi liu refactor fix test davi liu fix code style yandu oppach remov unus method yandu oppach ad profil collector profil per stage yandu oppach fix doc yandu oppach refactor profil move test around yandu oppach code review fix yandu oppach refactor profil code,code/design_debt,486
+remov dead code test,code/design_debt,487
+minor bug doc fix jira minor fix ad help error messag clariti fix bug fix doc reflect correct name fix doc reflect allow,code/design_debt,489
+sql pyspark support column express enabl could convert given type exampl date two bug relat see workaround close squash follow commit davi liu fix test python davi liu chang davi liu convert davi liu updat davi liu support date davi liu enabl convert,code/design_debt,490
+ad command command leav option two command command alreadi ad also suggest command use oper done sure adjust api secur oper ad complex code zookeep,code/design_debt,491
+temporari chang version revert temporarili version,code/design_debt,493
+first test,code/design_debt,494
+add test util function chang propos pull request add test util function reduc duplic function patch test pass jenkin updat test suit close,code/design_debt,495
+remov hard code servic compon map,code/design_debt,497
+generat use rather also fix typo,documentation_debt,498
+tri clean normal jvm termin normal jvm termin make tri clean file jvm note help jvm termin normal,code/design_debt,499
+optim avoid use pattern pattern reduc memori,code/design_debt,500
+delet duplic test class,test_debt,501
+ad clear mark log messag start shutdown servic also chang log start log messag debug,code/design_debt,503
+make default new integr test delet test ad valu chang,test_debt,504
+fix cleanup task unit test,code/design_debt,505
+remov combin separ simplifi interfac combin perform call dont much perform approach partit combin step perform differ order one extra iter,code/design_debt,506
+add log,code/design_debt,507
+updat consist remov name tag includ default properti tag,code/design_debt,509
+subqueri aqe main queri chang propos pull request make sure aqe enabl disabl entir queri includ main queri subqueri current queri aqe queri contain filter need make sure main queri subqueri appli aqe perform regress due miss subqueri chang need get rid potenti regress aqe turn introduc userfac chang patch test updat remov exist workaround ad enabl test suit aqe option ad check verifi subqueri alway main queri whether aqe appli close,code/design_debt,510
+propos fix take look issu work progress,requirement_debt,511
+unnecessari entri,code/design_debt,512
+fix within help patch review,documentation_debt,513
+ad inform log,code/design_debt,514
+improv schedul log bugfix,code/design_debt,515
+add line continu add line continu use end line continu charact handl continu made ad option paramet continu charact make usabl context also exampl config file implement check handl whitespac convert space line append exampl read pars,code/design_debt,516
+rust broken link document warn fix broken document link intern warn due code block close squash follow commit broken link document warn,documentation_debt,517
+remov redund key,code/design_debt,518
+fix java doc part javadoc fix messag respons document,documentation_debt,519
+fix checkstyl contribut,code/design_debt,520
+chain new sourc legaci sourc disabl chain thread model new sourc work howev would user perform improv,code/design_debt,521
+fix typo,documentation_debt,522
+larg cluster slow,code/design_debt,524
+build fix build fix ad end point make function end point specif,code/design_debt,525
+add todo,requirement_debt,526
+new aggreg resolv java style warn remov explicit cast,code/design_debt,527
+merg fix leak,code/design_debt,528
+merg pull request synchron,code/design_debt,529
+stream minor close file correct iter finish stream current there close file correct iter finish chang avoid resourc leakag close squash follow commit close file correct iter finish,code/design_debt,531
+clear warn,code/design_debt,532
+replac travi build status jenkin,code/design_debt,534
+chang ad whole system describ tri process dfdl use set whole dfdl work like compil much decis make compil time end call mani dfdl properti requir requir updat dfdl schema mani unit test test file howev still test pass fail test test test pass set test pass minor regress due end group refer yet yet implement type element new new attribut comput schema compon mani unit test yet ad remain jar need support unit test exercis stuff remain exercis get right call back need error dfdl ad unit test test behavior scala environ new revis scala someth depend namespac one test fail,requirement_debt,535
+name memori,code/design_debt,537
+still refer deprec properti via,code/design_debt,538
+consolid common code import consolid common code import small fix small fix,code/design_debt,539
+style label correct chang there ad info label break lint fix bad class name support addit label style ad new label fix map key warn use new label view lint fix issu,code/design_debt,540
+doc fix doc style plugin,documentation_debt,541
+fix typo error document,documentation_debt,543
+doc docker relat clariti fix motiv origin document may user think docker imag build one,documentation_debt,544
+fix error,documentation_debt,545
+tidi chang,code/design_debt,546
+fix checkstyl issu,code/design_debt,547
+bug notifi method motiv prevent bug refactor method bugfix miss event messag disabl consum bugfix messag null except previous commit test messag null made method leav consum futur without complet result hang futur refactor readabl control add unit test bug fix result bug fix maintain code,code/design_debt,548
+polish,code/design_debt,549
+fix wrong link doc,documentation_debt,550
+remov duplic decis tree decis tree much data need featur exampl split current collect howev could instead collect side possibl split also stat entir node comput stat side split patch add stat array right child stat need store right child stat comput subtract child stat stat featur close,code/design_debt,552
+exampl test,test_debt,553
+simplifi,code/design_debt,554
+connect leakag contribut,code/design_debt,555
+bump replic depend fix default valu replic paramet cleanup error log code,code/design_debt,556
+remov duplic entri,code/design_debt,558
+hotfix depend mani checkpoint stream skip,test_debt,559
+remov old configur,code/design_debt,560
+hotfix add saniti check element,code/design_debt,561
+fix empti except messag java function caus npe fix empti except messag java function caus npe add addit except messag error null check,code/design_debt,562
+support date type remov java style error ad valid date timestamp ad test case valid timestamp date refactor test case remov code unnecessari file rebas code ad valid tabl,code/design_debt,563
+remov unus logic class,code/design_debt,564
+improv compat python convert int,code/design_debt,567
+fix style check config,code/design_debt,568
+minor fix append test issu output patch fix two test packag repeat creat issu github action includ multipl test new output like caus timeout feedback test reduc data size disabl output slight improv perform result comparison chang improv packag time comput,code/design_debt,569
+stream dont recov configur within stream checkpoint chang configur would caus problem stream recov logic find local configur chang problem describ close squash follow commit one space fix code style add comment dont recov configur within stream checkpoint,code/design_debt,570
+fix typo ensur includ jar,documentation_debt,571
+fix comment,documentation_debt,572
+size confus,code/design_debt,573
+warn,code/design_debt,574
+refactor duplic code,code/design_debt,575
+polish code method iter class,code/design_debt,577
+merg remov deprec code,code/design_debt,578
+merg pull request improv consist script fix issu,code/design_debt,579
+polish,code/design_debt,580
+fix tri appli patch,code/design_debt,581
+remov extra ad improv perform call howev also improv project output unsaferow oper close squash follow commit reynold xin remov extra,code/design_debt,583
+polish bit karaf featur,code/design_debt,584
+trace generat java code fix typo,documentation_debt,585
+flaki test,test_debt,586
+improv includ import statement,documentation_debt,587
+modifi print block thread log thread trace thread that block thread help user oper chang need request thread server possibl server alreadi termin restart chang put thread server log file much easier,code/design_debt,588
+remov unnecessari log,code/design_debt,589
+merg pull request speed test suit without coverag,test_debt,590
+fix format,code/design_debt,591
+fix flaki comparison,test_debt,592
+improv except messag binari miss,code/design_debt,593
+fix connect leak server restart connect timeout need cancel futur time get connect wrong wait connect releas close server need resourc connect point view ad log debug connect issu,code/design_debt,594
+old valu config caus infinit loop,code/design_debt,595
+minor correct code use test file instead actual output file,code/design_debt,596
+remov unnecessari path ad saniti check,code/design_debt,597
+throw chang propos pull request current throw throw specif patch test close,code/design_debt,598
+avoid unnecessari run unit test case,test_debt,599
+fix warn contribut,code/design_debt,602
+make consist context fix typo,documentation_debt,603
+minor code cleanup remov redund code,code/design_debt,604
+fix format,code/design_debt,605
+checkstyl,code/design_debt,606
+remov unus file,code/design_debt,607
+doc remov unus releas turn sinc use there need clean pretti,code/design_debt,608
+temporari remov karaf plugin base karaf,code/design_debt,609
+replac cglib run cglib sourc generat make includ configur script current build arrow arrow glib includ run make slow run replac cglib close squash follow commit yosuk shiro remov unnecessari environ variabl yosuk shiro remov yosuk shiro remov run sutou kouhei use yosuk shiro exclud check yosuk shiro remov unnecessari yosuk shiro enabl test travi yosuk shiro remov build yosuk shiro replac cglib cglib run,code/design_debt,610
+minor remov redund check also includ minor cleanup close,code/design_debt,611
+renam method,documentation_debt,613
+fix generic warn,code/design_debt,614
+minor style improv system make log field name array static make member remov unus make various member function,code/design_debt,616
+add generat simplifi code add add packag,code/design_debt,620
+remov test test empti build,test_debt,621
+remov,code/design_debt,622
+fix topic client http servic url fix topic client http servic url fix format fix path use differ topic name test fix format,code/design_debt,623
+optim integr display sql test print test context assert error checkstyl,code/design_debt,624
+remov unus method add test patch review jbelli,code/design_debt,626
+javadoc typo,documentation_debt,628
+fix miss style,code/design_debt,629
+remov warn relat code,code/design_debt,630
+fix leak url follow complet version,code/design_debt,631
+support tabl scenario new insert need current rearrang logic base schema tabl add column partit schema base may work index project size logic complex handl dont use schema implement posit map base rearrang chang propos implement posit map base rearrang introduc user interfac chang new ad close,code/design_debt,634
+remov unnecessari main method,code/design_debt,635
+merg pull request remov intern class intern workaround return default valu valu return null start java map interfac ad method someth effici way return default key doesnt exist code dont insert null valu safe delet old class replac usag,code/design_debt,636
+default retri polici avoid connect leakag contribut,code/design_debt,637
+remov json type,code/design_debt,639
+made easier use aggreg collect thread,code/design_debt,640
+avoid unnecessari set match long way perform issu dont think need creat set find call chang,code/design_debt,641
+perform codegen compress matric patch make follow perform improv codegen oper other compress matric spars output matric oper ensur correct explicit output spars row done per row partit spars row order avoid repeat number zero per row partit note requir row partit enforc limit parallel find valu iter order avoid repeat entir iter find row partit start also use codegen oper compress matric exampl scenario dataset imag per imag simpl generat oper compress input patch improv perform given codegen oper take patch also includ robust fix generic iter case iter row partit row index,code/design_debt,642
+delet unus interfac close,code/design_debt,644
+temporari commit see work back build run,code/design_debt,645
+convert also generat static queri set,code/design_debt,646
+use standard cleanup remov old stuff,code/design_debt,647
+,code/design_debt,648
+bug add log,code/design_debt,649
+format,documentation_debt,652
+fix checkstyl issu,code/design_debt,654
+improv perform,code/design_debt,655
+add test verifi fix whitespac within properti,test_debt,656
+remov unus type check class,code/design_debt,657
+add skip option abl workaround,code/design_debt,658
+remov comment dead code,code/design_debt,659
+typo,documentation_debt,660
+improv thread return set need synchron,requirement_debt,661
+updat includ updat includ version remov duplic packag refer,code/design_debt,663
+checkstyl,code/design_debt,664
+improv make use random generat queri job make sourc split fix bug handl queri renam backward chang per featur work there much compat remov test set make queri test tabl,test_debt,665
+remov set docker imag tool chang propos pull request remov set docker imag tool chang need imag tool print inform may confus introduc userfac chang less inform display docker imag tool patch test docker imag tool local close,code/design_debt,666
+made log messag slight less,code/design_debt,669
+fix function config updat bug fix function config updat bug add fix unit test,code/design_debt,670
+improv wrap long line remov whitespac file updat default use,documentation_debt,671
+doc document format error format doc document format,documentation_debt,672
+remov,code/design_debt,673
+robust compil detect add robust detect compil deal,code/design_debt,674
+remov unnecessari space,code/design_debt,675
+regress packag manag ad test chang argument,test_debt,677
+cleanup style,code/design_debt,678
+flaki review,test_debt,679
+clean error messag clean error messag catch except command chain avoid pars command result add control set http header correct catch except execut better error report,code/design_debt,680
+ad api provid one singl api tabl config use simplifi logic reduc redund check tabl type,code/design_debt,682
+arrow3544 creat function registri multipl compil unit reduc build time refactor separ file function split across differ file functionregistrycc approach reduc build time littl refactor look wes suggest howev util base approach differ may requir bit refactor close squash follow commit siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang remov registri remov unus header file clean code siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix lint error make format siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang ad note intern use siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang replac siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang yet anoth refactor macro remov redund comment siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang review comment suggest refactor code bit remov unus includ etc siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix make error siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang review comment remov duplic move new header file ad separ class differ function type initi map class common map siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang fix whitespac issu report make lint siddharth dave arrow3544 extrem long compil time functionregistrycc releas mode clang refactor separ file function split across differ file functionregistrycc approach reduc build time littl refactor,code/design_debt,683
+bugfix integr test result npe properti serial small usabl improv,code/design_debt,684
+split codegen info queri plan sequenc codegen info queri plan long debug consol web page would readabl codegen split sequenc exampl exampl return string length contain string generat code string generat code chang propos pull request add method split codegen info queri plan sequenc patch test unit test pleas review pull request close,code/design_debt,685
+fix typo fix miss one mani state,documentation_debt,687
+reduc log introduc per state featur,code/design_debt,688
+improv coverag packag tabl test case ad remov instead use instead use remov instead use instead use,test_debt,689
+fix fix,code/design_debt,690
+disabl test broker need test prevent failur speed thing littl,code/design_debt,691
+log show user compon name queri input,code/design_debt,693
+unsaf,requirement_debt,694
+updat base readm point document instead updat describ use thing make consist convent,documentation_debt,696
+log warn respons api add log warn case except respons api,code/design_debt,697
+skip redund patch review,code/design_debt,698
+fix infinit loop write close client patch close,code/design_debt,699
+skip build exampl test action option enabl version dont implement yet ignor print warn,requirement_debt,700
+remov unus paramet close,code/design_debt,701
+ad code new format optim fix fix style fix issu ad read fix style refactor code ad read optim updat code format interfac optim less filter fix group queri refactor format new interfac fix complex queri fix comment,code/design_debt,702
+unnecessari check add log,code/design_debt,703
+make upgrad progress readabl,code/design_debt,704
+delet support cleanup,code/design_debt,1
+hotfix fix alert dead code error fix two alert flag apach dead code alert flag type test type test thus make bodi dead chang order test pleas behavior second commit address alert alert found note address,code/design_debt,3
+cluster configur config group take,code/design_debt,10
+fix npe array thread safe,requirement_debt,13
+remov redund data member class remov data member class replac method call avoid store inform multipl place,code/design_debt,15
+minor remov old config file,code/design_debt,16
+support modul remov,code/design_debt,18
+simplifi key name handl,code/design_debt,22
+fix memori leak proper output bug fix time given base class doesnt direct use fix place,code/design_debt,30
+cleanup,code/design_debt,32
+avoid use hard code data unit contribut,code/design_debt,37
+remov unus param,code/design_debt,40
+test bit robust,test_debt,55
+simplifi sql,code/design_debt,62
+make contain configur make option contain configur work around set see also set actual use,code/design_debt,67
+fix test relat index process fix test relat index process bug fix index would announc segment server locat use work broken fix ad method updat alway announc method return true task type way would call run guarante reli order initi fix updat ensur call run task proper handl complex introduc order fix test chang add new config index instead introduc environ variabl start index duplic test run index mode various adjust error docker build script various adjust speed integr test reduc memori usag add anoth approach use develop updat check elimin look segment exist mark unus javadoc updat ad javadoc make clear initi side relat second bug task clarifi guarante call run alreadi explicit clarifi deprec messag clarifi deprec messag fix script fix saniti check script fix line test doc adjust addit test adjust test split back revert chang set index capac match bump memori bump memori bump broker memori,test_debt,68
+reduc,code/design_debt,77
+remov redund statement,code/design_debt,80
+remov deprec method chang propos pull request remov method deprec patch test exist test close,code/design_debt,84
+redund type argument,code/design_debt,89
+merg pull request remov unus import,code/design_debt,107
+fix hard code string script,code/design_debt,108
+memori leak shutdown close,code/design_debt,109
+chang manag param chang function call put param line manag larg number paramet make easier read make better fix,code/design_debt,116
+simplifi merg,code/design_debt,128
+csv perform improv serial csv write output serial,code/design_debt,129
+enhanc test coverag modul,test_debt,141
+renam renam relat stream exist unit test close,code/design_debt,142
+improv test exercis,test_debt,143
+add logic runner core updat spark use remov unnecessari within python runner,code/design_debt,157
+fix infinit loop,code/design_debt,158
+ad unit test base,test_debt,171
+fix flaki multipl server way check guarante server get segment caus flaki test fix start one server ad keep coverag multipl broker multipl server,test_debt,172
+code style,code/design_debt,176
+clean format logic chang made test syntax error ad,code/design_debt,180
+polish,code/design_debt,182
+test pattern work howev use featur yet implement string thing ad make work still exercis pattern use deal test file delet old one,requirement_debt,183
+remov redund code build remov refer code depend jar,code/design_debt,185
+chang test integr test chang build time system,test_debt,192
+server doubl check host capac startmigr start host host check capac host one host take second host startmigr resourc host chang normal startmigr multipl vms would better doubl check host capac start host includ fix capac startmigr,code/design_debt,204
+modul need implement,requirement_debt,205
+minor cleanup base feedback review request,code/design_debt,206
+fix possibl resourc leak checkpoint write thread,code/design_debt,209
+make depend option,code/design_debt,212
+minor remov unus field correct comment typo,code/design_debt,213
+typo,documentation_debt,221
+transform optim chang propos pull request use instead chang need better perform could exist simplifi model introduc userfac chang patch test exist close,code/design_debt,225
+minor upgrad improv perform improv releas support compil depend improv build script compil speed even better support perform improv configur execut phase improv build time perform test chang build script start take improv close,code/design_debt,226
+add explicit prefix iter remov unnecessari configur pars read configur configur entri read unnecessari done warn tabl properti instead use provid explicit pull data need configur reduc process,code/design_debt,227
+fix context longer redund url like close,code/design_debt,236
+fix typo,documentation_debt,240
+improv log long bodi dont caus,code/design_debt,244
+improv format pretti print close squash follow commit improv format pretti print,code/design_debt,248
+client except,code/design_debt,249
+flaki due client cach contribut,test_debt,250
+resourc page resourc page chang page resourc add miss licens header add licens header,documentation_debt,262
+clean vms get move due,code/design_debt,272
+messag except,code/design_debt,276
+implement class old longer need,code/design_debt,280
+error log api,code/design_debt,281
+improv fix synchron memori leak improv fix synchron memori leak abl automat sinc key also fix synchron iter avoid,code/design_debt,284
+remov unus compon,code/design_debt,292
+move hardcod depend version properti tag,code/design_debt,294
+remov code old,code/design_debt,297
+updat updat use instal instal show use futur task task execut return futur repres task futur get method return null success complet,code/design_debt,304
+simplifi implement,code/design_debt,314
+improv clean support multipl url tri one work use simpl download scenario add test,code/design_debt,318
+merg pull request code test clean duplic code object evalu jenkin pull request process keep code cleanup review comment handl deal warn code cleanup secur rule test remov file,code/design_debt,328
+enhanc log,code/design_debt,338
+fix javadoc memori issu environ may default set plugin caus build run memori kill travi host clean bad licens header format remov anymor use build current clean matrix build make build build script clear use,code/design_debt,340
+initi workaround case matrix paramet,code/design_debt,343
+port modul python port remov legaci code,code/design_debt,345
+clean,code/design_debt,356
+remov unnecessari annot,code/design_debt,365
+minor clean,code/design_debt,373
+refactor remov duplic creat common,code/design_debt,376
+remov dead code,code/design_debt,379
+polish javadoc,documentation_debt,387
+merg pull request add miss option test,test_debt,395
+add local dcheck macro fix dcheck bug also abl remov compil flag remov take place anoth patch work requir close squash follow commit wes mckinney fix comparison insid dcheck wes mckinney remov wes mckinney simpl dcheck macro fix dcheck failur,requirement_debt,398
+refactor handl consum separ subclass motiv simplifi code statement subclass implement,code/design_debt,400
+remov dead code cannot return null,code/design_debt,402
+allow configur http compon remov use option compon doc,code/design_debt,419
+unnecessari,code/design_debt,423
+python write contain duplic valu parquet close squash follow commit add test parquet python write contain duplic valu parquet,code/design_debt,426
+turn ignor unus runner modul exampl,code/design_debt,427
+checkstyl,code/design_debt,428
+test log,code/design_debt,431
+disabl two flaki test,test_debt,432
+import project info config setuppi fix debug,code/design_debt,437
+remov unus revert plugin work,code/design_debt,441
+fix bug caus write event file specifi time code cleanup updat default properti,code/design_debt,448
+fix spell,documentation_debt,449
+python fix remain typo typo instal document close squash follow commit fix typo,documentation_debt,452
+ad annot,documentation_debt,458
+activ assert,test_debt,464
+rust datafus group express ignor aggreg express addit chang fix miss group express code style chang fix warn close squash follow commit merg branch master fix miss group,code/design_debt,465
+minor cleanup close,code/design_debt,467
+simplifi model bit data api,code/design_debt,468
+still flaki test ignor chang propos pull request still flaki turn avoid break build turn back fix patch test jenkin close,test_debt,470
+decis tree base follow chang node schema updat int int doubl boolean split doubl refactor implement close close squash follow commit fix style updat tree schema refactor implement import ad tree ad decis tree need,code/design_debt,480
+fix javadoc warn via,code/design_debt,488
+unnecessari log messag,code/design_debt,492
+tidi,code/design_debt,496
+ad test case show use name queri use annot mark consum method develop write method consum set flag updat step state etc also perform minor refactor move code core modul deal except handl reflect call,code/design_debt,502
+cleanup,code/design_debt,508
+clean karaf featur test,code/design_debt,523
+remov header code due secur,requirement_debt,530
+fix typo merg,documentation_debt,533
+cleanup remov unus function,code/design_debt,536
+temporarili remov test need plugin structur,test_debt,542
+fix script proper cleanup old network rule vms dont chain rule fix name proper remov vms run host tri remov filter element list check action request perform add remov execut base execut command log debug method cleanup may use futur,code/design_debt,551
+reduc also work includ confus,code/design_debt,557
+merg pull request speed exampl,code/design_debt,565
+renam registri group registri better,code/design_debt,566
+simplifi compon configur,code/design_debt,576
+memori leak issu new close,code/design_debt,582
+fix log messag,code/design_debt,600
+fix bad format changelog,code/design_debt,601
+minor renam consist exampl apach karaf,code/design_debt,612
+make map travers effici make map travers effici make map travers effici modifi review compil fail delet space,code/design_debt,615
+code style cleanup,code/design_debt,617
+rust datafus cast support thing remov code replac generic code evalu cast express add support cast arrow comput modul look like miss improv error messag add check avoid column index close squash follow commit andi grove test cast point type fix bug map andi grove test cast int type andi grove test cast int type andi grove check null cast andi grove add unit test cast andi grove revert commit andi grove revert ad cast support andi grove code cleanup andi grove improv error messag andi grove cast support datafus andi grove add support cast,code/design_debt,618
+test use state sever test help prevent failur one test allow date leak test method ensur test cleanup elimin unnecessari extra leak,test_debt,619
+ad renam method old valu model updat changelog,code/design_debt,625
+fix listen shutdown leak,code/design_debt,627
+format,code/design_debt,632
+ad warn messag,code/design_debt,633
+ad properti make configur client,code/design_debt,638
+instal packag need robust handl instal script kill timeout,code/design_debt,643
+ensur spill test actual spill mani test test spill dont actual spill patch fix ensur unit test actual catch potenti bug spill size patch refactor duplic code logic close,code/design_debt,650
+made even effici ad optim,code/design_debt,651
+client timeout also return detail connect status valid add timeout option queri,code/design_debt,653
+initi workaround current work correct output line base need add test case implement block whole file base mode,test_debt,662
+use rather map make sure execut chang propos pull request call map leav execut due evalu better use make sure execut output unus unit chang need prevent potenti issu execut map introduc userfac chang current code look caus problem patch test found run doubl check one one fix instanc across close,code/design_debt,667
+javadoc typo,documentation_debt,668
+increas test coverag class,test_debt,676
+cleanup compon renam,code/design_debt,681
+merg show info translat error,code/design_debt,686
+option base segment announc via http instead zookeep option base segment announc via http instead zookeep address review comment make instead filter configur need updat segment initi call first segment list server address review comment remov size check requir anymor segment server announc process segment server cach segment fix checkstyl error,code/design_debt,692
+initi implement review,code/design_debt,695

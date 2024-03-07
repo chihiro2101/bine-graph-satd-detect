@@ -1,0 +1,4 @@
+code/design_debt
+documentation_debt
+requirement_debt
+test_debt

@@ -1,0 +1,984 @@
+text,label,document_index,subset
+compatibility,CODE,2,test
+use specific options get otherwise perform custom request the options nt appear work instead,DEFECT,3,test
+update use instead,CODE,15,test
+the real location dynamic relative root work use full url available,DEFECT,18,test
+get plots works,CODE,20,test
+fit call data dataframe xx consider fit call matchcall consistency,CODE,27,test
+choose model serial technically could code,CODE,28,test
+like without version,ARCHITECTURE,30,test
+needed moment,CODE,35,test
+this happen,DEFECT,45,test
+future currently implemented,REQUIREMENTS,54,test
+originally sort always left nt want assume left,CODE,60,test
+this graph big always n1 internal nodes restrict say level default,ARCHITECTURE,64,test
+todo better generic,CODE,68,test
+ca nt onload,CODE,72,test
+need create separate image every different color,REQUIREMENTS,79,test
+so many items print,REQUIREMENTS,81,test
+would need update,CODE,88,test
+drop alpha tcltk nt support,BUILD,91,test
+todo special functions,TEST,95,test
+creates tests,ARCHITECTURE,103,test
+issue number called make sure necessary full check github remote config done here determine local way the remote config check also lack,VERSIONING,110,test
+todo honor default branch,VERSIONING,118,test
+todo honor default branch,VERSIONING,119,test
+todo address directory help fs issues windows fs normalizepath,ARCHITECTURE,121,test
+based andor present several edge cases requirements seems good enough,BUILD,122,test
+the following block used usethis automatically namespace tags modify care usethis namespace start,BUILD,125,test
+assuming origin upstream,VERSIONING,129,test
+todo say whether user push parent upstream,VERSIONING,130,test
+work,CODE,131,test
+work,CODE,137,test
+checking make sure qc labels unique qc old code delete,CODE,171,test
+yuliya check tom mean value,PEOPLE,184,test
+ii mean ii ii mean should ii,CODE,185,test
+else allow least objects class,ALGORITHM,186,test
+must array objects todo add anything else,CODE,193,test
+need update cls labels,CODE,198,test
+removed never used,CODE,199,test
+todo refactor following part code better,CODE,201,test
+todo check need filtering eg,CODE,204,test
+this could be place to add noise filter to make speed faster,ARCHITECTURE,208,test
+remove features missing samples per group valid group,DEFECT,213,test
+for nt allow nas,CODE,215,test
+sort fix bug high ppm values todo find better solution give user,DEFECT,218,test
+todo not working moment,DEFECT,221,test
+factor faster data matrix,ARCHITECTURE,230,test
+regression model originally tried call certain options but found passing model method nt work optional things like weights so first set for distribution variance test not yet supported printing,DEFECT,231,test
+residuals good enough code order components object never change residuals right means,ARCHITECTURE,238,test
+fit strata,CODE,240,test
+verbose return messages useful debugging,CODE,241,test
+useless,CODE,248,test
+case columns nt need nt think happen,ALGORITHM,250,test
+compute number risk if temp1 looking nt work length,DEFECT,253,test
+save copy call documentation deprecated,DOCUMENTATION,258,test
+it hard get next error message eg time,CODE,263,test
+first issue deprecated survival,CODE,265,test
+columns strata id,CODE,270,test
+strata covariate needed modelmatrix later,CODE,273,test
+case list object,DESIGN,275,test
+the matrix useful debugging,CODE,277,test
+we nt look id what user starting data set also variable named id we want first call,REQUIREMENTS,278,test
+fix times,DEFECT,279,test
+needed,CODE,280,test
+this next fails with data number risk known since report time points,DEFECT,286,test
+todo check content error message produces meaningful messages currently error message actual error message invalid,TEST,294,test
+work properly,CODE,297,test
+character vector columns todo need work,CODE,301,test
+hacky way get ideally use groups dplyr one group know grouped variables show first combination unique,CODE,305,test
+todo add also correlation filter require least correlations,CODE,307,test
+todo options mat method distance,CODE,313,test
+fixme arguments rename groups groups factor factor,CODE,317,test
+todo add optional core abundances would sum,ALGORITHM,322,test
+if nt exist nt document,DOCUMENTATION,328,test
+todo include type,CODE,334,test
+todo implement weight attr weighting chr term frequency inverse document frequency attr weighting chr term frequency inverse document frequency normalized attr weighting chr term frequency attr weighting chr smart smart eg,REQUIREMENTS,338,test
+todo replace,CODE,341,test
+fails,TEST,360,test
+debug https scheme supported internal method may resolve issue if method chosen default on method used except internal file scheme on windows method used scheme,ARCHITECTURE,363,test
+better expr,DEFECT,364,test
+apparently happen,DEFECT,368,test
+assuming values,ALGORITHM,369,test
+to do make function block data single histogram,CODE,375,test
+allow index vector,CODE,377,test
+probably probably,CODE,379,test
+not used,CODE,380,test
+tested much,TEST,385,test
+hack make sure assume values integers first values decimal point,CODE,391,test
+do not export,DESIGN,397,test
+do not export,DESIGN,399,test
+nocov nocov,TEST,418,test
+nocov,TEST,428,test
+progress output ca nt seem turn hence captureoutput also seems break wrt run global environment set hence,CODE,432,test
+test model kind dumb nt seem allow input data test models work api,TEST,434,test
+this actually redundant test keep make,CODE,451,test
+ad hoc needed instance xml attached,CODE,454,test
+workaround gives na use instead see problem cf https,CODE,459,test
+workaround,BUILD,464,test
+workaround some browser wo nt open files mapped windows here undo eg foobarhtml,DEFECT,473,test
+not needed anymore,CODE,475,test
+workaround windows,DEFECT,476,test
+not needed anymore,CODE,480,test
+nothing todo,CODE,482,test
+odd different results cmd check test script hb res use,TEST,489,test
+this hack api returns true save method within httr content function nt like,ARCHITECTURE,491,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,494,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,495,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,497,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,499,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,500,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,502,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,505,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,514,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,521,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,522,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,524,test
+should return report report data directly single element returns data frame column nested list multiple elements fails error top argument,DEFECT,537,test
+useful format leave rename counts column metric completely quickanddirty,CODE,538,test
+optimal kept,DEFECT,549,test
+simple test determine proper todo implement,TEST,551,test
+fix matrix nt factors,CODE,558,test
+not needed anymore,CODE,562,test
+assume based system todo check necessary,CODE,563,test
+code coverage functions,TEST,576,test
+ideal hopefully fixed https,CODE,582,test
+todo this work fine unless set hash length todo see alternative approach dealing nt think really use though,CODE,586,test
+todo done possibly work level so get set values this work best objects storr logic hard work us lot stuff it bit nasty though re different accept raw thing comes important different hash algorithms,ARCHITECTURE,595,test
+comes note code special cases outputs this needs checked the ordered outcome output nt work need currently done,DEFECT,599,test
+work already checked stuff,CODE,603,test
+todo files yet supported check variable used check values attributes may changed creation object file tables date version,CODE,604,test
+works devtools test,TEST,613,test
+this slightly run figure still ever debug section,CODE,619,test
+does nt work due substitute expectequal,DEFECT,621,test
+trick seems long enough response long,ARCHITECTURE,622,test
+namespace used fails reason,DEFECT,625,test
+this hack work around devtools the process makes devtools functions resulting error pkg internal error if simply force first available use later,BUILD,626,test
+hacky fix visible binding warning,CODE,636,test
+define variables fix visible binding check bit hack,CODE,639,test
+attached workers session information unless already done fixme we introduces condition multiple similar may appear time data therefore values workers workers,ALGORITHM,646,test
+ad hoc this assumes worker case workers hb,ALGORITHM,649,test
+workarounds pass single job list cf https,CODE,663,test
+future yet fixme uses hb,CODE,671,test
+keep private case,CODE,676,test
+keep private case,CODE,677,test
+workaround covr produces error error reading connection type is related comments help hb,TEST,683,test
+bug fix in future global pkg would name last package attached future,DEFECT,688,test
+reset session hack,CODE,697,test
+todo think would need based set operation,CODE,700,test
+think bug start column,DEFECT,721,test
+note for moment ignores signals robust algorithms metrics,DEFECT,735,test
+one files hidden,CODE,738,test
+one files start variable name hidden values,CODE,739,test
+to do issue check whether object column if yes use instead unless false default,DEFECT,742,test
+checks file yet maybe needed,ARCHITECTURE,743,test
+sample frequency stored,CODE,744,test
+note this work files also need rcpp functions so probably best turn parallel debugging data,ARCHITECTURE,746,test
+end within double hour,CODE,748,test
+time go back may ended either first second double hour to do rare cases assume ends second hour avoid sleep efficiency,REQUIREMENTS,749,test
+time go back may ended either first second double hour to do rare cases assume ends second hour avoid sleep efficiency sleep,REQUIREMENTS,750,test
+error http error not found rate limit remaining rate limit reset,DEFECT,771,test
+todo repos published published repos right latter it required version early repo repo,BUILD,776,test
+drop columns useful plot sometimes missing values samples others failing cases checking column numeric here ignore nas numeric column checking adding narm issue,CODE,798,test
+nocov start,TEST,799,test
+given graph width page orientation type returns best template to do maybe still add additional parameter support,CODE,801,test
+todo remove priority documented package,DOCUMENTATION,803,test
+fixme specify start,REQUIREMENTS,809,test
+use matrix,CODE,810,test
+hack use instead column take account associated legend width produce layout,CODE,811,test
+internal trick,CODE,816,test
+parameters set internally todo change target impact,CODE,819,test
+todo valid object returning param false,CODE,822,test
+use name key nb need special trick avoid conflict argument function,DESIGN,824,test
+todo test existence objective method,TEST,826,test
+not function functionality exists elsewhere,DESIGN,839,test
+nocov start,TEST,842,test
+nocov tested single core cran nocov nocov,TEST,857,test
+nocov end,TEST,862,test
+nocov end,TEST,866,test
+nocov start,TEST,868,test
+nocov end,TEST,874,test
+nocov start,TEST,882,test
+from man page nocov start,TEST,884,test
+nocov end,TEST,885,test
+nocov,TEST,887,test
+nocov nocov,TEST,889,test
+nocov end,TEST,892,test
+because slow yet fails windows see discussion https,ARCHITECTURE,895,test
+fix output header show call instead,DEFECT,899,test
+call must mixed case fixed,ARCHITECTURE,909,test
+probably fails empty identical groups nan,CODE,921,test
+example fails work also issue,TEST,928,test
+capscale distances distances component give back data,CODE,929,test
+nocov start nolint start,TEST,935,test
+nolint end nocov end,TEST,936,test
+cat debugging todo optimize using function needs new function,CODE,938,test
+fix visible binding note check utils colnames doesnt work unfortunately seems way keep check quiet variables,DEFECT,948,test
+add genotype field fixme may reflect actual content field,REQUIREMENTS,954,test
+prediction sometimes fails,TEST,955,test
+bug found type return,DEFECT,956,test
+generally occur so assigned error fixed na much appropriate replace values range weight based test marginal value also often occur this step really dangerous checked,ALGORITHM,957,test
+yet defined set list,CODE,963,test
+bad result what yet defined set list failed run trace,CODE,964,test
+multiple growing update commented solve problem growing season long eg dt dt dt,REQUIREMENTS,966,test
+nocov,TEST,976,test
+nocov,TEST,981,test
+the default smoothing kernel function weird this function creates better one,CODE,982,test
+nocov end,TEST,989,test
+fixme add possibly use https,TEST,993,test
+weird bug dt nonzero row dt returns rows,DEFECT,994,test
+line type somehow nt work,DEFECT,1002,test
+this absolute last make sure block never returns na due lack points in case return simple min,CODE,1004,test
+note fix this currently ignores assumes,CODE,1022,test
+nocov start,TEST,1025,test
+todo check columns input,CODE,1036,test
+browser hack store information otherwise could different numbers arguments different,CODE,1054,test
+order start fixme use names present,DEFECT,1058,test
+fixme profiles best method mle,DEFECT,1062,test
+optimizer may names try restore,CODE,1063,test
+else coef compute info fixme worry,DEFECT,1064,test
+sure work,DEFECT,1069,test
+hack profiles sqrt abs,CODE,1071,test
+fixme,DEFECT,1077,test
+vectorize objective function return log switching things,DEFECT,1079,test
+old slice method probably roll option profile include attribute warning draw differently leave limit lines slice function fitted slice,REQUIREMENTS,1080,test
+possible set vectors include value maybe,CODE,1082,test
+fails,TEST,1087,test
+gets,DEFECT,1097,test
+make conditional works systems,ARCHITECTURE,1100,test
+occurred items get removed database files nt deleted this section not complete nt work time make work tests could run run dir target expecttrue grepl deleted needed package dir target expectequal files nt changed,DEFECT,1107,test
+avoid cmd check note,BUILD,1111,test
+ever good todo,CODE,1123,test
+complain parameters box constraints todo,CODE,1125,test
+remove slot todo,CODE,1128,test
+todo make sure fixedeffects results look ok summary output multigroup model,REQUIREMENTS,1134,test
+todo ask really supposed,PEOPLE,1139,test
+necessary,CODE,1142,test
+todo add safety check is fit function does data,ARCHITECTURE,1144,test
+nocov end,TEST,1145,test
+nocov end,TEST,1146,test
+add th note switch nb th not to path,CODE,1150,test
+might split,ALGORITHM,1162,test
+for reason character dimnames nt work fix lapply call index dimnames latentvars appropriate numerical indices,DEFECT,1172,test
+todo wrap timing functions,ARCHITECTURE,1176,test
+fit todo,REQUIREMENTS,1177,test
+determine flags na tolerance do nt check,CODE,1182,test
+deprecated done,CODE,1190,test
+todo adjust value,CODE,1192,test
+nocov,TEST,1205,test
+nocov,TEST,1211,test
+todo compare standard errors cbind,TEST,1215,test
+default scales rows nt want options ignored use,DEFECT,1218,test
+todo passed column name string able subset,CODE,1226,test
+fixme technically name includes title,DEFECT,1239,test
+fixme many things see https implementation,CODE,1242,test
+todo check hierarchy here,ALGORITHM,1247,test
+hack remove note cmd check plot visible binding global variable,BUILD,1251,test
+todo method checking whether hierarchy,DESIGN,1254,test
+this code has from it has moved to this is temporary fix,CODE,1257,test
+todo extend levels possibly,DEFECT,1260,test
+quite test case,TEST,1263,test
+diag shat diag shat,ARCHITECTURE,1267,test
+bad deal,DEFECT,1277,test
+fixme explicitly pass priors,DEFECT,1281,test
+fixme add legend region used hard,REQUIREMENTS,1283,test
+fixme entitytype,DEFECT,1284,test
+fixme may want rename etc,DEFECT,1286,test
+internal function calculate probabilities sets data returned fixme currently selection supported,REQUIREMENTS,1290,test
+rescale max variants null including null needed selected signals unless small fixme scaling use calculations,ARCHITECTURE,1291,test
+fixme use capture variants analysis potentially flag user,USABILITY,1293,test
+return row indices input fixme would better store original order invert,CODE,1301,test
+hacky works check env update calls inside correct,CODE,1302,test
+hack make generic length residuals gets back sample size objects,CODE,1303,test
+convenience function construct where part sql table note behaviour arguments different and filters document better fixme rename fixme,DOCUMENTATION,1305,test
+analysis etc within arguments fixme like case case like case either switch class use lower like lower,CODE,1306,test
+fixme would allow option different analysis,DEFECT,1322,test
+fixme replace,DEFECT,1333,test
+add columns make easier pass functions help file note added null,REQUIREMENTS,1343,test
+todo fix database,DEFECT,1346,test
+hard coded itt,CODE,1347,test
+options read code constant sense likely constant different it overwrite defaults directory containing genotype data directory containing data top level directory fixme throw error fails target directory outputs fixme throw error fails,ARCHITECTURE,1352,test
+hard coded itt,CODE,1368,test
+fixme case one variant one set would better cbind like signal cbind marginal signals make zero safe make false safe index variants attr,CODE,1378,test
+add title scaled fit necessary change to use fixme,REQUIREMENTS,1379,test
+fixme instead nt use statement,CODE,1380,test
+function use sql fixme general error message sql input may always appropriate,DESIGN,1387,test
+fixme could potentially example depending behaviour input int type,CODE,1389,test
+no idea,CODE,1399,test
+coding set variable names tau2 tau2 necessary nt know differently windows,ARCHITECTURE,1400,test
+todo something api key todo point docs methods see methods,DEFECT,1406,test
+todo add interactive session todo add pretty print output todo test error cases todo do dry run check etc todo do changes within trycatch undo todo need way url,REQUIREMENTS,1420,test
+todo go get vars,CODE,1423,test
+todo validate inputs,CODE,1426,test
+todo limit due bug rstudio connect,CODE,1427,test
+todo would multiple,DESIGN,1428,test
+todo make silly sleep,ARCHITECTURE,1439,test
+todo smarter noninteractive wait,ARCHITECTURE,1446,test
+todo smarter noninteractive wait,ARCHITECTURE,1447,test
+test,TEST,1451,test
+todo this great test since running could always start content,TEST,1454,test
+standard gaussian kernel choose better,ARCHITECTURE,1460,test
+fixme need handle dimensions better,DEFECT,1475,test
+dirty trick avoid warning visible binding global variable,BUILD,1478,test
+dirty trick avoid warning visible binding global variable,BUILD,1479,test
+something color,CODE,1494,test
+check effects na,CODE,1500,test
+todo temp solution clear output,CODE,1505,test
+nocov start,TEST,1516,test
+nocov start,TEST,1518,test
+nocov end,TEST,1519,test
+nocov end,TEST,1521,test
+todo add formats lists,REQUIREMENTS,1527,test
+nocov start message window,TEST,1552,test
+nocov end check files,TEST,1554,test
+workaround avoid error one custom index exists,BUILD,1558,test
+nocov start,TEST,1559,test
+nocov end,TEST,1560,test
+nocov,TEST,1572,test
+create new env set environment helpers function avoid create globals todo consider passing everything explicitly,DESIGN,1575,test
+nocov end,TEST,1577,test
+nocov start,TEST,1580,test
+nocov end,TEST,1581,test
+select automatically appropriate task due data target,REQUIREMENTS,1592,test
+select automatically appropriate task due data target,REQUIREMENTS,1595,test
+select automatically appropriate task due data target,REQUIREMENTS,1597,test
+currsign asmatrix results selectedvars case signature slot returned due lack memory see internalmmpc final part,ARCHITECTURE,1601,test
+select automatically appropriate task due data target,REQUIREMENTS,1604,test
+currsign asmatrix results selectedvars case signature slot returned due lack memory see internalses final part,ARCHITECTURE,1605,test
+select automatically appropriate task due data target,REQUIREMENTS,1606,test
+select automatically appropriate task due data target,REQUIREMENTS,1608,test
+currsign asmatrix results selectedvars case signature slot returned due lack memory see internalses final part,ARCHITECTURE,1609,test
+possible models gaussian default binary binomial ordinal zip beta median gamma longitudinal grouped mm robust either true false variable numerical variable matrix factor ordinal factor time event dataset variable it vector matrix dataframe continuous variables data frame mixed categorical variables event null unless time event data survival regression reps null unless time measurements longitudinal data group null unless grouped data longitudinal data needs reps slopes longitudinal data true false mixed models if true used otherwise ml used case,ARCHITECTURE,1610,test
+error case pretty sure error case cs highly correlated inversion matrix possible,TEST,1615,test
+put back column names overkill nonmultivariable cases,CODE,1623,test
+create strata data frame data frame strata variables fixme this changes type strata good practice,DEFECT,1628,test
+groups contrasts nan due division zero variance,CODE,1630,test
+work cases,DEFECT,1637,test
+fixme allow growing memory,REQUIREMENTS,1638,test
+print env step env act fixme store also attribute,CODE,1640,test
+comment could also used params better name,ARCHITECTURE,1643,test
+todo less confusing variable names,CODE,1664,test
+todo determine causes fatal error length coercion logical run added verbose false argument correct printing issues rna features rna verbose false data tolerance,DEFECT,1672,test
+fix,DEFECT,1680,test
+fix labels,DEFECT,1685,test
+todo,CODE,1686,test
+argh really want use anyway,CODE,1691,test
+argh really want use anyway,CODE,1694,test
+bug ensure item task,DEFECT,1703,test
+nocov,TEST,1706,test
+nocov end,TEST,1708,test
+nocov,TEST,1709,test
+nocov,TEST,1711,test
+nocov end,TEST,1713,test
+nocov end,TEST,1715,test
+nocov end,TEST,1723,test
+nocov,TEST,1726,test
+nocov,TEST,1733,test
+nocov start,TEST,1736,test
+nocov,TEST,1739,test
+nocov,TEST,1744,test
+nocov,TEST,1745,test
+nocov,TEST,1746,test
+nocov start,TEST,1758,test
+avoid stupid parallel warnings,BUILD,1772,test
+regression test description this fails cran build systems works locally,BUILD,1787,test
+note negative residuals mutate error,DEFECT,1794,test
+may ad handle json config far know certain dependencies moment wo nt necessary,BUILD,1799,test
+fixme need tests windows machine,TEST,1801,test
+compute intervals median point estimate it ignore results later two code paths,ALGORITHM,1806,test
+using hacked datatable merge called temporary fix,CODE,1809,test
+needed,CODE,1813,test
+figure use maybe ways quick dirty works,CODE,1816,test
+set reuse packages already installed without option fails takes,BUILD,1826,test
+todo test different argument customizations,TEST,1829,test
+todo test hyperparameter optimization,TEST,1830,test
+todo test hyperparameter optimization,TEST,1831,test
+need cleanup future tests nt fail use object,TEST,1834,test
+todo fix failed algorithms not clear fix,DEFECT,1835,test
+need cleanup future tests nt fail use object,TEST,1836,test
+todo test different argument customizations,TEST,1842,test
+check last token line note need restrict search nodes parse sometimes reports false large end positions nodes,CODE,1847,test
+cheat,CODE,1854,test
+hack,CODE,1864,test
+temporary hack functions uses possibly temporary attribute overwrite points,CODE,1871,test
+trick,CODE,1879,test
+old code,CODE,1885,test
+problems weird strings levels,DEFECT,1900,test
+fit point process model pattern covariate note incorrect formula,REQUIREMENTS,1902,test
+not used xmlfiles grepl xmlfiles true xmlfiles grepl xmlfiles true,CODE,1911,test
+works length,DEFECT,1912,test
+nt need nt think,CODE,1914,test
+sample need get per sample run match sample run different,CODE,1923,test
+sanity check case,CODE,1928,test
+needs deleted later,CODE,1939,test
+since easy perform say iterations words code numerical variables prevent stupid funny settings ok still possible crash script give,DEFECT,1947,test
+words deleted selection criteria used,CODE,1951,test
+temporary,CODE,1954,test
+words deleted selection criteria used,REQUIREMENTS,1956,test
+the core code output yes right ve seen lines instead us write better code let us know,DESIGN,1959,test
+case convert characters,CODE,1962,test
+fixme read fields following list,REQUIREMENTS,1970,test
+fixme read fields following list,REQUIREMENTS,1974,test
+fixme right,DEFECT,1975,test
+wo nt need many catch coding errors,CODE,1986,test
+year fixme check month day hour min sec,DEFECT,1988,test
+year fixme check month day hour min sec,DEFECT,1990,test
+year fixme check month day hour min sec,DEFECT,1991,test
+year fixme check month day hour min sec,DEFECT,1992,test
+fixme need file error see table table,CODE,1993,test
+fixme right,CODE,2002,test
+fixme handle ad2cp fixme handle ad2cp,REQUIREMENTS,2010,test
+fixme document this fixme document this fixme document this,DOCUMENTATION,2013,test
+fixme delete key plot types checked test early but old names metadata isnull metadata metadata ad2cp old old warning in plot which tested old,TEST,2018,test
+single scale amplitude data fixme name item missing,CODE,2019,test
+issue think file second profile different somehow incorrect codes fixme codes differ profile profile supposed codes cbind buf header buf header debug codes paste paste codes sep sep debug codes paste paste codes sep sep,DEFECT,2038,test
+false fixme maybe determine header,CODE,2040,test
+transformation matrix fixme people use last row matrix use and think may two definitions notes transformationmatrix from figure page act defined run beam beam defined run beam beam orientation b2 b1 page the matrix section act as check coding see python http control sign first rows transformationmatrix,ALGORITHM,2046,test
+fixme pressure else wrong need count bytes figure look ugly,DEFECT,2051,test
+interpolate may less profiles fixme really,REQUIREMENTS,2054,test
+fixme right,CODE,2064,test
+fixme nt user header,DEFECT,2071,test
+fixme nt user header,DEFECT,2072,test
+fixme official,DOCUMENTATION,2074,test
+translate fixme ugly coding,CODE,2079,test
+fixme using tsslow,ARCHITECTURE,2080,test
+fixme odd scale text files use,CODE,2094,test
+fixme guessing orientation,CODE,2096,test
+fixme get burst average separately,CODE,2097,test
+developer alter line suit new data class,DESIGN,2100,test
+fixme handling slow data,ARCHITECTURE,2116,test
+old fixme terrible we nothing speed setting na old keep data longitude data longitude data latitude data latitude old res data latitude keep na old res data longitude keep na old function old isna old na old isna length old na old old,ARCHITECTURE,2119,test
+fixme makes sense browser,CODE,2121,test
+fixme use bg col delete fill,CODE,2123,test
+slow one line,ARCHITECTURE,2126,test
+null record skip bytes guess table,CODE,2128,test
+following slower using match fixme speed perhaps use match latitude latitude longitude longitude,ARCHITECTURE,2130,test
+fixme,CODE,2132,test
+message fixme calling next method defined,CODE,2146,test
+fixme accept names,REQUIREMENTS,2150,test
+fixme default res metadata names names res metadata labels labels,CODE,2151,test
+default units fixme may bad idea,CODE,2152,test
+fixme in could plots may better get users supplying xlim etc yield errors example,ALGORITHM,2155,test
+fixme used,CODE,2160,test
+fixme detect type first second line see,CODE,2161,test
+fixme next label also n2 getoption else,ALGORITHM,2163,test
+fixme probably wo nt work,DEFECT,2164,test
+fixme works extend types,CODE,2167,test
+fixme argument,CODE,2176,test
+fixme real units,CODE,2177,test
+fixme find whether always defined prior use blocks the rstudio variable used defined run test code problem variable defined what know whether files always order least setting zero value likely cause error ever occurs may need reorder code problems later prevent warning,TEST,2182,test
+fixme many times wrong,DEFECT,2184,test
+fixme slow may need use,ARCHITECTURE,2187,test
+fixme allow type arg,REQUIREMENTS,2188,test
+below using eg par find margins if user layout call give right answer plot sure right term so use trick call frame plot call plot prevent next layout trick also required set zero margins calling frame otherwise figure margins large error frame layout,DEFECT,2190,test
+ok done trick long comments given result problems errors nt want new approach get lost code,CODE,2191,test
+adjust margins fixme also alter,CODE,2192,test
+drop first header line missing value line ignore,CODE,2200,test
+remove this solution problem issue line two points might box for reason done,DEFECT,2216,test
+problems eg lat lines nt complete see also problem diagonal line see remove ugly lines occur show edge earth,DEFECT,2219,test
+fix longitude problem otherwise lines graph value sometimes alternate one end domain matrix,DEFECT,2223,test
+requires arg order fixme need reorder next bad col bad order breaks bad breaks breaks bad col col,ALGORITHM,2224,test
+fixme add,CODE,2228,test
+note part url changed get metadata file but dealing bit coding download nt think the better scheme may users move xml format instead csv format,ARCHITECTURE,2229,test
+fixme use figure avoid axis,CODE,2234,test
+fixme element element extend allow string numbers length asnumeric,CODE,2235,test
+fixme newer adp code probably better adv code,CODE,2238,test
+fixme,DEFECT,2239,test
+fixme make work etc,CODE,2245,test
+fixme decide whether slow variables,ARCHITECTURE,2246,test
+test files big looks fine manually following test file,TEST,2247,test
+fixme fails arrows,DEFECT,2248,test
+fixme,CODE,2250,test
+fixme document data type returns data frame,DOCUMENTATION,2264,test
+special trick get seconds cf,CODE,2268,test
+the depending xlim might supplied,ARCHITECTURE,2269,test
+fixme types,CODE,2274,test
+when numeric equal query table sort times limits meaningful this code required slower dates character,ARCHITECTURE,2284,test
+fixme developer sets temporary undocumented debugging,DOCUMENTATION,2287,test
+this code bit tricky modify existing pressure,CODE,2289,test
+fixme may int time,CODE,2295,test
+double resolution although perhaps needed,CODE,2307,test
+fixme maybe scan thing might work better anyway,ARCHITECTURE,2311,test
+bug handle variables interpolate flag,DEFECT,2312,test
+fixme dk sure like following since uses standardized but official source think must check unesco,CODE,2318,test
+fixmegsw add gsw version,REQUIREMENTS,2324,test
+fixme dk sometimes length sure fixme dk files,DEFECT,2339,test
+quite,ARCHITECTURE,2341,test
+why wrong is unit problem,DEFECT,2346,test
+fixme add tests data,TEST,2356,test
+fixme add tests data,TEST,2358,test
+store calls,CODE,2367,test
+todo change fixed threshold option,USABILITY,2380,test
+nocov end,TEST,2384,test
+solution applying method,CODE,2392,test
+todo should check makes sense leave user,USABILITY,2398,test
+todo using keep check fits code,CODE,2400,test
+idea should add color column color if present would take maybe could also add separate parameter specify column name color info that would function quite lot if object attribute,REQUIREMENTS,2401,test
+todo since code growing function merge internal function keep two separate functions api,DESIGN,2402,test
+todo if data try convert testing region set formats used,TEST,2404,test
+to get plot real coverage need build two elements per range one start one end note breaks todo make deal nas data set na,DEFECT,2405,test
+todo implement plot params data,REQUIREMENTS,2416,test
+parameters check todo finish checks,CODE,2417,test
+hack get past cran check length age,BUILD,2429,test
+hack get past cran check,BUILD,2430,test
+todo correct wtatage,CODE,2438,test
+for stop time varying parameters specified todo make existing time varying structure check,ALGORITHM,2444,test
+other todo change spreadsheet level find get output,ALGORITHM,2449,test
+todo sex model may want use rather separate lines sex this sex ratio context em,CODE,2450,test
+todo add,CODE,2451,test
+create empty list store weights todo could bug seq,DEFECT,2458,test
+sample om read list object write back file end running em todo use expdata rather reading file,CODE,2463,test
+todo eventually remove captureoutput uses verbose capture output,CODE,2464,test
+does nt work expected,DEFECT,2475,test
+there kind floating error causes offset value values,DEFECT,2477,test
+this nt allowed see https,DEFECT,2479,test
+keep many extra columns added used function,DESIGN,2484,test
+fixme add body column,CODE,2486,test
+ca nt overwrite namespace unless created trick add rstan stuff else get errors,DOCUMENTATION,2496,test
+fixme,CODE,2497,test
+quick hack,BUILD,2509,test
+cran nt uses full,BUILD,2520,test
+kind subsetting nt seem work earlier,ARCHITECTURE,2521,test
+reason comes files knitr somehow ends vector information,BUILD,2522,test
+show view get selected optimal view get selected,ALGORITHM,2525,test
+relative tolerance optimize no need think,ALGORITHM,2532,test
+hessian could ve case diagonal,ALGORITHM,2536,test
+let gam initialize via,CODE,2542,test
+bug raster package workaround https gisstackexchangecomquestions264133rasterbuffererrorwithpackageupdates264154,DEFECT,2552,test
+quick fix problem uk vs,DEFECT,2556,test
+sort regions table ad order may give unexpected results depending locale move style ordering,CODE,2558,test
+think equivalent two single distribution sum alpha,ALGORITHM,2577,test
+need extend levels factors nt show ugly na,CODE,2583,test
+todo add validation,ARCHITECTURE,2590,test
+todo write,CODE,2597,test
+nt necessarily need params,DESIGN,2599,test
+probably needed directly,ALGORITHM,2603,test
+todo signature approach test http,TEST,2607,test
+todo,CODE,2628,test
+todo check keep,CODE,2629,test
+todo check exists,CODE,2637,test
+todo implement something sparse matrices,REQUIREMENTS,2645,test
+todo allow maybe allow applying mixed fixedeffects predictions,REQUIREMENTS,2646,test
+todo parallel true false yield result,DEFECT,2655,test
+these tests fail can test whether still fails commented see https could help use 0l instead rate without rate,DEFECT,2656,test
+todo add test,TEST,2659,test
+keep seed constant cran skip testing cran remove test everything,TEST,2668,test
+nt match exactly moved weight changed,TEST,2669,test
+remove well,CODE,2672,test
+nocov start last updated rlang,TEST,2676,test
+todo switch improved svyquantile,CODE,2680,test
+todo switch improved svyquantile,CODE,2683,test
+bug workaround,DEFECT,2687,test
+that original code fails fix adjusted retention times see issue,DEFECT,2691,test
+todo,ALGORITHM,2700,test
+dangerous re checking correct,ALGORITHM,2710,test
+add results also fix retention times peaks want keep also latest information,TEST,2711,test
+todo data,ALGORITHM,2718,test
+would possible supply data,REQUIREMENTS,2719,test
+function mz todo missing,DEFECT,2723,test
+want plot density lag greater used model stop,REQUIREMENTS,2738,test
+todo get lambda param,CODE,2753,test
+save model outloc todo make input temp location,ARCHITECTURE,2770,test
+save model outloc todo make input temp location,ARCHITECTURE,2774,test
+todo add checks inputs valid,CODE,2780,test
+save actual values metadata todo exists parent fixed bug null,DEFECT,2781,test
+test,TEST,2787,test
+todo add input checks test options fftempdir getwd,TEST,2789,test
+world map clean may take sec two let clean ideal may move back main code maybe first time need,ARCHITECTURE,2806,test
+convenience compute sigma mu,CODE,2813,test
+fixme assumes truncation handle truncation without,DEFECT,2823,test
+package used,CODE,2829,test
+use quickanddirty way,CODE,2834,test
+parameters,DESIGN,2836,test
+todo first definition,CODE,2847,test
+fixme handled,REQUIREMENTS,2854,test
+see lines avoid fixedx errors probably needed diff lavmodel lavmodel lavpartable lavpartable lavsamplestats lavoptions lavoptions lavdata lavdata measure measure,DEFECT,2858,test
+constraints one parameter label lhs fixme handle eg b1 b2 see,DEFECT,2871,test
+todo large probably smaller functions,DESIGN,2874,test
+always ignore tail this always good good otherwise,DEFECT,2877,test
+get properties todo takes first object,DEFECT,2880,test
+coping weird test behaviour cran rdevel,TEST,2888,test
+fixme is reference still needed row col,CODE,2896,test
+todo need add fields convenience things like,REQUIREMENTS,2921,test
+put order,CODE,2922,test
+todo double check unit,REQUIREMENTS,2924,test
+hack should solved adding name generic,CODE,2927,test
+hack should solved adding name generic,CODE,2929,test
+array terrible hack diagonal,CODE,2931,test
+show todo show median var,USABILITY,2948,test
+todo check vs mat,CODE,2952,test
+check todo,CODE,2954,test
+todo check ok,DEFECT,2961,test
+for elements type,DESIGN,2962,test
+first remove entries dealing team events think ve team show certain cases could nt see need remove others case,CODE,2965,test
+ignoring gets weird,CODE,2966,test
+reduce number,ALGORITHM,2973,test
+no directed not sure would handled multiple entries ok,REQUIREMENTS,2982,test
+should change names,CODE,2998,test
+nocov end,TEST,3002,test
+nocov start,TEST,3007,test
+document need specify name null end,DOCUMENTATION,3018,test
+nocov start,TEST,3019,test
+nocov start,TEST,3021,test
+nocov start,TEST,3026,test
+nocov end,TEST,3028,test
+nocov end,TEST,3030,test
+nocov start,TEST,3031,test
+making s3 class might useful what think,DESIGN,3039,test
+work raw matrices rather class avoid matrix rep na d1 d1 d1 d1,CODE,3040,test
+kmp work eof object added temporary fix eof object field season this could result information,DEFECT,3045,test
+attempt set size automatically fails ss list,TEST,3047,test
+for reason column names newdata hence xnames used enforce names x1 x2 xnames paste sep,CODE,3054,test
+kmp changed include model is reason copy model,CODE,3056,test
+available data not run,DEFECT,3059,test
+end hack use reb,CODE,3061,test
+make sure ratio nan zero put zero back temp stupid fix,PEOPLE,3079,test
+qc fails,DEFECT,3082,test
+we nt really end,CODE,3084,test
+todo necessary seems,CODE,3092,test
+try method work good either throw error,DEFECT,3094,test
+fixme blank entries result closing tags eml written file need function set elements value null,DEFECT,3100,test
+fixme blank entries result closing tags eml written file need function set elements value null,DEFECT,3101,test
+fixme calculate precision numeric attributes added attributes template precision manually defined metadata,REQUIREMENTS,3105,test
+remaining removed fixme update look characters date time format string character set eg implement metadata quality check functions see github issue,CODE,3114,test
+change raster class coercion raster extract nb indexes slow,ARCHITECTURE,3118,test
+needs,CODE,3119,test
+manually quantile works character vectors todo what happens breaks unique test,TEST,3126,test
+todo rewrite sample data,TEST,3134,test
+otscreatetidydata fails nonexisting product code,CODE,3142,test
+otscreatetidydata fails country string,CODE,3145,test
+otscreatetidydata fails multiple country match,CODE,3147,test
+work move time,DEFECT,3150,test
+todo should add checks like na values maybe tests final samples issue nas similar,TEST,3164,test
+as tests might fail,TEST,3168,test
+fixme throw,USABILITY,3170,test
+fixme put better name basically reps data scalar median observations,CODE,3175,test
+extend levels global later,ALGORITHM,3180,test
+given potentially present exactly model fitted,TEST,3186,test
+not sure minimum set required parameters,DESIGN,3201,test
+for edit one file time,DEFECT,3205,test
+what get data,REQUIREMENTS,3214,test
+would happen one selected better handle,DEFECT,3215,test
+todo implement object list,DESIGN,3221,test
+todo maybe check islist try,CODE,3236,test
+reached line error occurred null null stop,DEFECT,3244,test
+todo nunoa allowed size warn user wait large files files size greater specified file size,CODE,3265,test
+detect used todo nunoa support,REQUIREMENTS,3272,test
+todo nunoa if one format check filename file,CODE,3280,test
+should file name matched,CODE,3281,test
+ever check,CODE,3288,test
+examples todo change examples point easy,DOCUMENTATION,3290,test
+need,ALGORITHM,3295,test
+todo this set via constructor,DESIGN,3301,test
+not needed anymore,CODE,3316,test
+fixme https allequal data2 data allequal data2 data allequal data2 data,DEFECT,3330,test
+note could done recursion elegant way let,CODE,3331,test
+remove bad words ca nt get negative working,CODE,3338,test
+have assign names manually otherwise fails one env layer,CODE,3339,test
+checking classes input args the istrue stuff needed nt know isna raster data barfing error raster passed,DESIGN,3340,test
+dismo models nt like newdata unfortunately think use statement predict really different,CODE,3341,test
+checking classes input args the istrue stuff needed nt know isna raster data barfing error raster passed,DESIGN,3342,test
+this weird hack done dismo evaluate function fails stack one layer,CODE,3345,test
+recalibrated models the trick set works whether one models recalibrated,ALGORITHM,3352,test
+hacked together handle different ways different models keep data also directly analysis df models info sampling random bg nt,ALGORITHM,3353,test
+nocov start,TEST,3364,test
+todo expression might confusing,CODE,3373,test
+todo currently test grid looks like check whether crash,TEST,3374,test
+single group supported 1l,REQUIREMENTS,3396,test
+todo check use,CODE,3401,test
+yr march using package gradient function correct good enough,ARCHITECTURE,3402,test
+parameter vector,CODE,3404,test
+nonzero rhs elements fixme,ARCHITECTURE,3408,test
+table categorical fixme ordinal cf else,CODE,3422,test
+decomposition fixme use function matrix,ALGORITHM,3428,test
+replace na override later,CODE,3433,test
+todo,REQUIREMENTS,3437,test
+create empty pattern matrix fixme one day may want use sparse matrices slow things,ARCHITECTURE,3442,test
+fixme since already decomposition reuse information instead new,CODE,3444,test
+mm belong group fixme blocks,REQUIREMENTS,3446,test
+fixme double check,DEFECT,3455,test
+fixme merge ml approach using sigma still faster delta method using delta wlsv support fixedx conditionalx ml using delta support fixedx conditionalx custom,VERSIONING,3456,test
+fixme add empty gamma,DEFECT,3457,test
+fixme also weight groups handle equality constraints yes,REQUIREMENTS,3460,test
+fixme,CODE,3467,test
+wlsv attr dropfalse cov dropfalse mean fixme fixedx fixedx conditionalx conditionalx meanstructure meanstructure conditionalx,DEFECT,3478,test
+fixme,CODE,3480,test
+fixme cov rescale yes,TEST,3483,test
+fixme using metric would much useful standardized metric need function,DEFECT,3488,test
+fixme list list delta,ALGORITHM,3489,test
+observed information order within within zero numerical approximation,CODE,3496,test
+todo current starting parameters,REQUIREMENTS,3499,test
+unused,CODE,3502,test
+unused,CODE,3506,test
+fixme test scaled need anyway,DEFECT,3509,test
+verbose,CODE,3513,test
+fixme export function since conditionalx true returns residual sample statistics ml residual categorical true residual return residual cases residual since always extract values h1 slot present meanstructure false not include mean elements longer,DESIGN,3515,test
+fixme h1,CODE,3520,test
+not used out lapply out solve fixme handle errors,DEFECT,3524,test
+fixme add,ALGORITHM,3528,test
+remove zero fixme add,CODE,3531,test
+correlation fixme go,ALGORITHM,3532,test
+fix ov within ov also appear level fixme tested levels names,TEST,3542,test
+case equal fix one,CODE,3543,test
+fixme used stop error give warning replace label fixed value,ALGORITHM,3546,test
+fixme used stop error give warning replace label fixed value,ALGORITHM,3547,test
+block combination least group level group,CODE,3550,test
+check enough indicators todo,REQUIREMENTS,3554,test
+fixedx false,DEFECT,3555,test
+fixme zero provides fit equal conditionalx false version could fix slopes,CODE,3556,test
+fixme,CODE,3560,test
+pretty printing yet,REQUIREMENTS,3574,test
+convenience fixme,CODE,3581,test
+fixme needed,CODE,3584,test
+fixme,CODE,3595,test
+case vector,CODE,3597,test
+generate fixme replace use package,CODE,3604,test
+group column add one rewrite function handle settings,CODE,3605,test
+fixme also multilevel,REQUIREMENTS,3609,test
+freq table ugly,ALGORITHM,3615,test
+fixme check models nested parameter level,ALGORITHM,3621,test
+fixme multiple groups yet,REQUIREMENTS,3636,test
+ok something looks like parameter table fixme need check redundant arguments used call redundant meanstructure fixedx,DEFECT,3643,test
+need figure ov per group fixme need efficient way avoiding,ARCHITECTURE,3644,test
+fixme warn false,CODE,3647,test
+needed,ALGORITHM,3651,test
+remove packages fixed,BUILD,3655,test
+overwrite slots better way pts se pts free 0l length pts lhs sqrt diag vcov,DESIGN,3665,test
+fails fails,TEST,3672,test
+todo basically always fails,CODE,3677,test
+todo remove weights function objects,CODE,3681,test
+case user supplies limits wrong order,CODE,3684,test
+case,CODE,3686,test
+nt really need,CODE,3689,test
+case user supplies limits wrong order,CODE,3692,test
+fixme when using model tau2,DEFECT,3701,test
+two always false leave case,DEFECT,3702,test
+case,CODE,3726,test
+fixme test missing,TEST,3727,test
+nt work,DEFECT,3736,test
+add dummy function return na,CODE,3738,test
+get old code add parse,CODE,3753,test
+todo implement constant example todo reorder vars todo try constant,CODE,3754,test
+todo replicate https,CODE,3761,test
+todo better way get version never null,CODE,3772,test
+todo exclude variables via exclude,CODE,3775,test
+todo deprecate three arguments,CODE,3783,test
+todo updating model formula,CODE,3801,test
+fails check test issue loading,TEST,3811,test
+todo current width less format identifier column,CODE,3812,test
+todo use parallelize,CODE,3828,test
+todo make input vector,CODE,3829,test
+todo save parts need inside loop,CODE,3830,test
+sample nt work surv objects,DEFECT,3832,test
+todo this moved inside pca code done scaling,DESIGN,3834,test
+todo make sure var ignore else remove,CODE,3838,test
+selected,REQUIREMENTS,3840,test
+in case prediction bounds used compute limits for store control object since gets passed,DEFECT,3843,test
+surv todo modify surv objects,CODE,3844,test
+todo used give results,CODE,3845,test
+trick cmd check trick cmd check trick cmd check trick cmd check,BUILD,3853,test
+trick cmd check trick cmd check trick cmd check trick cmd check trick cmd check,BUILD,3854,test
+to worked the outputs point include observed fitted residual residual parameter estimates standard errors parameter estimates values condition number variance factors variance decomposition,ALGORITHM,3859,test
+hack decent width error bar,CODE,3862,test
+nt think,CODE,3868,test
+single argument version supported display,REQUIREMENTS,3869,test
+todo use check whether,CODE,3882,test
+todo check compatible,CODE,3892,test
+todo improve breaks,DEFECT,3893,test
+todo make fail safe one nonexisting,USABILITY,3897,test
+todo test,TEST,3906,test
+todo will require,ALGORITHM,3907,test
+equal weights,ALGORITHM,3908,test
+prediction intervals fail testing slow leave expecttrue mm nrow mm level upper mm nrow mm level upper,ARCHITECTURE,3910,test
+base forecasts work,TEST,3914,test
+todo replace special character prefix character,CODE,3919,test
+todo produce right weight vector vector weights,DEFECT,3921,test
+returned called cat,CODE,3924,test
+large differences values,TEST,3927,test
+what impact private control flags,CODE,3929,test
+todo might need put params,CODE,3931,test
+explicitly set origin remote needed using,BUILD,3932,test
+would better base top data structure provides files root directory use printing,CODE,3936,test
+probably loaded devtools,BUILD,3937,test
+drop attributes nt want deal todo,CODE,3945,test
+not meaningful tests they good testing functions run much,TEST,3954,test
+slow tests bit fragile,ARCHITECTURE,3961,test
+copied directly import,BUILD,3966,test
+note dropped colors fixed,CODE,3969,test
+checking make sure qc labels unique qc old code delete,CODE,3974,test
+todo also override data used trace,CODE,3978,test
+based hard coded threshold,CODE,3987,test
+todo change,CODE,3988,test
+fix later,DEFECT,4000,test
+this check could though nt see we want make sure line makes sense data types user passed,CODE,4001,test
+we ca nt use asinteger index factor variable levels asinteger could give instance,CODE,4002,test
+object work around issue print group group,CODE,4003,test
+try creating even old temp dir this nt ideal would like rather say temporary directory use current one,ARCHITECTURE,4014,test
+todo objects changed,CODE,4015,test
+todo make sure unique unique,CODE,4018,test
+todo add type,REQUIREMENTS,4022,test
+cmd note,BUILD,4024,test
+also ordered expectation,CODE,4026,test
+removed,CODE,4032,test
+tested much,TEST,4033,test
+hack make sure assume values integers first values decimal point,CODE,4039,test
+nocov,TEST,4047,test
+unless first character fix needed hb,CODE,4049,test
+nothing todo,CODE,4050,test
+not needed anymore,CODE,4056,test
+nothing todo,CODE,4060,test
+not needed anymore,CODE,4063,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,4068,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,4069,test
+make report description empty hardcoded api call report metric specified save,CODE,4072,test
+hack locale every method calls apirequest hopefully works set encoding utf8 well someone wanted base64 luck,CODE,4077,test
+duplicate logic,BUILD,4080,test
+see version todo expand version,VERSIONING,4081,test
+todo nt use in single cases use requires final whole thing,CODE,4088,test
+using,BUILD,4090,test
+ad here future node yet assigned look first worker assume others hb,CODE,4103,test
+bug fix in globals global lhs assignment would,DEFECT,4112,test
+todo revisit https,CODE,4119,test
+todo factor,CODE,4120,test
+run function data,CODE,4133,test
+this workaround bug and also windows line ending characters,CODE,4138,test
+case,CODE,4143,test
+for assume somehow,REQUIREMENTS,4150,test
+nocov end,TEST,4154,test
+function reverse order tree base,CODE,4162,test
+nocov end,TEST,4172,test
+todo incorporate boxcox transformation ie box lambda lambda quantile the case lambda may case ignored flowclust,CODE,4180,test
+not working,DEFECT,4202,test
+slow,ARCHITECTURE,4204,test
+need copy files needed testing copy everything need eventually tests,TEST,4206,test
+todo allow matrices specified default matrices,REQUIREMENTS,4213,test
+works todo add processing variables variables switching,DEFECT,4215,test
+probably wo nt work,DEFECT,4217,test
+nocov end,TEST,4225,test
+future work objects nt work yet,DEFECT,4230,test
+nocov start,TEST,4231,test
+ca nt impute right,CODE,4236,test
+hotfix regions treated timing m2,CODE,4245,test
+query marginal statistics fixme handle better always return default marginal lookup,DEFECT,4251,test
+fixme names attr data add true zeros,DEFECT,4255,test
+happen,DEFECT,4260,test
+note used idea deprecated,CODE,4262,test
+needs better bounds range checking na fails,TEST,4264,test
+work fine filtering arguments missing internally sets true,CODE,4265,test
+fixme should warn characters,DEFECT,4275,test
+fixme still quite right,DEFECT,4280,test
+else singular happen,CODE,4285,test
+fixme see issue https,DEFECT,4286,test
+note bit variable vector term names weights it actual name weight function this old code,CODE,4297,test
+this workaround model,CODE,4298,test
+assuming dimnames correlation matrix may require safety check try,ARCHITECTURE,4301,test
+error index ok currently selected product nt save nocov possible interactive,TEST,4306,test
+nocov end,TEST,4313,test
+nocov end,TEST,4316,test
+nocov end,TEST,4324,test
+currsign asmatrix results selectedvars case signature slot returned due lack memory see internalses final part,ARCHITECTURE,4332,test
+id actually factors id original dataset risky,ARCHITECTURE,4339,test
+model fixme add support,REQUIREMENTS,4345,test
+todo if colnames rownames found fill nas this behaviour list rna rna todo determine use,DEFECT,4346,test
+project twice sure,ALGORITHM,4355,test
+nocov end,TEST,4359,test
+nocov,TEST,4371,test
+set default type none provided nocov start,TEST,4374,test
+nocov,TEST,4376,test
+nocov,TEST,4378,test
+call packages file already exists empty true field present existing packages file,CODE,4383,test
+lag stats lag nt work dplyr lag,DEFECT,4385,test
+note check done issues empty tabix files,CODE,4387,test
+split data todo allow user supply like argument split either single value or vector,REQUIREMENTS,4388,test
+todo test hyperparameter optimization,TEST,4391,test
+need cleanup future tests nt fail use object,TEST,4392,test
+hack classes,DEFECT,4395,test
+uncorrected for purposes,DEFECT,4402,test
+make object,CODE,4403,test
+work around changes,DEFECT,4406,test
+elegant way switching strings logical values,CODE,4414,test
+trick start naming nodes,CODE,4417,test
+year fixme check month day hour min sec,DEFECT,4425,test
+fixme fastslow,ARCHITECTURE,4429,test
+fixme decide,REQUIREMENTS,4430,test
+fixme ok extend data edges,ALGORITHM,4437,test
+fixme variants argument list,CODE,4448,test
+may fixme sontek adv transformation matrix equal units vector sontek serial number transformation matrix rbind transformationmatrix rbind,ALGORITHM,4450,test
+fixme it would better deal binary file format unclear fixme two files available differ matching fixme sontek documentation,CODE,4452,test
+fixme always work,DEFECT,4459,test
+it connection ie file ever happen,CODE,4460,test
+could find maybe form make,ALGORITHM,4462,test
+fixme guess scale,REQUIREMENTS,4470,test
+ensure fixme check equal values,CODE,4475,test
+use case avoid getting eg view two fixme kludge avoid weird lines fixme would better complete polygons fixme filled it might smart,CODE,4478,test
+fixme nt use optimize method use well maybe try sort think method best note issue tol set,CODE,4479,test
+fixme wrong formulae,DEFECT,4497,test
+fixme next tests fail store ahrs array,TEST,4500,test
+zlim next call ignored fixme add test first,TEST,4503,test
+fixme add tests data,TEST,4504,test
+we test early test machine version coding error using undefined variable named nas cause failure build,TEST,4506,test
+temporary hack call two separate times,CODE,4509,test
+todo adjust algorithm labels fall todo implement vertical label labels plot,ALGORITHM,4519,test
+todo add ability turn options script for provide error,REQUIREMENTS,4525,test
+error create fails even though nt exist,DEFECT,4534,test
+modify namespace output,DESIGN,4535,test
+nonbreaking spaces differently spaces things decimal so end spaces nonbreaking,CODE,4539,test
+works around bug,CODE,4540,test
+todo,CODE,4549,test
+todo rcpp,ARCHITECTURE,4552,test
+define word lists enough data file around much nt work ca nt word list due code left though get include word lists future,DEFECT,4555,test
+number summary todo,CODE,4560,test
+todo make way,CODE,4561,test
+todo make optional argument function replace dummy indicators single sum,REQUIREMENTS,4563,test
+use lm instead,CODE,4572,test
+use lm instead,CODE,4573,test
+fix metadata always calculate later,CODE,4576,test
+todo add,ALGORITHM,4586,test
+what else tested,TEST,4587,test
+select best model remove others need to edit this,ALGORITHM,4588,test
+clean todo,USABILITY,4594,test
+todo incorporate indexes,CODE,4595,test
+todo replace make relative positions,CODE,4598,test
+todo test scores test prediction,TEST,4600,test
+file exist older day download working seem update,DEFECT,4606,test
+intended testing design might change,TEST,4627,test
+todo check,CODE,4637,test
+hack clean fixed list elements named vectors,CODE,4638,test
+sure yet,CODE,4643,test
+todo expand aperm flpars,REQUIREMENTS,4646,test
+todo unlist column,CODE,4654,test
+the sequence option numbers if last test worked test work,TEST,4656,test
+nocov end,TEST,4663,test
+ratio the problem denominator close zero abs kmp removed abs made reference data denominator,TEST,4666,test
+workaround server wo nt give time steps,CODE,4670,test
+remember put null,CODE,4672,test
+if possible detect debug on error not set rstudio if skip warning case rstudio console override error,REQUIREMENTS,4675,test
+ad hoc needed instance xml attached,CODE,4676,test
+fixme remove may,CODE,4681,test
+clean templates na values users often add nas templates this removes nas nt note value listed field interpreted templates input files in inputs supplied argument isna returns true values field nas converted todo move process,DESIGN,4682,test
+class numeric attributes units units defined fixme this check report invalid content templates first,DESIGN,4693,test
+fixme remove next line code table attributes categorical variables single templates ie,CODE,4694,test
+todo use import avoid errors,CODE,4697,test
+handle factor fixme numeric,DEFECT,4703,test
+with code still possible provide incorrect parameter not sure,DEFECT,4711,test
+one trick test locally,TEST,4715,test
+work around special scheme,CODE,4719,test
+stop one exception happen whole following code full horrible stuff change parallel really design horrible stopcluster work called via stopcluster null default cluster envir assign gets set null via s3 stopcluster also throw exception none registered great apparently way whether one registered,ARCHITECTURE,4730,test
+todo numbers,CODE,4735,test
+check required inputs check names silly input null,CODE,4736,test
+note the index not ideal get characters,CODE,4751,test
+assume always return thresholds first correlations later add working true option,CODE,4756,test
+fixme also,CODE,4761,test
+initial matrix check init ok number random row weighting rescale ov ov variances show warnings show iterations used sign order lv stopping tol stopping tol others store max iterations,REQUIREMENTS,4771,test
+fixme better include,CODE,4782,test
+needed probably case,CODE,4783,test
+fixme true depends,REQUIREMENTS,4790,test
+fixme,REQUIREMENTS,4791,test
+override,CODE,4796,test
+multilevel override,CODE,4797,test
+fixme,CODE,4803,test
+needed,CODE,4818,test
+fixme delta,CODE,4823,test
+todo allow h1 either model syntax parameter table fitted lavaan object,CODE,4826,test
+multilevel,REQUIREMENTS,4828,test
+store mm fits output,ALGORITHM,4831,test
+todo simplified every time mess gives,CODE,4835,test
+todo check computations userdefined weights,REQUIREMENTS,4837,test
+todo allow vector different scaled differently,REQUIREMENTS,4840,test
+select correct hessian depending components model fixme nt quite right since diag id element fixed also exclude fact fixed elements filtered,ALGORITHM,4841,test
+ignore,REQUIREMENTS,4849,test
+todo,CODE,4852,test
+todo remove packages project library,DESIGN,4853,test
+todo different legend options fill one legend option apply fill,TEST,4863,test
+todo use column names output,CODE,4865,test
+fails unknown expectequal waic,TEST,4875,test
+todo save parts need inside loop,CODE,4882,test
+todo constraint let length,ALGORITHM,4889,test
+need double,CODE,4890,test
+hack decent width error bar,CODE,4893,test
+fixme good strategy,ALGORITHM,4900,test
+todo store individual object files instead make easier add different existing directory however makes,REQUIREMENTS,4902,test
+something strange factors reported workaround,DEFECT,4903,test
+someone windows might know better way determine packages need parallel workers,ARCHITECTURE,4905,test
+this code pretty ugly there probably better way,CODE,4906,test
+deal with numbers definition possible future to be able to evaluate modules defined in terms other modules,REQUIREMENTS,4908,test

@@ -1,0 +1,409 @@
+project,sha,text,label,indicator,document_index,subset
+druid,1fb9b21cf0c5206e1f8ccf6ea1d5f771157488e3,async servlet delete support + cleanup,code_debt,low_quality_code,1,test
+kafka,50cd85538580c9c9833ad957d64d39953c124374,"HOTFIX: Fix lgtm.com alerts (dead code and out-of-bounds error) (#4388)
+This fixes two alerts flagged on lgtm.com for Apache Kafka.
+This dead code alert where InvalidTypeIdException indirectly extends JsonMappingException. The flagged condition with the type test appears after the type test for the latter and thus makes its body dead. I opted to change the order of the tests. Please let me know if this is the intended behavior.
+The second commit addresses this out-of-bounds alert.
+More alerts can be found here. Note that my colleague Aditya Sharad addressed some of those in the now outdated #2939.",code_debt,dead_code,3,test
+ambari,590a2e249c24d64d5864a24846436adc7575b72c,AMBARI-11784. Perf Cluster: Save configurations of Config Group takes 40s. (mpapirkovskyy),code_debt,slow_algorithm,10,test
+lucene-solr,e1560a8e8101156a56741a9fd073d91306ba36bb,LUCENE-3484: Fix NPE in TaxonomyWriter: parents array creation was not thread safe.,requirement_debt,non-functional_requirements_not_fully_satisfied,13,test
+incubator-pinot,8544ccf0ffbdf8d9fe354497af4023f1344cdf1e,"Remove redundant data member from BaseOperator class. (#1003)
+Remove the _operatorName data member from this class, and replace it
+with getOperatorName() method call. This avoids storing the information
+in multiple places.",code_debt,dead_code,15,test
+hudi,9884972a3a1d1158b657e2f012a886b319f99002,[MINOR] Remove old jekyll config file (#1198),code_debt,dead_code,16,test
+tinkerpop,8ec49c433ae472116853df12247fa903e41f958d,PathFilterStep now support by() modulation. Removed unneeded CyclicPathStepTest and SimplePathStepTest.,code_debt,dead_code,18,test
+cxf,515e4ccf7c2c36a52cf209d083f33604635bdd27,simplified key names and handling,code_debt,non-optimal_design,22,test
+tinkerpop,762f6b229925d407390e78d587ef98863205c870,"TINKERPOP-1478 Fixed memory leak and proper redirection of output in GremlinGroovyScriptEngine
+These were bugs identified in Groovy and fixed some time ago, but given that GremlinGroovyScriptEngine is based on that class and doesn't directly use it, those fixes were never in place for it. CTR",code_debt,low_quality_code,30,test
+usergrid,ee79e9a1c2e9d32145cc1e912830b94309e99a96,cleanup,code_debt,low_quality_code,32,test
+hadoop,da777a5498e73f9a44e810dc6771e5c8fe37b6f6,HDFS-13251. Avoid using hard coded datanode data dirs in unit tests(addendum). Contributed by Ajay Kumar.,code_debt,low_quality_code,37,test
+flink,437763bbb2bb9b4874ba1784607088bf2917f8d3,[FLINK-15629][runtime] Remove the unused param ‘restartStrategyFactory’ from SchedulerNGFactoryFactory#createSchedulerNGFactory(…),code_debt,dead_code,40,test
+trafficserver,2cc34f84a8ab3a584f16e117f1b00567a378d705,AcidPtr: Tweaks tests to be a bit more robust.,test_debt,flaky_test,55,test
+druid,92afd1094750dbcdb08b34f94fbfe9789331788c,simplify SQL metadata storage,code_debt,complex_code,62,test
+bigtop,a66540ef5ca56d940d9c71d5fa8dcfb64eaac671,"BIGTOP-1684: Make container executor configurable
+Make options for container executor configurable and work around the
+executor crashing at startup if banned_users is not set at all. See
+https://issues.apache.org/jira/browse/YARN-2847. Also synchronise
+yarn.nodemanager.linux-container-executor.group setting in yarn-site.xml
+with what's actually used in the filesystem and container-executor.cfg.",code_debt,non-optimal_design,67,test
+druid,96a387d972ba69ab92f95ebf75bfb03cd9bb5807,"Fixes and tests related to the Indexer process. (#10631)
+* Fixes and tests related to the Indexer process.
+Three bugs fixed:
+1) Indexers would not announce themselves as segment servers if they
+   did not have storage locations defined. This used to work, but was
+   broken in #9971. Fixed this by adding an ""isSegmentServer"" method
+   to ServerType and updating SegmentLoadDropHandler to always announce
+   if this method returns true.
+2) Certain batch task types were written in a way that assumed ""isReady""
+   would be called before ""run"", which is not guaranteed. In particular,
+   they relied on it in order to initialize ""taskLockHelper"". Fixed this
+   by updating AbstractBatchIndexTask to ensure ""isReady"" is called
+   before ""run"" for these tasks.
+3) UnifiedIndexerAppenderatorsManager did not properly handle complex
+   datasources. Introduced DataSourceAnalysis in order to fix this.
+Test changes:
+1) Add a new ""docker-compose.cli-indexer.yml"" config that spins up an
+   Indexer instead of a MiddleManager.
+2) Introduce a ""USE_INDEXER"" environment variable that determines if
+   docker-compose will start up an Indexer or a MiddleManager.
+3) Duplicate all the jdk8 tests and run them in both MiddleManager and
+   Indexer mode.
+4) Various adjustments to encourage fail-fast errors in the Docker
+   build scripts.
+5) Various adjustments to speed up integration tests and reduce memory
+   usage.
+6) Add another Mac-specific approach to determining a machine's own IP.
+   This was useful on my development machine.
+7) Update segment-count check in ITCompactionTaskTest to eliminate a
+   race condition (it was looking for 6 segments, which only exist
+   together briefly, until the older 4 are marked unused).
+Javadoc updates:
+1) AbstractBatchIndexTask: Added javadocs to determineLockGranularityXXX
+   that make it clear when taskLockHelper will be initialized as a side
+   effect. (Related to the second bug above.)
+2) Task: Clarified that ""isReady"" is not guaranteed to be called before
+   ""run"". It was already implied, but now it's explicit.
+3) ZkCoordinator: Clarified deprecation message.
+4) DataSegmentServerAnnouncer: Clarified deprecation message.
+* Fix stop_cluster script.
+* Fix sanity check in script.
+* Fix hashbang lines.
+* Test and doc adjustments.
+* Additional tests, and adjustments for tests.
+* Split ITs back out.
+* Revert change to druid_coordinator_period_indexingPeriod.
+* Set Indexer capacity to match MM.
+* Bump up Historical memory.
+* Bump down coordinator, overlord memory.
+* Bump up Broker memory.",test_debt,expensive_tests,68,test
+hbase,191afc8eb1cd9457242773606cfbf732f17449ec,HBASE-16680 Reduce garbage in BufferChain,code_debt,dead_code,77,test
+trafodion,cd8f2fafcc353bf903feeeb660dd7ba39345452b,[TRAFODION-2984] Remove redundant statement,code_debt,dead_code,80,test
+spark,b8733e0ad9f5a700f385e210450fd2c10137293e,"[SPARK-20606][ML] ML 2.2 QA: Remove deprecated methods for ML
+## What changes were proposed in this pull request?
+Remove ML methods we deprecated in 2.1.
+## How was this patch tested?
+Existing tests.
+Closes #17867 from yanboliang/spark-20606.",code_debt,dead_code,84,test
+jmeter,9560246848a56eaee1f5ecf794f99fd4f49dda09,Redundant type argument,code_debt,low_quality_code,89,test
+trafficcontrol,e4c776c931e2e8a019f0e4dfba835e98b371049f,"Merge pull request #1246 from dneuman64/master
+remove unused imports",code_debt,low_quality_code,107,test
+attic-stratos,8611124529b2e047cb27e19a1083d9578df9f2ea,Fixed hard coded strings in stratos-installer setup.sh script,code_debt,low_quality_code,108,test
+trafficserver,78acb3ab129449bc578dc1fc692083af1bdaa0ed,"TS-4196: Memory leak from main_thread on shutdown
+This closes #467",code_debt,low_quality_code,109,test
+trafficcontrol,f0413d1313e405778213811dc46b29d3663475b1,"Change TM2 manager params to be multiline
+Changes function definitions and calls to put each param on its own
+line. These managers have a large number of parameters. This makes it
+easier to read, and makes diffs better.
+Fixes #2012",code_debt,non-optimal_design,116,test
+lucene-solr,21388e0e3720d4e32671a5400bdcd56516ecc4e5,LUCENE-4666: Simplify CompressingStoredFieldsFormat merging.,code_debt,complex_code,128,test
+systemds,8dc2cbe96dd92635e097d60d221565ba30a1c7d4,"73744: CSV performance - Improved text serialization mr csv write (output writable, dense/sparse/empty serialize)",code_debt,slow_algorithm,129,test
+dubbo,cc79b22e2b02276d0d016da25d8f4da8557ebb77,    #1689: Enhance the test coverage part-10 : dubbo-plugin module (#1976),test_debt,low_coverage,141,test
+spark,9a5071996b968148f6b9aba12e0d3fe888d9acd8,"[SPARK-15953][WIP][STREAMING] Renamed ContinuousQuery to StreamingQuery
+Renamed for simplicity, so that its obvious that its related to streaming.
+Existing unit tests.
+Closes #13673 from tdas/SPARK-15953.",code_debt,low_quality_code,142,test
+lucene-solr,80fe00ba18ac1f834028eb0064115a00bafe1f20,LUCENE-7099: improve test to exercise searchAfter,test_debt,low_coverage,143,test
+beam,c32842b2f08f8a2fdac0375097022df8776ed3af,"[BEAM-5600, BEAM-2939] Add SplittableParDo expansion logic to runner's core.
+Update Flink, Spark, and Samza to use it removing the unnecessary expansion within the Python portable runner.",code_debt,dead_code,157,test
+accumulo,135d08f16496e0d8ab0114885adbd1b45d5da84f,ACCUMULO-1111 - fixed infinite loops clobering the stack,code_debt,non-optimal_design,158,test
+camel,7ce3951a30ed0da39685ae1350b763e5e8e9bcba,Added an unit test based on a stackoverflow question,test_debt,lack_of_tests,171,test
+incubator-pinot,d6e37665863bdbe10138d730f00200cbcd2e0c1b,"Fix the flakiness of OfflineClusterIntegrationTest (#1700)
+With multiple servers, there is no way to check and guarantee that all servers get all segments reloaded, which cause the flakiness of the tests.
+To fix that, in OfflineClusterIntegrationTest, only start one server.
+Added a MultiNodesOfflineClusterIntegrationTest to keep the same coverage for multiple brokers and multiple servers.",test_debt,flaky_test,172,test
+incubator-heron,4de82e38382a71bb8c435c39a2a36fcf1edaf71a,coding style,code_debt,low_quality_code,176,test
+cloudstack,dda47dbd67a45053f2700f5ed1784b0403af3316,"package.sh: cleaning up formatting
+No logic changes made. Tested no syntax errors added.",code_debt,low_quality_code,180,test
+camel,bf7a5bc352b157223cc4927e53394c0ef23c4f15,CAMEL-6782: Polished.,code_debt,low_quality_code,182,test
+daffodil,bcfb14dad65d3abd97514a6dedb974f1cc3e8a60,"Test AI on lengthKind pattern now works, however, it uses features that
+are not yet implemented (string padding/trimming), so a few things were
+added to make it work. It still exercises lengthKind pattern, it just
+dodges the padding/trimming by using initators/terminators to deal with
+the padding.
+Rewrote AI as a self-contained TDML test file in tresys-contributed,
+deleted the old one.",requirement_debt,requirement_partially_implemented,183,test
+groovy,5c83fe519f348aa95367ee2e907a8122adcfa492,"Remove redundant wiki manipulation code, amend Maven 1 build to remove references to the code, and to the dependent jars.",code_debt,complex_code,185,test
+tinkerpop,5040b54449d0786f2e6a3127851fc42252162257,"Changed some spark-gremlin tests to integration tests.
+This change cuts the build time in about half on my system. Dicussed here https://lists.apache.org/thread.html/7a37a3967ad15e8cd30a2bc29e15bf266f44df040f482f94e09b1e8e@%3Cdev.tinkerpop.apache.org%3E CTR",test_debt,expensive_tests,192,test
+cloudstack,136505b22cd5cefa9c04faeb2dc305f7d653cf69,"server: double check host capacity when start/migrate a vm (#3728)
+When start a vm or migrate a vm (away from a host in host maintenance), cloudstack will check capacity of all hosts and choose one. If there are hundreds of hosts on the platform, it will take some seconds. When cloudstack choose a host and start/migrate vm to it, the resource consumption of the host might have been changed. This normally happens when we start/migrate multiple vms.
+It would be better to double check the host capacity when start vm on a host.
+This PR includes the fix for cpucore capacity when start/migrate a vm.",code_debt,non-optimal_design,204,test
+bigtop,d753304347c3dfdb5090379d1a951aed34fc4129,BIGTOP-260. Mahout puppet module needs to be implemented,requirement_debt,requirement_partially_implemented,205,test
+spark,0bd1d00c2ab75c6133269611d498cac321d9d389,minor cleanup based on feedback in review request,code_debt,low_quality_code,206,test
+flink,7c10f5d55d4ef4c6ce6cccf1bc82dc0f8d6216bf,Fixed possible resource leak in checkpoint's write thread,code_debt,non-optimal_design,209,test
+beam,4dec940ad386412574eac553c89d25049483630b,Make grpc dependency optional.,code_debt,low_quality_code,212,test
+storm,044e01542fe07326de26365e022dcd8193891c04,[MINOR] remove some unused fields and correct comment typo,code_debt,dead_code,213,test
+infrastructure-puppet,1eeea6c877eb59371adca52854d4c575754f0a6f,typos,documentation_debt,low_quality_documentation,221,test
+spark,3c686708d52fd0d6f35da23d0c20e7cd35241edf,"[SPARK-34220][ML] BucketedRandomProjectionLSH transform optimization
+### What changes were proposed in this pull request?
+use GEMV instead of DOT
+### Why are the changes needed?
+1, better performance, could be 20% faster than existing impl
+2, simplify model saving
+### Does this PR introduce _any_ user-facing change?
+No
+### How was this patch tested?
+existing testsuites
+Closes #31313 from zhengruifeng/random_project_opt.",code_debt,complex_code,225,test
+kafka,cd427c9b905c161a6b135504dc515515de6a6438,"MINOR: Upgrade to Gradle 2.13
+There are a few improvements in 2.12 and 2.13. I am particularly interested in the performance improvements:
+* 2.12: ""This release brings support for compile only dependencies, improved build script compilation speed and even better IDE support.""
+* 2.13: ""We've achieved performance improvements during Gradle's configuration and execution phase, where we have measured up to 25% improvements to build time in our performance tests. No changes to your build script are necessary to start taking advantage of these improvements.""
+Closes #1271 from ijuma/gradle-2.13",code_debt,slow_algorithm,226,test
+accumulo,b2fbc06e7bb3f3718ec0c85710fd28736490e9d3,"ACCUMULO-2994 Add explicit prefixes for iterator scopes and remove unnecessary configuration parsing.
+When reading the Accumulo configuration, all configuration entries for all scopes were read. This
+is highly unnecessary as all that was done was to warn against invalid table properties. Instead,
+we can use the provided IteratorScope to explicitly pull out just the data that is needed from
+the configuration, to reduce this processing.",code_debt,low_quality_code,227,test
+geode,9081128bb37abb46ea298b87400a4c84e9615d3b,"GEODE-2194: Fix Pulse webapp context
+* Pulse no longer has redundant URLs like http://localhost/pulse/pulse/pulseVersion
+* this closes #335",code_debt,non-optimal_design,236,test
+groovy,9737d1a947e38cb7e5181871cf214fd1c89a1e17,fix typos,documentation_debt,low_quality_documentation,240,test
+qpid-dispatch,80b592165a3a8fc76db40e088350b75e5f41fcc8,DISPATCH-966 - Improved logging in the router engine so long bodies don't cause back-traces to be truncated.,code_debt,low_quality_code,244,test
+arrow,76033f481fb6946184dbf99c064206eb9889a867,"ARROW-2918: [C++] Improve formatting of Struct pretty prints
+cc @kszucs
+Closes #2327 from xhochy/ARROW-2918 and squashes the following commits:
+22b9a313 <Korn, Uwe> ARROW-2918:  Improve formatting of Struct pretty prints",code_debt,low_quality_code,248,test
+hadoop,7a88f45366722932211514a9ce0c13492a0bd576,YARN-10536. Client in distributedShell swallows interrupt exceptions (#2554),code_debt,low_quality_code,249,test
+hadoop,40d56f1741bd5ab51bcae600e959c6e02f04421a,HDFS-3894. QJM: testRecoverAfterDoubleFailures can be flaky due to IPC client caching. Contributed by Todd Lipcon.,test_debt,flaky_test,250,test
+pulsar,153b79703ac979012763d93f537f48520e73d1ea,"Templatize resources page (#1041)
+* templatize resources page
+* change title of page to Resources
+* add missing license headers
+* add more license headers
+* s/creator/co-creator",documentation_debt,low_quality_documentation,262,test
+cloudstack,6baa598033fa3f78b5b0144275de8c1404f67f29,Clean up inactive iscsi sessions when VMs get moved due to crashes (#3819),code_debt,non-optimal_design,272,test
+camel,f890e5511bd5972d9802ac11b4c27a2bd79cdefd,CAMEL-1834: Message content sent to exception handler should be re-readable,code_debt,low_quality_code,276,test
+myfaces-tobago,30514f1cf5dd83eece9add59815c79a99e425d0e,"implement the Next/Previous Button with the ""Navigation.java"" Class. The old PresentationController and SychronizeNavigationPhaseListener are no longer needed.",code_debt,dead_code,280,test
+cloudstack,2547fc1f6ad6a0a82e4994b0285d86c651d990e8,More error logging to apis,code_debt,low_quality_code,281,test
+geode,32cadc2e0bf75f4ca265c3f55897434d1d0f7035,"GEODE-7885: Improve RedisLockService - fix synchronization and memory leak (#4819)
+* GEODE-7885: Improve RedisLockService - fix synchronization and memory leak
+- RedisLockService was not able to automatically free keys/locks after
+  unlocking since keys were also beging referenced in regions.
+- Fix synchronization while iterating over keySet to avoid
+  ConcurrentModifiactionExceptions.",code_debt,non-optimal_design,284,test
+trafficcontrol,48bf896b3b908afe2a8c994ff9bcd4e9362f60d8,Remove unused wicket components from Traffic Monitor,code_debt,dead_code,292,test
+skywalking,cf6721d7157823154b9733144f602cfabaea3d5f,Moved hardcoded dependency versions to properties tag in pom.xml (#1582),code_debt,low_quality_code,294,test
+groovy,76ccd51c8989b83a55e1eb131dbd541cd92944c3,remove code for old parser,code_debt,dead_code,297,test
+incubator-doris,04cfcf6c3643f36ab2ce9d61394d59e24b8a3fd2,"Update fe-idea-dev.md (#4852)
+* Update fe-idea-dev.md
+use `brew install thrift@0.9` to install thrift 0.9.3.1
+`brew edit thrift090 | head` shows thrift@0.9 uses thrift 0.9.3.1
+Future<?> submit(Runnable task)
+Submits a Runnable task for execution and returns a Future representing that task. The Future's get method will return null upon successful completion.",code_debt,low_quality_code,304,test
+servicecomb-java-chassis,e20b167ff83f4293750f101795bdad8f8fd15bb0,[SCB-928] simplify the implementation of SwaggerParamCollectionFormat.joinParam(),code_debt,complex_code,314,test
+brooklyn-server,df5debec58857e1dff10bda3221fcc066f7edd41,"CommonCommands.downloadUrlAs improvements
+- Cleans up CommonCommands.downloadUrlAs to support passiong in
+  multiple URLs (to try each until one works), and for use in more
+  simple download scenarios
+- Adds tests",code_debt,non-optimal_design,318,test
+cloudstack,d1def0a73071f0c2ba18a13a6e9cf8d91f3ed20b,"Merge pull request #1287 from DaanHoogland/securityrules-cleanup
+SecurityGroupRulesCmd code cleanupWrote a test and cleaned some duplicate code with the objective to evaluate the jenkins pull request process at builds.a.o
+worthwhile to keep, IMHO.
+* pr/1287:
+  SecurityGroupRulesCmd code cleanup review comments handled
+  deal with PMD warnings
+  code cleanup
+  security rules test
+  remove autogenerated pydev files",code_debt,low_quality_code,328,test
+tomee,9592de4f04f0a13e50b013bab2a35e752ac6b1b4,TOMEE-183 enhancing logging,code_debt,low_quality_code,338,test
+fluo,7b25d1527b9957185959c48614ab3ecf221a17d6,"Fix javadoc memory issues with Travis-CI (#1051)
+* Unset _JAVA_OPTIONS environment, which may (?) interfere with the
+  default settings of certain Maven plugins, and causes the build to run out
+  of memory and be killed by the Travis host.
+* Clean up bad license header formatting
+* Remove IRC notifications (nobody lurks in IRC anymore, so these aren't useful)
+* Build against current latest Accumulo 1.9.2
+* Clean up matrix build (make build args relationship with the build script more clear)
+* Use sudo with travis-ci",code_debt,low_quality_code,340,test
+cxf,b3288ed94bd6518780839a6b9716c64575c68073,[CXF-5577] Initial workaround for the edge case involving matrix parameters,code_debt,non-optimal_design,343,test
+beam,da9432b197207ab39edc6cb720286a81153b6d3b,"[BEAM-5324] Partially port unpackaged modules to Python 3 (#6424)
+* Partially port unpackaged
+* Remove legacy code",code_debt,dead_code,345,test
+myfaces-tobago,d41fb937e06b580376706c0e5403ea30c3363a5f,"TOBAGO-1782: Clean up
+* demo",code_debt,low_quality_code,356,test
+brooklyn-server,7b138460e8b83c953163246e79197e0bd168a0a7,"Remove unnecessary annotation.
+https://github.com/apache/incubator-brooklyn/pull/1030#discussion_r44859924",code_debt,low_quality_code,365,test
+fineract,a65c15a09b31c82c361dd550a04850898bd1c7d7,minor clean up,code_debt,low_quality_code,373,test
+brooklyn-server,6604f7a9d7deefedce0283e20d883563dc7e366d,"Refactor JcloudsRebindWithYamlDslTest
+Remove duplication from JcloudsRebindWithExternalConfigTest, creating
+common abstract super-type.",code_debt,duplicated_code,376,test
+lucene-solr,2507c42b3c07b2c40d013d38ef7bd579aa730630,remove dead code,code_debt,dead_code,379,test
+camel,2ad84753e3e67fdc5e6a01ab66a85c0348f99874,Polished javadoc.,documentation_debt,low_quality_documentation,387,test
+beam,6eeed6954665eecf6aef317f5602ddd3cb829809,"Merge pull request #11401 from ibzib/performance-region
+[BEAM-9744] Add missing region option to py perf tests.",test_debt,low_coverage,395,test
+arrow,4923018b339dcc702dda57938859b8192b4f3f67,"PARQUET-463: Add local DCHECK macros, fix some dcheck bugs exposed
+I was also able to remove the `-Wno-unused-value` compiler flag. Removing `-Wno-unused-variable` will have to take place in another patch (more work required).
+Closes #67 from wesm/PARQUET-463 and squashes the following commits:
+da3afb2 [Wes McKinney] Fix signed-unsigned comparisons inside dchecks
+a1ca479 [Wes McKinney] Remove -Wno-unused-value
+0b49cc6 [Wes McKinney] Adapt simple dcheck macros from Kudu, fix dcheck failures",requirement_debt,requirement_partially_implemented,398,test
+pulsar,26c462625483ef0e0fa3c74bca6e84a3f569115b,"Refactored handling of zero-queue consumer into separate subclass (#3615)
+### Motivation
+Simplified `ConsumerImpl` code by factoring out a bunch of if/else statements into a specialized subclass implementation.",code_debt,complex_code,400,test
+lucene-solr,dc4450207f30642b6f5305f354f2602084865b96,remove dead code: Document.getFields(String) cannot return null,code_debt,dead_code,402,test
+camel,2b12e0c1de4005c0d92e2362913dc251b41ec394,CAMEL-8753: camel-twitter allow to configure http proxy on component level. Remove not in use options. Component docs.,code_debt,dead_code,419,test
+jmeter,364aa27c3473432c0f77e42d08f47b2667e22a35,Unnecessary,code_debt,low_quality_code,423,test
+arrow,b7befeb7c9e34d86b7341ba4d8710104f42efc0b,"ARROW-1132: [Python] Unable to write pandas DataFrame w/MultiIndex containing duplicate values to parquet
+Closes #768 from cpcloud/ARROW-1132 and squashes the following commits:
+4b42f643 [Phillip Cloud] Add test for parquet roundtripping with dups
+49684fd1 [Phillip Cloud] ARROW-1132: [Python] Unable to write pandas DataFrame w/MultiIndex containing duplicate values to parquet",code_debt,duplicated_code,426,test
+beam,95308fbbfa3accc5a1be5c87db729bcc41255156,Turn on failOnWarning and ignore unused runners modules in example.,code_debt,non-optimal_design,427,test
+shardingsphere,10ed541adb1999b9d16406f75321d9fdec8b6c0a,#1363 for checkstyle.,code_debt,low_quality_code,428,test
+lucene-solr,243db2c37687140f1c9409dd614d1a2eb3200c06,tests: more logging,code_debt,low_quality_code,431,test
+beam,a4813971fc6b5e8734a204eb114842cc27d6d902,"Disable two flaky tests (BEAM-8035, BEAM-9164)",test_debt,flaky_test,432,test
+cloudstack,19a290500e17765a67eddc0d61769e483ee3d7f7,"cli: Import project info from config in setup.py, fix debug msgs
+lsdfjk",code_debt,low_quality_code,437,test
+lucene-solr,ea864b43a321b6e02a32fd043ea646adcb614351,"SOLR-13659: Remove unused SolrCacheHolder
+accidental leftover from reverted plugin work",code_debt,dead_code,441,test
+nifi,728bdec0f480e5585809ea7f841eee38b2ddab84,NIFI-7339: Fixed bug that caused Write Ahead Provenance Repository not to rollover event files after specified time. Code cleanup. Updated some default properties.,code_debt,low_quality_code,448,test
+camel,0a408e8a4355a6af841c274d2c5deab196fbb19c,Fixed spelling,documentation_debt,low_quality_documentation,449,test
+arrow,6aed18f965bea60580e80b086dd72857546abea2,"ARROW-619: [Python] Fixed remaining typo for LD_LIBRARY_PATH
+Typo with LD_LIBRARY_PATH in install documentation.
+Closes #376 from BryanCutler/pyarrow-install-typo-ARROW-619 and squashes the following commits:
+e38b588 [Bryan Cutler] fixed typo for LD_LIBRARY_PATH",documentation_debt,low_quality_documentation,452,test
+cxf,19df11408474887ece06f1c0f0802442f13a4be7,added more annotations,documentation_debt,low_quality_documentation,458,test
+hbase,f5b90fcc442d031af5793b7d57f4c2c4ae5a652c,"HBASE-24479: Deflake TestCompaction#testStopStartCompaction (#1820)
+Polling of active compaction count is racy. Tightened the asserts
+to be more reliable.",test_debt,flaky_test,464,test
+arrow,babb24ee778921ba9c434df495c4b081b4ce91eb,"ARROW-7478: [Rust] [DataFusion] Group by expression ignored unless paired with aggregate expression
+In addition to the change fixing the missing group by expressions, there were some code style changes that fixed some clippy warnings.
+Closes #6115 from kyle-mccarthy/ARROW-7478 and squashes the following commits:
+172bfa5c1 <Kyle McCarthy> Merge branch 'master' of github.com:apache/arrow into ARROW-7478
+64e4e62ed <Kyle McCarthy> Fix: Missing Group by exprs",code_debt,low_quality_code,465,test
+couchdb,3aae90035343ac6329bc0cfe0f71e80e8e1c9051,"Minor cleanup thanks to Joel Clark.
+Closes COUCHDB-669",code_debt,low_quality_code,467,test
+incubator-mxnet,993be59c8b1a1066daf21a3dbc3c92f8a57ab5cc,simplify model a bit with data IO api,code_debt,complex_code,468,test
+spark,36d3dfa59a1ec0af6118e0667b80e9b7628e2cb6,"[SPARK-15783][CORE] still some flakiness in these blacklist tests so ignore for now
+## What changes were proposed in this pull request?
+There is still some flakiness in BlacklistIntegrationSuite, so turning it off for the moment to avoid breaking more builds -- will turn it back with more fixes.
+## How was this patch tested?
+jenkins.
+Closes #13528 from squito/ignore_blacklist.",test_debt,flaky_test,470,test
+spark,ef2f55b97f58fa06acb30e9e0172fb66fba383bc,"[SPARK-5597][MLLIB] save/load for decision trees and emsembles
+This is based on #4444 from jkbradley with the following changes:
+1. Node schema updated to
+   ~~~
+treeId: int
+nodeId: Int
+predict/
+impurity: Double
+isLeaf: Boolean
+split/
+leftNodeId: Integer
+rightNodeId: Integer
+infoGain: Double
+~~~
+2. Some refactor of the implementation.
+Closes #4444.
+Closes #4493 from mengxr/SPARK-5597 and squashes the following commits:
+75e3bb6 [Xiangrui Meng] fix style
+2b0033d [Xiangrui Meng] update tree export schema and refactor the implementation
+45873a2 [Joseph K. Bradley] org imports
+1d4c264 [Joseph K. Bradley] Added save/load for tree ensembles
+dcdbf85 [Joseph K. Bradley] added save/load for decision tree but need to generalize it to ensembles",code_debt,low_quality_code,480,test
+bookkeeper,aa1fecd255bcc3c23d4037c675df88c9c0ba78ab,BOOKKEEPER-481: Fix javadoc warnings (ivank via sijie),code_debt,low_quality_code,488,test
+jmeter,14a4569eff39e344bbd7148001c1a2a32511a4cd,Downgrade unnecessary log message,code_debt,low_quality_code,492,test
+jena,9665b89fe28ee8bf94ac15161bb52334ad24bd09,Tidy up.,code_debt,low_quality_code,496,test
+camel,27990e4219b56b336fb7748e80afffa5a2090813,Added a test case showing how to use a named query with JPA along with using an annotation to mark the @Consumed method; so POJO developers can write a method to be invoked on a consume (to set a flag or update a step to the next state etc). Also performed a minor refactor to move more reusable code into the core module (for dealing with exception handling of reflection calls).,code_debt,non-optimal_design,502,test
+trafficcontrol,8c20dc6eb50a59640cb9fd601ad988e742568a5f,more cleanup,code_debt,low_quality_code,508,test
+camel,26b2e1cbbb110838fe862c035c2597be1e8db824,CAMEL-7852 clean up the karaf feature osgi test,code_debt,low_quality_code,523,test
+guacamole-client,3fadac632c1d98aa6071728ada5af024e8eede88,GUACAMOLE-47: Remove XFF header code due to security concerns.,requirement_debt,non-functional_requirements_not_fully_satisfied,530,test
+lucene-solr,160eac52ca11be9edbc9a9e937814ff0bb36637c,fix typos (merge from branch_4x),documentation_debt,low_quality_documentation,533,test
+trafficserver,e322367daa2701d7b33cd7746caea44cece5e639,Cleanup: Remove unused functions (#7365),code_debt,dead_code,536,test
+usergrid,12c503591cb1d37301533d95075fe1d27d5bbf39,Temporarily removed test.  Need to rebuild with plugin structure.,test_debt,lack_of_tests,542,test
+cloudstack,840c0a0974966d75e60a98fbbf88bf4e9bf0c761,"CLOUDSTACK-8401: Fix KVM's SG script to properly cleanup old network rules
+- Router VMs don't have a chain rule with -def suffix, this fixes name and
+  properly removes VR vms not running on a host
+- Before trying to remove dnats, filter empty/None elements from list
+- destroy_ebtables_rules should check what kind of action is request to be
+  performed (-A for add or -D for removed) and execute based on that
+- Before executing any command, log it for debugging purposes
+- Method to cleanup bridge, may be used in future",code_debt,low_quality_code,551,test
+flink,0b85496daf85b90473577ccd28547b0fb01e5f97,"[hotfix][e2e] Reduce e2e-hadoop to exclusion
+Also having it work as an include is confusing.",code_debt,non-optimal_design,557,test
+incubator-mxnet,25d71a8e2fd057712a63424fe87c1ca08240b6cd,"Merge pull request #1160 from cshaley/master
+Speed up kaggle-ndsb2 example Preprocessing",code_debt,slow_algorithm,565,test
+nifi,8b490134c76e839e19b77961fb77f6753d7232cc,NIFI-4839 - Rename the registry group to `registry` for better UX,code_debt,low_quality_code,566,test
+camel-quarkus,deaa973d92f8dda6717c22f72d820a8804cff3c8,"Simplify component configuration for box, fhir & google itests",code_debt,complex_code,576,test
+carbondata,a6c8d2a79716937adf74962c2c3db19923f1b0e7,[CARBONDATA-701]Fix memory leak issue for new flow dataloading This closes #594,code_debt,non-optimal_design,582,test
+tinkerpop,97fe4c4759b196a10d05d5d85544c4174196eef7,Fix logging message.,code_debt,low_quality_code,600,test
+tinkerpop,44b3fb62a8454c287d2f8e6b4b9b1b223d6bfee3,Fix bad formatting in changelog.,code_debt,low_quality_code,601,test
+tomee,0ae28a426ae0569251bcd67bb07d0ac353f4dbc4,"minor renaming to be consistent
+OPENEJB-1736: Example: OSGi on Apache Karaf",code_debt,low_quality_code,612,test
+incubator-dolphinscheduler,9655174cdf5ebfb3a63625e2b977fe86530d4325,"spotbugs: make map traversal more efficient (#1035)
+* make map traversal more efficient
+* make map traversal more efficient
+modify according to review
+* compile fail and delete space",code_debt,slow_algorithm,615,test
+hadoop,8239e3afb31d3c4485817d4b8b8b195b554acbe7,HDFS-12712. [9806] Code style cleanup,code_debt,low_quality_code,617,test
+arrow,722b0a122787bc6e1aef30659d3cbab046a03711,"ARROW-5039: [Rust] [DataFusion] Re-implement CAST support
+This PR achieves a few things:
+- Removes some PoC code and replaces it with generic code for evaluating CAST expressions
+- Adds support for casting from UInt64 in arrow compute module (looks like this was just missed)
+- Improves error messages and rustdocs
+- Adds a bounds check to avoid a panic if a column index is incorrect
+Closes #4054 from andygrove/ARROW-5039 and squashes the following commits:
+fbc606c <Andy Grove> tests for casting from all floating point types, plus fix bug in mapping from f32 to u16
+ae4338c <Andy Grove> tests for casting from all unsigned int types
+46a016e <Andy Grove> tests for casting from all signed int types
+9ddd055 <Andy Grove> check for null after cast
+ddc80dd <Andy Grove> add unit test for casting from int64
+e2a9e33 <Andy Grove> revert last commit
+84951ad <Andy Grove> Revert adding Int64 cast support
+588459a <Andy Grove> Code cleanup
+28d63c6 <Andy Grove> Improve error messages and rustdocs
+542ad26 <Andy Grove> Re-implement CAST support in DataFusion
+c01763c <Andy Grove> Add support for casting from UInt64",code_debt,low_quality_code,618,test
+lucene-solr,3ed96026d353864c60566a9a3bdb1da853bb9e8f,"LTR Test Hardening:
+1) use per-method state isolation in several tests...
+This helps prevent failures in one test to allow persisted date to leak into other test methods,
+as well as ensuring that these tests play nicely with -Dtests.iters > 1
+2) TestRerankBase cleanup to eliminate unnecessary extra SolrCore (that was being leaked)",test_debt,flaky_test,619,test
+tinkerpop,f1d04d6d481d1da5587937328caaab66457d8f94,added TheCrew to the GiraphGraphProvided. Renamed methods in ValueMapTest away from their old values() model. More updates to CHANGELOG.,code_debt,low_quality_code,625,test
+qpid-dispatch,fc44d80d0728adedf9da401d0b94a01a7edf3c8e,DISPATCH-1824: Fix TCP adaptor listener and connector shutdown leaks,code_debt,non-optimal_design,627,test
+cloudstack,f0ab05dc041ddf48ba1584e7dcec16622b2004e0,CLOUDSTACK-3096: format configGenerator.py,code_debt,low_quality_code,632,test
+tinkerpop,2492a3a3ce70062f2e82658f0af446f94149d84f,Added warning message for BLVP.,code_debt,low_quality_code,633,test
+cxf,6a988318d581456d6e148bf89367de8fc3a05cd0,[CXF-6475] Adding 'http.autoredirect' property to make it simpler to configure 2.0 clients,code_debt,non-optimal_design,638,test
+ambari,7acbb8894d5b2f49470cd979550dcfcc6c13a9a9,AMBARI-12083. Installing Repo Packages needs to be more robust to handle the actual_version installed when the script is killed because of a timeout (alejandro),code_debt,non-optimal_design,643,test
+spark,3b364ff0a4f38c2b8023429a55623de32be5f329,"[SPARK-11078] Ensure spilling tests actually spill
+#9084 uncovered that many tests that test spilling don't actually spill. This is a follow-up patch to fix that to ensure our unit tests actually catch potential bugs in spilling. The size of this patch is inflated by the refactoring of `ExternalSorterSuite`, which had a lot of duplicate code and logic.
+Closes #9124 from andrewor14/spilling-tests.",code_debt,duplicated_code,650,test
+tinkerpop,252b3f0d38f97c3cfdfaf6cb94f8f4fc48cc46fb,Made TinkerGraph even smaller and more efficient for Edge and VertexProperty. Added a StrategyVertex optimization for @dkuppitz and Giraph.,code_debt,non-optimal_design,651,test
+drill,0553798c18aae6b3dfc14227e0cef5f2baea11fe,"DRILL-1197: C++ Client. Differentiate socket/handshake/query timeout for deadline timer.
+It also
+- returns more detailed connection status for validate handshake.
+- adds timeout options for query submitter.",code_debt,low_quality_code,653,test
+jena,b65a26f445ef8c840c150ce19855e17f3e7ca5a6,"Initial workaround for JENA-820
+Currently only works correctly when the output is line based, need to
+add more test cases and research further into how to implement this for
+block and whole file based modes.",test_debt,lack_of_tests,662,test
+spark,830249284df4f5574aba7762cd981244d7b2dfaa,"[SPARK-34059][SQL][CORE] Use for/foreach rather than map to make sure execute it eagerly
+### What changes were proposed in this pull request?
+This PR is basically a followup of https://github.com/apache/spark/pull/14332.
+Calling `map` alone might leave it not executed due to lazy evaluation, e.g.)
+We should better use `foreach` to make sure it's executed where the output is unused or `Unit`.
+### Why are the changes needed?
+To prevent the potential issues by not executing `map`.
+### Does this PR introduce _any_ user-facing change?
+No, the current codes look not causing any problem for now.
+### How was this patch tested?
+I found these item by running IntelliJ inspection, double checked one by one, and fixed them. These should be all instances across the codebase ideally.
+Closes #31110 from HyukjinKwon/SPARK-34059.",code_debt,non-optimal_design,667,test
+jmeter,ef9e708dd6ddb56aa1b509b8235f31c058a035ad,Javadoc typo,documentation_debt,low_quality_documentation,668,test
+commons-lang,ece2f255eed8ad9eff6e236152de65e804c6adb5,Increase test coverage of ToStringBuilder class to 100%,test_debt,low_coverage,676,test
+camel,5ba473631f9365e56e7ef3e7a6e7d18f09192ab9,cleanups for camel-hdfs2 to camel-hdfs component renaming,code_debt,low_quality_code,681,test
+trafodion,3fb1f4c368d0f2ab757ff8cc755ae70a9bb3ed65,Merge [TRAFODION-1745] Show more info on TRANSLATE errors,code_debt,low_quality_code,686,test
+druid,daa8ef8658ed3a33bde7d4b88946d2dcd669c625,"Optional long-polling based segment announcement via HTTP instead of Zookeeper (#3902)
+* Optional long-polling based segment announcement via HTTP instead of Zookeeper
+* address review comments
+* make endpoint /druid-internal/v1 instead of /druid/internal so that jetty qos filters can be configured easily when needed
+* update segment callback initialization to be called only after first segment list fetch has been succeeded from all servers
+* address review comments
+* remove size check not required anymore as only segment servers announce themselves and not all peon processes
+* annouce segment server on historical only after cached segments are loaded
+* fix checkstyle errors",code_debt,low_quality_code,692,test
+nifi,ba83bf9c051b337b98d7c8dfa322364c87ce5955,"NIFI-631: Initial implementation of FetchFile processor
+Reviewed by Tony Kurc (tkurc@apache.org)",code_debt,non-optimal_design,695,test

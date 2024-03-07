@@ -1,0 +1,721 @@
+text,label,document_index,subset
+xxx move project share helper,code/design_debt,4,test
+cannot remov underscor due protect visibl,code/design_debt,11,test
+xxx jon skeet reason write messag use bare runtimeexcept rather use buildexcept case messag could end written logger logger could fail creat due failur,code/design_debt,15,test
+realli irrit need way set stuff,code/design_debt,18,test
+silli hack avoid stack overflow,code/design_debt,20,test
+temporari figur better api,code/design_debt,23,test
+two reason mention api doc filelist dir directori imposs wouldnt get case error occur doesnt throw except,code/design_debt,27,test
+fix invalid charact think add list,code/design_debt,48,test
+develop know,code/design_debt,54,test
+sinc java return normalizedpathsplit workaround java 1213,code/design_debt,62,test
+hammer end inlin maingtu,code/design_debt,63,test
+provid public visibl,code/design_debt,68,test
+xxx,code/design_debt,71,test
+keep someth delet later test,code/design_debt,72,test
+set prefix fileset pass need,code/design_debt,75,test
+noth,code/design_debt,76,test
+xxx simpli new filedir filenam,code/design_debt,79,test
+todo parameteris call compil class dont want fork use classic compil parameteris,code/design_debt,81,test
+xxx get packag accord weblog standard written better hacki care similar code scandir slight differ,code/design_debt,82,test
+jarfil alreadi exist whack recreat probabl think eleg way handl case error dont leav peopl wors start,code/design_debt,84,test
+sorri otherwis get classcastexcept mockcach load two differ classload,code/design_debt,91,test
+singleton may chang perclassload,code/design_debt,93,test
+delet file valid file,requirement_debt,95,test
+method check timestamp file list code ejbfilescod compar timestamp codejarfil code codejarfilecod timestamp recent ejb file codetruecod return otherwis codefals code return todo find way check manifestfil found name convent param ejbfil hashtabl ejb class file ad complet jar file param jarfil jar file contain ejb class file return boolean indic whether codejarfilecod date,requirement_debt,98,test
+todo method yet getclassnam todo method newinst use reverseclassload,requirement_debt,101,test
+output stream compress bzip2 format without file header char anoth stream pthe compress requir larg amount memori thus call link close close method soon possibl forc ttcbzip2outputstreamtt releas alloc memoryp pyou shrink amount alloc memori mayb rais compress speed choos lower blocksiz turn may caus lower compress ratio avoid unnecessari memori alloc avoid use blocksiz bigger size input pyou comput memori usag compress follow formulap pre code400000 blocksizecod pre pto get memori requir decompress link cbzip2inputstream cbzip2inputstream usep pre code65000 blocksizecod pre tabl width100 border1 colgroup col width33 col width33 col width33 colgroup colspan3memori usag blocksizeth trtr alignrightblocksizeth alignrightcompressionbrmemori usageth alignrightdecompressionbrmemori usageth trtr alignright100000td alignright1300000td alignright 565000td trtr alignright200000td alignright2200000td alignright1065000td trtr alignright300000td alignright3100000td alignright1565000td trtr alignright400000td alignright4000000td alignright2065000td trtr alignright500000td alignright4900000td alignright2565000td trtr alignright600000td alignright5800000td alignright3065000td trtr alignright700000td alignright6700000td alignright3565000td trtr alignright800000td alignright7600000td alignright4065000td trtr alignright900000td alignright8500000td alignright4565000td tabl pfor decompress ttcbzip2inputstreamtt alloc less memori bzip input smaller one blockp pinstanc class threadsafep todo updat bzip2 101,requirement_debt,103,test
+xxx add except,requirement_debt,107,test
+testcas link xsltprocess task xxx merg link xslttest version 20030805,test_debt,110,test
+wrong test remot openvm doesnt seem way detect,test_debt,112,test
+todo call super,code/design_debt,119,test
+todo contenttyp andor dataencod belong httpsampleresult instead,code/design_debt,121,test
+todo need work,code/design_debt,122,test
+todo throw error,code/design_debt,127,test
+houston problem,code/design_debt,129,test
+todo charset todo realli request data none,code/design_debt,131,test
+todo move jorphanutil,code/design_debt,133,test
+todo popul current,code/design_debt,137,test
+todo ever use,code/design_debt,142,test
+todo best way,code/design_debt,143,test
+program error bail,code/design_debt,152,test
+system support unc path may need fix later,code/design_debt,155,test
+todo indetermin todo indetermin nonnls1 nonnls1,code/design_debt,157,test
+hack skip process,code/design_debt,158,test
+todo sure best method,code/design_debt,160,test
+todo replac proper except return error,code/design_debt,171,test
+nonnls1 agre todo perhap share code time function nonnls1 nonnls2 nonnls1 nonnls2,code/design_debt,183,test
+todo could done earlier,code/design_debt,185,test
+run beanshel script startup nonnls1,code/design_debt,188,test
+todo class look lot like argumentspanel exact differ could combin note seem class actual use,code/design_debt,192,test
+todo level debug,code/design_debt,199,test
+todo appear use,code/design_debt,204,test
+todo method doesnt appear use,code/design_debt,207,test
+todo use space,code/design_debt,208,test
+use,code/design_debt,218,test
+use,code/design_debt,221,test
+make easier enter tab use tab awkward,code/design_debt,226,test
+guardedbysamplestor todo perhap use concurrenthashmap,code/design_debt,230,test
+todo convert work like upgradepropertiesnameupdaterjava special process carri header class string properti testelementnam convert headernam exampl elementprop nameuserag elementtypeorgapachejmeterprotocolhttpcontrolhead stringprop nameheadervaluemozilla2f4028compatible3bmsie553bwindows9829stringprop stringprop nametestelementnameuseragentstringprop elementprop becom elementprop nameuserag elementtypeorgapachejmeterprotocolhttpcontrolhead stringprop nameheadervaluemozilla2f4028compatible3bmsie553bwindows9829stringprop stringprop nameheadernameuseragentstringprop elementprop,code/design_debt,236,test
+todo appear duplic threadnam field sampleresult,code/design_debt,240,test
+yuck tiffimageencod use error report runtim problem,code/design_debt,241,test
+todo temporari hack avoid unnecessari bug report subclass,code/design_debt,258,test
+todo yet anoth ambigu name need chang see also clearabl jmeterguicompon,code/design_debt,259,test
+todo silent except intend,code/design_debt,260,test
+todo remov useless entri paramet,code/design_debt,265,test
+todo appear call direct,code/design_debt,270,test
+todo move jorphanutil,code/design_debt,280,test
+hack bsh20b5jar bshscriptengin implement compil throw javalangerror unimpl,code/design_debt,282,test
+todo method need public isnt current call outsid class,code/design_debt,290,test
+common ioutil equival method ad includ todo perhap deprec favour common,code/design_debt,294,test
+rememb chang class chang,code/design_debt,307,test
+todo done embed usag note element configtestel use standalon cannot use ftpsampler access method,code/design_debt,312,test
+todo replac url2 mess proper method areequivalenturl1 url2 would also ignor case protocol host name etc use method cookiemanag,code/design_debt,313,test
+holder store cach detail perhap add origin respons later,code/design_debt,315,test
+todo correct url,code/design_debt,318,test
+code also allow sure perhap test code use,code/design_debt,322,test
+todo perhap make specif point pars anyth els gif,code/design_debt,332,test
+todo done client creat detail need ad part httpclientkey,code/design_debt,334,test
+may replac later,code/design_debt,336,test
+could drop sync,code/design_debt,338,test
+nonnls1 todo chang use url version affect test plan,code/design_debt,341,test
+notus guipackag guipack,code/design_debt,347,test
+todo appear use,code/design_debt,355,test
+todo downcas upper case nonfin variabl,code/design_debt,360,test
+dont allow overrid contentlength help soapsampl hack todo header allow,code/design_debt,368,test
+may replac later,code/design_debt,371,test
+todo allow mimetyp,code/design_debt,377,test
+nonnls1 todo probabl wrong,code/design_debt,384,test
+todo lower case use default local,code/design_debt,418,test
+fix path allow use unc url,requirement_debt,441,test
+todo save hostnam save sampl type plain http,requirement_debt,446,test
+dont allow overrid contentlength todo header allow,requirement_debt,456,test
+todo improv test nonnls1 nonnls2 miss variabl name,test_debt,463,test
+todo invalid sequenc test need,test_debt,468,test
+todo need rethrow except type much chang moment,code/design_debt,473,test
+todo complet implement tfm,code/design_debt,475,test
+todo vari base type tagdefinit,code/design_debt,476,test
+method base graphev need replac specic meaning request diagram interfac model,code/design_debt,480,test
+todo need clean objecttoid base modelel delet notif,code/design_debt,488,test
+todo elementownership modelsubsi,code/design_debt,494,test
+may actual make differ present code behind addtrigg need work,code/design_debt,499,test
+todo throw string good,code/design_debt,502,test
+wizard adjust threshold critic todo make treshold set adjust without use wizard make persist mayb use configur button brows critic dialog see orgargoumlumlcognitivecriticsabstractcrtoomani author mkl,code/design_debt,505,test
+todo figassociationclass,code/design_debt,510,test
+todo defin constant magic number,code/design_debt,514,test
+todo cyclic depend class figconcurrentregion,code/design_debt,520,test
+todo move mmutil common place merg umlcomboboxentryfindnamespac,code/design_debt,521,test
+object tag owner figedgenot knowledg sourc destin figedgenot sourc destin modelel least one comment may comment todo there ton special case code scatter around argouml one class sinc owner figedgemodelel uml element find way general thisp todo issu 3031 requir class replac similar mechan nari associ class node edg shall owner uml comment object sinc jul 2004 author jaapbranderhorstxs4allnl,code/design_debt,523,test
+return set offend todo return valu need strong type tfm 20070630,code/design_debt,526,test
+todo class need file public,code/design_debt,527,test
+todo fire event projectbrows regist listen,code/design_debt,529,test
+todo uml tagdefinit becom properti stereotyp anyth use probabl need reviewedchang return properti,code/design_debt,537,test
+todo move magic number descript constant,code/design_debt,549,test
+todo remov code charact remov privat static final string returnstr,code/design_debt,551,test
+todo find way replac depend project,code/design_debt,556,test
+todo configur properti,code/design_debt,557,test
+todo there cyclic depend figconcurrentregion action actionaddconcurrentregion,code/design_debt,564,test
+todo probabl belong diagram subsystem,code/design_debt,571,test
+todo doesnt belong good time move find someplac less obtrus inner loop tfm,code/design_debt,580,test
+todo magic number 6000 repres put explanatori liter tfm 20071205,code/design_debt,582,test
+todo convert use standard factori registr,code/design_debt,586,test
+todo defin compoundcrit,code/design_debt,587,test
+hack order abl compil java13,code/design_debt,590,test
+andrea temporari uml2 prealpha version,code/design_debt,592,test
+instal trap eat securityexcept note temporari away futur releas httpbugssuncombugdatabaseviewbugdobugid4714232,code/design_debt,595,test
+creat taggedvalu tagtyp match sourc modul filenam valu file last modifi timestamp todo function need move someplac use need otherwis delet tfm 20070217,code/design_debt,597,test
+choos arrowhead style end todo call paint would better call renderingchang,code/design_debt,599,test
+get classifi particip associationend todo renam getparticip align uml spec tfm 20070331 param handl associationend get return classifi associationend,code/design_debt,611,test
+todo lot type durat instanc interv,code/design_debt,619,test
+todo get connector associ,code/design_debt,621,test
+todo remov cant local,code/design_debt,622,test
+todo encount delet object part travers abort rest travers probabl whole travers singl mdr transact,code/design_debt,631,test
+set target anew todo method never use intent remov,code/design_debt,639,test
+todo tabtodo listen event fire decoupl projectbrows tfm,code/design_debt,642,test
+todo use intern knowledg gef handl tfm,code/design_debt,643,test
+updat top level modelel project uml2 model know root element could make setroot obsolet appli stereotyp uml2 add new root todo redund setrootsgetroot alreadi mani way stuff manag without ad addit one current model subsystem implement know top level element respons move model subsystem let choos one way manag,code/design_debt,655,test
+contrast link getzipnam return member name without prepend name project extens todo use anywher shall remov author steffen zschaler return member name without prefix suffix,code/design_debt,659,test
+may actual make differ present code behind addtrigg need work,code/design_debt,677,test
+could type intern error want handl differ dont think tfm,code/design_debt,681,test
+todo fire event projectbrows regist listen,code/design_debt,683,test
+todo move gef,code/design_debt,691,test
+open zipinputstream first file found given extens todo remov sinc duplic zipfilepersist method refactor persist subsystem param url url zip file param ext requir extens return zip stream posit requir locat throw ioexcept problem open file,code/design_debt,700,test
+todo could also support flavor imag drag modelel direct wordprocessor insert imag,code/design_debt,713,test
+todo follow handl multiselect local solut fill color better find general solut dont know undoabl way thn,code/design_debt,716,test
+tri save project param overwrit true overwrit without ask param file file save param pmw progressmonitor updat return true success todo separ swing specif class tfm deprec 0291 bob tarl use trysavewithprogressmonitor,code/design_debt,724,test
+todo bob say look focus chang flag start interact detect focus gain prop panel field assumpt edit field start good assumpt need see get rid,code/design_debt,729,test
+load project file open kind error messag window doesnt work reason case preserv old project param file file open param showui true error messag may shown user fals run commandlin mode param pmw progressmonitor updat need use null return true file success open todo separ swing specif class tfm,code/design_debt,732,test
+load project file open kind error messag window doesnt work reason case preserv old project param file file open param showui true error messag may shown user fals run commandlin mode param pmw progressmonitor updat need use null return project project creat base file success open todo separ swing specif class tfm,code/design_debt,734,test
+class manag project relat action need histor manag singleton todo unclear whether actual manag singleton ive move projectbrows tfm author tom morri,code/design_debt,739,test
+todo shouldnt know intern form type name sure gef predicatetyp fix tfm,code/design_debt,743,test
+singleton instanc todo singleton wouldnt better exact one everi explor,code/design_debt,755,test
+todo namespac contain element dont allow tfm,code/design_debt,761,test
+todo realli elementmodelel dont type portabl,code/design_debt,762,test
+todo use last one win algorithm registr warn factori overwritten,code/design_debt,773,test
+todo shouldnt referenc current project instead appropri undomanag alreadi retriev correct project,code/design_debt,776,test
+todo rather specif ignor item mayb would better specif state item interest otherwis may still act event dont need,code/design_debt,782,test
+next line fix 2nd half issu 5638 better way,code/design_debt,784,test
+resiz new concurr region ad chang height todo probabl shouldnt exist class listen ad concurr region call intern param new height,code/design_debt,786,test
+todo rather specif ignor item mayb would better specif state item interest otherwis may still act event dont need,code/design_debt,787,test
+todo mess better solut,code/design_debt,799,test
+todo composit associ get delet automat thing need check addit element need delet result,code/design_debt,810,test
+get event dont want filter todo instruct model event pump send first place see defect 5095 param event event,code/design_debt,816,test
+todo perform consid instanti outsid loop clear point instead,code/design_debt,819,test
+delet model element implement cascad delet make sure model still valid element deletedp actual delet deleg delet method rest factori exampl method deleteclass exist corehelp delet method deleteclass extra action necessari delet modelel deleteclass take care thing specif umlclassp delet method uml factori call direct throughout code call alway refer method never call deletexxx method xxxfactori direct reason possibl call deletexxx method direct pure implement detailp implement method use quit complic ifthenels tree done provid optim perform full complianc uml metamodel last remark refer fact uml model use multipl inherit sever place taken accountp todo requir metamodel could probabl better determin reflect metamodel associ delet element particip could review make sure meet requir delet tfmp extens children taken account requir extra cleanup action form call remov method normal children mbase form behaviour want implement via oper param elem element delet see orgargoumlmodelumlfactorydeletejavalangobject,code/design_debt,820,test
+todo check duplic possibl,code/design_debt,824,test
+todo get call everi chang event model state flux well often get invalidelementexcept finish collect save grace call mani time last time thing stabl well get good set element final updat need better mechan,code/design_debt,831,test
+todo caller need refactor work around chang way multipl work tfm,code/design_debt,834,test
+todo behavior case nest model,code/design_debt,842,test
+model element remov packag namespac fig repres model element diagram packag make sure enclos packag todo view fig repres model element remov diagram yet agre bob,code/design_debt,845,test
+use pgmltee return class name bound togeth compart visibl todo duplic parent,code/design_debt,848,test
+build default implement interfac interfac own model element default user forget add ownership return interfac todo need extra paramet specifi modelext new element creat,code/design_debt,866,test
+creat empti initi instanc uml templateparamet return initi uml templateparamet instanc todo need extra paramet specifi modelext new element creat,code/design_debt,868,test
+return destin relat link destin relat defin modelel receiv relat destin first return destin null return exampl sourc includ classifi type associationend usecas base extend includ relat case associ destin defin type second element connect listp todo move method generic modelhelp param relationship relat return object,code/design_debt,874,test
+todo realli want class packag scope howev reflect,code/design_debt,880,test
+name set empti string yuck default fix,code/design_debt,882,test
+call propertychang detect stereotyp ad remov remov fignod remov listen stereotyp new stereotyp detect add listen todo bob say opinion shouldnt figstereotyp alway listen chang owner name figstereotypescompart alway listen add remov stereotyp owner class need pass event fignod awt thread chang result chang size requir redraw pnote run model mdr thread param event umlchangeev caus chang,code/design_debt,887,test
+todo general extens remov critic specif code,code/design_debt,891,test
+todo namespac enlist event current model think wrong namespac activitygraph vecaddallmodelgetmodelmanagementhelpergetallmodelelementsofkind modelgetfacadegetnamespacegettarget modelgetmetatypesgetev,code/design_debt,904,test
+creat new checkbox menu item attach specifi action object append end menu todo almost duplic argojmenuaddcheckitem must find way merg param action checkbox menu item ad return new checkbox menu item,code/design_debt,909,test
+constructor todo name paramet use icon tooltip make i18n tooltip imposs param modeclass next global editor mode param modearg argument new mode param name name command tooltip text,code/design_debt,914,test
+hack dont show first column model element object place,code/design_debt,920,test
+look namedel sinc alway name modelel alon,code/design_debt,923,test
+class display graphic nari associ associ node diamond todo improv locat stereotyp author pepargoumlyahoo,code/design_debt,929,test
+constructor todo name paramet use icon tooltip make i18n tooltip imposs param modeclass next global editor mode param arg name new argument new mode param valu valu new argument new mode param name name command tooltip text,code/design_debt,930,test
+set target properti panel given target may either diagram modelel target given fig check made fig own modelel occur current diagram modelel target deprec argouml version 0135 visibl method chang futur replac link orgargoumluitargetmanagertargetmanag todo mvw think deprec param target new target see orgargoumluitabtargetsettargetjavalangobject,code/design_debt,934,test
+mvw case move call setselecteditem outsid buildingmodel otherwis combo updat new select probabl appli case,code/design_debt,944,test
+helper method changeconnectednod todo probabl superclass associ sever diagram type,code/design_debt,955,test
+rerout connect old node connect new node deleg reroutexxx possibl edg class diagram associ depend general link todo probabl superclass mani fig sever diagram type param newnod new node one end drag param oldnod exist node alreadi connect param edg edg draggedrerout param issourc tell end rerout,code/design_debt,957,test
+todo cyclic depend selectionrerouteedg figedgemodelel,code/design_debt,958,test
+see javaawteventactionlisteneractionperformedjavaawteventactionev todo combobox javadoc method public implement side effect call overrid find way implement,code/design_debt,960,test
+todo shouldnt know specif type fig display coupl strong thing shouldnt need know tfm 20070924,code/design_debt,961,test
+todo use extens registr mechan intern class well everyth treat,code/design_debt,964,test
+todo use default valu appropri type,code/design_debt,972,test
+see javabeanspropertychangelistenerpropertychangejavabeanspropertychangeev todo review see improv view toward remov overrrid method use workaround differ nsuml mdr tfm 20060302,code/design_debt,981,test
+see javabeanspropertychangelistenerpropertychangejavabeanspropertychangeev todo review see improv view toward remov overrrid method use workaround differ nsuml mdr tfm 20060302,code/design_debt,982,test
+todo need know projectset tfm,code/design_debt,986,test
+todo follow mdr specif need someth generic model subsystem tfm 20070716,code/design_debt,1002,test
+edg connect comput rout make sure annot edg port posit correct edg connect comput rout requir edg connect node todo would nice restor annot posit instead,code/design_debt,1012,test
+find type model name fixm duplic method name orgargoumlprofileinternalmodelutil param type name param model model return type codenullcod type found,code/design_debt,1022,test
+throw saxexcept thing wrong sax throw ioexcept there error throw parserconfigurationexcept parser find wrong syntax todo unus,code/design_debt,1025,test
+todo temporari need new list uml follow uml element uml,code/design_debt,1028,test
+uml packag structur entir differ remap bunch stuff name without embed colon indic entir packag remap kernelcor matter fact packag get renam move usecas todo section incomplet tfm,code/design_debt,1031,test
+repli true iff critic relev goal design tri achiev default critic relev regardless goalmodel realli someth controlmech comput subclass critic encapsul inform may need overrid method todo would like better default action goal type valu must interpret critic generic decisionmodel param dsgr design return true relev,code/design_debt,1038,test
+decisionmodel part state design describ type decis design issu design think current time critic relev decis made activ critic relev made inact todo notion decis certain importan certain time follow dont good exampl quantifi import decis todo right individu decis string mayb nonatom structur author jason robbin,code/design_debt,1041,test
+workaround miss abil pars,code/design_debt,1056,test
+todo move empti implement figgroup gef,code/design_debt,1061,test
+todo remov cast diagramfactoryinterface2 soon diagramfactoryinterfac remov,code/design_debt,1065,test
+todo shouldnt hardcod height spline default activ height,code/design_debt,1069,test
+broom messag coordin upper posit broom todo provid modefactori class becom packag scope author penyaskito,code/design_debt,1072,test
+default behaviour figedgemodelel correct see issu 5005 todo must determin noth better sure super method would work would expect noth end alreadi correct return true time,code/design_debt,1077,test
+creat empti initi instanc uml paramet return initi uml paramet instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1078,test
+interfac regist interest event sent model componentp neither registr unregistr event contain refer model implement instead use link javabeanspropertychangelisten link javabeanspropertychangeev deliv eventsp refer listen weakrefer dont need call removewhateverlisten forget listen eventu final remov also mean keep refer listen activ sinc garbag collect mechan realli determinist forgotten listen might still receiv event unless handl harmless way approach use todo still true refer nsuml implement tfm 20051109 part contract establish model subsystem user fulfil current implement current implement incorrect linus 20060411p todo event name event name generat link string valu mean realli well document general name associ end attribut uml metamodelp highlightsul liremov event sent element remov author linus tolk,code/design_debt,1080,test
+creat empti initi instanc uml bind return initi uml bind instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1082,test
+return name metamodel valu element includ datatyp enumer primit type todo method right belong separ interfac deal instanc mof type oppos uml type like rest method return collect contain string name metatyp,code/design_debt,1083,test
+creat empti initi instanc artifact sinc uml return initi artifact instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1087,test
+creat empti initi instanc uml datatyp return initi uml datatyp instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1092,test
+creat empti initi instanc uml compon return initi uml compon instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1097,test
+todo uml classifierrol associationrol associationendrol replac intern structur collabor,code/design_debt,1101,test
+creat empti initi instanc uml interfac return initi uml interfac instanc todo need extra paramet specifi modelext new element creat,code/design_debt,1102,test
+check order addit content realli want tfm 20070603,code/design_debt,1107,test
+move action,code/design_debt,1116,test
+todo remov uml2,code/design_debt,1118,test
+button select stereotyp todo find way hide operationscompart figclass creat metaclass author michiel,code/design_debt,1123,test
+todo probabl relat sendev send signal associ navig direct,code/design_debt,1125,test
+todo see protect need present subclass,code/design_debt,1128,test
+todo comment rueckert dont think make much sens queri interact collabor uml2 sinc diagram longer exist interact mean someth differ uml2,code/design_debt,1130,test
+todo want use equival,code/design_debt,1133,test
+todo doesnt belong implement specif piec tfm,code/design_debt,1136,test
+todo sure semant exact match uml aggreg uml share,code/design_debt,1139,test
+todo tagdefinit gone uml properti stereotyp,code/design_debt,1142,test
+todo javadoc specifi null return null associ return empti collect instead javadoc chang,code/design_debt,1148,test
+todo support one bodylanguag,code/design_debt,1150,test
+todo built reflect metamodel tfm updat uml metamodel replac reflect,code/design_debt,1155,test
+todo need adapt send undoredo command back consum argouml new undo mechan implement model subsystem tfm,code/design_debt,1158,test
+todo model implement independ,code/design_debt,1160,test
+todo remov uml2,code/design_debt,1161,test
+todo remov uml2,code/design_debt,1162,test
+todo mvw realli look supertyp stereotyp look supertyp baseclass,code/design_debt,1164,test
+todo hook creat new resourc someplac appropri perhap createmodel better yet add new method model api creat new top level projectmodelxmi file dont depend side effect,code/design_debt,1174,test
+think synchron access idtoobjectmap requir order respect thread safe natur object fixm mayb move xmireferenceresolverimpl depend intern implement detail,code/design_debt,1177,test
+appli profil stereotyp make profil convent hack creat stereotyp instead use uml profil,code/design_debt,1187,test
+todo use minim updat strategi instead remov ad tfm 20070806,code/design_debt,1194,test
+todo differ semant everyth els,code/design_debt,1205,test
+todo minim updat strategi would better minim work event fire may better deprec method forc call manag updat sinc probabl usual want add remov singl element tfm 20061108,code/design_debt,1223,test
+todo want friend stereotyp modelgetextensionmechanismshelperhasstereotyp permiss modelmanagementhelperfriendstereotyp,code/design_debt,1226,test
+get elementresid todo unus ad facad tfm param handl modelel return collect elementresid model element,code/design_debt,1228,test
+todo doesnt realli make sens namespac would return part content that histor behavior,code/design_debt,1231,test
+todo part implement wellformed rule uml142 45320 circular inherit allow selfallparentsincludesself,code/design_debt,1235,test
+todo accord contract function use sever place mvw presum need general part draw import permiss packag part modelmanagementelementimport,code/design_debt,1236,test
+todo getallpossiblesubvertic getallsubst duplic tfm,code/design_debt,1242,test
+simplifi implement list associ found classifi repres link instanc todo make foolproof algorithm allow select associ creat correct model also take account nari associ associationclass algo best goe model subsystem method getallpossibleassociationsforalink see orgargoumlumluiumlcomboboxmodelbuildmodellist,code/design_debt,1253,test
+todo use checkbox defin argo extend jcheckbox,code/design_debt,1255,test
+todo consid condit featur xml panel def,code/design_debt,1257,test
+todo may want restrict list paramet conform follow wfr parametertyp ofstyp parameterkind ofstypeallsupertypesincludestyp parameterkind parameterkind return typeallsupertypesincludesofstyp parameterkind inout ofstypeallsupertypesincludestyp typeallsupertypesincludesofstyp,code/design_debt,1266,test
+todo realli test model instead api yet check collect build jlist control implement list interfac,code/design_debt,1269,test
+uml spec ambigu english say associ general ocl includ associ modelgetfacadeisageneralizationdm,documentation_debt,1272,test
+todo need,documentation_debt,1277,test
+todo document deprec 028 tfmorri use link umlactivitydiagramstr object graphmodel,documentation_debt,1281,test
+make use default visibl public todo centralis knowledg see orgargoumlumldiagramuiabstractactionradiomenuitemvalueoftargetjavalangobject,documentation_debt,1286,test
+todo document catch,documentation_debt,1287,test
+todo document,documentation_debt,1291,test
+wellformed rule packag check alia import element doesnt conflict exist name section 41433 uml spec type name conflict namespac check link crnameconflict todo mvw alia anoth class name critic fire explan wizard wrong,documentation_debt,1298,test
+need,requirement_debt,1302,test
+werent given system attempt use url jar load tfm,requirement_debt,1317,test
+todo implement,requirement_debt,1322,test
+todo disabl alway,requirement_debt,1324,test
+empti implement,requirement_debt,1336,test
+todo add empti placehold,requirement_debt,1346,test
+todo i18n,requirement_debt,1347,test
+todo expect associ end check care tfm,requirement_debt,1352,test
+todo check top level packag anyth,requirement_debt,1353,test
+todo shouldnt someth,requirement_debt,1369,test
+todo find better default languag todo know notat languag sinc,requirement_debt,1379,test
+todo reus offend list,requirement_debt,1381,test
+todo good way handl nest notat follow fail test new transitionnotationumltparselin,requirement_debt,1383,test
+todo profil depend uml2,requirement_debt,1398,test
+todo possibl use one variabl,requirement_debt,1405,test
+todo investig abstractionmap model subsystem,requirement_debt,1411,test
+todo go caus color reset refresh,requirement_debt,1419,test
+todo add button forc garbag collect,requirement_debt,1424,test
+hide save action load otherwis get appear titl bar save enabl model updat todo still need save enabl improv,requirement_debt,1426,test
+todo replac functioncal next line requestfocusinwindow support java,requirement_debt,1427,test
+todo better implement would batch event logic group updat tree one time entir group synchron access model repositori stay consist queri would like requir updat differ thread event deliveri thread prevent deadlock right protect trycatch block,requirement_debt,1431,test
+return set union uniqu applic stereotyp given collect model element todo optim perform param element given collect model element return set stereotyp uml object,requirement_debt,1437,test
+todo ignor report except gettop implement,requirement_debt,1439,test
+todo i18n requir,requirement_debt,1440,test
+activ diagramp todo finish work subact state,requirement_debt,1452,test
+todo ad new region make last region minimum size smallest size still contain enclos,requirement_debt,1457,test
+todo i18n requir,requirement_debt,1460,test
+todo remov region reset overal size node,requirement_debt,1463,test
+associ support yet todo creat appropri classdiagramedg,requirement_debt,1464,test
+todo make anoth pass deal overlap,requirement_debt,1466,test
+todo enabl model subsystem chang flag work start markus believ stand bob,requirement_debt,1470,test
+todo need,requirement_debt,1475,test
+todo need better algorithm,requirement_debt,1487,test
+assert arraysaslistpropertiescontain eventgetpropertynam eventgetpropertynam todo realli alway need notationprovid null,requirement_debt,1492,test
+todo i18n requir,requirement_debt,1494,test
+todo i18n requir,requirement_debt,1495,test
+todo uml2,requirement_debt,1500,test
+todo use instanc new figfoox0 addit work requir extract constant calcul etc,requirement_debt,1504,test
+todo work,requirement_debt,1505,test
+todo next line prevent load usecas stereotyp grow,requirement_debt,1507,test
+save sourc languag model todo support multipl languag uml tag valu param node param languag,requirement_debt,1512,test
+return fulli qualifi name model element java dot separ format todo realli need languag independ format perhap list name form hierarchi tfm,requirement_debt,1517,test
+todo need uml equival,requirement_debt,1519,test
+list object shown combobox todo use list forc linear search tri add new element model slow larg model,requirement_debt,1521,test
+mock modelimplementationp facad modeleventpump factori helper creat mock object use easymock also possibl access link mockcontrol object todo creat rest getter control object author linus tolk,requirement_debt,1543,test
+todo shall except,requirement_debt,1544,test
+todo use reflect test case ensur import nonargouml class,requirement_debt,1549,test
+get innermost contain model modelel contain model found outermost contain modelel return could origin element owner method intend return innermost contain model circumst one may realli expect outermost contain model root packag return use test two element disjoint namespac hierarchi henc two separ method differ semant method link getrootobject return outermost contain object todo note also code use orgargoumlkernelprojectgetroot navig top instead bottom need use consist algorithm tfm 20070724 param handl model element return model model element,requirement_debt,1560,test
+todo need uml equival,requirement_debt,1561,test
+todo correct implement next function model subsystem issu 1942,requirement_debt,1575,test
+need,requirement_debt,1590,test
+todo implement,requirement_debt,1606,test
+handl empti target list probabl wizstep show empti pane case,requirement_debt,1609,test
+todo namespac use wfrs,requirement_debt,1610,test
+need,requirement_debt,1617,test
+todo 2nd next singl hasnext,requirement_debt,1619,test
+identifi addon changeabl todo note uml2 version,requirement_debt,1630,test
+need,requirement_debt,1632,test
+need,requirement_debt,1634,test
+need,requirement_debt,1636,test
+need,requirement_debt,1638,test
+need,requirement_debt,1640,test
+todo i18n,requirement_debt,1670,test
+todo fail resolv url signal error,requirement_debt,1672,test
+need,requirement_debt,1677,test
+todo treat messag,requirement_debt,1683,test
+todo would null,requirement_debt,1685,test
+todo rework use uml tagdefinit tfm,requirement_debt,1687,test
+todo need undo support,requirement_debt,1688,test
+fix set applic name mac,requirement_debt,1691,test
+todo understand qualifi,requirement_debt,1699,test
+todo implement,requirement_debt,1703,test
+todo review caller make sure local titl,requirement_debt,1706,test
+todo test infix oper 847 even though yet support,test_debt,1713,test
+modul would useful abl remov factoriesp todo effect method yet test param factori factori remov,test_debt,1715,test
+todo test generat string correct,test_debt,1720,test
+test list namespac defin getvalidnamespaceclass contain valid namespac todo test test anyth realli,test_debt,1732,test
+applic check avail startup test would expect unix develop correct configur replac assert jre14,test_debt,1733,test
+todo test navig associ class 855 even though yet support,test_debt,1737,test
+todo test type conform 844 even though yet support,test_debt,1739,test
+todo requir test run assert enabl isnt guarante environ,test_debt,1743,test
+modul would use abl remov factori todo effect method yet test param factori factori remov,test_debt,1745,test
+transform emailaddress html substituteemailaddressstr tri ignor emailaddress alreadi link ignor link flag set extend function necessari pars text alreadi part html fixm done smarter direct reg expr without manual pars param input text param ignorelink true link tag ignor give wrong result email adress alreadi link use reg expr direct therefor faster return text emailadress transform link,code/design_debt,1767,test
+todo return content encod accord mime part mail,code/design_debt,1768,test
+hack support dockabl view titl updat todo replac listen pattern,code/design_debt,1770,test
+todo categoryenumer,code/design_debt,1773,test
+regist interest store chang todo depend way around,code/design_debt,1775,test
+todo author fdietz i18n,code/design_debt,1777,test
+todo must get poll interv config file,code/design_debt,1780,test
+todo author fdietz ensur dont fetch individu header reduc clientserv roundtrip,code/design_debt,1786,test
+todo author fdietz i18n,code/design_debt,1796,test
+todo renam cloc someth appropri clock,code/design_debt,1805,test
+todo author karlped guess right thing get height getdrawingsizegetheight sinc take top bottom margin print object account height seem set correct computepositionands 20030604 karlped,code/design_debt,1806,test
+todo there probabl better way hack,code/design_debt,1812,test
+todo author fdietz page use current show first result,code/design_debt,1817,test
+real stupid recreat whole menu model,code/design_debt,1819,test
+todo author fdietz page use current show first result,code/design_debt,1820,test
+fixm like work want element remov content element refer,code/design_debt,1823,test
+command use inform provid link defaultcommandrefer execut todo remov iframemedi depend author timo stich tstichuserssourceforgenet,code/design_debt,1826,test
+todo let attachmentview get focus work,code/design_debt,1830,test
+fixm author fdietz need implement tempfold put empti method like virtualfold,code/design_debt,1837,test
+todo check need vector better anoth list implement check also list must syncron perform,code/design_debt,1846,test
+todo author fdietz i18n,code/design_debt,1848,test
+todo real status,code/design_debt,1852,test
+todo come better name menu item,code/design_debt,1857,test
+todo author fdietz add export featur,code/design_debt,1861,test
+author fdietz problem extens dont run use java webstart jws even though assign allpermiss columbajnlp file appli initi java webstart classload creat classload load extens classload dont permiss set anymor,code/design_debt,1866,test
+author fdietz follow line work dont know mainmainclassloaderaddurlsurl urllisttoarraynew url0 workaround modifi system class loader instead horribl work,code/design_debt,1871,test
+author fdietz workaround simpli append url exist global class loader use parent note creat new url classload everi class instanci might want support hotswap chang class later,code/design_debt,1872,test
+todo author fdietz i18n,code/design_debt,1873,test
+todo renam cloc someth appropri clock,code/design_debt,1877,test
+fixm function need document return string param string name,documentation_debt,1884,test
+fixm function need document param outputstream print data,documentation_debt,1887,test
+todo add javadoc,documentation_debt,1892,test
+fixm function need document return enumer,documentation_debt,1894,test
+fixm function need document constructor param string name param hashtabl attribut,documentation_debt,1896,test
+todo implement,requirement_debt,1900,test
+todo author fdietz replac regular express,requirement_debt,1902,test
+todo show dialog,requirement_debt,1923,test
+todo author hubm show alreadi virtual folder tag,requirement_debt,1928,test
+todo author fdietz replac regular express,requirement_debt,1938,test
+fixm miss full test leap year,test_debt,1944,test
+get locat extern commandlin tool todo test method param toolid tool return locat tool,test_debt,1946,test
+eatm call deprec method thing might overrid older code,code/design_debt,1948,test
+dms let except,code/design_debt,1960,test
+assum attribut willcould becom refer type resolv eclass,code/design_debt,1965,test
+noth avoid propag except builder handl cancel,code/design_debt,1966,test
+big fester hack make imag right size start,code/design_debt,1972,test
+multipl variabl declar separ variabl fragment separ declar,code/design_debt,1978,test
+copi itemprovideradapterfactori,code/design_debt,1993,test
+todo hack remov,code/design_debt,1999,test
+todo special return resourc locat messag specif valid ensur remov generat mark generat,code/design_debt,2000,test
+todo concern folder often return 401 even 403 consid someth exist even though access unauthor forbidden,code/design_debt,2001,test
+revisit remov code store port valu string instead integ,code/design_debt,2010,test
+revisit remov code store port valu string instead integ,code/design_debt,2015,test
+bubbl sort mani case thisrang element,code/design_debt,2016,test
+multipl variabl declar separ variabl fragment separ declar,code/design_debt,2020,test
+dms doesnt realli produc nice output,code/design_debt,2024,test
+tbd filter volatil inappropri link,requirement_debt,2025,test
+todo process instruct sent recordvalu,requirement_debt,2027,test
+current char comma insert line break abl find comma rang enum constant includ trail comment separ targetsourcerangecomput astrewrit chang logic chang skip comment see orgeclipseemfcodegenmergejavafacadeastcommentawaresourcerangecomputergetenumconstantsourcerangeastnod,requirement_debt,2032,test
+dont know run defer might give editor chanc process viewer updat event henc updat view first,requirement_debt,2037,test
+abl find comma rang enum constant includ preced comment previous constant targetsourcerangecomput astrewrit chang logic chang skip comment see orgeclipseemfcodegenmergejavafacadeastcommentawaresourcerangecomputergetenumconstantsourcerangeastnod,requirement_debt,2038,test
+use count default mimic old behavior although none might better option move forward case callabl,code/design_debt,2043,test
+call sessionfactori irregardless disregard could also add check sessionfactori condit call start,code/design_debt,2055,test
+dialect support updat allow particular row lock,code/design_debt,2062,test
+dialect support oraclestyl updat nowait syntax,code/design_debt,2066,test
+todo type,code/design_debt,2074,test
+todo remov deprec ctor made privat,code/design_debt,2081,test
+todo improv hack,code/design_debt,2084,test
+happen multipl way cacheremov invok,code/design_debt,2088,test
+todo possibl relax,code/design_debt,2110,test
+todo get sql render packag,code/design_debt,2121,test
+set end collect load resolv entiti sinc might call hashcod element todo could polymorph two differ oper implement differ array,code/design_debt,2124,test
+sqlserver least need drop use strang,code/design_debt,2126,test
+array end collect load resolv entiti sinc actual array instanc instanti load todo could polymorph two differ oper implement differ array,code/design_debt,2128,test
+todo bit actual call cascad sinc ident insert call synchron instead asynchron action isnt,code/design_debt,2136,test
+explicit select express render properti project list everi persist claus singl token node todo reason need stuff collect filter get rid deriv select claus complet,code/design_debt,2159,test
+todothi need compil elimin instvar,code/design_debt,2165,test
+todo bit ugli,code/design_debt,2167,test
+todo switch statement alway evil alreadi bug forgotten token type use polymorph,code/design_debt,2173,test
+implicit join alway reus,code/design_debt,2175,test
+todo may also want check type map exact one columnjdbctyp cant think situat arithmet express multicolumn map make sens,code/design_debt,2177,test
+absolut necessari help aggress releas,code/design_debt,2182,test
+todo potenti look optim two array,code/design_debt,2190,test
+todo sure best way handl nonperform way,code/design_debt,2202,test
+todo better way,code/design_debt,2203,test
+class way complex,code/design_debt,2204,test
+todo would realli nice cach spec querydef recalc hash current doabl though resultsetref stuff,code/design_debt,2205,test
+name super queri bit ineleg show,code/design_debt,2206,test
+put nowait semant realli appropri note need async replic never local sync,code/design_debt,2209,test
+may screw sinc collect action execut know final owner key valu,code/design_debt,2217,test
+todo reus preloadev,code/design_debt,2220,test
+todo temporari,code/design_debt,2223,test
+would great move anoth method could also use new scroll stuff would need chang way maxrow stuff handl behind interfac could control break mean know stop,code/design_debt,2225,test
+messi complex stuff sinc createcriteria take alias path path root creat criteria instanc,code/design_debt,2227,test
+worri proxi perhap littl bit overkil,code/design_debt,2234,test
+todo need make bytecod provid global todo fix hhh1907 complet,code/design_debt,2244,test
+todo implement cach proxi,code/design_debt,2248,test
+todo bit arbitrari expos switch user,code/design_debt,2251,test
+todo serious consid allow txn begin child session alway rout request root session,code/design_debt,2270,test
+indic process insertupdatedelet queri subqueri impli via collect properti function need use tabl name qualif alia todo verifi work databas todo also case nonindex scenario,code/design_debt,2271,test
+put placehold entri dont recurs back tri save object question done onsav call likewis done onupd,code/design_debt,2278,test
+todo use two visitor ineffici,code/design_debt,2288,test
+trim done workaround stupid oracl bug cant handl whitespac,code/design_debt,2289,test
+possibl treewalk outerjoinload get associ defin subclass case propertyref might refer properti defin subclass current class case tabl name known temporari solut assum propertyref refer properti subclass tabl associ belong reason guess todo fix add outerjoinloadablegetsubclasspropertytablenamestr propertynam,code/design_debt,2292,test
+suppos,code/design_debt,2294,test
+tbd varbinary1 registercolumntypetypesvarbinari binary1,code/design_debt,2295,test
+todo realli reason kkeep tri fail,code/design_debt,2304,test
+hsql blobclob support put,code/design_debt,2306,test
+todo would realli realli nice use also model compon,code/design_debt,2312,test
+todo look own properti check isnt lazi instrument,code/design_debt,2314,test
+would better use elementtyp determin whether old new equal problem necessarili access element type case,code/design_debt,2318,test
+todo class depend direct upon criteriaimpl impl packag add criteriaimplementor interfac,code/design_debt,2324,test
+dom4j collect todo would better done higher level printer,code/design_debt,2331,test
+todorefactor make method privat,code/design_debt,2334,test
+todo keep seper notion shallownonshallow queri,code/design_debt,2335,test
+todo temporari need current persist one creat render join fragment inherit hierarchi,code/design_debt,2336,test
+todo realli necessari,code/design_debt,2344,test
+append sql return generat identifi todo suck insert,code/design_debt,2349,test
+creat action evict collect entiti region base queryspac tabl name todo cach autodetect inform pass instead,code/design_debt,2353,test
+todo move collect type use polymorph,code/design_debt,2358,test
+todo realli move log statement collectiontyp use,code/design_debt,2360,test
+todo never reach sinc gettypenam actual throw except,code/design_debt,2366,test
+todo eventu merg treecach add option optlock support,code/design_debt,2372,test
+unhappi public better way,code/design_debt,2380,test
+fixm hack work around fact call node ad rootaddchild fqn doesnt proper set version node,code/design_debt,2382,test
+work around featur tree cach valid insert node next transact idea,code/design_debt,2383,test
+put nowait semant realli appropri note need async replic never local sync,code/design_debt,2389,test
+ugli need subqueri,code/design_debt,2390,test
+yuck,code/design_debt,2392,test
+add entri type entiti assur referenc entiti alreadi process specifi entiti latest batch batch number ad name list faster way get accur number,requirement_debt,2398,test
+todo handl propertyref,requirement_debt,2403,test
+todo lowercas done done random mayb need,requirement_debt,2409,test
+todo tolowercas done use templat,requirement_debt,2411,test
+todo proxi,requirement_debt,2415,test
+todo terribl implement,requirement_debt,2424,test
+todo unnecessari databas ansistyl join,requirement_debt,2435,test
+todo mayb call getrowselect,requirement_debt,2436,test
+todo proxi,requirement_debt,2455,test
+todo support multipl fetch group would need clone set lazi properti,requirement_debt,2457,test
+todo lockgettimestampequalst,requirement_debt,2459,test
+simplifi set littl,code/design_debt,2479,test
+check strict java use isjavaassign instead,code/design_debt,2480,test
+consoleinterfac interpret reflex implement consol interfac use clean use inner class implement consol,code/design_debt,2484,test
+use tryfin pop,code/design_debt,2497,test
+hack stick first interpret resolv see comment type instanc variabl,code/design_debt,2499,test
+note incorrect use hack bsh class manag allow lookup base name need elimin limit work import see note class manag,code/design_debt,2500,test
+thank slava pestov jedit fame import cach enhanc note class gotten big broken bit,code/design_debt,2505,test
+regist attribut declar later retriev format string type string default valu int valu type todo someth attribut type,code/design_debt,2506,test
+clear name resolv dont know necessari,code/design_debt,2521,test
+primit avoid call method primit name cant treat primit like object messag hole use right,code/design_debt,2525,test
+note bsh command code probabl need scope namespac import command probabl need integr namespac,code/design_debt,2532,test
+primari interpret set get variabl method note squeltch error,code/design_debt,2536,test
+implement note note may need synchron note version depend base class jdk compat howev forc use weak refer full featur implement option bshclasspath packag accomod fleet namespac listen fall scope namespac must inform class space chang uncach name perhap simpler idea would entiti refer cach type alway perform light weight check counter refer valu use detect chang namespac put burden consum check appropri time could elimin need listen system mani place necess weak refer packag,code/design_debt,2540,test
+follow two boolean check tack could probabl smooth,code/design_debt,2543,test
+drag drop support move code jedittextarea depend jdk api,code/design_debt,2546,test
+stupid scrollbar polici attempt work around bug peopl see ibm jdk sep 2000,code/design_debt,2549,test
+weird hack dont want insert search bar search bar focus,code/design_debt,2550,test
+dirti hack reli fact updat parent sent updat chang node case browser wouldnt updat proper delet etc avoid caus request error dont reload directori request alreadi activ,code/design_debt,2552,test
+stupid,code/design_debt,2557,test
+dont tri home,code/design_debt,2559,test
+bad way well,code/design_debt,2586,test
+get avail screen on3 nasti sinc arent deall mani item fine,code/design_debt,2588,test
+perhap xerc wasnt slight braindamag would need,code/design_debt,2591,test
+cach info class case,code/design_debt,2603,test
+first tri access version exact match first lookup seem redund appar need whole thing messi,code/design_debt,2606,test
+hack move space front,code/design_debt,2608,test
+hack get fix length length field,code/design_debt,2610,test
+hack done fix bring window front least window frametofront doesnt cut remov iswindow check broken ose,code/design_debt,2612,test
+bad way well,code/design_debt,2615,test
+crusti workaround,code/design_debt,2620,test
+workaround akey produc garbag window,code/design_debt,2621,test
+next two public mayb,code/design_debt,2632,test
+note method resolveexpectedjavafield rewritten invert logic except need caught unecessarili temporari impl return field null found,code/design_debt,2634,test
+workaround hang match zerowidth sure better way handl,code/design_debt,2644,test
+window path form list last work directori drive list root drive must use howev vfs browser friend strip trail path separ various reason work around add drive letter path window,code/design_debt,2646,test
+unix set permiss port file broken unic give everyon read access user home dir peopl cant see port file henc send arbitriari beanshel code way nasti,code/design_debt,2647,test
+need calcul fudg,requirement_debt,2667,test
+todo implement,code/design_debt,2675,test
+todo attribut transfer render state,code/design_debt,2690,test
+annot work xyplot see possibl make contourplot subclass xyplot,code/design_debt,2701,test
+need updat crosshair valu,code/design_debt,2712,test
+tweak notifi flag plot one notif happen even though updat multipl axe,code/design_debt,2718,test
+end workaround,code/design_debt,2721,test
+todo jfreechart 120 put method categoryitemrender interfac,code/design_debt,2728,test
+defer argument check,code/design_debt,2738,test
+defer argument check,code/design_debt,2739,test
+fixm realli assert valu,code/design_debt,2740,test
+redraw trigger anoth chang event,code/design_debt,2742,test
+creat entiti fixm method defin,code/design_debt,2743,test
+todo code event inform chang dataset could make recalcul interv effici case instanc chang updat yvalu xinterv doesnt need updat,code/design_debt,2749,test
+defer argument check,code/design_debt,2753,test
+fixm valu null next line,code/design_debt,2755,test
+fixm perhap clone data list,code/design_debt,2763,test
+defer argument check,code/design_debt,2765,test
+fixm use field,code/design_debt,2771,test
+todo revert svn revis 2469 jfreechart 1016 multiplegradientpaint jdk issu todo chang visibl darker method except darkerpaint privat,code/design_debt,2779,test
+fixm add setbaseitemurlgeneratorcategoryurlgener boolean,code/design_debt,2782,test
+fixm add setseriesitemurlgeneratorint categoryurlgener boolean,code/design_debt,2784,test
+report,code/design_debt,2805,test
+tweak notifi flag plot one notif happen even though updat multipl axe,code/design_debt,2808,test
+defer argument check,code/design_debt,2809,test
+todo implement entiti annot,code/design_debt,2822,test
+fixm attribut never use deprec,code/design_debt,2832,test
+well use method interfac doesnt paint stroke set,code/design_debt,2838,test
+defer argument check,code/design_debt,2841,test
+defer argument check,code/design_debt,2843,test
+defer argument check,code/design_debt,2846,test
+know bad creat object better idea,code/design_debt,2850,test
+todo draw interv marker effect,requirement_debt,2865,test
+implement,requirement_debt,2870,test
+basic ignor protocol let someon report,code/design_debt,2874,test
+sss fixm get normal compil initi way sss fixm parentsupertyp info incorrect placehold need updat real class object later,code/design_debt,2885,test
+todo notallocatablealloc probabl confirm jruby415,code/design_debt,2886,test
+cover rare case lowercas class name thus fail 99999 time fortun well per packag name serious folk look best practic,code/design_debt,2888,test
+modul includ shim class must find shim handl super appropri,code/design_debt,2892,test
+sss fixm correct closur arg come,code/design_debt,2895,test
+sss fixm refer irloop retri,code/design_debt,2897,test
+con fixm dont know make case expressiondo logic need,code/design_debt,2901,test
+xxx check previous use callmethod check equal class scan hierarchi howev check may safe ever one instanc bound given typeconst found unsaf examin way avoid call,code/design_debt,2914,test
+todo arg,code/design_debt,2925,test
+todo cach,code/design_debt,2927,test
+todo kinda gross,code/design_debt,2931,test
+fixm order thread play well standard new behavior must provid alloc creat empti object instanc initi fill appropri data,code/design_debt,2932,test
+extra array realli unfortun split path elimin,code/design_debt,2933,test
+clone dynam scope new instanc block previous captur instanc block may still around want start overwrit valu creat new one enebo make self lastclass lastmethod immut remov duplic,code/design_debt,2934,test
+fixm figur get null sometim,code/design_debt,2941,test
+fixm effici,code/design_debt,2958,test
+clone dynam scope new instanc block previous captur instanc block may still around want start overwrit valu creat new one enebo make self lastclass lastmethod immut remov duplic,code/design_debt,2959,test
+workaround jruby2326 mri enter product reason,code/design_debt,2962,test
+todo filter kind grossit would nice get parser help,code/design_debt,2969,test
+todo decompos getjavapackagemodul dont pars fullnam,code/design_debt,2970,test
+gross java api arent iso 8601 compliant,code/design_debt,2971,test
+fixm determin real alloc need peopl want extend javaclass want classnewjavaclass abl todo notallocatablealloc probabl sinc dont intend peopl monkey type cant marshal confirm jruby415,code/design_debt,2975,test
+grrr arghh want subclass sunmiscfloatingdecim cant must next line code alreadi done floatingdecim,code/design_debt,2976,test
+fixm realli want declar method includ privateprotect includ superclass method also getdeclar call may throw securityexcept run restrict secur polici,code/design_debt,2977,test
+small hack save cast later,code/design_debt,2978,test
+perhap inneffici timewis optim spacewis,code/design_debt,2979,test
+todo confirm expect arg irubyobject similar,code/design_debt,2980,test
+workaround bug sun jdk 15x see httpbugssuncombugdatabaseviewbugdobugid6303753,code/design_debt,2984,test
+fixm remov grammar,code/design_debt,2986,test
+todo notallocatablealloc may unclear struct work marshal confirm behavior ensur correct jruby415,code/design_debt,2995,test
+todo make effici creat irubyarray,code/design_debt,3000,test
+todo peopl extend gzipwriterread break find better way,code/design_debt,3014,test
+fixm set call configur,code/design_debt,3015,test
+process stream get channelnewchannel filechannel actual seekabl instead isseek check instanceof filechannel must also add boolean check set fals known incom channel process fixm gross nio fault provid nice way tell channel realli seekabl,code/design_debt,3016,test
+sss fixm move code util area probabl alreadi method jrubi util class holi cow append two darn array,code/design_debt,3026,test
+todo notallocatablealloc probabl sinc dont intend peopl monkey type cant marshal confirm jruby415,code/design_debt,3036,test
+sss fixm deprec go forward instruct come cfg,code/design_debt,3046,test
+add method full signatur guarante direct access todo need full formal jvm signatur,code/design_debt,3050,test
+fixm version faster previous suffer crucial flaw imposs creat objectspac iter doesnt either hold object might otherwis collect way guarante call hasnext correct subsequ call next produc object purpos may accept,code/design_debt,3051,test
+ten stuff tmp local load revers order assign fixm there probabl slight smarter way import,code/design_debt,3057,test
+fixm ad marshalspec seem reconstitut object without call datawrapstruct result object null unmarshal,code/design_debt,3066,test
+exit monitor make call fixm final littl worrisom,code/design_debt,3069,test
+todo addit newlin node,code/design_debt,3072,test
+sss fixm receiv class meta object basic operand receiv builddefsnodegetreceivernod,code/design_debt,3073,test
+depend side effect load load class turn script dont like restructur code bit well need quiet let,code/design_debt,3077,test
+fixm also support org use capit packag name includ embarrass one work enabl system properti expect default behavior uppercas valu treat class name rais except found,code/design_debt,3078,test
+index item could probabl effici bail assign arg past end,code/design_debt,3079,test
+implement bonus see todo go throw error appear wrong place,code/design_debt,3088,test
+argument compil alway creat irubyobject want use rubyarrayconcat fixm result effici sinc creat later unwrap array,code/design_debt,3100,test
+sss fixm differ classvarasgnnod classvardeclnod,code/design_debt,3101,test
+fixm somehow feel better could get appropri var index argumentnod,code/design_debt,3104,test
+fixm almost entir duplic mainjava,code/design_debt,3105,test
+need split sinc condit call inherit doesnt fit standard rubi semant,code/design_debt,3110,test
+fixm probabl still dyncal write,code/design_debt,3115,test
+fixm final dup,code/design_debt,3116,test
+fixm need rethought,code/design_debt,3119,test
+rbobjid return intern object fixm renam match rubi name,code/design_debt,3127,test
+bodi rescu node inspect piec separ avoid disabl optz todo gross,code/design_debt,3129,test
+fixm effici,code/design_debt,3132,test
+fixm code copi rubyioput avoid copypast,code/design_debt,3144,test
+fixm obvious issu platform display attribut ugli hack use generic posix librari make push inspect behavior specif system impl rather pain,code/design_debt,3148,test
+use iochannel may perform way easi,code/design_debt,3152,test
+sss fixm guarante splat dont head multipleassign node,code/design_debt,3162,test
+objecttoa obsolet match rubi hack toa goe away remov hack,code/design_debt,3168,test
+fixm current problem iooutputstream write bare runtim without proper scope,code/design_debt,3172,test
+todo wire new except handl mechan,code/design_debt,3183,test
+fixm constdecl could two seper class done differ sinc constnod name never exist time,code/design_debt,3185,test
+todo need get back method signaturenow late,code/design_debt,3190,test
+sss fixm operand compoundstr happen symbol built compound string happen optim becom generic operand,code/design_debt,3195,test
+hack get right style input,code/design_debt,3199,test
+fixm current problem iooutputstream write bare runtim without proper scope,code/design_debt,3203,test
+end hack,code/design_debt,3206,test
+fixm document differ warn warn renam one better,documentation_debt,3217,test
+todo call config scope frame,requirement_debt,3219,test
+todo nonstrict option,requirement_debt,3223,test
+fixm logic need,requirement_debt,3225,test
+todo need calcul everi time,requirement_debt,3227,test
+fixm creat attrreadermethod attrwritermethod faster attr access,requirement_debt,3228,test
+todo miss addit logic deal conflict protect field,requirement_debt,3234,test
+todo rescan code rang,requirement_debt,3235,test
+todo deal unc name,requirement_debt,3236,test
+todo pass,requirement_debt,3238,test
+todo make threadsaf,requirement_debt,3241,test
+todo port exact behavior mri move lock logic channeldescriptor todo locknb case return fals would block,requirement_debt,3242,test
+todo must overrid rubymodul pick constant,requirement_debt,3250,test
+fixm make bodynod nonnul parser,requirement_debt,3255,test
+todo add trace call,requirement_debt,3257,test
+todo build arg list base number arg option etc,requirement_debt,3259,test
+sss fixm return operand construct,requirement_debt,3263,test
+todo add instruct check method ariti sgetvariablecompilercheckmethodarityrequir opt rest,requirement_debt,3265,test
+todo make sure appropri open flag ad check,requirement_debt,3268,test
+sublistclear sublist suppos share back store listtodo rubyarray asserttruelists,requirement_debt,3272,test
+todo check mani open file tri,requirement_debt,3278,test
+fixm need detect magiccom encod,requirement_debt,3284,test
+todo valid port numer,requirement_debt,3287,test
+todo code realli check rubi equal method implement,requirement_debt,3289,test
+alreadi defin add new guess signatur use todo ad first one right nowadd signatureguess logic,requirement_debt,3291,test
+filter java primit name todo check java reserv name primit,requirement_debt,3295,test
+fixm dont use rubyio,requirement_debt,3296,test
+fixm get jna3 need proper write errno,requirement_debt,3302,test
+todo turn readabl read right seem use dupe sinc mode get reset actual mode afterward fptrmode fmoderead fmoderead fmodewrit,requirement_debt,3303,test
+todo dont calcul valu time,requirement_debt,3307,test
+todo notifi thread wait descriptorsio probabl,requirement_debt,3308,test
+todo mri also hadl bignum,requirement_debt,3316,test
+fixm miss ariti check,requirement_debt,3320,test
+todo check return valu,requirement_debt,3322,test
+todo safestringvalu,requirement_debt,3324,test
+todo someth els like tchar,requirement_debt,3326,test
+method extend someth test handler initi,test_debt,3332,test
+todo make assert,test_debt,3333,test
+use render everyon els futur chang use new instanc render data type,code/design_debt,3337,test
+jason need,code/design_debt,3341,test
+bad convert url file way problemat file path contain space,code/design_debt,3344,test
+jason remov sessiongetsessionsheetgetsqlpanelexecutesqlsql,code/design_debt,3345,test
+todo delet class copyright 2001 colin bell colbelluserssourceforgenet librari free softwar redistribut andor modifi term gnu lesser general public licens publish free softwar foundat either version licens option later version librari distribut hope use without warranti without even impli warranti merchant fit particular purpos see gnu lesser general public licens detail receiv copi gnu lesser general public licens along librari write free softwar foundat inc templ place suit 330 boston 021111307 usa,code/design_debt,3347,test
+jason need,code/design_debt,3355,test
+todo need one,code/design_debt,3357,test
+todo renam iobjecttreenodeexpand,code/design_debt,3358,test
+set properti valu note may alreadi done anoth instanc datatyp creat handl differ column,code/design_debt,3360,test
+getridofthi,code/design_debt,3371,test
+note dbmss oracl allow select rowid tabl cannot column name column claus alias tabl name seem best way get around problem,code/design_debt,3374,test
+display new dataset cell editor oper tell cancel impact popup display,code/design_debt,3375,test
+kludg want info column avail valid user input cell edit oper ideal would get info insid resultsetdataset class creation columndefinit object use various function resultsetmetadata isnullableidx unfortun least dbmss postgr hsdb result call less accur sqlmetadatagetcolumn call use columnstab get column info even unfortun fact set attribut report two call resultsetmetadata list thing provid getcolumn data provid resultsetmetadata call correct howev nullablenotnul properti set correct least two dbmss correct dbmss getcolumn info therefor collect collumn nullabl inform getcolumn pass info resultset overrid got resultsetmetadata,code/design_debt,3376,test
+probabl creat tabl model bit slack,code/design_debt,3386,test
+todo probabl want allow user set sequenc properti sequenc set,code/design_debt,3387,test
+todo delet,code/design_debt,3398,test
+use render everyon els futur chang use new instanc reneder data type,code/design_debt,3410,test
+use render everyon els futur chang use new instanc reneder data type,code/design_debt,3411,test
+check error stream problem bit question sinc possibl process output someth stderr continu process without problem seen bad argument type messag process,code/design_debt,3412,test
+desir get fanci use icon button instead text,code/design_debt,3414,test
+todo jdk14 earliest jdk support squirrel remov hardcod boolean data type,code/design_debt,3415,test
+todo handl iter,code/design_debt,3416,test
+set properti valu note may alreadi done anoth instanc datatyp creat handl differ column,code/design_debt,3436,test
+hack deal firebird rdb meta tabl,code/design_debt,3437,test
+hack deal axion axion tabl,code/design_debt,3438,test
+dont use tinyint even though mckoi support notion tinyint 7bit 8bit compat dbs lead overflow result negat valu corrupt actual valu insertedupd great workaround file bug report mail list hope get fix soon,code/design_debt,3440,test
+need associ panel object type somehow,code/design_debt,3454,test
+todo let user custom,code/design_debt,3456,test
+use render everyon els futur chang use new instanc reneder data type,code/design_debt,3465,test
+use render everyon els futur chang use new instanc reneder data type,code/design_debt,3467,test
+todo spatial fulltext index requir myisam engin tabl way tell engin use tabl may necessari sinc follow doenst hurt alreadi myisam engin alter tabl mytabl engin myisam still kind thing would want automat sinc myisam engin nontransact probabl need tell user somehow need otherwis creat index statement fail mayb comment script happen read could uncom convers engin mayb custom dialog,code/design_debt,3475,test
+jason make menu smarter second window session ad creat hierarch menu window session,code/design_debt,3478,test
+reason oracl plugin add detail tab trigger tabpnl first tab end trigger detail tab generic databas object info tab caus tab length tab greater tab actual tabpnl throw select tab select tab panel doesnt get render tab right select tab select workaround problem determin databaseobjectinfotab never make tabpnl first place,code/design_debt,3480,test
+follow work swingutilitiesgetroott return instanceof basemdiparentfram swingtuilitiesgetroott return instanc dialog frame code must use,code/design_debt,3486,test
+set properti valu note may alreadi done anoth instanc datatyp creat handl differ column,code/design_debt,3492,test
+todo mayb instead throw except could ask user would like adjust prefer,code/design_debt,3493,test
+todo session listen instead call,code/design_debt,3504,test
+todo notic mysql support multibit bit column use getobjectsetobject method byte would valuabl point make code bit dbmsspecif,code/design_debt,3505,test
+win 2000 mnemon normal hidden make visibl press alt key window press alt may work code workaround see bug report 4736093 inform,code/design_debt,3508,test
+use render everyon els futur chang use new instanc reneder data type,code/design_debt,3510,test
+todo right,code/design_debt,3513,test
+todo need generic hibern dialect extend provid type,code/design_debt,3519,test
+could perhap eleg done recurs,code/design_debt,3520,test
+todo move ioutil extract specifi zip file specifi output directori param zipfil param outputdirectori throw ioexcept,code/design_debt,3529,test
+jason mow multipl object tree exist store edit objectinfo within session wont work need objectinfo within someth els privat final map editwherecolssheet new hashmap,code/design_debt,3537,test
+todo put properti accessor,code/design_debt,3538,test
+rememb column rowid prevent edit,requirement_debt,3547,test
+todo tooltip,requirement_debt,3551,test
+todo fillfactor primari etc,requirement_debt,3552,test
+todo plugin support main session window,requirement_debt,3559,test
+todo mayb someday could inform user import key cant creat list tabl theyv select doesnt includ tabl foreign key depend upon log warn skip,requirement_debt,3561,test
+todo also make sure column made null,requirement_debt,3565,test
+dialect deleg axion databas todo dialect yet complet need provid implement wherev yet implement appear,requirement_debt,3574,test
+todo use destin databas type deriv format accept,requirement_debt,3582,test
+implement,requirement_debt,3586,test
+dialect deleg timesten databas todo dialect yet complet need provid implement wherev yet implement appear,requirement_debt,3587,test

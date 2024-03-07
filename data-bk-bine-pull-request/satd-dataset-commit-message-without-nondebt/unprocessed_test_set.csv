@@ -1,0 +1,142 @@
+text,label,document_index,subset
+async servlet delet support cleanup,code/design_debt,1,test
+hotfix fix lgtmcom alert dead code outofbound error 4388 fix two alert flag lgtmcom apach kafka dead code alert invalidtypeidexcept indirect extend jsonmappingexcept flag condit type test appear type test latter thus make bodi dead opt chang order test pleas let know intend behavior second commit address outofbound alert alert found note colleagu aditya sharad address outdat 2939,code/design_debt,3,test
+ambari11784 perf cluster save configur config group take 40s mpapirkovskyy,code/design_debt,10,test
+lucene3484 fix npe taxonomywrit parent array creation thread safe,requirement_debt,13,test
+remov redund data member baseoper class 1003 remov operatornam data member class replac getoperatornam method call avoid store inform multipl place,code/design_debt,15,test
+minor remov old jekyl config file 1198,code/design_debt,16,test
+pathfilterstep support modul remov unneed cyclicpathsteptest simplepathsteptest,code/design_debt,18,test
+simplifi key name handl,code/design_debt,22,test
+tinkerpop1478 fix memori leak proper redirect output gremlingroovyscriptengin bug identifi groovi fix time ago given gremlingroovyscriptengin base class doesnt direct use fix never place ctr,code/design_debt,30,test
+cleanup,code/design_debt,32,test
+hdfs13251 avoid use hard code datanod data dir unit testsaddendum contribut ajay kumar,code/design_debt,37,test
+flink15629runtim remov unus param restartstrategyfactori schedulerngfactoryfactorycreateschedulerngfactori,code/design_debt,40,test
+acidptr tweak test bit robust,test_debt,55,test
+simplifi sql metadata storag,code/design_debt,62,test
+bigtop1684 make contain executor configur make option contain executor configur work around executor crash startup bannedus set see httpsissuesapacheorgjirabrowseyarn2847 also synchronis yarnnodemanagerlinuxcontainerexecutorgroup set yarnsitexml what actual use filesystem containerexecutorcfg,code/design_debt,67,test
+fix test relat index process 10631 fix test relat index process three bug fix index would announc segment server storag locat defin use work broken 9971 fix ad issegmentserv method servertyp updat segmentloaddrophandl alway announc method return true certain batch task type written way assum isreadi would call run guarante particular reli order initi tasklockhelp fix updat abstractbatchindextask ensur isreadi call run task unifiedindexerappenderatorsmanag proper handl complex datasourc introduc datasourceanalysi order fix test chang add new dockercomposecliindexeryml config spin index instead middlemanag introduc useindex environ variabl determin dockercompos start index middlemanag duplic jdk8 test run middlemanag index mode various adjust encourag failfast error docker build script various adjust speed integr test reduc memori usag add anoth macspecif approach determin machin use develop machin updat segmentcount check itcompactiontasktest elimin race condit look segment exist togeth briefli older mark unus javadoc updat abstractbatchindextask ad javadoc determinelockgranularityxxx make clear tasklockhelp initi side effect relat second bug task clarifi isreadi guarante call run alreadi impli explicit zkcoordin clarifi deprec messag datasegmentserverannounc clarifi deprec messag fix stopclust script fix saniti check script fix hashbang line test doc adjust addit test adjust test split back revert chang druidcoordinatorperiodindexingperiod set index capac match bump histor memori bump coordin overlord memori bump broker memori,test_debt,68,test
+hbase16680 reduc garbag bufferchain,code/design_debt,77,test
+trafodion2984 remov redund statement,code/design_debt,80,test
+spark20606ml remov deprec method chang propos pull request remov method deprec patch test exist test close 17867 yanboliangspark20606,code/design_debt,84,test
+redund type argument,code/design_debt,89,test
+merg pull request 1246 dneuman64mast remov unus import,code/design_debt,107,test
+fix hard code string stratosinstal setupsh script,code/design_debt,108,test
+ts4196 memori leak mainthread shutdown close 467,code/design_debt,109,test
+chang tm2 manag param multilin chang function definit call put param line manag larg number paramet make easier read make diff better fix 2012,code/design_debt,116,test
+lucene4666 simplifi compressingstoredfieldsformat merg,code/design_debt,128,test
+73744 csv perform improv text serial csv write output writabl densesparseempti serial,code/design_debt,129,test
+1689 enhanc test coverag part10 dubboplugin modul 1976,test_debt,141,test
+spark15953wipstream renam continuousqueri streamingqueri renam simplic obvious relat stream exist unit test close 13673 tdasspark15953,code/design_debt,142,test
+lucene7099 improv test exercis searchaft,test_debt,143,test
+beam5600 beam2939 add splittablepardo expans logic runner core updat flink spark samza use remov unnecessari expans within python portabl runner,code/design_debt,157,test
+accumulo1111 fix infinit loop clober stack,code/design_debt,158,test
+ad unit test base stackoverflow question,test_debt,171,test
+fix flaki offlineclusterintegrationtest 1700 multipl server way check guarante server get segment reload caus flaki test fix offlineclusterintegrationtest start one server ad multinodesofflineclusterintegrationtest keep coverag multipl broker multipl server,test_debt,172,test
+code style,code/design_debt,176,test
+packagesh clean format logic chang made test syntax error ad,code/design_debt,180,test
+camel6782 polish,code/design_debt,182,test
+test lengthkind pattern work howev use featur yet implement string paddingtrim thing ad make work still exercis lengthkind pattern dodg paddingtrim use initatorstermin deal pad rewrot selfcontain tdml test file tresyscontribut delet old one,requirement_debt,183,test
+remov redund wiki manipul code amend maven build remov refer code depend jar,code/design_debt,185,test
+chang sparkgremlin test integr test chang cut build time half system dicuss httpslistsapacheorgthreadhtml7a37a3967ad15e8cd30a2bc29e15bf266f44df040f482f94e09b1e8e3cdevtinkerpopapacheorg3 ctr,test_debt,192,test
+server doubl check host capac startmigr 3728 start migrat away host host mainten cloudstack check capac host choos one hundr host platform take second cloudstack choos host startmigr resourc consumpt host might chang normal happen startmigr multipl vms would better doubl check host capac start host includ fix cpucor capac startmigr,code/design_debt,204,test
+bigtop260 mahout puppet modul need implement,requirement_debt,205,test
+minor cleanup base feedback review request,code/design_debt,206,test
+fix possibl resourc leak checkpoint write thread,code/design_debt,209,test
+make grpc depend option,code/design_debt,212,test
+minor remov unus field correct comment typo,code/design_debt,213,test
+typo,documentation_debt,221,test
+spark34220ml bucketedrandomprojectionlsh transform optim chang propos pull request use gemv instead dot chang need better perform could faster exist impl simplifi model save introduc userfac chang patch test exist testsuit close 31313 zhengruifengrandomprojectopt,code/design_debt,225,test
+minor upgrad gradl 213 improv 212 213 particular interest perform improv 212 releas bring support compil depend improv build script compil speed even better ide support 213 weve achiev perform improv gradl configur execut phase measur improv build time perform test chang build script necessari start take advantag improv close 1271 ijumagradle213,code/design_debt,226,test
+accumulo2994 add explicit prefix iter scope remov unnecessari configur pars read accumulo configur configur entri scope read high unnecessari done warn invalid tabl properti instead use provid iteratorscop explicit pull data need configur reduc process,code/design_debt,227,test
+geode2194 fix puls webapp context puls longer redund url like httplocalhostpulsepulsepulsevers close 335,code/design_debt,236,test
+fix typo,documentation_debt,240,test
+dispatch966 improv log router engin long bodi dont caus backtrac truncat,code/design_debt,244,test
+arrow2918 improv format struct pretti print kszuc close 2327 xhochyarrow2918 squash follow commit 22b9a313 korn uwe arrow2918 improv format struct pretti print,code/design_debt,248,test
+yarn10536 client distributedshel swallow interrupt except 2554,code/design_debt,249,test
+hdfs3894 qjm testrecoverafterdoublefailur flaki due ipc client cach contribut todd lipcon,test_debt,250,test
+templat resourc page 1041 templat resourc page chang titl page resourc add miss licens header add licens header screatorcocr,documentation_debt,262,test
+clean inact iscsi session vms get move due crash 3819,code/design_debt,272,test
+camel1834 messag content sent except handler reread,code/design_debt,276,test
+implement nextprevi button navigationjava class old presentationcontrol sychronizenavigationphaselisten longer need,code/design_debt,280,test
+error log api,code/design_debt,281,test
+geode7885 improv redislockservic fix synchron memori leak 4819 geode7885 improv redislockservic fix synchron memori leak redislockservic abl automat free keyslock unlock sinc key also bege referenc region fix synchron iter keyset avoid concurrentmodifiactionexcept,code/design_debt,284,test
+remov unus wicket compon traffic monitor,code/design_debt,292,test
+move hardcod depend version properti tag pomxml 1582,code/design_debt,294,test
+remov code old parser,code/design_debt,297,test
+updat feideadevmd 4852 updat feideadevmd use brew instal thrift09 instal thrift 0931 brew edit thrift090 head show thrift09 use thrift 0931 futur submitrunn task submit runnabl task execut return futur repres task futur get method return null upon success complet,code/design_debt,304,test
+scb928 simplifi implement swaggerparamcollectionformatjoinparam,code/design_debt,314,test
+commoncommandsdownloadurla improv clean commoncommandsdownloadurla support passiong multipl url tri one work use simpl download scenario add test,code/design_debt,318,test
+merg pull request 1287 daanhooglandsecurityrulescleanup securitygrouprulescmd code cleanupwrot test clean duplic code object evalu jenkin pull request process buildsao worthwhil keep imho pr1287 securitygrouprulescmd code cleanup review comment handl deal pmd warn code cleanup secur rule test remov autogener pydev file,code/design_debt,328,test
+tomee183 enhanc log,code/design_debt,338,test
+fix javadoc memori issu travisci 1051 unset javaopt environ may interfer default set certain maven plugin caus build run memori kill travi host clean bad licens header format remov irc notif nobodi lurk irc anymor arent use build current latest accumulo 192 clean matrix build make build arg relationship build script clear use sudo travisci,code/design_debt,340,test
+cxf5577 initi workaround edg case involv matrix paramet,code/design_debt,343,test
+beam5324 partial port unpackag modul python 6424 partial port unpackag remov legaci code,code/design_debt,345,test
+tobago1782 clean demo,code/design_debt,356,test
+remov unnecessari annot httpsgithubcomapacheincubatorbrooklynpull1030discussionr44859924,code/design_debt,365,test
+minor clean,code/design_debt,373,test
+refactor jcloudsrebindwithyamldsltest remov duplic jcloudsrebindwithexternalconfigtest creat common abstract supertyp,code/design_debt,376,test
+remov dead code,code/design_debt,379,test
+polish javadoc,documentation_debt,387,test
+merg pull request 11401 ibzibperformanceregion beam9744 add miss region option perf test,test_debt,395,test
+parquet463 add local dcheck macro fix dcheck bug expos also abl remov wnounusedvalu compil flag remov wnounusedvari take place anoth patch work requir close wesmparquet463 squash follow commit da3afb2 wes mckinney fix signedunsign comparison insid dcheck a1ca479 wes mckinney remov wnounusedvalu 0b49cc6 wes mckinney adapt simpl dcheck macro kudu fix dcheck failur,requirement_debt,398,test
+refactor handl zeroqueu consum separ subclass 3615 motiv simplifi consumerimpl code factor bunch ifels statement special subclass implement,code/design_debt,400,test
+remov dead code documentgetfieldsstr cannot return null,code/design_debt,402,test
+camel8753 cameltwitt allow configur http proxi compon level remov use option compon doc,code/design_debt,419,test
+unnecessari,code/design_debt,423,test
+arrow1132 python unabl write panda datafram wmultiindex contain duplic valu parquet close 768 cpcloudarrow1132 squash follow commit 4b42f643 phillip cloud add test parquet roundtrip dup 49684fd1 phillip cloud arrow1132 python unabl write panda datafram wmultiindex contain duplic valu parquet,code/design_debt,426,test
+turn failonwarn ignor unus runner modul exampl,code/design_debt,427,test
+1363 checkstyl,code/design_debt,428,test
+test log,code/design_debt,431,test
+disabl two flaki test beam8035 beam9164,test_debt,432,test
+cli import project info config setuppi fix debug msgs lsdfjk,code/design_debt,437,test
+solr13659 remov unus solrcachehold accident leftov revert plugin work,code/design_debt,441,test
+nifi7339 fix bug caus write ahead proven repositori rollov event file specifi time code cleanup updat default properti,code/design_debt,448,test
+fix spell,documentation_debt,449,test
+arrow619 python fix remain typo ldlibrarypath typo ldlibrarypath instal document close 376 bryancutlerpyarrowinstalltypoarrow619 squash follow commit e38b588 bryan cutler fix typo ldlibrarypath,documentation_debt,452,test
+ad annot,documentation_debt,458,test
+hbase24479 deflak testcompactionteststopstartcompact 1820 poll activ compact count raci tighten assert reliabl,test_debt,464,test
+arrow7478 rust datafus group express ignor unless pair aggreg express addit chang fix miss group express code style chang fix clippi warn close 6115 kylemccarthyarrow7478 squash follow commit 172bfa5c1 kyle mccarthi merg branch master githubcomapachearrow arrow7478 64e4e62 kyle mccarthi fix miss group expr,code/design_debt,465,test
+minor cleanup thank joel clark close couchdb669,code/design_debt,467,test
+simplifi model bit data api,code/design_debt,468,test
+spark15783cor still flaki blacklist test ignor chang propos pull request still flaki blacklistintegrationsuit turn moment avoid break build turn back fix patch test jenkin close 13528 squitoignoreblacklist,test_debt,470,test
+spark5597mllib saveload decis tree emsembl base 4444 jkbradley follow chang node schema updat treeid int nodeid int predict impur doubl isleaf boolean split leftnodeid integ rightnodeid integ infogain doubl refactor implement close 4444 close 4493 mengxrspark5597 squash follow commit 75e3bb6 xiangrui meng fix style 2b0033d xiangrui meng updat tree export schema refactor implement 45873a2 joseph bradley org import 1d4c264 joseph bradley ad saveload tree ensembl dcdbf85 joseph bradley ad saveload decis tree need general ensembl,code/design_debt,480,test
+bookkeeper481 fix javadoc warn ivank via siji,code/design_debt,488,test
+downgrad unnecessari log messag,code/design_debt,492,test
+tidi,code/design_debt,496,test
+ad test case show use name queri jpa along use annot mark consum method pojo develop write method invok consum set flag updat step next state etc also perform minor refactor move reusabl code core modul deal except handl reflect call,code/design_debt,502,test
+cleanup,code/design_debt,508,test
+camel7852 clean karaf featur osgi test,code/design_debt,523,test
+guacamole47 remov xff header code due secur concern,requirement_debt,530,test
+fix typo merg branch4x,documentation_debt,533,test
+cleanup remov unus function 7365,code/design_debt,536,test
+temporarili remov test need rebuild plugin structur,test_debt,542,test
+cloudstack8401 fix kvms script proper cleanup old network rule router vms dont chain rule def suffix fix name proper remov vms run host tri remov dnat filter emptynon element list destroyebtablesrul check kind action request perform add remov execut base execut command log debug purpos method cleanup bridg may use futur,code/design_debt,551,test
+hotfixe2 reduc e2ehadoop exclus also work includ confus,code/design_debt,557,test
+merg pull request 1160 cshaleymast speed kagglendsb2 exampl preprocess,code/design_debt,565,test
+nifi4839 renam registri group registri better,code/design_debt,566,test
+simplifi compon configur box fhir googl itest,code/design_debt,576,test
+carbondata701fix memori leak issu new flow dataload close 594,code/design_debt,582,test
+fix log messag,code/design_debt,600,test
+fix bad format changelog,code/design_debt,601,test
+minor renam consist openejb1736 exampl osgi apach karaf,code/design_debt,612,test
+spotbug make map travers effici 1035 make map travers effici make map travers effici modifi accord review compil fail delet space,code/design_debt,615,test
+hdfs12712 9806 code style cleanup,code/design_debt,617,test
+arrow5039 rust datafus reimplement cast support achiev thing remov poc code replac generic code evalu cast express add support cast uint64 arrow comput modul look like miss improv error messag rustdoc add bound check avoid panic column index incorrect close 4054 andygrovearrow5039 squash follow commit fbc606c andi grove test cast float point type plus fix bug map f32 u16 ae4338c andi grove test cast unsign int type 46a016 andi grove test cast sign int type 9ddd055 andi grove check null cast ddc80dd andi grove add unit test cast int64 e2a9e33 andi grove revert last commit 84951ad andi grove revert ad int64 cast support 588459a andi grove code cleanup 28d63c6 andi grove improv error messag rustdoc 542ad26 andi grove reimplement cast support datafus c01763c andi grove add support cast uint64,code/design_debt,618,test
+ltr test harden use permethod state isol sever test help prevent failur one test allow persist date leak test method well ensur test play nice dtestsit testrerankbas cleanup elimin unnecessari extra solrcor leak,test_debt,619,test
+ad thecrew giraphgraphprovid renam method valuemaptest away old valu model updat changelog,code/design_debt,625,test
+dispatch1824 fix tcp adaptor listen connector shutdown leak,code/design_debt,627,test
+cloudstack3096 format configgeneratorpi,code/design_debt,632,test
+ad warn messag blvp,code/design_debt,633,test
+cxf6475 ad httpautoredirect properti make simpler configur client,code/design_debt,638,test
+ambari12083 instal repo packag need robust handl actualvers instal script kill timeout alejandro,code/design_debt,643,test
+spark11078 ensur spill test actual spill 9084 uncov mani test test spill dont actual spill followup patch fix ensur unit test actual catch potenti bug spill size patch inflat refactor externalsortersuit lot duplic code logic close 9124 andrewor14spillingtest,code/design_debt,650,test
+made tinkergraph even smaller effici edg vertexproperti ad strategyvertex optim dkuppitz giraph,code/design_debt,651,test
+drill1197 client differenti sockethandshakequeri timeout deadlin timer also return detail connect status valid handshak add timeout option queri submitt,code/design_debt,653,test
+initi workaround jena820 current work correct output line base need add test case research implement block whole file base mode,test_debt,662,test
+spark34059sqlcor use forforeach rather map make sure execut eager chang propos pull request basic followup httpsgithubcomapachesparkpull14332 call map alon might leav execut due lazi evalu better use foreach make sure execut output unus unit chang need prevent potenti issu execut map introduc userfac chang current code look caus problem patch test found item run intellij inspect doubl check one one fix instanc across codebas ideal close 31110 hyukjinkwonspark34059,code/design_debt,667,test
+javadoc typo,documentation_debt,668,test
+increas test coverag tostringbuild class 100,test_debt,676,test
+cleanup camelhdfs2 camelhdf compon renam,code/design_debt,681,test
+merg trafodion1745 show info translat error,code/design_debt,686,test
+option longpol base segment announc via http instead zookeep 3902 option longpol base segment announc via http instead zookeep address review comment make endpoint druidinternalv1 instead druidintern jetti qos filter configur easili need updat segment callback initi call first segment list fetch succeed server address review comment remov size check requir anymor segment server announc peon process annouc segment server histor cach segment load fix checkstyl error,code/design_debt,692,test
+nifi631 initi implement fetchfil processor review toni kurc tkurcapacheorg,code/design_debt,695,test

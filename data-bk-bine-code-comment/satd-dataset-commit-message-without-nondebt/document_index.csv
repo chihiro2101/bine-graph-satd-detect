@@ -1,0 +1,706 @@
+text,label,document_index
+fix closes,code_debt,0
+policy bit,code_debt,2
+improve error logging write failures error writing document log error error also added tests cases functions,code_debt,4
+remove old,documentation_debt,5
+set javadoc get rid messages reduce log,code_debt,6
+remove legacy methods,code_debt,7
+removed test,code_debt,8
+fix typo,documentation_debt,9
+fix typo error message,documentation_debt,11
+dont download already,code_debt,12
+added missing license,documentation_debt,14
+improved performance get config change performance config also removed method get config getting config used,code_debt,17
+efficient header commits,code_debt,19
+http client code resolve issue tests long resolve issue http client code large changes made memory usage allow large closes,code_debt,20
+argument parsing added support client introduced argument parsing try backwards earlier version introduced optional argument parsing update however support avoid breaking patch feature adding new supported thread closes,code_debt,21
+bug usage support added work progress,requirement_debt,23
+string function concat closes squashes following commits reynold xin removed concat test reynold xin concat reynold xin removed extra import reynold xin fixed npe reynold xin added missing file reynold xin string function concat,code_debt,24
+hotfix resolve compiler warnings,code_debt,25
+add missing tests,test_debt,26
+adds better view params profiles adds better view params profiles adds documentation comparison view parameter removes use methods methods doc changes minor style changes params key profiles need check first adds changelog adds test profiles changes,code_debt,27
+merge branch commits revert update remove conflicts,code_debt,28
+better debug messages changes,code_debt,29
+eliminate warnings configure time doesnt support option dont dont move safe error,code_debt,31
+return response good error user use api cluster,code_debt,33
+remove duplicated configuration patch,code_debt,34
+make output less,code_debt,35
+adding fix,code_debt,36
+minor remove tests added new versions tests,test_debt,38
+removed old,code_debt,39
+fix test syntax cleanup,code_debt,41
+convert active without closing several tasks task handle closing old task creating new one exception close close tasks task task close state context state manager new type close task normal clean close instead closing state manager store information current store offsets changelog new task initialization skip still read checkpoint file use offsets store offsets already ensure dont end disabled call state active,code_debt,42
+makes closes update guide component,code_debt,43
+add metric add metric fixes right time test split remove offsets since always null review,test_debt,44
+tests classes,code_debt,45
+remove exception aqe changes proposed pull request removes exception aqe error messages less consistent execution exceptions stage multiple stage failures also stage errors included part exception rather error changes needed make aqe error readable introduce userfacing change patch tested updated existing tests closes,code_debt,46
+temporary test code,test_debt,47
+value parameter add log exception messages fix,code_debt,48
+optimize algorithm function called found file types function case current algorithm could entire matches list times location match remove matches start location length addition use various scala functions cause new causing performance algorithm matches list first match code replace code replace append random access matches sequence also adds return case one match case,code_debt,49
+remove property matrix classes,code_debt,50
+resolve comment workaround,code_debt,51
+update docs update docs doc updates cleanup,documentation_debt,52
+cleanup versions,code_debt,53
+append reviewed,code_debt,54
+remove dependency remove dependency contributed checkstyle fixes revert import add javadoc back fix typo fix core problem fix,documentation_debt,56
+debug logging,code_debt,57
+exceptions try catch revert,code_debt,58
+multiple thread,requirement_debt,59
+merge pull request adds logging around jobs adds logging around jobs,code_debt,60
+removed classes closes,code_debt,61
+removed logic doesnt work correctly results doesnt make given single call results policy,code_debt,63
+add ignore warnings,code_debt,64
+unused import,code_debt,65
+stages fail cancelled comment thus includes changes currently look commit see changes previously stages fail get cancelled pass single stage failed job cancellation jobs would fail due single stage failure however job cancellation multiple running stages fail job cancelled right correctly results stages get running stages window even dead changes event event uses event stages fail addition complete change two first changes interface could add new event keep existing however less consistent tasks jobs result code failed stages note finished updating json code correctly handle new event waiting feedback whether good bad also backwards changes method longer include stage caused failure think change cancellation failure caused single stage closes squashes following commits fixes response review stages fail cancelled,code_debt,66
+small improvement logic,code_debt,69
+added missing license file component,documentation_debt,70
+added parameters better exception message users use fixed,code_debt,71
+test,test_debt,72
+add file change add file change fix format make file changed easier add change check result update support multiple files change,code_debt,73
+simplified collector address config,code_debt,74
+get rid comment result expression using call need anymore,documentation_debt,75
+,documentation_debt,76
+ignore adding,code_debt,78
+workaround,code_debt,79
+updated thread safe removed,requirement_debt,81
+skip url check instead ambari java code,code_debt,82
+improve way update used make,code_debt,83
+remove also cleanup use clean better long,code_debt,85
+add support backwards failed tests also removed class added class simplified,code_debt,86
+disable flaky test gluon,test_debt,87
+fix minor typos,documentation_debt,88
+removed longer possible github,code_debt,90
+indentation,code_debt,91
+fix new bulk import remove warnings fix new bulk import remove warnings fix warnings ensure new bulk import remove internal code old bulk import remove unnecessary new bulk code information use new bulk import tests testing old bulk import behavior remove unused tests improvements client configuration code,code_debt,92
+imports,code_debt,93
+change like typo trying get service name cache name,documentation_debt,94
+remove debug test release,code_debt,95
+fix redundant line plan removes redundant line section file removed bump,code_debt,96
+using annotation api test check methods deprecated attributes,code_debt,97
+fix destructor behavior set closing true wake writer thread destructor way writer thread data previously writer thread could end full timeout writer thread could wake since closing set back destructor would call would writer thread wake full time clear flag returns destructor would set closing could take writer thread another full timeout wake process flag also would closing state loops automatically close file zero file close file fix,code_debt,98
+make default configuration,code_debt,99
+delete debugging comment,documentation_debt,100
+added parameter number within row running test possible configure writer rows random updates via parameters internal make within see new class,code_debt,101
+method unused code patch jbellis,code_debt,102
+make test configuration easier,code_debt,103
+package,code_debt,104
+polished added missing unit test trying close apache server better handling exception consumer etc,test_debt,105
+fix value type operations patch fixes various value type binary operations sanity tests included also includes function proper implementation comparison index functions remove unnecessary execute string handling remove unnecessary exception handling also include current data algorithm scripts,code_debt,106
+implementation utility support port since branch change set old code check response method look also renamed port thats tested little better,code_debt,110
+convert use,code_debt,111
+cleanup,code_debt,112
+fixed code style,code_debt,113
+added header method build easier expressions,code_debt,114
+change indentation,code_debt,115
+cleanup longer needed,code_debt,117
+usability improvement,code_debt,118
+indentation,code_debt,119
+cleanup remove null check,code_debt,120
+matrix fix index functions jira,code_debt,121
+version todo python resolve security,requirement_debt,122
+finished others still directly used,requirement_debt,123
+fix typo javadoc,documentation_debt,124
+fix typo,documentation_debt,125
+fixing typo documentation,documentation_debt,126
+lines function removes lines code closes,code_debt,127
+streaming cleanup,code_debt,130
+add make write type update,code_debt,131
+add support enhance api support gluon enhance api enhance example script add match support parameter enable api use try method add unit test gluon fix lint fix lint fix temporary fix lint fix try import add todo,requirement_debt,132
+remove dead code,code_debt,133
+component work progress,requirement_debt,134
+adding tests,test_debt,135
+rust cast types implementation cast arrow types complete casting supported casting supported casting types supported boolean closes squashes following commits merge branch master neville dipale replace cast macros functions neville dipale move neville dipale fix doc comment neville dipale boolean documentation error handling neville dipale cast binary neville dipale use arrow cast datafusion neville dipale cast types,requirement_debt,136
+polished,code_debt,137
+missing test coverage missing test coverage merge,test_debt,138
+mark test slow take,test_debt,139
+patch adds changes compile functions main function call calls function move related code new class add new test class match results original current code doesnt support multiple loops future commits add functions function calls loops,requirement_debt,140
+support including null api usage handle null null confusing,code_debt,144
+move static job setting support static job job fixed across addition jobs job cluster commit logic context application mode one place,code_debt,145
+separate support create optimize code structure,code_debt,146
+broken test jenkins time,test_debt,147
+simplify,code_debt,148
+hotfix docs fix typo closes,documentation_debt,149
+polished fixed test slow server,test_debt,150
+merge pull request fix source test flakiness,test_debt,151
+avoid pool number number cluster one clients patch memory allocation make allocation number closes squashes following commits avoid,code_debt,152
+added documentation closes,documentation_debt,153
+typo,documentation_debt,154
+cleanup use common,code_debt,155
+fixed missed warning,code_debt,156
+merge pull request changes upgrade script names consistent release changes names scripts changes name class setuppy script use version upgrade scripts match version,code_debt,159
+update example todo application,requirement_debt,160
+use instead hardcoded,code_debt,161
+fix typo install output message fix command use file instead complete path,documentation_debt,162
+broker close topics motivation problem topic topic following broker log time zookeeper servers think caused shutdown servers however clarified workaround close topic time clients new topic topic back normal,code_debt,163
+remove unused code rename package name,code_debt,164
+simplify using,code_debt,165
+temporary fix reset java standard console closes output whole application,code_debt,166
+added error messages fail,code_debt,167
+reduce memory usage building global,code_debt,168
+print error message log,code_debt,169
+pyspark default pyspark add several default pyspark related jvm true help reduce memory usage closes squashes following commits davies liu remove duplicated line davies liu master add true davies liu merge branch master davies liu fix davies liu default pyspark,code_debt,170
+minor fix typos javadoc code comments closes,documentation_debt,173
+integration tests structure integration tests structure build file,code_debt,174
+typo,documentation_debt,175
+ambari server performance get cluster api call seconds,code_debt,177
+better error,code_debt,178
+test remove script references previously removed,code_debt,179
+unnecessary name,code_debt,181
+converted parquet longer cache closes squashes following commits remove unnecessary change cache converted parquet,code_debt,184
+fix code style,code_debt,186
+streaming allow checkpoint existing sparkcontext earlier version see active sparkcontext explicitly new set java scala api hard implement python new api introduced even confusing since way get existing active sparkcontext create new better use get sparkcontext rather new api explicitly pass context removed new versions sparkcontext added existing sparkcontext create sparkcontext closes squashes following commits merge remotetracking branch removed extra api used,code_debt,187
+fixed warnings,code_debt,188
+log information error,code_debt,189
+improve ambari section guide add small better ambari integration fix typos macros review fix bug ambari integration code found doc,documentation_debt,190
+code tidy merge old attributes type changed,code_debt,191
+fix warnings code contributed,code_debt,193
+trace info trace enabled fix issue trace info set even trace enabled exception still request data table clean trace another performance,code_debt,194
+delete unused,code_debt,195
+initial support added based option fixed issues related style added run filter enabled configuration version default disabled size reset closes,code_debt,196
+fix typo,documentation_debt,197
+existing integration tests changes enable existing integration tests flaky one zookeeper seconds validation phase longer time validation fails remove zookeeper unit test zookeeper shutdown fails tests test added back separate test class zookeeper server timeout seconds seconds add topics unit tests validation running following script patch master branch result closes,test_debt,198
+tests,test_debt,199
+fix fix style header fix style header refactor remove import change add set fixed fix lint,code_debt,200
+handle,code_debt,201
+use removing unused code fixing old,requirement_debt,202
+minor formatting fix properties section closes,code_debt,203
+cleanup warnings closes squashes following commits cleanup warnings,code_debt,207
+memory leaks enabled fixes,code_debt,208
+merge pull request doc correct error,documentation_debt,210
+closes,code_debt,211
+add current keep parsing syntax errors add execution support split command execute code,code_debt,214
+add proper closing added method changed annotation needs done temporarily test following error environment root cause main error application failed start description web server failed start port already use action stop process thats port configure application another port,test_debt,215
+make issues host found timeout rather host name problem adds utility method getting time jvm cache host failures add test method,code_debt,216
+use right,code_debt,217
+merge pull request http test port,code_debt,218
+zeppelin502 python interpreter group adding python interpreter implementation py4j example java used python interpreter doesnt python binary uses python pythonpath thus still use specific python modules interpreter able work python without change python function display type feature jira issue tested interpreter python section pythonpath python binary use use interpreter python calling help interpreter install py4j pip install py4j use input form files need update py4j breaking changes versions needs documentation closes squashes following commits herv riviere zeppelin502 move py4j license herv riviere doc following review herv riviere zeppelin502 formatting code project convention herv riviere doc following review herv riviere zeppelin502 add py4j license herv riviere zeppelin502 minor changes pythonmd herv riviere zeppelin502 change pythonpath herv riviere zeppelin502 improve pythonmd herv riviere zeppelin502 improve pythonmd features yet supported description herv riviere zeppelin502 add tests code help tests writing herv riviere zeppelin502 rename pythonpath python default python herv riviere zeppelin502 input form change simple input form pyspark syntax herv riviere zeppelin502 indent convention herv riviere zeppelin502 add pythonmd herv riviere zeppelin502 catch exception herv riviere zeppelin502 python interpreter group,code_debt,219
+fixed fixed length mode throw exception field length added option field workaround issue,code_debt,220
+remove longer needed changes proposed pull request removes changes needed changes remove longer used code introduce userfacing change patch tested existing tests closes,code_debt,222
+polished java doc,documentation_debt,223
+add logging information,code_debt,224
+code style,code_debt,228
+fixed indentation see,code_debt,229
+implement expression sure also may may better implement way changes needed test sql closes squashes following commits andy grove fix typo andy grove remove andy grove implement expression,documentation_debt,230
+improve error message results use simple end remove test feature test case long time remove comment client unit test,documentation_debt,231
+remove parameter,code_debt,232
+refactor pass improve,code_debt,233
+clean,code_debt,234
+work progress,requirement_debt,235
+speed shutdown upgrade contributed,code_debt,237
+fix leak,code_debt,238
+related exception logging,code_debt,239
+renamed write,code_debt,241
+fix issues changes proposed pull request introduced current implementation cause case causing also flaky implementation order avoid also patch tested running times flaky closes,test_debt,242
+fix flaky tests see jira issue description cause flakiness fix issue waiting long time server shutdown finish,test_debt,243
+server run memory time due class leak,code_debt,245
+connection leaks logs web contributed siddharth,code_debt,246
+ignore new test thats yet,test_debt,247
+potential leak closes,code_debt,251
+minor clean add comments client,code_debt,252
+hotfix fix exception message,code_debt,253
+always add could also inside multiple times closes,code_debt,254
+little bit code cleanup,code_debt,255
+guide,documentation_debt,256
+fix typo error,documentation_debt,257
+,test_debt,258
+consolidate docker logic contributed xin,code_debt,259
+fix flaky shutdown test problem variable set one thread read another,test_debt,260
+fixing warnings patch,code_debt,261
+fix,code_debt,263
+remove duplicated annotations module,code_debt,264
+fix typo,documentation_debt,265
+http removed values fixed feature fixed function config,code_debt,266
+fix typo model timestamp fix typo model timestamp field new testing field already closes,documentation_debt,267
+fixed formatting,documentation_debt,268
+added little getting documentation fixed,documentation_debt,269
+fix clang warning,code_debt,270
+fix zookeeper log via,code_debt,271
+stop infinite,code_debt,273
+get rid warnings dont support,code_debt,274
+simplify dont need,code_debt,275
+cleanup console output,code_debt,277
+add add expressions jira add add expressions patch conflicts reynold xin closes squashes following commits liangchi hsieh merge remotetracking branch liangchi hsieh comments liangchi hsieh merge remotetracking branch liangchi hsieh comments liangchi hsieh merge remotetracking branch liangchi hsieh remove liangchi hsieh fix scala style liangchi hsieh add add expressions,code_debt,278
+fix stop file longer used,code_debt,279
+consolidate string,code_debt,282
+fix closes,code_debt,283
+improve via,code_debt,285
+remove unnecessary check contributed,code_debt,286
+make file size matching configurable make file size matching configurable please reviewed jira issues references example description better validation configurable data files configurable different dataset phase tests need testing extremely good commits subject lines multiple commits address issue addition commits write good commit commit subject body line subject subject end subject uses add adding body body make file size matching configurable different fix closes,documentation_debt,287
+code tidy,code_debt,288
+removing unnecessary,code_debt,289
+error message fix map,code_debt,290
+simplify docs,code_debt,291
+fixing typo,documentation_debt,293
+samza1122 rename executionenvironment applicationrunner rename executionenvironment applicationrunner including rename package rename closes squashes following commits liu merge branch samza1122 samza1122 liu samza1122 rename executionenvironment applicationrunner liu samza1122 rename executionenvironment applicationrunner,code_debt,295
+remove test,test_debt,296
+update console docs update console docs sql query added links fix typos,documentation_debt,298
+add debug log message missing patch jbellis,code_debt,299
+fix typo,documentation_debt,300
+minor javadoc updates formatting code changes,code_debt,301
+remove exception ignore pool cannot server,code_debt,302
+remove,code_debt,303
+fixed security issue,requirement_debt,305
+formatting make consistent,documentation_debt,306
+correct typo status status,documentation_debt,307
+fixed typo,documentation_debt,308
+patch fix typo,documentation_debt,309
+minor updates make methods creating application,code_debt,310
+fix make add remove,code_debt,311
+added method return types included import type fixed,code_debt,312
+javadoc readable,documentation_debt,313
+java module names,code_debt,315
+rearrange support building,code_debt,316
+support collector service collector instrument agent make output agent collector package try add metric annotation change instrument finish agent metric debug new instrument fix bug finish instrument fix compile issue,code_debt,317
+sql add rule automatically unsafe safe row format two different internal row old row format end conversions two conversions performed operators instead format conversions needed patch makes following changes add two new operators row format conversions add new methods allow operators whether output whether handle safe unsafe rows implement rule automatically converter operators closes squashes following commits josh rosen resolve conflicts josh rosen add converter test josh rosen add unsafe support tests bump test coverage josh rosen add even execute josh rosen rename josh rosen add operators input rows different josh rosen add tests filter josh rosen add missing test file josh rosen fixes josh rosen rename file josh rosen finish writing rule josh rosen merge remotetracking branch josh rosen,code_debt,319
+merge pull request initial implementation,code_debt,320
+add issue workaround,code_debt,321
+minor fix file leak log integration tests closes,code_debt,322
+bug writing log exception write fails instead jira pull request closes,code_debt,323
+file system based code initial implementation,code_debt,324
+reset test avoid leakage tests,code_debt,325
+cannot use api added missing api response,code_debt,326
+delete deprecated code,code_debt,327
+,code_debt,329
+removed new validation module temporarily used build query,code_debt,330
+hotfix throw original exception thread pool exception thread pool throw original exception instead throw new one makes hard debugging closes,code_debt,331
+rename rdl remove rename rename rdl rename rdl module name rename rdl package name rename rdl class name,code_debt,332
+workaround stats,code_debt,333
+made work move multiple interface example,code_debt,334
+merge pull request simple first fix use message message store,code_debt,335
+minor,code_debt,336
+improve close,requirement_debt,337
+polished,code_debt,339
+tests try improve test squashes following commits possible fix closes,test_debt,341
+fix checkstyle avoid duplicated logic filter group property key get property value via ensure properties would return avoid string null instead null using get string value property value used group,code_debt,342
+improve performance apache common,code_debt,344
+cluster root commit better logging,code_debt,346
+refactor json output use api,code_debt,347
+code style,code_debt,348
+code cleanup,code_debt,349
+tests comments location slow leak around one use,code_debt,350
+component docs fixed typo,documentation_debt,351
+fix typo fix github closes,documentation_debt,352
+remove file within root source tree use anymore phase tool apache used closes,code_debt,353
+remove hardcoded commands main add main class print usage commands,code_debt,354
+new server side trim function new aggregation group new use new implemented server side trim function trim new trim function take map keys result list input prevent build several new aggregation functions improve performance new reduce,code_debt,355
+better,documentation_debt,357
+project fix remove files,code_debt,358
+fix logging set message already using additional single test case,code_debt,359
+documentation fix typo,documentation_debt,360
+polished,code_debt,361
+handle exceptions properly,code_debt,362
+added schemas config config schema type schema simple classes string number boolean class schemas value classes interface used method field method return description user status tested makes use schemas yet,test_debt,363
+typo,documentation_debt,364
+remove duplicated annotations module motivation classes module following annotations annotation includes annotations removed data annotation also,code_debt,366
+fix typo javadoc,documentation_debt,367
+javadoc,documentation_debt,368
+fix aggregation empty data changes proposed pull request spark sql global aggregation grouping aggregation global aggregation always return single row initial aggregation state output even zero input rows spark number grouping keys aggregation global aggregation zero grouping keys however simple following case something implemented rule contains zero columns zero rows rule makes confusing following one confusing operator contains grouping keys contains columns global aggregation result spark sql single row initial aggregation state uses output returns wrong result fix issue grouping key list operator input plan contains zero output columns way grouping aggregation properly grouping aggregation returns correct patch tested new unit tests added closes,code_debt,369
+format,code_debt,370
+leaks dependency,code_debt,371
+fix typo,documentation_debt,372
+bug volume download volume failed root data return volume name instead full path servers bad name convention,code_debt,374
+removed removed fixed service methods error removes console adds missing messages removes,code_debt,375
+fixing logic remove inside broker clean properly added test verify also added new debug logging help future issues,code_debt,377
+fixed typo javadoc,documentation_debt,378
+fix typo topic changes proposed pull request fix typo closes,documentation_debt,380
+avoid logging info cannot,code_debt,381
+improve int performance,code_debt,382
+fix,code_debt,383
+fix clang warning,code_debt,384
+style fix waiting etc fix fix code add cannot process return null add add add add add add add add add add,code_debt,385
+add functions add javadoc,documentation_debt,386
+leak structure types,code_debt,388
+consolidate setting style,code_debt,389
+removing test,code_debt,390
+rename csv json changes proposed pull request current option name csv users currently per file actually one file could multiple thus rename patch tested closes,code_debt,391
+remove unnecessary logging make proper logging,code_debt,392
+simplify contributed,code_debt,393
+version,code_debt,394
+fixed npe bug one polished code,code_debt,396
+use config instead hardcoded value,code_debt,397
+minor issues updating comments updating consistent adding process process,code_debt,399
+clean,code_debt,401
+remove redundant add used,code_debt,403
+making,code_debt,404
+remove unused methods exceptions change removes methods exceptions class unused used single place jira pull request closes,code_debt,405
+display information running test cases failed display information running test cases fail,code_debt,406
+reduce unused code,code_debt,407
+cleanup log line prints empty use eliminate log empty,code_debt,408
+better handling tag place separate action class tag better clarity removes action instead separate tag action automatically long properties conflicts,code_debt,409
+add making use add making use add java doc,code_debt,410
+bad failure typo,documentation_debt,411
+core various cleanup calls,requirement_debt,412
+initial supported changed needs testing,test_debt,413
+added better exception message,code_debt,414
+remove test test longer needed part allocation allocation timeout part configured allocation timeout closes,test_debt,415
+simplify show,code_debt,416
+unused code patch reviewed jbellis,code_debt,417
+remove unnecessary logs,code_debt,418
+table service implemented motivation table service missed logic command process closes,requirement_debt,420
+yet debug,test_debt,421
+make easier use,code_debt,422
+make server use traversal since scripts would better use,code_debt,424
+fix warning leak,code_debt,425
+address patch change spark package download location apache download also add missing test change test version closes squashes following commits add test use version spark,test_debt,429
+glib support closes squashes following commits kouhei sutou glib fix typo kouhei sutou glib fix build error kouhei sutou glib common code kouhei sutou glib support type kouhei sutou glib support type,documentation_debt,430
+add missing license header,documentation_debt,433
+clean consumer logging error messages closes,code_debt,434
+logging improvements operations,code_debt,435
+ignore failures,code_debt,436
+hotfix fix typo closes,documentation_debt,438
+typo reviewed,documentation_debt,439
+remove duplicate clients,code_debt,440
+api cleanup,code_debt,442
+log message initial contributed,code_debt,443
+cleanup class,code_debt,444
+fix table merge unnecessary added utility print merge state,code_debt,445
+remove stop status operator operators converted throw exceptions error stop status unused patch removes stop status related methods methods methods handle normal case cancellation closes,code_debt,446
+1x1 convolution acceleration 1x1 convolution acceleration directly without 1x1 1x1 convolution used common etc cpplint fix fix fix fix fix set build status job earlier code status new jenkins status see check mark github full build status see even running something fails variable changes failure even without merge mark github build failed correctly behavior fix build status test required changes match warning entire build update unit test csv doc update add unit test csv fix lint add doc update doc gpu access ndarray gpu access ndarray gpu access api gpu access fix update update refactor use string refactor use string refactor list fix refactor update fix tests explicitly install handle earlier version install update update commands correction add script build doc files versions add script build doc files versions fix use add script different version add move add move refactor add doc dataset change apache package url pip coreml converter fixing coreml readme coreml converter readme update first models examples various standard models calling issues fixing coreml readme coreml converter readme update first models examples various standard models calling issues pip converter runs python inside user needs run python setuppy look like also updated readme converter note package per tool time please feedback think better policy one single package unit tests pass package documentation updating release testing name version added license setuppy updating readme files correct pip package name parallelize unit tests python jenkins parallelize python tests clarity removed added skip test temporarily fix test failure doc updates install doc add 1x1 convolution tests indent refactor random refactor random sparse change examples documentation change namespace usage examples fix remove unused import name random change comparison string int functions used change documentation use right namespace remove unused import change names add ndarray modules revert add ndarray modules commit add ndarray modules fix gluon dataset fix gluon dataset parallelize python unit test cases jenkins parallelize python unit test cases parallelize python unit tests cases jenkins parallelize python unit tests cases jenkins change namespace make logging changes change namespace make logging changes help comment changes update support 1x1 convolution acceleration directly without 1x1 1x1 convolution used common etc cpplint correction add 1x1 convolution tests indent 1x1 convolution acceleration directly without 1x1 1x1 convolution used common etc cpplint correction add 1x1 convolution tests indent cpplint indent,documentation_debt,447
+remove unnecessary file check patch reviewed,code_debt,450
+remove status unused fix bugs contributed,code_debt,451
+fix typo,documentation_debt,453
+bug show full error message adding volume fails,code_debt,454
+remove files,code_debt,455
+fix typo docs sure,documentation_debt,456
+formatting,code_debt,457
+fix typo comment,documentation_debt,459
+full java compiler cleanup,code_debt,460
+use information simplify code changes proposed pull request code simplified existing information parameter attributes child parameter project append group expressions output patch tested existing tests closes,code_debt,461
+fix typo guide,documentation_debt,462
+remove debug print,code_debt,463
+make slightly changes proposed pull request pull request makes slightly removing build functions patch tested logic changes existing unit tests closes,code_debt,466
+spark7684 sql refactoring workaround spark7684 spark7684 currently execution order specific bug makes running specific test pretty using various utility methods test case cleanup avoid calling closes squashes following commits move initialization fixes scala style issue workaround spark7684 fixes minor issues,code_debt,469
+sql fixed expression data type matching also improve documentation various types closes squashes following commits reynold xin one function documentation reynold xin added documentation reynold xin sql fixed expression data type matching,documentation_debt,471
+remove unnecessary system,code_debt,472
+add warning log less changes proposed pull request currently less spark automatically without warning spark throw exception configured like add warning log parameters configured patch tested unit test added verify closes,code_debt,473
+checkstyle,code_debt,474
+style fixes,code_debt,475
+resource leak resource leak,code_debt,476
+fixed typo,documentation_debt,477
+travis script cleanup add closes squashes following commits wes mckinney disable travis cache install wes mckinney fix variable name wes mckinney fixes integration tests travis script wes mckinney change file mode wes mckinney travis script cleanup add,code_debt,478
+merge branch others via others commits fixing wrong test values chop web usergrid141 chop improve usability fixed issues status usergrid141 chop improve usability fixed issues status creating start scripts usergrid141 chop improve usability clean legacy code usergrid141 chop improve usability status form usergrid141 chop improve usability user keys usergrid141 chop improve usability user usergrid141 chop improve usability usergrid141 chop improve usability refactored chart layout usergrid141 chop improve usability refactored module list window chop fixed set usergrid141 chop improve usability chart layout stop reset operations usergrid141 chop improve usability runs chart layout usergrid141 chop improve usability chart layout start usergrid141 chop improve usability user list window usergrid141 chop improve usability module list window chop refactoring,code_debt,479
+task message may confusing,code_debt,481
+bug new agent manager clean status agent,code_debt,482
+reduce logging causing travis,code_debt,483
+resolve minor docs issues zero issue error zero issue set small typo changed add tests check zero update documentation error name parameter issue data parameter input issue fix docs parameter issue fix docs context parameter issue fix indentation issue,documentation_debt,484
+component duplicate closes,code_debt,485
+refactoring python code make based fix conflicts code style closes closes squashes following commits davies liu fix tests davies liu add davies liu use default davies liu refactor davies liu refactor fix tests davies liu fix code style yandu oppacher remove unused method yandu oppacher added collector per stage yandu oppacher fix doc yandu oppacher refactor moved tests around yandu oppacher code review fixes yandu oppacher refactor code,code_debt,486
+remove dead code test,code_debt,487
+minor bug doc fixes jira minor fixes added help error messages clarity fixed bug fixed docs correct name fixed docs,code_debt,489
+sql pyspark support expression enable could converter given types example date two bugs related see workaround closes squashes following commits davies liu fix tests python davies liu changes davies liu convert davies liu update davies liu support date davies liu enable convert,code_debt,490
+added command command option two commands commands already added also command using done sure api security operations adding complex code zookeeper,code_debt,491
+temporary change version temporarily version,code_debt,493
+first test,code_debt,494
+add test utility function changes proposed pull request add test utility function reduce functions patch tested pass jenkins updated test closes,code_debt,495
+remove hard service component,code_debt,497
+using rather also fix typo,documentation_debt,498
+try clean normal jvm normal jvm make try clean file jvm note help jvm,code_debt,499
+optimize avoid using memory,code_debt,500
+delete duplicated test class,test_debt,501
+added log messages start shutdown also changed log log message debug,code_debt,503
+make default new integration test delete test adding value,test_debt,504
+fixes cleanup task unit tests,code_debt,505
+remove performed call dont much performance performed different order one extra iterator,code_debt,506
+add logging,code_debt,507
+updated consistent removing name tag including default properties tag,code_debt,509
+subqueries main query changes proposed pull request makes sure aqe enabled disabled entire query including main query subqueries currently queries aqe queries need make sure main query subqueries aqe performance due missed changes needed get rid potential aqe introduce userfacing change patch tested updated removed existing workaround added enable testing aqe options added check verify subqueries always main query whether aqe closes,code_debt,510
+proposed fix take look issue work progress,requirement_debt,511
+unnecessary,code_debt,512
+fix within help patch reviewed,documentation_debt,513
+adding information logs,code_debt,514
+improved logging bugfix,code_debt,515
+add line continuation add line continuation using end line continuation handling continuation made adding optional parameter continuation make also example config file implementation handle whitespace converted line example read,code_debt,516
+rust broken links documentation warnings fixed broken documentation links internal warnings due code closes squashes following commits broken links documentation warnings,documentation_debt,517
+removed redundant key,code_debt,518
+fix java doc part javadoc fix message,documentation_debt,519
+fix checkstyle contributed,code_debt,520
+new legacy disable models new however would users performance improvements,code_debt,521
+fix typo,documentation_debt,522
+large slow,code_debt,524
+build fix build fix adding end point making function end point specific,code_debt,525
+add todo,requirement_debt,526
+new aggregation resolve java style warning remove casting,code_debt,527
+merge fix leak,code_debt,528
+merge pull request synchronization,code_debt,529
+streaming minor close files correctly iterator finished streaming currently theres close file correctly finished change avoid resource leakage closes squashes following commits close files correctly iterator finished,code_debt,531
+clear warnings,code_debt,532
+replace travis build status jenkins,code_debt,534
+changes added whole system trying process dfdl using set whole dfdl works like compiler much decision making compile time end calls many dfdl properties required required updating dfdl schemas many unit tests test files however still tests pass fail tests tests tests pass set test minor due end group references yet yet implemented type new new attributes schema many unit tested yet added need support unit tests get right call needed error dfdl added unit test test behavior scala environment new scala something one tests fail,requirement_debt,535
+names memory,code_debt,537
+still references deprecated property via,code_debt,538
+consolidate common code consolidate common code small fixes small fixes,code_debt,539
+style label change theres adding info label breaking fixing bad class name additional label adding new fixing map key warning using new label view fixing issue,code_debt,540
+doc fix doc style plugin,documentation_debt,541
+fixed typo errors,documentation_debt,543
+doc docker clarity fixes motivation original document may users docker image building one,documentation_debt,544
+fix error,documentation_debt,545
+tidy changes,code_debt,546
+fix checkstyle issue,code_debt,547
+bug method motivation prevent bugs refactoring method bugfix missed event messages disabled consumer bugfix message null exception previously commit testing message null made method future without future refactor add unit tests bug fixes result bug fixes code,code_debt,548
+polished,code_debt,549
+fixing wrong doc,documentation_debt,550
+remove duplicate decision decision much data needed features example currently however could instead side possible also stats entire stats side patch adds stats right child stats need right child stats child stats stats features closes,code_debt,552
+example tested,test_debt,553
+simplify,code_debt,554
+leakage contributed,code_debt,555
+bump dependency fix default value parameter cleanup error logging code,code_debt,556
+remove duplicate,code_debt,558
+hotfix many skip,test_debt,559
+remove old configuration,code_debt,560
+hotfix add sanity check,code_debt,561
+fix empty exception message java functions cause npe fix empty exception message java functions cause npe add additional exception message error null,code_debt,562
+supported date type removed java style errors added validation date timestamp added test case validation timestamp date refactor test cases removed code unnecessary file code added validation table,code_debt,563
+remove unused classes,code_debt,564
+improved python convert int,code_debt,567
+fix style check config,code_debt,568
+minor fix append test issues output patch fix two test issues github including multiple tests new output caused feedback tests data disabled output slightly improved performance result changes improved time,code_debt,569
+streaming dont configuration within streaming checkpoint change would cause problem streaming logic find configuration changed problem closes squashes following commits one fix code style add comment dont configuration within streaming checkpoint,code_debt,570
+fixed typo ensure included,documentation_debt,571
+fix comment,documentation_debt,572
+size,code_debt,573
+warning,code_debt,574
+refactor duplicate code,code_debt,575
+polished code method iterator class,code_debt,577
+merge remove deprecated code,code_debt,578
+merge pull request improve scripts fix issues,code_debt,579
+polished,code_debt,580
+fixed trying patch,code_debt,581
+remove extra added improve performance calls however also improve output operators closes squashes following commits reynold xin remove extra,code_debt,583
+polished bit karaf features,code_debt,584
+trace generated java code fix typo,documentation_debt,585
+flaky test,test_debt,586
+improve include imports,documentation_debt,587
+print thread log thread trace thread thats thread help user operations change needed request thread servers possible servers already change thread servers log file much easier,code_debt,588
+remove unnecessary log,code_debt,589
+merge pull request speed test without coverage,test_debt,590
+fix,code_debt,591
+fix flaky comparison,test_debt,592
+improve exception messages binary missing,code_debt,593
+fix connection leaks server connection need future getting connection wrong waiting close server need resource connection point view adding logs debug connection issues,code_debt,594
+old value config causing infinite,code_debt,595
+minor correction code using test file instead output file,code_debt,596
+removed unnecessary path added sanity check,code_debt,597
+throw changes proposed pull request currently throw specific patch tested closes,code_debt,598
+avoid unnecessary runs unit test cases,test_debt,599
+fix warnings contributed,code_debt,602
+make consistent context fix typo,documentation_debt,603
+minor code cleanup remove redundant code,code_debt,604
+fixed formatting,code_debt,605
+checkstyle,code_debt,606
+remove unused files,code_debt,607
+docs remove unused release since use theres need clean pretty,code_debt,608
+temporary remove karaf plugin based karaf,code_debt,609
+replace cglib running cglib source generated make includes configure script current build arrow arrow glib include run make slow run replace cglib closes squashes following commits yosuke shiro remove unnecessary environment variable yosuke shiro remove yosuke shiro remove running sutou kouhei use yosuke shiro check yosuke shiro remove unnecessary yosuke shiro enable test travis yosuke shiro remove build yosuke shiro replace cglib cglib running,code_debt,610
+minor remove redundant check also include minor closes,code_debt,611
+renamed method,documentation_debt,613
+fix warning,code_debt,614
+minor style improvement system make log field name static make remove unused make various functions,code_debt,616
+add simplify code add add package,code_debt,620
+remove test tested empty build,test_debt,621
+remove,code_debt,622
+fixed topics client http service url fixed topics client http service url fixed formatting fixed path use different topic names tests fixed formatting,code_debt,623
+optimize display sql test print test context error checkstyle,code_debt,624
+remove unused method add tests patch review jbellis,code_debt,626
+javadoc typo,documentation_debt,628
+fix missing,code_debt,629
+removing warnings related code,code_debt,630
+fixes leaks url complete version,code_debt,631
+support table new needed currently rearrange logic based schema table add columns partition schema based may work index size logic complex handle dont use schema implemented map based rearrange changes proposed implemented map based rearrange introduce user interface change new added closes,code_debt,634
+remove unnecessary main methods,code_debt,635
+merge pull request remove internal class internal workaround return default value value null java map interface added method something efficient way returns default key doesnt code dont null values safe delete old class replace usage,code_debt,636
+default policy avoid connection leakage contributed,code_debt,637
+remove json type,code_debt,639
+made easier use aggregation thread,code_debt,640
+avoid unnecessary set matching long way performance issues dont think need create find calls change,code_debt,641
+performance codegen compressed matrices patch makes following performance improvements codegen operations others compressed matrices sparse output matrices operations ensure explicitly output sparse rows done per row partition sparse rows order avoid number per row partition note row find value order avoid entire iterator find row partition also used codegen operations compressed matrices example dataset per image simple generated operator compressed input patch improved performance given codegen patch also includes fix iterator cases iterator row partition row,code_debt,642
+delete unused interface closes,code_debt,644
+temporary commit see work back build runs,code_debt,645
+converted also generated static query set,code_debt,646
+use standard cleanup remove old,code_debt,647
+,code_debt,648
+bug add log,code_debt,649
+formatting,documentation_debt,652
+fix checkstyle issues,code_debt,654
+improve performance,code_debt,655
+add tests verify fix whitespace within properties,test_debt,656
+removed type check class,code_debt,657
+add skip option able workaround,code_debt,658
+removed dead code,code_debt,659
+typo,documentation_debt,660
+improve thread set need,requirement_debt,661
+update include update include version removed duplicate package,code_debt,663
+checkstyle,code_debt,664
+improvements makes use generated query job make source fixes bugs handling query rename backwards change per feature theres much removes tests setting makes queries tested,test_debt,665
+remove set docker image tool changes proposed pull request remove set docker image tool changes needed image tool prints information may confusing introduce userfacing change less information docker image tool patch tested docker image tool closes,code_debt,666
+made log message slightly less,code_debt,669
+fix function config update bug fix function config update bug add fix unit tests,code_debt,670
+improve long lines removes whitespace files updates default used,documentation_debt,671
+doc document format error format docs document format,documentation_debt,672
+remove,code_debt,673
+compiler add compiler,code_debt,674
+remove unnecessary,code_debt,675
+package manager added testing changed argument,test_debt,677
+cleanup,code_debt,678
+flaky reviewed,test_debt,679
+clean error messages clean error messages catch exception command avoid parsing command result add set http header correctly catch exception execution better error,code_debt,680
+added api one single api table config use simplify logic reduce redundant check table type,code_debt,682
+arrow3544 create function registry multiple reduce build times refactored separate files function split across different files functionregistrycc approach build times little refactoring wes however based approach different may bit refactoring closes squashes following commits siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang removed registry removed unused header files code siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang fixed lint errors make format siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang added note internal use siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang yet another refactor macros removed redundant comments siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang review comments refactored code bit removed unused includes etc siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang fixed make errors siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang review comments removed duplicate moved new header file added separate classes different function types initialization map classes common map siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang fixing whitespace issue make lint siddharth dave arrow3544 extremely long compile time functionregistrycc release mode clang refactored separate files function split across different files functionregistrycc approach build times little refactoring,code_debt,683
+bugfix integration testing results npe properties small usability improvement,code_debt,684
+split codegen info query plan sequence codegen info query plan long debugging console web page would readable codegen split sequence example example return string length string generated code string generated code changes proposed pull request add method split codegen info query plan sequence patch tested unit test please review pull request closes,code_debt,685
+fix typo fix missing one many,documentation_debt,687
+reduce logging introduced per feature,code_debt,688
+improved coverage package table test case added remove instead use instead use remove instead use instead use,test_debt,689
+fix fix,code_debt,690
+disable test needed tests failures things little,code_debt,691
+log show user component name query input,code_debt,693
+unsafe,requirement_debt,694
+updated readme point documentation instead updated use things make consistent convention,documentation_debt,696
+log warning response api adds logging case exceptions api,code_debt,697
+skip redundant patch reviewed,code_debt,698
+fix infinite writing client patch closes,code_debt,699
+skip building examples tests action options enabled versions dont implement yet ignore print warning,requirement_debt,700
+remove unused parameter closes,code_debt,701
+added code new format optimize fixed fixed style fixed issue added read fixed style refactored code added read updated code format less fixed group queries refactored format new interface fixed complex query fixed comments,code_debt,702
+unnecessary check add log,code_debt,703
+make upgrade progress readable,code_debt,704
+delete support cleanup,code_debt,1
+hotfix fix dead code error fixes two apache dead code type test type test thus makes body dead change order tests please behavior commit found note,code_debt,3
+cluster config group,code_debt,10
+fix npe thread safe,requirement_debt,13
+remove redundant data class remove data class replace method call information multiple,code_debt,15
+minor remove old config file,code_debt,16
+support removed,code_debt,18
+simplified key names handling,code_debt,22
+fixed memory leak proper output bugs fixed time given based class doesnt directly use fixes place,code_debt,30
+cleanup,code_debt,32
+avoid using hard data unit contributed,code_debt,37
+remove unused,code_debt,40
+tests bit,test_debt,55
+simplify sql,code_debt,62
+make configurable make options configurable work around set see also setting actually used,code_debt,67
+fixes tests related indexer process fixes tests related indexer process bugs fixed would segment servers used work broken fixed adding method updating always method returns true task types way would called run order fixed updating ensure called run tasks properly handle complex introduced order fix test changes add new config indexer instead introduce environment variable start indexer duplicate tests run indexer mode various adjustments errors docker build scripts various adjustments speed integration tests reduce memory usage add another approach update check eliminate unused javadoc updates added make clear side related bug task clarified called run already clarified message clarified message fix script fix sanity check script fix lines test doc adjustments additional tests adjustments tests split back revert change set indexer capacity match bump memory bump memory bump broker memory,test_debt,68
+reduce,code_debt,77
+remove redundant,code_debt,80
+remove deprecated methods changes proposed pull request remove methods deprecated patch tested existing tests closes,code_debt,84
+redundant type argument,code_debt,89
+merge pull request remove unused imports,code_debt,107
+fixed hard script,code_debt,108
+memory leak shutdown closes,code_debt,109
+change manager params changes function calls line large number parameters makes easier read makes better fixes,code_debt,116
+simplify,code_debt,128
+csv performance improved csv write output,code_debt,129
+enhance test coverage module,test_debt,141
+renamed renamed related streaming existing unit tests closes,code_debt,142
+improve test,test_debt,143
+add logic core update spark use removing unnecessary within python,code_debt,157
+fixed infinite loops,code_debt,158
+added unit test based,test_debt,171
+fix flakiness multiple servers way check servers get cause flakiness tests fix start one server added keep coverage multiple multiple servers,test_debt,172
+style,code_debt,176
+formatting logic changes made tested syntax errors added,code_debt,180
+polished,code_debt,182
+test works however uses features yet implemented string things added make work still using test file old one,requirement_debt,183
+remove redundant code build remove references code,code_debt,185
+changed tests integration tests change build time system,test_debt,192
+server double check host capacity startmigrate start host host check capacity one take seconds host startmigrate resource host changed startmigrate multiple vms would better double check host capacity start host includes fix capacity startmigrate,code_debt,204
+module needs implemented,requirement_debt,205
+minor cleanup based feedback review request,code_debt,206
+fixed possible resource leak write thread,code_debt,209
+make dependency optional,code_debt,212
+minor remove unused correct comment typo,code_debt,213
+typos,documentation_debt,221
+changes proposed pull request use instead changes needed better performance could existing simplify model introduce userfacing change patch tested existing closes,code_debt,225
+minor upgrade improvements performance improvements release support compile improved build script speed even better support performance improvements configuration execution phase improvements build time performance tests changes build script start improvements closes,code_debt,226
+add iterator remove unnecessary configuration parsing configuration configuration read unnecessary done table properties instead use explicitly pull data needed configuration reduce,code_debt,227
+fix context longer redundant like closes,code_debt,236
+fix typos,documentation_debt,240
+improved logging long dont cause,code_debt,244
+improve formatting pretty prints closes squashes following commits improve formatting pretty prints,code_debt,248
+client exceptions,code_debt,249
+flaky due client contributed,test_debt,250
+page page change page add missing license add license,documentation_debt,262
+clean vms get moved due,code_debt,272
+message exception,code_debt,276
+implement class old longer needed,code_debt,280
+error logging,code_debt,281
+improve fix synchronization memory leak improve fix synchronization memory leak able automatically since keys also fix synchronization avoid,code_debt,284
+remove unused,code_debt,292
+moved hardcoded dependency versions properties tag,code_debt,294
+remove code old,code_debt,297
+update update use install install uses future task task execution returns future task get method return null,code_debt,304
+simplify implementation,code_debt,314
+improvements support multiple try one works use simple download adds tests,code_debt,318
+merge pull request code test duplicate code jenkins pull request process keep code cleanup review comments warnings code cleanup security test remove files,code_debt,328
+logging,code_debt,338
+fix javadoc memory issues environment may default build run memory travis host clean bad license header formatting remove anymore build current clean matrix build make build build script clear use,code_debt,340
+initial workaround case matrix parameters,code_debt,343
+port modules python port remove legacy code,code_debt,345
+clean,code_debt,356
+remove unnecessary annotation,code_debt,365
+minor clean,code_debt,373
+refactor remove creating common,code_debt,376
+remove dead code,code_debt,379
+polished javadoc,documentation_debt,387
+merge pull request add missing option tests,test_debt,395
+add dcheck macros fix dcheck bugs also able remove compiler flag removing take place another patch work required closes squashes following commits wes mckinney fix inside wes mckinney remove wes mckinney simple dcheck macros fix dcheck failures,requirement_debt,398
+refactored handling consumer separate motivation simplified code implementation,code_debt,400
+remove dead code cannot return null,code_debt,402
+allow configure http component remove use options component docs,code_debt,419
+unnecessary,code_debt,423
+python write duplicate values parquet closes squashes following commits add test parquet python write duplicate values parquet,code_debt,426
+ignore unused modules example,code_debt,427
+checkstyle,code_debt,428
+tests logging,code_debt,431
+disable two flaky tests,test_debt,432
+import project info config setuppy fix debug,code_debt,437
+remove unused plugin work,code_debt,441
+fixed bug caused write event files time code cleanup updated default properties,code_debt,448
+fixed,documentation_debt,449
+python fixed typo typo install documentation closes squashes following commits fixed typo,documentation_debt,452
+added annotations,documentation_debt,458
+active,test_debt,464
+rust datafusion group expression expression addition change fixing missing group expressions code style changes fixed warnings closes squashes following commits merge branch master fix missing group,code_debt,465
+minor cleanup closes,code_debt,467
+simplify model bit data api,code_debt,468
+still flakiness tests ignore changes proposed pull request still flakiness avoid breaking back fixes patch tested jenkins closes,test_debt,470
+decision based following changes schema updated int int double boolean split double refactor implementation closes closes squashes following commits fix style update tree schema refactor implementation imports added tree added decision tree need,code_debt,480
+fix javadoc warnings via,code_debt,488
+unnecessary log message,code_debt,492
+tidy,code_debt,496
+added test case use query using annotation mark method write method set flag update state etc also performed minor refactor move code core module exception handling calls,code_debt,502
+cleanup,code_debt,508
+clean karaf feature test,code_debt,523
+remove header code due security,requirement_debt,530
+fix typos merge,documentation_debt,533
+cleanup remove unused functions,code_debt,536
+temporarily removed test need plugin structure,test_debt,542
+fix script properly cleanup old vms dont rule fixes name properly removes vms running host trying remove filter list check action request performed add removed execute based command log debugging method cleanup may used future,code_debt,551
+reduce also work include confusing,code_debt,557
+merge pull request speed example,code_debt,565
+rename registry group registry better,code_debt,566
+simplify component configuration,code_debt,576
+memory leak issue new closes,code_debt,582
+fix logging message,code_debt,600
+fix bad formatting changelog,code_debt,601
+minor consistent example apache karaf,code_debt,612
+make map traversal efficient make map traversal efficient make map traversal efficient review compile fail delete,code_debt,615
+code style cleanup,code_debt,617
+rust datafusion cast support things removes code code cast expressions adds support casting arrow module like missed error messages adds check avoid index closes squashes following commits andy grove tests casting point types fix bug andy grove tests casting int types andy grove tests casting int types andy grove check null cast andy grove add unit test casting andy grove revert commit andy grove revert adding cast support andy grove code cleanup andy grove improve error messages andy grove cast support datafusion andy grove add support casting,code_debt,618
+test use state several tests prevent failures one test allow date leak test methods tests cleanup eliminate unnecessary extra,test_debt,619
+added renamed methods old values model updates changelog,code_debt,625
+fix shutdown leaks,code_debt,627
+format,code_debt,632
+added warning message,code_debt,633
+adding property make configure clients,code_debt,638
+needs handle script timeout,code_debt,643
+ensure tests actually many tests test dont actually patch fix ensure unit tests actually catch potential bugs size patch refactoring duplicate code logic closes,code_debt,650
+made even efficient added,code_debt,651
+client timeout also returns connection status adds timeout options query,code_debt,653
+initial workaround currently works correctly output line based need add test cases implement whole file based,test_debt,662
+use rather map make sure execute changes proposed pull request calling map due better use make sure output unused unit changes needed prevent potential issues map introduce userfacing change current look causing problem patch tested found running double one one fixed across closes,code_debt,667
+javadoc typo,documentation_debt,668
+test coverage class,test_debt,676
+component,code_debt,681
+merge show info errors,code_debt,686
+optional based segment via http instead zookeeper optional based segment via http instead zookeeper address review comments make instead configured needed update segment initialization called first segment list servers address review comments remove size check required anymore segment servers segment server fix checkstyle errors,code_debt,692
+initial implementation reviewed,code_debt,695
